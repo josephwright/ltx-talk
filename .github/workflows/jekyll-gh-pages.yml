@@ -32,7 +32,7 @@ jobs:
         uses: zauguin/install-texlive@v4
         with:
           package_file: .github/tl_packages
-      - run: tex xbeamer.ins
+      - run: tex xbeamer.ins && cp *.cls examples
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
