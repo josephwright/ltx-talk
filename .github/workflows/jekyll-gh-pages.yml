@@ -28,6 +28,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Install TeX Live
+        uses: zauguin/install-texlive@v4
+      - run: tex xbeamer.ins
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
