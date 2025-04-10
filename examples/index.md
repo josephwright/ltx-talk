@@ -1,6 +1,9 @@
 ---
 ---
 
+
+{% assign examples = site.static_files | where_exp:"item","item.path contains '/examples/'" | where_exp:"item","item.path contains '.tex'" %}
+
 <script src="https://texlive.net/cm6-test/cm6.bundle.min.js"></script>
 <script src="https://texlive.net/runlatex2-cm6.js"></script>
 <script>
@@ -19,27 +22,32 @@ function generatepreamble(t,e) {return e.getValue();}
       }
 
 runlatex.editorlines=45;
+
+
 runlatex.preincludes = {
- "pre0": {"pre2": "xbeamer.cls"},
- "pre1": {"pre2": "xbeamer.cls"},
- }
+{% for e in examples %}
+ "pre{{forloop.index0}}": {"pre{{examples.size}}": "xbeamer.cls"},
+{% endfor %}
+}
 </script>
 
-## footer-text.tex
+# XBeamer Examples
+
+{% for e in examples %}
+
+## {{e.basename}}
 
 ```latex
-{% include_relative footer-text.tex %}
+{% include_relative {{e.name}} %}
 ```
 
-## header-footer-color.tex
-
-```latex
-{% include_relative header-footer-color.tex %}
-```
+{% endfor %}
 
 
 
-<pre class="norun" style="height:6em" markdown="1">
+## `xbeamer.cls`
+
+<pre class="norun" style="height:8em" markdown="1">
 
 {% include_relative xbeamer.cls %}
 
