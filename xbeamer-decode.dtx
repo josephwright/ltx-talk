@@ -161,7 +161,7 @@
   { \@@_decode_parse:w #1 | | \q_@@_stop }
 \cs_new_protected:Npn \@@_decode_parse:w #1 | #2 | #3 \q_@@_stop
   {
-    \exp_args:Nee  \@@_decode_parse:nn
+    \exp_args:Nee \@@_decode_parse:nn
       { \tl_trim_spaces:n {#1} }
       { \tl_trim_spaces:n {#2} }
   }
@@ -193,7 +193,9 @@
 %
 % \begin{macro}{\@@_decode_mode:n}
 %   Check if the mode is known and current. At present, we only carry out
-%   further parsing for projector mode.
+%   further parsing for projector mode. As there has already been a split at
+%   a \verb"|", if we are moving on to look for actions, there will be no
+%   overlay details, so that is filled in with a \verb|*|.
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_decode_mode:n #1
   {
@@ -210,7 +212,11 @@
       }
       {
         \str_if_eq:VnTF \l_@@_mode_str { projector }
-          { \@@_decode_action:n {#1} }
+          {
+            \@@_decode_action:n {#1}
+            \str_if_empty:NT \l_@@_decode_overlays_str
+              { \@@_decode_overlays:nn { overlays } { * } }
+          }
           { \bool_set_true:N \l_@@_decode_overlays_bool }
       }
   }

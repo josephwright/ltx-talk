@@ -129,6 +129,13 @@
 \cs_new_eq:NN \@@_if_action_visible:Nn \bool_if:NF
 %    \end{macrocode}
 % \end{macro}
+% \begin{macro}{\@@_if_action_:Nn}
+%   We also provide a version to cover the case there is no action at
+%   all: this always skips the payload.
+%    \begin{macrocode}
+\cs_new_eq:NN \@@_if_action_:Nn \use_none:nn
+%    \end{macrocode}
+% \end{macro}
 %
 % \begin{macro}{\@@_action_alert_begin:, \@@_action_alert_end:}
 %   Currently a rather simple approach!
@@ -187,7 +194,6 @@
 % \end{macro}
 %
 % \begin{macro}{\only, \invisible, \uncover}
-% \begin{environment}{onlyenv, invisibleenv, uncoverenv}
 %   Commands and environments where the payload applies when the material is
 %   not active on the slide.
 %    \begin{macrocode}
@@ -203,6 +209,10 @@
             \exp_not:c { @@_action_ #1 _end: }
           }
       }
+%    \end{macrocode}
+% \end{macro}
+% \begin{environment}{onlyenv, invisibleenv, uncoverenv}
+%    \begin{macrocode}
     \ExpandArgs { nnee } \NewDocumentEnvironment { #1 env }
       { > { \@@_overlay_arg:n } D <> { all } }
       {
@@ -216,9 +226,7 @@
   }
 %    \end{macrocode}
 % \end{environment}
-% \end{macro}
 % \begin{macro}{\alert, \visible}
-% \begin{environment}{alertenv, visibleenv}
 %   And those where the action applies when we are on the slide.
 %    \begin{macrocode}
 \clist_map_inline:nn { alert , visible }
@@ -233,6 +241,10 @@
           }
           {##2}
       }
+%    \end{macrocode}
+% \end{macro}
+% \begin{environment}{alertenv, visibleenv}
+%    \begin{macrocode}
     \ExpandArgs { nnee } \NewDocumentEnvironment { #1 env }
       { > { \@@_overlay_arg:n } D <> { all } }
       {
@@ -246,7 +258,6 @@
   }
 %    \end{macrocode}
 % \end{environment}
-% \end{macro}
 %
 % \begin{variable}
 %   {
@@ -293,7 +304,7 @@
       \bool_if:NTF \l_@@_decode_overlays_bool
         {
           \use:c { @@_if_action_ \l_@@_decode_action_str :Nn }
-            \l_@@_decode_actions_bool 
+            \l_@@_decode_actions_bool
             { \use:c { @@_action_ \l_@@_decode_action_str _begin: } }
         }
         { \@@_action_uncover_begin: }
@@ -303,7 +314,7 @@
       \bool_if:NTF \l_@@_saved_overlays_bool
         {
           \use:c { @@_if_action_ \l_@@_saved_action_str :Nn }
-            \l_@@_saved_actions_bool 
+            \l_@@_saved_actions_bool
             { \use:c { @@_action_ \l_@@_saved_action_str _end: } }
         }
         { \@@_action_uncover_end: }

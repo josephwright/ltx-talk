@@ -148,7 +148,7 @@ Currently, \pkg{xbeamer} \emph{absolutely requires} the use of the
 \cs{DocumentMetadata} command \emph{and} the a setting for the \texttt{tagging}
 key. As such, the most basic \pkg{xbeamer} document is
 \begin{verbatim}
-  \DocumentMetadata{tagging = on} % or "tagging = off"
+  \DocumentMetadata{tagging = on} % or "tagging = draft"
   \documentclass{xbeamer}
   \begin{document}
   \begin{frame}
@@ -412,7 +412,7 @@ its effect transcends block groups.
     \begin{itemize}
     \item
       Still shown on the second and third slide.
-    \onslide+<4->
+    \onslide<4->
     \item
       Shown from slide 4 on.
     \end{itemize}
@@ -532,31 +532,13 @@ this extends the \meta{overlay spec} to include the potential to
 
 \subsection{Environments with overlay specifications}
 
+\DescribeEnv{onlyenv}
+\DescribeEnv{invisibleenv}
+\DescribeEnv{uncoverenv}
+\DescribeEnv{visibleenv}
 For each of the basic commands \cs{only}, \cs{visible}, \cs{uncover} and
 \cs{invisible} there exists \enquote{environment versions} \env{onlyenv},
-\env{visibleenv}, \env{uncoverenv} and \env{invisibleenv}. Except for
-\env{onlyenv}, these environments do the same as the commands.
-
-\DescribeEnv{onlyenv}
-\begin{syntax}
-  \cs{begin}\marg{onlyenv}\sarg{action spec}
-    ...
-  \cs{end}\marg{onlyenv}
-\end{syntax}
-If the \meta{overlay specification} is given, the contents of the
-environment is inserted into the text only on the specified slides. The
-difference to \cs{only} is, that the text is actually typeset inside a box that
-is then thrown away, whereas \cs{only} immediately throws away its contents. If
-the text is not \enquote{typesettable}, the \env{onlyenv} may produce an error
-where \cs{only} would not.
-\begin{verbatim}
-  \begin{frame}
-    This line is always shown.
-    \begin{onlyenv}<2>
-      This line is inserted on slide 2.
-    \end{onlyenv}
-  \end{frame}
-\end{verbatim}
+\env{visibleenv}, \env{uncoverenv} and \env{invisibleenv}.
 
 \subsection{Dynamically changing text or images}
 
