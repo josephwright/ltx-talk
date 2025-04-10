@@ -15,7 +15,7 @@
 <pre class="norun" markdown="1">
 
 ```latex
-{% include_relative xbeamer.cls %}
+{% include_relative ../xbeamer.cls %}
 ```
 
 </pre>
