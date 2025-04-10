@@ -20,7 +20,8 @@ function generatepreamble(t,e) {return e.getValue();}
 
 runlatex.editorlines=45;
 runlatex.preincludes = {
- "pre0": {"pre1": "xbeamer.cls"},
+ "pre0": {"pre2": "xbeamer.cls"},
+ "pre1": {"pre2": "xbeamer.cls"},
  }
 </script>
 
@@ -30,13 +31,17 @@ runlatex.preincludes = {
 {% include_relative footer-text.tex %}
 ```
 
+## header-footer-color.tex
+
+```latex
+{% include_relative header-footer-color.tex %}
+```
+
 
 
 <pre class="norun" style="height:6em" markdown="1">
 
-```
 {% include_relative xbeamer.cls %}
-```
 
 </pre>
 
