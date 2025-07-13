@@ -110,8 +110,8 @@ the \cls{beamer} manual
   out of hand.
 \end{quotation}
 
-Despite the very large amount of work Till (and other) put into \cls{beamer},
-there are several challenges which confront us today
+Despite the very large amount of work Till (and others) put into \cls{beamer},
+there are several challenges which confront us today.
 \begin{enumerate}
   \item The document interface is flexible but in places deviates from normal
     \LaTeX{} conventions
@@ -126,8 +126,8 @@ there are several challenges which confront us today
     new approaches for some areas
 \end{enumerate}
 These all feed into an issue addressing a major requirement today:
-accessibility. Broadly, the internal structure (and to some extend the user
-interface) of \cls{beamer} mean that it is not possible to \enquote{retrofit}
+accessibility. Broadly, the internal structure (and to some extent the user
+interface) of \cls{beamer} means that it is not possible to \enquote{retrofit}
 PDF tagging into the class.
 
 Instead, the approach is to develop a new class, \cls{ltx-talk}, which takes
@@ -141,7 +141,7 @@ insurmountable barrier.
 
 At present, this code is \emph{highly} experimental: only a (small) subset of
 \cls{beamer} functionality is implemented, some things are being done
-differently, almost everything is still subject to discussion.
+differently, and almost everything is still subject to discussion.
 
 \section{Submitting ideas}
 
@@ -157,7 +157,7 @@ before design aspects.
 \section{Simple example documents}
 
 Using \cls{ltx-talk} \emph{absolutely requires} the use of the
-\cs{DocumentMetadata} command As such, the most basic \cls{ltx-talk} document
+\cs{DocumentMetadata} command. As such, the most basic \cls{ltx-talk} document
 is
 \begin{verbatim}
   \DocumentMetadata{} % likely with "tagging = on"
@@ -224,7 +224,7 @@ carry forward from \cls{beamer}.
   \item Variable content is indicated by an \emph{overlay specification}, given
     in optional angle brackets (|< ... >|).
   \item Slides have a \emph{fixed} height of \qty{100}{\mm}.
-  \item The default font will be sanserif using established standard
+  \item The default font will be sans-serif using established standard
     implementations (currently \pkg{sansmathfonts} for \pdfTeX{} and New
     Computer Modern for OpenType engines).
 \end{itemize}
@@ -232,14 +232,14 @@ carry forward from \cls{beamer}.
 \section{Differences from \cls{beamer}}
 
 The following key differences between \cls{beamer} and \cls{ltx-talk} are
-important to note for the user
+important to note for the user.
 \begin{itemize}
-  \item The default font setup in \cls{ltx-talk} is \emph{all} sanserif, in
-    particular \cs{mathrm} and \cs{textrm} will give a sanserif font
+  \item The default font setup in \cls{ltx-talk} is \emph{all} sans-serif, in
+    particular \cs{mathrm} and \cs{textrm} will give a sans-serif font
   \item Overlay specifications can only be given as the first argument to
     commands
   \item Where a command takes a star as an option, this comes \emph{before}
-    the overlay argument, e.g. |\includgraphics*<...>|: this reflects the
+    the overlay argument, e.g. |\includegraphics*<...>|: this reflects the
     fact that the star is usually described as part of the command name rather
     than as an argument
   \item There are no optional braced arguments in \cls{ltx-talk}, in particular
@@ -263,7 +263,7 @@ important to note for the user
 
 \DescribeEnv{frame}
 A presentation consists of a series of frames. Each frame consists of a series
-of slides. You create a frame using \env{frame} environment. All of the text
+of slides. You create a frame using the \env{frame} environment. All of the text
 that is not tagged by overlay specifications is shown on all slides of the
 frame. (Overlay specifications are explained in more detail in later sections.
 For the moment, let's just say that an overlay specification is a list of
@@ -278,7 +278,7 @@ only one slide.
   \cs{end}\{\texttt{frame}\}
 \end{syntax}
 The \meta{overlay spec} dictates which slides of a frame are to be shown. If
-left out, the number is calculated automatically The \meta{environment
+left out, the number is calculated automatically. The \meta{environment
 contents} can be normal \LaTeX{} text, but may not contain |\verb| commands or
 |verbatim| environments or any environment that changes the character codes.
 
@@ -788,7 +788,7 @@ This section also introduces a rather advanced concept. You may also wish to
 skip it on first reading.
 
 Some overlay specification-aware commands can handle not only normal overlay
-specifications, but also so called \emph{action spec}. In an action
+specifications, but also a so called \emph{action spec}. In an action
 specification, the list of slide numbers and ranges is prefixed by
 \meta{action}|@|, where \meta{action} is the name of a certain action to be
 taken on the specified slides:
