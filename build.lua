@@ -14,6 +14,8 @@ typesetfiles = {"*.tex", "examples/*.tex"}
 -- Detail how to set the tag automatically
 tagfiles = {"CHANGELOG.md", "*.dtx", "*.tex"}
 
+checkformat = "latex-dev"
+
 function update_tag(file,content,tagname,tagdate)
   tagname = string.gsub(tagname, "^v", "")
 
