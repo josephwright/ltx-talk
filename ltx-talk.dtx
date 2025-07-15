@@ -318,7 +318,10 @@
     \setsansfont { NewCMSans10-Regular.otf }
     \setmathfont { NewCMSansMath-Regular.otf }
   }
-  { \RequirePackage { sansmathfonts } }
+  {
+    \RequirePackage { sansmathfonts }
+    \RequirePackage [ nomath ] { lmodern }
+  }
 \cs_set_eq:NN \rmdefault \sfdefault
 %    \end{macrocode}
 %
