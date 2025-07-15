@@ -83,6 +83,8 @@
 %
 % Require the latest \LaTeX{} structures.
 %    \begin{macrocode}
+\IfFormatAtLeastF{2025-11-01}
+  {\ClassError{ltx-talk}{ltx-talk~ requires~ at~ least~ LaTeX2e~ 2025-11-01}{}}
 \NeedsDocumentMetadata
 %    \end{macrocode}
 %
