@@ -81,10 +81,24 @@
   {A class for typesetting presentations}
 %    \end{macrocode}
 %
+% Get the right type of message.
+%    \begin{macrocode}
+\prop_gput:Nnn \g_msg_module_name_prop { talk } { ltx-talk }
+\prop_gput:Nnn \g_msg_module_type_prop { talk } { Class }
+%    \end{macrocode}
+%
 % Require the latest \LaTeX{} structures.
 %    \begin{macrocode}
 \IfFormatAtLeastF{2025-11-01}
-  {\ClassError{ltx-talk}{ltx-talk~ requires~ at~ least~ LaTeX2e~ 2025-11-01}{}}
+  {
+    \msg_new:nnnn { ltx-talk } { kernel-too-old }
+      { ltx-talk~ requires~ at~ least~ LaTeX2e~ 2025-11-01. }
+      {
+        You~ might~ need~ to~ compile~ using~ either~ lualatex-dev~ or~
+        pdflatex-dev.
+      }
+    \msg_fatal:nn { ltx-talk } { kernel-too-old }
+  }
 \NeedsDocumentMetadata
 %    \end{macrocode}
 %
@@ -159,14 +173,6 @@
 \tl_new:N \l_@@_tmp_tl
 %    \end{macrocode}
 % \end{variable}
-%
-% \subsection{Messages}
-%
-% Get the right type of message.
-%    \begin{macrocode}
-\prop_gput:Nnn \g_msg_module_name_prop { talk } { ltx-talk }
-\prop_gput:Nnn \g_msg_module_type_prop { talk } { Class }
-%    \end{macrocode}
 %
 % \subsection{Option handling}
 %
