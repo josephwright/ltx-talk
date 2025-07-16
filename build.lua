@@ -14,6 +14,7 @@ typesetfiles = {"*.tex", "examples/*.tex"}
 -- Detail how to set the tag automatically
 tagfiles = {"CHANGELOG.md", "*.dtx", "*.tex"}
 
+checkengines = {"pdftex","luatex"}
 checkformat = "latex-dev"
 
 function update_tag(file,content,tagname,tagdate)
