@@ -906,7 +906,7 @@ is encountered, it is replaced by one more than the current value of the
 first possible replacement value is~$1$. At the end of the overlay
 specification, the |pauses| counter is incremented. This only happens once even
 if the specification contains multiple |+| signs (they are replaced by the same
-number).
+number, which is also the new value of |pauses|).
 
 In the above example, the first specification is replaced by |<1->|. Then the
 second is replaced by |<2->| and so forth. We can now easily insert new
