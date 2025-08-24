@@ -202,7 +202,7 @@
 % \begin{macro}{\@@_decode_mode:w}
 % \begin{macro}{\@@_decode_mode_aux:n}
 %   Check if the mode is known and current. If we find an action but have no
-%   overlay details, they is filled in with a \verb|*|.
+%   overlay details, they are filled in with a \verb|*|.
 %    \begin{macrocode}
 \cs_new_protected:Npe \@@_decode_mode:n #1
   {
@@ -252,7 +252,7 @@
 %
 % \begin{macro}{\@@_decode_action:n}
 % \begin{macro}{\@@_decode_action:w}
-%   Here, we have two valid possibilities: no action specification at all, or
+%   Here, we have two valid possibilities: no action specification at all,
 %   or from the known list. If we don't find one of those outcomes, we can
 %   issue an error.
 %    \begin{macrocode}
@@ -396,14 +396,14 @@
       }
   }
 %    \end{macrocode}
-%   If |#3| is empty, both of the \enquote{filler} |-| tokens were consumed: we
+%   If |#4| is empty, both of the \enquote{filler} |-| tokens were consumed: we
 %   have a single value. Otherwise there is a range: the setup above ensures
-%   that there will be starting value in all cases, but there may not be an
-%   end one.
+%   that there will be a starting value in all cases due to the leading |0|, but
+%   there may not be an end one.
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_decode_check:nw #1#2 - #3 - #4 \q_stop
   {
-    \tl_if_blank:nTF {#4}
+    \tl_if_empty:nTF {#4}
       { \@@_decode_check_single:nn {#1} {#2} }
       {
         \tl_if_blank:nTF {#3}
