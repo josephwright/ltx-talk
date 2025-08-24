@@ -144,6 +144,7 @@
       \bool_do_while:Nn \g_@@_slide_continue_bool
         {
           \int_gincr:N \g_@@_slide_int
+          \bool_gset_false:N \g_@@_slide_continue_bool
           \@@_if_overlay:nT {#1}
             {
               \@@_slide_begin:
@@ -206,7 +207,6 @@
 \cs_new_protected:Npn \@@_slide_begin:
   {
     \int_gzero:N \g_@@_pauses_int
-    \bool_gset_false:N \g_@@_slide_continue_bool
     \tl_gclear:N \g_@@_frame_title_tl
     \tl_gclear:N \g_@@_frame_subtitle_tl
     \@@_cnt_save:
