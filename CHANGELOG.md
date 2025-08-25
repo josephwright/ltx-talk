@@ -7,6 +7,10 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+- Overlay argument of `frame` producing an infinite loop in some cases (see
+  issue [\#79](https://github.com/josephwright/ltx-talk/issues/79))
+
 ## [v0.1.6] - 2025-07-31
 
 ### Fixed
