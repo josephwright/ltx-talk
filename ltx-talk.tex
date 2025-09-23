@@ -610,7 +610,7 @@ considered to be part of the before slides.
 As a possible application of the \cs{temporal} command consider the following
 example:
 \begin{verbatim}
-  \NewDocumentCommand\colorize{D<>{all}{%
+  \NewDocumentCommand\colorize{D<>{all}}{%
     \temporal<#1>{\color{red!50}}{\color{black}}{\color{black!50}}}
   \begin{frame}
     \begin{itemize}
