@@ -8,7 +8,7 @@ xetex
 # warnings with some packages and errors with others
 metafont
 mfware
-# Dependencies for ltx-tlak
+# Dependencies for ltx-talk
 geometry
 relsize
 # Dependencies for documentation
