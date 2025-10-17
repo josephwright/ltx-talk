@@ -81,8 +81,10 @@
 \cs_set_nopar:Npn \@title { }
 \RenewDocumentCommand \title { = { short-title } O {#2} m }
   {
-    \keys_set:nn { talk } { #1 }
     \cs_gset_nopar:Npn \@title {#2}
+    \tl_gset_eq:NN\g__tag_title_title_tl\@title
+    \keys_set:nn { talk } { #1 }
+    \keys_set:nn { hyp }{ pdftitle = \@title }
   }
 \cs_new_nopar:Npn \@subtitle { }
 \NewDocumentCommand \subtitle { = { short-subtitle } O {#2} m }
@@ -93,8 +95,10 @@
 \cs_set_nopar:Npn \@author { }
 \RenewDocumentCommand \author { = { short-author } O {#2} m }
   {
-    \keys_set:nn { talk } { #1 }
     \cs_gset_nopar:Npn \@author {#2}
+    \tl_gset_eq:NN\g__tag_title_author_tl\@author
+    \keys_set:nn { talk } { #1 }
+    \keys_set:nn {hyp}{ pdfauthor = \@author }
   }
 \cs_new_nopar:Npn \@institute { }
 \NewDocumentCommand \institute { = { short-institute } O {#2} m }
