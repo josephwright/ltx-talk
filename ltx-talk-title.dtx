@@ -73,17 +73,41 @@
 %<@@=talk>
 %    \end{macrocode}
 %
-% \begin{macro}{\institute, \subtitle}
-% \begin{variable}{\@institute, \@subtitle}
+% \begin{macro}{\title, \subtitle, \author, \institute, \date}
+% \begin{variable}{\@title, \@subtitle, \@author, \@institute, \@date}
 %   Simple storage at present: we use names similar to the kernel ones for
 %   author, etc., as this makes data management easier.
 %    \begin{macrocode}
-\cs_new_nopar:Npn \@institute { }
+\cs_set_nopar:Npn \@title { }
+\RenewDocumentCommand \title { = { short-title } O {#2} m }
+  {
+    \keys_set:nn { talk } { #1 }
+    \cs_gset_nopar:Npn \@title {#2}
+  }
 \cs_new_nopar:Npn \@subtitle { }
-\NewDocumentCommand \institute { = { short-institute } O {#2} m }
-  { \cs_gset_nopar:Npn \@institute {#2} }
 \NewDocumentCommand \subtitle { = { short-subtitle } O {#2} m }
-  { \cs_gset_nopar:Npn \@subtitle {#2} }
+  {
+    \keys_set:nn { talk } { #1 }
+    \cs_gset_nopar:Npn \@subtitle {#2}
+  }
+\cs_set_nopar:Npn \@author { }
+\RenewDocumentCommand \author { = { short-author } O {#2} m }
+  {
+    \keys_set:nn { talk } { #1 }
+    \cs_gset_nopar:Npn \@author {#2}
+  }
+\cs_new_nopar:Npn \@institute { }
+\NewDocumentCommand \institute { = { short-institute } O {#2} m }
+  {
+    \keys_set:nn { talk } { #1 }
+    \cs_gset_nopar:Npn \@institute {#2}
+  }
+\RenewDocumentCommand \date { = { short-date } O {#2} m }
+  {
+    \keys_set:nn { talk } { #1 }
+    \cs_gset_nopar:Npn \@date {#2}
+  }
+\date{\today}
 %    \end{macrocode}
 % \end{variable}
 % \end{macro}

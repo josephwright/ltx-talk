@@ -545,14 +545,14 @@
         \clist_pop:NNT \l_@@_footer_order_clist \l_@@_tmp_tl
           {
             \ExpandArgs { nVv } \UseInstance { footer-element } \l_@@_tmp_tl
-              { @ \l_@@_tmp_tl }
+              { @short \l_@@_tmp_tl }
             \clist_map_inline:Nn \l_@@_footer_order_clist
-              { 
-                \tl_if_empty:cF { @ ##1 }
+              {
+                \tl_if_empty:cF { @short ##1 }
                   {
                     \l_@@_footer_sep_tl
                     \ExpandArgs { nnv }
-                      \UseInstance { footer-element } {##1} { @ ##1 }
+                      \UseInstance { footer-element } {##1} { @short ##1 }
                   }
               }
           }
@@ -669,7 +669,7 @@
 \int_new:N \g_@@_frame_int
 \cs_new_eq:NN \c@frame \g_@@_frame_int
 \cs_new:Npn \theframe { \@arabic \c@frame }
-\cs_new:Npn \@framenumber { \arabic { frame } }
+\cs_new:Npn \@shortframenumber { \arabic { frame } }
 %    \end{macrocode}
 % \end{variable}
 %

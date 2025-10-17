@@ -200,7 +200,12 @@
     handout .value_forbidden:n = true ,
     mode .choices:nn =
       { handout , projector }
-      { \str_set:NV \l_@@_mode_str \l_keys_choice_tl }
+      { \str_set:NV \l_@@_mode_str \l_keys_choice_tl },
+    short-title.code:n = \def\@shorttitle{#1},
+    short-author.code:n = \def\@shortauthor{#1},
+    short-subtitle.code:n = \def\@shortsubtitle{#1},
+    short-institute.code:n = \def\@shortinstitute{#1},
+    short-date.code:n = \def\@shortdate{#1},
   }
 %    \end{macrocode}
 % \end{variable}
@@ -223,7 +228,12 @@
     aspect-ratio    = 16:9      ,
     font-size       = 11pt      ,
     frame-title-arg = false     ,
-    mode            = projector
+    mode            = projector ,
+    short-title     = {}        ,
+    short-author    = {}        ,
+    short-subtitle  = {}        ,
+    short-institute = {}        ,
+    short-date      = {}        ,
   }
 %    \end{macrocode}
 %

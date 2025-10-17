@@ -7,6 +7,10 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- short versions of `\title`, `\subtitle`, `\author`, `\institute`, `\date` for usage in the footline
+
 ### Fixed
 - Avoid error with `\footnote` (see issue
   [\#91](https://github.com/josephwright/ltx-talk/issues/91))

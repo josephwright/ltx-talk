@@ -545,7 +545,7 @@ command in the same \TeX{} group, its effect transcends block groups.
 \begin{syntax}
   \cs{only}\sarg{overlay spec}\marg{text}
 \end{syntax}
-The \meta{text} is inserted only into the specified slides. For other slides, 
+The \meta{text} is inserted only into the specified slides. For other slides,
 the text is simply thrown away. In particular, it occupies no space.
 \begin{verbatim}
   \only<3->{Text inserted from slide 3 on.}
@@ -1027,16 +1027,28 @@ optional argument to the command is used to specify the following
   \item \opt{vertical-alignment}
 \end{itemize}
 
+\DescribeMacro{\title}
 \DescribeMacro{\subtitle}
+\DescribeMacro{\author}
 \DescribeMacro{\institute}
+\DescribeMacro{\date}
 \begin{syntax}
-  \cs{subtitle}\oarg{options}\marg{subtitle} \\
-  \cs{institute}\oarg{options}\marg{institute}
+  \cs{title}\oarg{short title}\marg{title} \\
+  \cs{title}[short-title=\meta{short title}]\marg{title} \\
+  \cs{subtitle}\oarg{short subtitle}\marg{subtitle} \\
+  \cs{subtitle}[short-subtitle=\meta{short subtitle}]\marg{subtitle} \\
+  \cs{author}\oarg{short author}\marg{author}\\
+  \cs{author}[short-author=\meta{short author}]\marg{author} \\
+  \cs{institute}\oarg{short institute}\marg{institute} \\
+  \cs{institute}[short-institute=\meta{short institute}]\marg{institute} \\
+  \cs{date}\oarg{short date}\marg{date}\\
+  \cs{date}[short-date=\meta{short date}]\marg{date} \\
 \end{syntax}
-As well as the standard \LaTeX{} elements \cs{author}, \cs{title} and
-\cs{date}, \cls{ltx-talk} supports \cs{subtitle} and \cs{institute}. These work
-in the same way as the standard commands for providing metadata. The
-\meta{options} argument is currently unused.
+\cls{ltx-talk} supports \cs{title}, \cs{subtitle}, \cs{author}, \cs{institute} and \cs{date}.
+If only one \meta{option} is given, this will act as short version of the macro for the footer.
+If no short version is provided, the long version will be used instead.
+If multiple \meta{options} are given, they are interpreted as key-values.
+However currently only one key-value for the short version is known.
 
 \section{Structuring a presentation: the local structure}
 
@@ -1221,7 +1233,7 @@ same source using the option \opt{mode}. This works with the overlay
 specification to typeset some of the input selectively.
 
 \subsection{Creating handouts using the \opt{handout} mode}
-  
+
 During a presentation it is very much desirable that the audience has a
 \emph{handout} or even \emph{lecture notes} available to it. A handout allows
 everyone in the audience to individually go back to things they have not
