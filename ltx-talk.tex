@@ -1027,16 +1027,24 @@ optional argument to the command is used to specify the following
   \item \opt{vertical-alignment}
 \end{itemize}
 
-\DescribeMacro{\subtitle}
+\DescribeMacro{\author}
+\DescribeMacro{\date}
 \DescribeMacro{\institute}
+\DescribeMacro{\subtitle}
+\DescribeMacro{\title}
 \begin{syntax}
+  \cs{author}\oarg{options}\marg{author} \\
+  \cs{date}\oarg{options}\marg{date} \\
+  \cs{institute}\oarg{options}\marg{institute} \\
   \cs{subtitle}\oarg{options}\marg{subtitle} \\
-  \cs{institute}\oarg{options}\marg{institute}
+  \cs{title}\oarg{options}\marg{title}
 \end{syntax}
 As well as the standard \LaTeX{} elements \cs{author}, \cs{title} and
-\cs{date}, \cls{ltx-talk} supports \cs{subtitle} and \cs{institute}. These work
-in the same way as the standard commands for providing metadata. The
-\meta{options} argument is currently unused.
+\cs{date}, \cls{ltx-talk} supports \cs{subtitle} and \cs{institute}. These
+working the same way as the standard commands for providing metadata. The
+\meta{options} may be used to set the \opt{short-} version of each item: if no
+key name is given, the entire optional argument is used as the short version.
+If multiple \meta{options} are given, they are interpreted as key-values.
 
 \section{Structuring a presentation: the local structure}
 

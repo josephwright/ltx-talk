@@ -73,19 +73,80 @@
 %<@@=talk>
 %    \end{macrocode}
 %
-% \begin{macro}{\institute, \subtitle}
-% \begin{variable}{\@institute, \@subtitle}
-%   Simple storage at present: we use names similar to the kernel ones for
-%   author, etc., as this makes data management easier.
+% \begin{variable}{\@author, \@date, \@institute, \@subtitle, \@title}
+% \begin{variable}
+%   {
+%     \@shortauthor    ,
+%     \@shortdate      ,
+%     \@shortinstitute ,
+%     \@shortsubtitle  ,
+%     \@shorttitle
+%   }
+%   We create a set of keys and variables in one go. Following the classical
+%   kernel approach, all of the underlying storage is global. The short values
+%   will always be set in the following code so can be used automatically
+%   anywhere we might want them.
 %    \begin{macrocode}
-\cs_new_nopar:Npn \@institute { }
-\cs_new_nopar:Npn \@subtitle { }
-\NewDocumentCommand \institute { = { short-institute } O {#2} m }
-  { \cs_gset_nopar:Npn \@institute {#2} }
-\NewDocumentCommand \subtitle { = { short-subtitle } O {#2} m }
-  { \cs_gset_nopar:Npn \@subtitle {#2} }
+\clist_map_inline:nn
+  { author , date , institute , subtitle , title }
+  {
+    \keys_define:nn { talk / metadata }
+      {
+        #1 .tl_gset:c = @ #1 ,
+        short- #1 .tl_gset:c = @short #1
+      }
+  }
+%    \end{macrocode}
+%   As the date has a standard value, that has to be propagated.
+%    \begin{macrocode}
+\tl_gset_eq:NN \@shortdate \@date
 %    \end{macrocode}
 % \end{variable}
+% \end{variable}
+%
+% \begin{macro}{\author, \date, \title}
+%   Slightly repetitive but as we need to handle the tagging aspects, this is
+%   easier than using a loop. The main aim is to add the short metadata
+%   concept. Notice that keys are set before the main data storage in case
+%   someone set the value as a key as well as a mandatory argument.
+%    \begin{macrocode}
+\RenewDocumentCommand \author { = { short-author } O {#2} m }
+  {
+    \keys_set:nn { talk / metadata } {#1}
+    \tl_gset:Nn \@author {#2}
+    \tl_gset_eq:NN \g__tag_title_author_tl \@author
+    \keys_set_known:nn { hyp } {#1}
+  }
+\RenewDocumentCommand \date { = { short-date } O {#2} m }
+  {
+    \keys_set:nn { talk / metadata } {#1}
+    \tl_gset:Nn \@date {#2}
+  }
+\RenewDocumentCommand \title { = { short-title } O {#2} m }
+  {
+    \keys_set:nn { talk / metadata } {#1}
+    \tl_gset:Nn \@title {#2}
+    \tl_gset_eq:NN \g__tag_title_title_tl \@title
+    \keys_set_known:nn { hyp } {#1}
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\institute, \subtitle}
+%   Simple storage at present: ubnlike some of the kernel data, there is not
+%   a lot to do here.
+%    \begin{macrocode}
+\NewDocumentCommand \institute { = { short-institute } O {#2} m }
+  {
+    \keys_set:nn { talk / metadata } {#1}
+    \tl_gset:Nn \@institute {#2}
+  }
+\NewDocumentCommand \subtitle { = { short-subtitle } O {#2} m }
+  {
+    \keys_set:nn { talk / metadata } {#1}
+    \tl_gset:Nn \@subtitle {#2}
+  }
+%    \end{macrocode}
 % \end{macro}
 %
 % \begin{variable}

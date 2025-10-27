@@ -8,7 +8,7 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 ## [Unreleased]
 
 ### Added
-
+- Support for short versions of author, date, institution and (sub)title
 - make `subtitle` footer-element available 
 
 ### Fixed

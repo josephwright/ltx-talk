@@ -546,14 +546,15 @@
         \clist_pop:NNT \l_@@_footer_order_clist \l_@@_tmp_tl
           {
             \ExpandArgs { nVv } \UseInstance { footer-element } \l_@@_tmp_tl
-              { @ \l_@@_tmp_tl }
+              { @ \@@_metadata_name:n { \l_@@_tmp_tl } }
             \clist_map_inline:Nn \l_@@_footer_order_clist
               { 
-                \tl_if_empty:cF { @ ##1 }
+                \tl_if_empty:cF { @ \@@_metadata_name:n { ##1 } }
                   {
                     \l_@@_footer_sep_tl
                     \ExpandArgs { nnv }
-                      \UseInstance { footer-element } {##1} { @ ##1 }
+                      \UseInstance { footer-element } {##1}
+                        { @ \@@_metadata_name:n { ##1 } }
                   }
               }
           }
@@ -571,6 +572,20 @@
   }
 %    \end{macrocode}
 % \end{variable}
+% \begin{macro}[EXP]{\@@_metadata_name:n}
+%   A simple auxiliary to shorten metadata names but not the frame number.
+%   This is used as all the standard metadata is stored in two forms, and
+%   other than on the title page we use the shorter version. Full expansion
+%   is applied as this avoids any issue with stored names.
+%    \begin{macrocode}
+\cs_new:Npn \@@_metadata_name:n #1
+  {
+    \str_if_eq:eeTF {#1} { framenumber }
+      {#1}
+      { short #1 }
+  }
+%    \end{macrocode}
+% \end{macro}
 %
 % \begin{macro}{\@@_wallpaper_hrule:Nnn}
 %   A simple abstraction for the top and bottom rules on the page.
