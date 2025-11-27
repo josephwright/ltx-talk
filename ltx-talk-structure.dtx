@@ -264,38 +264,21 @@
 % \end{macro}
 % \end{macro}
 %
+% \begin{macro}{talk/sec/title}
+% The argument is one of section, subsection or subsubsection.
 %    \begin{macrocode}
 \NewTaggingSocket{talk/sec/title}{1}
 \NewTaggingSocketPlug{talk/sec/title}{default}
  {
    \tag_struct_begin:e
     {
-      tag   = #1 ,
+      tag   = \UseStructureName{sec/\use:c {toclevel@#1}/title} ,
       title = { \text_purify:v { l_@@_ #1 _ tl } } ,
       actualtext = { \text_purify:v { l_@@_ #1 _ tl } } ,
     }
     \tag_struct_end:
  }
 \AssignTaggingSocketPlug{talk/sec/title}{default} 
-%    \end{macrocode}
-% \begin{macro}{\@@_section_tagged:}
-%    \begin{macrocode}
-\cs_new_protected:Npn \@@_section_tagged:
-  {
-    \clist_map_inline:nn { section , subsection , subsubsection }
-      {
-        \tl_if_empty:cF { g_@@_ ##1 _ tl }
-          {
-            \@@_header_tag_begin:e
-              {
-                tag   = ##1 ,
-                title = { \text_purify:v { g_@@_ ##1 _ tl } } ,
-              }
-            \@@_header_tag_end:
-            \tl_gclear:c { g_@@_ ##1 _ tl }
-          }
-      }
-  }
 %    \end{macrocode}
 % \end{macro}
 %
