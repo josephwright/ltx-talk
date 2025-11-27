@@ -233,10 +233,14 @@
           { s D <> { all } O {##4} m }
           {
             \exp_not:N \refstepcounter {#2}
-            \tag_tool:n { sec-start = #2 , restore-para }
+            \UseTaggingSocket{sec/end}{\use:c {toclevel@#2}}
+            \UseTaggingSocket{sec/begin}
+             {
+               {\use:c {toclevel@#2}}
+               {tag=\exp_not:N\UseStructureName{sec/\use:c {toclevel@#2}}}
+             }
             \tl_set:Nn \exp_not:c { l_@@_ #2 _tl } {##4}
-            \tl_gset_eq:NN \exp_not:c { g_@@_ #2 _tl }
-              \exp_not:c { l_@@_ #2 _tl }
+            \UseTaggingSocket{talk/sec/title}{#2}
             \str_if_eq:nnT {#2} { section }
               { \tl_clear:N \exp_not:N \l_@@_subsection_tl }
             \str_if_eq:nnF {#2} { subsubsection }
@@ -260,6 +264,19 @@
 % \end{macro}
 % \end{macro}
 %
+%    \begin{macrocode}
+\NewTaggingSocket{talk/sec/title}{1}
+\NewTaggingSocketPlug{talk/sec/title}{default}
+ {
+   \tag_struct_begin:e
+    {
+      tag   = #1 ,
+      title = { \text_purify:v { l_@@_ #1 _ tl } } ,
+    }
+    \tag_struct_end:
+ }
+\AssignTaggingSocketPlug{talk/sec/title}{default} 
+%    \end{macrocode}
 % \begin{macro}{\@@_section_tagged:}
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_section_tagged:
