@@ -7,6 +7,12 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+## Fixed
+ - order of section titles, [\#111](https://github.com/josephwright/ltx-talk/issues/111)
+ 
+## Changed
+ - added ActualText to section structures for better reading experience.
+  
 ## [v0.3.0] - 2025-11-10
 
 ### Added
