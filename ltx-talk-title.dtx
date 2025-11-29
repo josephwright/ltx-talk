@@ -115,19 +115,19 @@
 %   concept. Notice that keys are set before the main data storage in case
 %   someone set the value as a key as well as a mandatory argument.
 %    \begin{macrocode}
-\RenewDocumentCommand \author { = { short-author } O {#2} m }
+\RenewDocumentCommand \author { = { short-author } O { {#2} } m }
   {
     \keys_set:nn { talk / metadata } {#1}
     \tl_gset:Nn \@author {#2}
     \tl_gset_eq:NN \g__tag_title_author_tl \@author
     \keys_set_known:nn { hyp } {#1}
   }
-\RenewDocumentCommand \date { = { short-date } O {#2} m }
+\RenewDocumentCommand \date { = { short-date } O { {#2} } m }
   {
     \keys_set:nn { talk / metadata } {#1}
     \tl_gset:Nn \@date {#2}
   }
-\RenewDocumentCommand \title { = { short-title } O {#2} m }
+\RenewDocumentCommand \title { = { short-title } O { {#2} } m }
   {
     \keys_set:nn { talk / metadata } {#1}
     \tl_gset:Nn \@title {#2}
@@ -141,12 +141,12 @@
 %   Simple storage at present: ubnlike some of the kernel data, there is not
 %   a lot to do here.
 %    \begin{macrocode}
-\NewDocumentCommand \institute { = { short-institute } O {#2} m }
+\NewDocumentCommand \institute { = { short-institute } O { {#2} } m }
   {
     \keys_set:nn { talk / metadata } {#1}
     \tl_gset:Nn \@institute {#2}
   }
-\NewDocumentCommand \subtitle { = { short-subtitle } O {#2} m }
+\NewDocumentCommand \subtitle { = { short-subtitle } O { {#2} } m }
   {
     \keys_set:nn { talk / metadata } {#1}
     \tl_gset:Nn \@subtitle {#2}
