@@ -1,87 +1,22 @@
-\iffalse meta-comment
-
-File: ltx-talk.ins Copyright (C) 2023-2025 Joseph Wright
-
-It may be distributed and/or modified under the conditions of the
-LaTeX Project Public License (LPPL), either version 1.3c of this
-license or (at your option) any later version.  The latest version
-of this license is in the file
-
-   https://www.latex-project.org/lppl.txt
-
-This file is part of the "ltx-talk bundle" (The Work in LPPL)
-and all files in that bundle must be distributed together.
-
-The released version of this bundle is available from CTAN.
-
------------------------------------------------------------------------
-
-The development version of the bundle can be found at
-
-   https://github.com/josephwright/ltx-talk
-
-for those people who are interested.
-
------------------------------------------------------------------------
-
-\fi
-
 \input docstrip.tex
-\askforoverwritefalse
-
-% stop DocStrip adding rather wordy text
-\preamble
-\endpreamble
-\postamble
-Copyright (C) 2023-2025 by
-  Joseph Wright <joseph@texdev.net>
-
-It may be distributed and/or modified under the conditions of
-the LaTeX Project Public License (LPPL), either version 1.3c of
-this license or (at your option) any later version.  The latest
-version of this license is in the file:
-
-   https://www.latex-project.org/lppl.txt
-
-This work is "maintained" (as per LPPL maintenance status) by
-  Joseph Wright.
-
-This work consists of the files ltx-talk.dtx,
-                                ltx-talk.ins,
-                                ltx-talk.tex,
-                                ltx-talk-code.tex,
-                                ltx-talk-color.dtx,
-                                ltx-talk-decode.dtx,
-                                ltx-talk-frame.dtx,
-                                ltx-talk-frame-structure.dtx,
-                                ltx-talk-mode.dtx,
-                                ltx-talk-overlay.dtx,
-                                ltx-talk-required.dtx,
-                                ltx-talk-structure.dtx and
-                                ltx-talk-title.dtx,
-          and the derived files ltx-talk.cls,
-                                ltx-talk.pdf and
-                                ltx-talk-code.pdf.
-
-\endpostamble
-
 \keepsilent
-
-\generate
-  {%
-    \file{ltx-talk.cls}
-      {%
-        \from{ltx-talk.dtx}                {class}
-        \from{ltx-talk-color.dtx}          {class}
-        \from{ltx-talk-decode.dtx}         {class}
-        \from{ltx-talk-frame.dtx}          {class}
-        \from{ltx-talk-frame-structure.dtx}{class}
-        \from{ltx-talk-mode.dtx}           {class}
-        \from{ltx-talk-overlay.dtx}        {class}
-        \from{ltx-talk-required.dtx}       {class}
-        \from{ltx-talk-structure.dtx}      {class}
-        \from{ltx-talk-title.dtx}          {class}
-      }%
+\askforoverwritefalse
+\preamble
+Copyright (C) 2018-2025 by Joseph Wright
+\endpreamble
+\generate{
+  \file{ltx-talk.cls}{
+    \from{ltx-talk.dtx}             {class}
+    \from{ltx-talk-color.dtx}       {class}
+    \from{ltx-talk-decode.dtx}      {class}
+    \from{ltx-talk-frame.dtx}       {class}
+    \from{ltx-talk-frame-structure.dtx} {class}
+    \from{ltx-talk-mode.dtx}        {class}
+    \from{ltx-talk-overlay.dtx}     {class}
+    \from{ltx-talk-required.dtx}    {class}
+    \from{ltx-talk-structure.dtx}   {class}
+    \from{ltx-talk-title.dtx}       {class}
+    \from{ltx-talk-block.dtx}       {class}
   }
-
+}
 \endbatchfile

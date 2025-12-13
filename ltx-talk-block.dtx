@@ -1,0 +1,228 @@
+% \iffalse meta-comment
+%
+% File: ltx-talk-block.dtx Copyright (C) 2025 Joseph Wright
+%
+% -----------------------------------------------------------------------
+%
+%<*driver>
+\documentclass{l3doc}
+\usepackage{ltx-talk}
+\usepackage[most]{tcolorbox}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue}
+\providecommand\env[1]{\texttt{#1}}
+\begin{document}
+  \DocInput{ltx-talk-block.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \title{The \pkg{ltx-talk-block} module\\Presentation blocks and theorems}
+% \author{Joseph Wright}
+% \date{\today}
+%
+% \maketitle
+%
+% \begin{documentation}
+%
+% \section{Block and Theorem Environments}
+%
+% The bundle provides standard blocks and theorem-like environments matching 
+% \pkg{beamer} functionality. They are implemented using \pkg{tcolorbox} 
+% for visual flexibility and robust PDF/UA tagging.
+%
+% \subsection{Standard Blocks}
+% \begin{function}{block, alertblock, exampleblock}
+%   \begin{syntax}
+%     \cs{begin}\{block\}\oarg{options}\marg{title}
+%       \dots
+%     \cs{end}\{block\}
+%   \end{syntax}
+%   Creates a block with a title. The \meta{options} allow overriding 
+%   \pkg{tcolorbox} keys locally.
+% \end{function}
+%
+% \subsection{Theorems and Proofs}
+% \begin{function}{theorem, corollary, definition, fact, example, proof}
+%   \begin{syntax}
+%     \cs{begin}\{theorem\}\meta{action}\oarg{addition}\oarg{options}
+%       \dots
+%     \cs{end}\{theorem\}
+%   \end{syntax}
+%   These environments emulate Beamer's theorem syntax.
+%   \begin{itemize}
+%     \item \meta{action}: Overlay specification (e.g., \texttt{<2->}).
+%     \item \meta{addition}: Additional text for the title (e.g., \texttt{[Pythagoras]}).
+%     \item \meta{options}: Keys passed to the underlying \pkg{tcolorbox}.
+%   \end{itemize}
+% \end{function}
+%
+% \end{documentation}
+%
+% \begin{implementation}
+%
+% \section{Implementation}
+%
+%<*class>
+%    \begin{macrocode}
+\ExplSyntaxOff
+\RequirePackage{xcolor}
+\RequirePackage{tcolorbox}
+\RequirePackage{tagpdf}
+\tcbuselibrary{skins,breakable}
+%    \end{macrocode}
+%
+% \subsection{Tagging Hooks}
+%    \begin{macrocode}
+\tcbset{
+  manualtag/.code={%
+    \tagstructbegin{tag=#1}%
+    \tagmcbegin{tag=#1}%
+  },
+  manualtagend/.code={%
+    \tagmcend
+    \tagstructend
+  },
+  tag-outer/.style={
+    before={\tagstructbegin{tag=#1}},
+    after={\tagstructend}
+  }
+}
+%    \end{macrocode}
+%
+% \subsection{Visual Defaults}
+%    \begin{macrocode}
+\definecolor{talkBlockFrame}{gray}{0.3}
+\definecolor{talkBlockBack}{gray}{0.95}
+\colorlet{talkBlockTitle}{white}
+
+\definecolor{talkAlertFrame}{RGB}{180,0,0}
+\definecolor{talkAlertBack}{RGB}{255,240,240}
+\colorlet{talkAlertTitle}{white}
+
+\definecolor{talkExampleFrame}{RGB}{0,100,0}
+\definecolor{talkExampleBack}{RGB}{240,255,240}
+\colorlet{talkExampleTitle}{white}
+%    \end{macrocode}
+%
+% \subsection{Standard Blocks}
+%    \begin{macrocode}
+\DeclareTColorBox{block}{ O{} m }{
+  enhanced, breakable,
+  colframe=talkBlockFrame, colback=talkBlockBack, coltitle=talkBlockTitle,
+  title={#2},
+  arc=2mm, boxrule=0.5mm,
+  left=2mm, right=2mm, top=2mm, bottom=2mm,
+  toptitle=1mm, bottomtitle=1mm,
+  fonttitle=\bfseries, drop shadow,
+  tag-outer=Div,
+  #1
+}
+\DeclareTColorBox{alertblock}{ O{} m }{
+  enhanced, breakable,
+  colframe=talkAlertFrame, colback=talkAlertBack, coltitle=talkAlertTitle,
+  title={#2},
+  arc=2mm, boxrule=0.5mm,
+  left=2mm, right=2mm, top=2mm, bottom=2mm,
+  toptitle=1mm, bottomtitle=1mm,
+  fonttitle=\bfseries, drop shadow,
+  tag-outer=Div,
+  #1
+}
+\DeclareTColorBox{exampleblock}{ O{} m }{
+  enhanced, breakable,
+  colframe=talkExampleFrame, colback=talkExampleBack, coltitle=talkExampleTitle,
+  title={#2},
+  arc=2mm, boxrule=0.5mm,
+  left=2mm, right=2mm, top=2mm, bottom=2mm,
+  toptitle=1mm, bottomtitle=1mm,
+  fonttitle=\bfseries, drop shadow,
+  tag-outer=Div,
+  #1
+}
+%    \end{macrocode}
+%
+% \subsection{Theorem Environments}
+%
+%    \begin{macrocode}
+\NewDocumentCommand{\talk@theoremtitle}{mm}{%
+  #1\IfValueT{#2}{ (#2)}%
+}
+
+% 1. Theorem
+\NewDocumentEnvironment{theorem}{ D<>{all} o O{} }
+ {
+  \begin{block}[#3]{\talk@theoremtitle{Theorem}{#2}}
+  \itshape
+ }
+ {
+  \end{block}
+ }
+
+% 2. Corollary
+\NewDocumentEnvironment{corollary}{ D<>{all} o O{} }
+ {
+  \begin{block}[#3]{\talk@theoremtitle{Corollary}{#2}}
+  \itshape
+ }
+ {
+  \end{block}
+ }
+
+% 3. Definition
+\NewDocumentEnvironment{definition}{ D<>{all} o O{} }
+ {
+  \begin{block}[#3]{\talk@theoremtitle{Definition}{#2}}
+ }
+ {
+  \end{block}
+ }
+
+% 4. Fact
+\NewDocumentEnvironment{fact}{ D<>{all} o O{} }
+ {
+  \begin{block}[#3]{\talk@theoremtitle{Fact}{#2}}
+ }
+ {
+  \end{block}
+ }
+
+% 5. Example
+\NewDocumentEnvironment{example}{ D<>{all} o O{} }
+ {
+  \begin{exampleblock}[#3]{\talk@theoremtitle{Example}{#2}}
+ }
+ {
+  \end{exampleblock}
+ }
+
+% 6. Proof
+% Robust implementation using a hidden tcolorbox for tagging safety.
+\providecommand{\qedsymbol}{%
+  \ifdefined\square\ensuremath{\square}\else\rule{1ex}{1ex}\fi%
+}
+
+\DeclareTColorBox{talk@proofbox}{ m }{
+  enhanced, breakable,
+  frame hidden, interior hidden,
+  left=0pt, right=0pt, top=0pt, bottom=0pt,
+  title={#1},
+  coltitle=black, fonttitle=\bfseries,
+  attach boxed title to top left={yshift=0pt},
+  boxed title style={frame hidden, interior hidden, left=0pt},
+  tag-outer=Div
+}
+
+\NewDocumentEnvironment{proof}{ D<>{all} o }
+ {
+  \begin{talk@proofbox}{\IfValueTF{#2}{Proof (#2).}{Proof.}}
+ }
+ {
+  \hfill\qedsymbol
+  \end{talk@proofbox}
+ }
+\ExplSyntaxOn
+%    \end{macrocode}
+%</class>
+%
+% \end{implementation}

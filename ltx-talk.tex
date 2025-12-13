@@ -29,6 +29,7 @@ for those people who are interested.
 \DocumentMetadata{pdfversion = 2.0, lang = en}
 
 \documentclass{l3doc}
+\PageIndex
 
 \usepackage{siunitx}
 \usepackage{unicode-math}
@@ -67,6 +68,7 @@ for those people who are interested.
 \def\filedate{2025-12-01}
 \def\fileversion{v0.3.4}
 
+\AtBeginDocument{\hypersetup{colorlinks=true,linkcolor=blue,linktoc=all}}
 \begin{document}
 
 \title{%
@@ -1139,6 +1141,67 @@ specified slides.
 Environment version of the \cs{alert} command.
 
 \subsection{Block environments}
+\index{block environments}
+\index{environments!block}
+
+The class provides a comprehensive set of environments for structuring presentations, compatible with \pkg{beamer} syntax but accessible by default.
+
+\subsubsection{Standard Blocks}
+\begin{syntax}
+  \cs{begin}\{\texttt{block}\}\oarg{options}\Arg{title}
+    \meta{content}
+  \cs{end}\{\texttt{block}\}
+\end{syntax}
+Available environments: \env{block}, \env{alertblock}, \env{exampleblock}.
+\index{block environment@\texttt{block} environment}
+\index{alertblock environment@\texttt{alertblock} environment}
+\index{exampleblock environment@\texttt{exampleblock} environment}
+
+\subsubsection{Theorems and Proofs}
+\index{theorems}
+\index{proofs}
+
+The class supports standard theorem environments.
+\begin{syntax}
+  \cs{begin}\{\texttt{theorem}\}\meta{action}\oarg{addition}\oarg{options}
+    \dots
+  \cs{end}\{\texttt{theorem}\}
+\end{syntax}
+Available environments: \env{theorem}, \env{corollary}, \env{definition}, \env{fact}, \env{example}.
+The \env{proof} environment is also available and automatically includes a QED symbol.
+
+\subsubsection{PDF Tagging and Accessibility}
+\index{accessibility}
+\index{tagging!PDF}
+\index{tagging!blocks}
+
+By default, all blocks are wrapped in a \texttt{Div} structure tag in the PDF. This ensures that screen readers recognize the block as a distinct grouping of content.
+
+You can map specific blocks to semantic tags using the \texttt{tag-outer} option:
+
+\begin{verbatim}
+  \begin{block}[tag-outer=Aside]{Semantic Note}
+     This is a side note.
+  \end{block}
+\end{verbatim}
+
+\begin{table}[h]
+\centering
+\caption{Options for Block and Theorem Environments}
+\label{tab:block-options}
+\begin{tabular}{l p{8cm}}
+\hline
+\textbf{Option} & \textbf{Description} \\ \hline
+\texttt{tag-outer} & Sets the PDF structure tag (Default: \texttt{Div}). \\
+\texttt{colframe} & Overrides the frame color. \\
+\texttt{colback} & Overrides the background color. \\
+\texttt{coltitle} & Overrides the title text color. \\
+\texttt{colupper} & Overrides the body text color. \\
+\texttt{title} & (For blocks) Sets the title text. \\
+\hline
+\end{tabular}
+\end{table}
+
 
 \subsection{Figures and tables}
 
