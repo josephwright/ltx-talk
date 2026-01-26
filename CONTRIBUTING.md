@@ -5,7 +5,7 @@
 To help you focus contributions in areas that are likely to be accepted, there
 are some broad goals that are worth bearing in mind
 
-- The core aim of `ltx-talk` is to create taggd PDFs for presentations
+- The core aim of `ltx-talk` is to create tagged PDFs for presentations
 - As far as possible, `ltx-talk` is self-contained, building on functionality of
   the LaTeX kernel, including the development code in
   [`latex-lab`](https://ctan.org/pkg/latex-lab)
