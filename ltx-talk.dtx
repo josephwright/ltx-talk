@@ -402,13 +402,15 @@
     \RequirePackage { mathtools }
     \sys_if_engine_luatex:TF
       {
-        \RequirePackage { lua-unicode-math }
+        \RequirePackage { lum-newcomputermodernsans }
         \tagpdfsetup { math / mathml / luamml / load = true }
       }
-      { \RequirePackage { unicode-math } }
+      {
+        \RequirePackage { unicode-math }
+        \setmathfont { NewCMSansMath-Regular.otf }
+      }
     \setmainfont { NewCMSans10-Regular.otf }
     \setsansfont { NewCMSans10-Regular.otf }
-    \setmathfont { NewCMSansMath-Regular.otf }
   }
   {
     \RequirePackage { sansmathfonts }
