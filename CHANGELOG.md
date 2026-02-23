@@ -8,6 +8,10 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- Load math font with lum-newcomputermodernsans rather than `\setmathfont` when luatex is detected
+
 ## [v0.4.6] - 2026-02-18
 
 ### Changed
