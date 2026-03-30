@@ -34,7 +34,7 @@ jobs:
           package_file: .github/tl_packages
       - run: tex ltx-talk.ins && cp *.cls examples
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
