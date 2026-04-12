@@ -8,6 +8,10 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Fix typos in header template doc
+
 ## [v0.4.9] - 2026-04-02
 
 ### Fixed
