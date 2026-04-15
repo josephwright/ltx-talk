@@ -8,6 +8,11 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Only show current subsection if toc used in subsection (see issue
+  [\#203](https://github.com/josephwright/ltx-talk/issues/203))
+
 ## [v0.4.11] - 2026-04-14
 
 ### Changed
