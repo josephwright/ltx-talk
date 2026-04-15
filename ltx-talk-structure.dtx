@@ -393,6 +393,7 @@
 %   if we are in the current section, show fully, else make semi-opaque. Needs
 %   a rounded-out interface but the basic idea will be the same.
 %    \begin{macrocode}
+\ExplSyntaxOn
 \cs_new_protected:Npn \@@_toc_dest:n
   {
     \exp_after:wN \@@_toc_dest:w \@contentsline@destination
@@ -400,7 +401,22 @@
   }
 \cs_new_protected:Npn \@@_toc_dest:w #1 . #2 . #3 . #4 . #5 \q_stop #6
   {
-    \int_compare:nNnTF { \value { section } } = {#2}
+    \bool_lazy_or:nnTF 
+      {
+        \bool_lazy_and_p:nn 
+          {
+            \int_compare_p:nNn { \value { section } } = {#2}
+          } {
+            \int_compare_p:nNn { \value { subsection } } = \c_zero_int
+          }
+      } {
+         \bool_lazy_and_p:nn 
+            {
+              \int_compare_p:nNn { \value { section } } = {#2}
+            } {
+              \int_compare_p:nNn { \value { subsection } } = {#3}
+            }
+      }
       {#6}
       {
         \opacity_begin:n { 0.2 }
