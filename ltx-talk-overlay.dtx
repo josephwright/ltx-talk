@@ -490,13 +490,20 @@
             \clist_map_inline:Nn \l_@@_decode_overlays_clist 
               {
                 \seq_set_split:Nnn \l_tmpa_seq {-} {##1}
-                \int_compare:nNvT 
-                  {\seq_item:Nn \l_tmpa_seq {-1}} > 
-                  {g_@@_temporal_\tl_to_str:n {#1}_max_int}
+                \tl_if_blank:eTF {\seq_item:Nn \l_tmpa_seq {-1}}
                   {
-                    \int_gset:cn 
+                    \int_gset:cV 
                       {g_@@_temporal_\tl_to_str:n {#1}_max_int}
-                      {\seq_item:Nn \l_tmpa_seq {-1}}
+                      \c_max_int
+                  } {
+                    \int_compare:nNvT 
+                      {\seq_item:Nn \l_tmpa_seq {-1}} > 
+                      {g_@@_temporal_\tl_to_str:n {#1}_max_int}
+                      {
+                        \int_gset:cn 
+                          {g_@@_temporal_\tl_to_str:n {#1}_max_int}
+                          {\seq_item:Nn \l_tmpa_seq {-1}}
+                      }
                   }
               }
           }
