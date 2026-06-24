@@ -73,180 +73,182 @@ Completed box being shipped out [1]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 175.696fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,1,-1,}
-.....\marks4{b+,1,-1,}
-.....\pdfcolorstack 1 push {/opacity0.15 gs}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(57.61662+0.0)x448.92128, glue set 196.0079fil
-......\hbox(0.0+0.0)x0.0
-......\hbox(57.61662+0.0)x56.90549
-.......\glue -2.84544
-.......\hbox(0.0+0.0)x0.0, shifted 2.84544
-........\pdfliteral{q }
-........\pdfliteral{0 G }
-........\pdfliteral{0 g }
-........\pdfliteral{0.3985 w }
+.....\hbox(57.61662+0.0)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,1,-1,}
+......\marks4{b+,1,-1,}
+......\vbox(57.61662+0.0)x448.92128
+.......\pdfcolorstack 1 push {/opacity0.15 gs}
+.......\glue(\parskip) 0.0 plus 1.0
+.......\glue(\parskip) 0.0
+.......\hbox(57.61662+0.0)x448.92128, glue set 196.0079fil
 ........\hbox(0.0+0.0)x0.0
-.........\pdfliteral{q }
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\glue 0.0
-.........\glue 0.0
-.........\hbox(0.0+0.0)x0.0
+........\hbox(57.61662+0.0)x56.90549
+.........\glue -2.84544
+.........\hbox(0.0+0.0)x0.0, shifted 2.84544
+..........\pdfliteral{q }
+..........\pdfliteral{0 G }
+..........\pdfliteral{0 g }
+..........\pdfliteral{0.3985 w }
 ..........\hbox(0.0+0.0)x0.0
 ...........\pdfliteral{q }
 ...........\glue 0.0
-...........\pdfliteral{Q }
-.........\glue 0.0
-.........\hbox(0.0+0.0)x0.0
-..........\hbox(0.0+0.0)x0.0
 ...........\pdfliteral{q }
 ...........\glue 0.0
-...........\pdfliteral{Q }
-.........\glue 0.0
-.........\hbox(0.0+0.0)x0.0
-..........\hbox(0.0+0.0)x0.0
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0
+............\hbox(0.0+0.0)x0.0
+.............\pdfliteral{q }
+.............\glue 0.0
+.............\pdfliteral{Q }
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0
+............\hbox(0.0+0.0)x0.0
+.............\pdfliteral{q }
+.............\glue 0.0
+.............\pdfliteral{Q }
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0
+............\hbox(0.0+0.0)x0.0
+.............\pdfliteral{q }
+.............\glue 0.0
+.............\pdfliteral{Q }
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0
+............\hbox(0.0+0.0)x0.0
+.............\pdfliteral{q }
+.............\glue 0.0
+.............\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
 ...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
+...........\pdfliteral{14.54192 32.4572 m }
+...........\pdfliteral{7.56854 31.23831 -3.54333 18.62376 8.19225 7.39856 c }
+...........\pdfliteral{19.956 -3.82664 81.15709 3.68521 51.53429 40.22429 c }
+...........\pdfliteral{26.58939 26.81604 35.15019 39.09018 14.54192 32.4572 c }
+...........\pdfliteral{h }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
+...........\pdfliteral{25.51193 42.5202 m }
+...........\pdfliteral{39.68533 42.5202 m }
+...........\pdfliteral{39.68533 52.30501 33.33978 60.23695 25.51193 60.23695 c }
+...........\pdfliteral{17.68408 60.23695 11.33855 52.30501 11.33855 42.5202 c }
+...........\pdfliteral{11.33855 32.73538 17.68408 24.80345 25.51193 24.80345 c }
+...........\pdfliteral{33.33978 24.80345 39.68533 32.73538 39.68533 42.5202 c }
+...........\pdfliteral{h }
+...........\pdfliteral{25.51193 42.5202 m }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0.875 0.5 0.125 rg 0.875 0.5 0.125 RG}
+...........\pdfliteral{11.50896 41.72649 m }
+...........\pdfliteral{18.22713 43.37057 15.33563 36.93571 25.79568 38.83498 c }
+...........\pdfliteral{2.35255 24.09494 7.6252 38.80685 11.50896 41.72649 c }
+...........\pdfliteral{h }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
+...........\pdfliteral{23.263 44.85179 m }
+...........\pdfliteral{25.64157 43.98607 m }
+...........\pdfliteral{26.31088 45.825 25.78856 47.70332 24.4749 48.18144 c }
+...........\pdfliteral{23.16125 48.65956 21.55376 47.55644 20.88445 45.71751 c }
+...........\pdfliteral{20.21513 43.87857 20.73746 42.00024 22.0511 41.52213 c }
+...........\pdfliteral{23.36475 41.044 24.97224 42.14713 25.64157 43.98607 c }
+...........\pdfliteral{h }
+...........\pdfliteral{23.263 44.85179 m }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0.0 g 0.0 G}
+...........\pdfliteral{23.96518 44.2947 m }
+...........\pdfliteral{24.91628 43.94853 m }
+...........\pdfliteral{25.29857 44.99887 25.18265 46.0053 24.65738 46.19647 c }
+...........\pdfliteral{24.1321 46.38766 23.39636 45.6912 23.01408 44.64085 c }
+...........\pdfliteral{22.6318 43.59053 22.74771 42.58409 23.273 42.39291 c }
+...........\pdfliteral{23.79826 42.20174 24.534 42.8982 24.91628 43.94853 c }
+...........\pdfliteral{h }
+...........\pdfliteral{23.96518 44.2947 m }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
+...........\pdfliteral{15.27176 46.93092 m }
+...........\pdfliteral{17.36542 46.16888 m }
+...........\pdfliteral{17.97746 47.85046 17.53627 49.55481 16.37997 49.97566 c }
+...........\pdfliteral{15.22368 50.39651 13.79016 49.37453 13.17812 47.69295 c }
+...........\pdfliteral{12.56607 46.01137 13.00726 44.30702 14.16356 43.88617 c }
+...........\pdfliteral{15.31984 43.46532 16.75336 44.4873 17.36542 46.16888 c }
+...........\pdfliteral{h }
+...........\pdfliteral{15.27176 46.93092 m }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0.0 g 0.0 G}
+...........\pdfliteral{15.9738 46.37344 m }
+...........\pdfliteral{16.73549 46.09622 m }
+...........\pdfliteral{17.07977 47.04216 17.01788 47.93312 16.59721 48.08623 c }
+...........\pdfliteral{16.17654 48.23932 15.55643 47.59662 15.21213 46.65067 c }
+...........\pdfliteral{14.86783 45.70473 14.92973 44.81377 15.3504 44.66068 c }
+...........\pdfliteral{15.77107 44.50757 16.39119 45.15028 16.73549 46.09622 c }
+...........\pdfliteral{h }
+...........\pdfliteral{15.9738 46.37344 m }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
 ...........\glue 0.0
 ...........\pdfliteral{Q }
-.........\glue 0.0
-.........\hbox(0.0+0.0)x0.0
-..........\hbox(0.0+0.0)x0.0
-...........\pdfliteral{q }
 ...........\glue 0.0
 ...........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
-.........\pdfliteral{14.54192 32.4572 m }
-.........\pdfliteral{7.56854 31.23831 -3.54333 18.62376 8.19225 7.39856 c }
-.........\pdfliteral{19.956 -3.82664 81.15709 3.68521 51.53429 40.22429 c }
-.........\pdfliteral{26.58939 26.81604 35.15019 39.09018 14.54192 32.4572 c }
-.........\pdfliteral{h }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
-.........\pdfliteral{25.51193 42.5202 m }
-.........\pdfliteral{39.68533 42.5202 m }
-.........\pdfliteral{39.68533 52.30501 33.33978 60.23695 25.51193 60.23695 c }
-.........\pdfliteral{17.68408 60.23695 11.33855 52.30501 11.33855 42.5202 c }
-.........\pdfliteral{11.33855 32.73538 17.68408 24.80345 25.51193 24.80345 c }
-.........\pdfliteral{33.33978 24.80345 39.68533 32.73538 39.68533 42.5202 c }
-.........\pdfliteral{h }
-.........\pdfliteral{25.51193 42.5202 m }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0.875 0.5 0.125 rg 0.875 0.5 0.125 RG}
-.........\pdfliteral{11.50896 41.72649 m }
-.........\pdfliteral{18.22713 43.37057 15.33563 36.93571 25.79568 38.83498 c }
-.........\pdfliteral{2.35255 24.09494 7.6252 38.80685 11.50896 41.72649 c }
-.........\pdfliteral{h }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
-.........\pdfliteral{23.263 44.85179 m }
-.........\pdfliteral{25.64157 43.98607 m }
-.........\pdfliteral{26.31088 45.825 25.78856 47.70332 24.4749 48.18144 c }
-.........\pdfliteral{23.16125 48.65956 21.55376 47.55644 20.88445 45.71751 c }
-.........\pdfliteral{20.21513 43.87857 20.73746 42.00024 22.0511 41.52213 c }
-.........\pdfliteral{23.36475 41.044 24.97224 42.14713 25.64157 43.98607 c }
-.........\pdfliteral{h }
-.........\pdfliteral{23.263 44.85179 m }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0.0 g 0.0 G}
-.........\pdfliteral{23.96518 44.2947 m }
-.........\pdfliteral{24.91628 43.94853 m }
-.........\pdfliteral{25.29857 44.99887 25.18265 46.0053 24.65738 46.19647 c }
-.........\pdfliteral{24.1321 46.38766 23.39636 45.6912 23.01408 44.64085 c }
-.........\pdfliteral{22.6318 43.59053 22.74771 42.58409 23.273 42.39291 c }
-.........\pdfliteral{23.79826 42.20174 24.534 42.8982 24.91628 43.94853 c }
-.........\pdfliteral{h }
-.........\pdfliteral{23.96518 44.2947 m }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
-.........\pdfliteral{15.27176 46.93092 m }
-.........\pdfliteral{17.36542 46.16888 m }
-.........\pdfliteral{17.97746 47.85046 17.53627 49.55481 16.37997 49.97566 c }
-.........\pdfliteral{15.22368 50.39651 13.79016 49.37453 13.17812 47.69295 c }
-.........\pdfliteral{12.56607 46.01137 13.00726 44.30702 14.16356 43.88617 c }
-.........\pdfliteral{15.31984 43.46532 16.75336 44.4873 17.36542 46.16888 c }
-.........\pdfliteral{h }
-.........\pdfliteral{15.27176 46.93092 m }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0.0 g 0.0 G}
-.........\pdfliteral{15.9738 46.37344 m }
-.........\pdfliteral{16.73549 46.09622 m }
-.........\pdfliteral{17.07977 47.04216 17.01788 47.93312 16.59721 48.08623 c }
-.........\pdfliteral{16.17654 48.23932 15.55643 47.59662 15.21213 46.65067 c }
-.........\pdfliteral{14.86783 45.70473 14.92973 44.81377 15.3504 44.66068 c }
-.........\pdfliteral{15.77107 44.50757 16.39119 45.15028 16.73549 46.09622 c }
-.........\pdfliteral{h }
-.........\pdfliteral{15.9738 46.37344 m }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\pdfliteral{Q }
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\pdfliteral{n }
-........\pdfliteral{Q }
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\pdfcolorstack 1 pop
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,1,2,}
-.....\marks4{e+,1,2,}
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral{n }
+..........\pdfliteral{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\pdfcolorstack 1 pop
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,1,2,}
+......\marks4{e+,1,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -358,198 +360,200 @@ Completed box being shipped out [2]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 175.696fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfcolorstack 1 push {/opacity1 gs}
-.....\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
-.....\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-.....\marks4{b-,4,7,text,,,}
-.....\marks4{b+,4,7,text,,,}
-.....\pdfliteral page{EMC}
-.....\marks4{e-,4,7,}
-.....\marks4{e+,4,7,}
-.....\write1{\new@label@record{mcid-5}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{5}{tagmcid}{\__property_code_tagmcid: }}}
-.....\pdfliteral shipout page{/Figure <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-.....\marks4{b-,5,8,Figure,,,}
-.....\marks4{b+,5,8,Figure,,,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(57.61662+0.0)x448.92128, glue set 196.0079fil
-......\hbox(0.0+0.0)x0.0
-......\hbox(57.61662+0.0)x56.90549
-.......\glue -2.84544
-.......\hbox(0.0+0.0)x0.0, shifted 2.84544
-........\pdfliteral{q }
-........\pdfliteral{0 G }
-........\pdfliteral{0 g }
-........\pdfliteral{0.3985 w }
+.....\hbox(57.61662+0.0)x448.92128
+......\vbox(57.61662+0.0)x448.92128
+.......\pdfcolorstack 1 push {/opacity1 gs}
+.......\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
+.......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+.......\marks4{b-,4,7,text,,,}
+.......\marks4{b+,4,7,text,,,}
+.......\pdfliteral page{EMC}
+.......\marks4{e-,4,7,}
+.......\marks4{e+,4,7,}
+.......\write1{\new@label@record{mcid-5}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{5}{tagmcid}{\__property_code_tagmcid: }}}
+.......\pdfliteral shipout page{/Figure <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+.......\marks4{b-,5,8,Figure,,,}
+.......\marks4{b+,5,8,Figure,,,}
+.......\glue(\parskip) 0.0 plus 1.0
+.......\glue(\parskip) 0.0
+.......\hbox(57.61662+0.0)x448.92128, glue set 196.0079fil
 ........\hbox(0.0+0.0)x0.0
-.........\pdfliteral{q }
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\glue 0.0
-.........\glue 0.0
-.........\hbox(0.0+0.0)x0.0
+........\hbox(57.61662+0.0)x56.90549
+.........\glue -2.84544
+.........\hbox(0.0+0.0)x0.0, shifted 2.84544
+..........\pdfliteral{q }
+..........\pdfliteral{0 G }
+..........\pdfliteral{0 g }
+..........\pdfliteral{0.3985 w }
 ..........\hbox(0.0+0.0)x0.0
 ...........\pdfliteral{q }
 ...........\glue 0.0
-...........\pdfliteral{Q }
-.........\glue 0.0
-.........\hbox(0.0+0.0)x0.0
-..........\hbox(0.0+0.0)x0.0
 ...........\pdfliteral{q }
 ...........\glue 0.0
-...........\pdfliteral{Q }
-.........\glue 0.0
-.........\hbox(0.0+0.0)x0.0
-..........\hbox(0.0+0.0)x0.0
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0
+............\hbox(0.0+0.0)x0.0
+.............\pdfliteral{q }
+.............\glue 0.0
+.............\pdfliteral{Q }
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0
+............\hbox(0.0+0.0)x0.0
+.............\pdfliteral{q }
+.............\glue 0.0
+.............\pdfliteral{Q }
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0
+............\hbox(0.0+0.0)x0.0
+.............\pdfliteral{q }
+.............\glue 0.0
+.............\pdfliteral{Q }
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0
+............\hbox(0.0+0.0)x0.0
+.............\pdfliteral{q }
+.............\glue 0.0
+.............\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
 ...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
+...........\pdfliteral{14.54192 32.4572 m }
+...........\pdfliteral{7.56854 31.23831 -3.54333 18.62376 8.19225 7.39856 c }
+...........\pdfliteral{19.956 -3.82664 81.15709 3.68521 51.53429 40.22429 c }
+...........\pdfliteral{26.58939 26.81604 35.15019 39.09018 14.54192 32.4572 c }
+...........\pdfliteral{h }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
+...........\pdfliteral{25.51193 42.5202 m }
+...........\pdfliteral{39.68533 42.5202 m }
+...........\pdfliteral{39.68533 52.30501 33.33978 60.23695 25.51193 60.23695 c }
+...........\pdfliteral{17.68408 60.23695 11.33855 52.30501 11.33855 42.5202 c }
+...........\pdfliteral{11.33855 32.73538 17.68408 24.80345 25.51193 24.80345 c }
+...........\pdfliteral{33.33978 24.80345 39.68533 32.73538 39.68533 42.5202 c }
+...........\pdfliteral{h }
+...........\pdfliteral{25.51193 42.5202 m }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0.875 0.5 0.125 rg 0.875 0.5 0.125 RG}
+...........\pdfliteral{11.50896 41.72649 m }
+...........\pdfliteral{18.22713 43.37057 15.33563 36.93571 25.79568 38.83498 c }
+...........\pdfliteral{2.35255 24.09494 7.6252 38.80685 11.50896 41.72649 c }
+...........\pdfliteral{h }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
+...........\pdfliteral{23.263 44.85179 m }
+...........\pdfliteral{25.64157 43.98607 m }
+...........\pdfliteral{26.31088 45.825 25.78856 47.70332 24.4749 48.18144 c }
+...........\pdfliteral{23.16125 48.65956 21.55376 47.55644 20.88445 45.71751 c }
+...........\pdfliteral{20.21513 43.87857 20.73746 42.00024 22.0511 41.52213 c }
+...........\pdfliteral{23.36475 41.044 24.97224 42.14713 25.64157 43.98607 c }
+...........\pdfliteral{h }
+...........\pdfliteral{23.263 44.85179 m }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0.0 g 0.0 G}
+...........\pdfliteral{23.96518 44.2947 m }
+...........\pdfliteral{24.91628 43.94853 m }
+...........\pdfliteral{25.29857 44.99887 25.18265 46.0053 24.65738 46.19647 c }
+...........\pdfliteral{24.1321 46.38766 23.39636 45.6912 23.01408 44.64085 c }
+...........\pdfliteral{22.6318 43.59053 22.74771 42.58409 23.273 42.39291 c }
+...........\pdfliteral{23.79826 42.20174 24.534 42.8982 24.91628 43.94853 c }
+...........\pdfliteral{h }
+...........\pdfliteral{23.96518 44.2947 m }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
+...........\pdfliteral{15.27176 46.93092 m }
+...........\pdfliteral{17.36542 46.16888 m }
+...........\pdfliteral{17.97746 47.85046 17.53627 49.55481 16.37997 49.97566 c }
+...........\pdfliteral{15.22368 50.39651 13.79016 49.37453 13.17812 47.69295 c }
+...........\pdfliteral{12.56607 46.01137 13.00726 44.30702 14.16356 43.88617 c }
+...........\pdfliteral{15.31984 43.46532 16.75336 44.4873 17.36542 46.16888 c }
+...........\pdfliteral{h }
+...........\pdfliteral{15.27176 46.93092 m }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\pdfcolorstack 0 push {0.0 g 0.0 G}
+...........\pdfliteral{15.9738 46.37344 m }
+...........\pdfliteral{16.73549 46.09622 m }
+...........\pdfliteral{17.07977 47.04216 17.01788 47.93312 16.59721 48.08623 c }
+...........\pdfliteral{16.17654 48.23932 15.55643 47.59662 15.21213 46.65067 c }
+...........\pdfliteral{14.86783 45.70473 14.92973 44.81377 15.3504 44.66068 c }
+...........\pdfliteral{15.77107 44.50757 16.39119 45.15028 16.73549 46.09622 c }
+...........\pdfliteral{h }
+...........\pdfliteral{15.9738 46.37344 m }
+...........\pdfliteral{f }
+...........\glue 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
 ...........\glue 0.0
 ...........\pdfliteral{Q }
-.........\glue 0.0
-.........\hbox(0.0+0.0)x0.0
-..........\hbox(0.0+0.0)x0.0
-...........\pdfliteral{q }
 ...........\glue 0.0
 ...........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
-.........\pdfliteral{14.54192 32.4572 m }
-.........\pdfliteral{7.56854 31.23831 -3.54333 18.62376 8.19225 7.39856 c }
-.........\pdfliteral{19.956 -3.82664 81.15709 3.68521 51.53429 40.22429 c }
-.........\pdfliteral{26.58939 26.81604 35.15019 39.09018 14.54192 32.4572 c }
-.........\pdfliteral{h }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
-.........\pdfliteral{25.51193 42.5202 m }
-.........\pdfliteral{39.68533 42.5202 m }
-.........\pdfliteral{39.68533 52.30501 33.33978 60.23695 25.51193 60.23695 c }
-.........\pdfliteral{17.68408 60.23695 11.33855 52.30501 11.33855 42.5202 c }
-.........\pdfliteral{11.33855 32.73538 17.68408 24.80345 25.51193 24.80345 c }
-.........\pdfliteral{33.33978 24.80345 39.68533 32.73538 39.68533 42.5202 c }
-.........\pdfliteral{h }
-.........\pdfliteral{25.51193 42.5202 m }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0.875 0.5 0.125 rg 0.875 0.5 0.125 RG}
-.........\pdfliteral{11.50896 41.72649 m }
-.........\pdfliteral{18.22713 43.37057 15.33563 36.93571 25.79568 38.83498 c }
-.........\pdfliteral{2.35255 24.09494 7.6252 38.80685 11.50896 41.72649 c }
-.........\pdfliteral{h }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
-.........\pdfliteral{23.263 44.85179 m }
-.........\pdfliteral{25.64157 43.98607 m }
-.........\pdfliteral{26.31088 45.825 25.78856 47.70332 24.4749 48.18144 c }
-.........\pdfliteral{23.16125 48.65956 21.55376 47.55644 20.88445 45.71751 c }
-.........\pdfliteral{20.21513 43.87857 20.73746 42.00024 22.0511 41.52213 c }
-.........\pdfliteral{23.36475 41.044 24.97224 42.14713 25.64157 43.98607 c }
-.........\pdfliteral{h }
-.........\pdfliteral{23.263 44.85179 m }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0.0 g 0.0 G}
-.........\pdfliteral{23.96518 44.2947 m }
-.........\pdfliteral{24.91628 43.94853 m }
-.........\pdfliteral{25.29857 44.99887 25.18265 46.0053 24.65738 46.19647 c }
-.........\pdfliteral{24.1321 46.38766 23.39636 45.6912 23.01408 44.64085 c }
-.........\pdfliteral{22.6318 43.59053 22.74771 42.58409 23.273 42.39291 c }
-.........\pdfliteral{23.79826 42.20174 24.534 42.8982 24.91628 43.94853 c }
-.........\pdfliteral{h }
-.........\pdfliteral{23.96518 44.2947 m }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
-.........\pdfliteral{15.27176 46.93092 m }
-.........\pdfliteral{17.36542 46.16888 m }
-.........\pdfliteral{17.97746 47.85046 17.53627 49.55481 16.37997 49.97566 c }
-.........\pdfliteral{15.22368 50.39651 13.79016 49.37453 13.17812 47.69295 c }
-.........\pdfliteral{12.56607 46.01137 13.00726 44.30702 14.16356 43.88617 c }
-.........\pdfliteral{15.31984 43.46532 16.75336 44.4873 17.36542 46.16888 c }
-.........\pdfliteral{h }
-.........\pdfliteral{15.27176 46.93092 m }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{q }
-.........\pdfcolorstack 0 push {0.0 g 0.0 G}
-.........\pdfliteral{15.9738 46.37344 m }
-.........\pdfliteral{16.73549 46.09622 m }
-.........\pdfliteral{17.07977 47.04216 17.01788 47.93312 16.59721 48.08623 c }
-.........\pdfliteral{16.17654 48.23932 15.55643 47.59662 15.21213 46.65067 c }
-.........\pdfliteral{14.86783 45.70473 14.92973 44.81377 15.3504 44.66068 c }
-.........\pdfliteral{15.77107 44.50757 16.39119 45.15028 16.73549 46.09622 c }
-.........\pdfliteral{h }
-.........\pdfliteral{15.9738 46.37344 m }
-.........\pdfliteral{f }
-.........\glue 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{Q }
-.........\glue 0.0
-.........\pdfliteral{Q }
-.........\hbox(0.0+0.0)x0.0
-..........\pdfsavepos
-..........\write1{\noexpand \pgfsyspdfmark {pgfid2}{\the \pdflastxpos }{\the \pdflastypos }}
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\pdfliteral{n }
-........\pdfliteral{Q }
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\pdfliteral page{EMC}
-......\write1{\new@label@record{mcid-6}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{6}{tagmcid}{\__property_code_tagmcid: }}}
-......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-......\pdfcolorstack 1 pop
-......\pdfliteral page{EMC}
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\marks4{e-,5,8,}
-.....\marks4{e+,5,8,}
-.....\marks4{b-,6,7,text,,,}
-.....\marks4{b+,6,7,text,,,}
-.....\marks4{e-,6,6,}
-.....\marks4{e+,6,6,}
+...........\hbox(0.0+0.0)x0.0
+............\pdfsavepos
+............\write1{\noexpand \pgfsyspdfmark {pgfid2}{\the \pdflastxpos }{\the \pdflastypos }}
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral{n }
+..........\pdfliteral{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\pdfliteral page{EMC}
+........\write1{\new@label@record{mcid-6}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{6}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\pdfcolorstack 1 pop
+........\pdfliteral page{EMC}
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\marks4{e-,5,8,}
+.......\marks4{e+,5,8,}
+.......\marks4{b-,6,7,text,,,}
+.......\marks4{b+,6,7,text,,,}
+.......\marks4{e-,6,7,}
+.......\marks4{e+,6,7,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -641,109 +645,111 @@ Completed box being shipped out [3]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 216.28009fil
 .....\glue 0.0 plus 0.5fil
-.....\write1{\new@label@record{mcid-11}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{11}{tagmcid}{\__property_code_tagmcid: }}}
-.....\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-.....\marks4{b-,11,12,text,,,}
-.....\marks4{b+,11,12,text,,,}
-.....\pdfliteral page{EMC}
-.....\marks4{e-,11,12,}
-.....\marks4{e+,11,12,}
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,12,-1,}
-.....\marks4{b+,12,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(17.03253+0.0)x448.92128, glue set 202.75902fil
-......\hbox(0.0+0.0)x0.0
-......\hbox(17.03253+0.0)x43.40326
-.......\glue 21.70163
-.......\hbox(0.0+0.0)x0.0, shifted -8.51627
-........\pdfliteral{q }
-........\pdfliteral{0 G }
-........\pdfliteral{0 g }
-........\pdfliteral{0.3985 w }
+.....\hbox(17.03253+0.0)x448.92128
+......\vbox(17.03253+0.0)x448.92128
+.......\write1{\new@label@record{mcid-11}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{11}{tagmcid}{\__property_code_tagmcid: }}}
+.......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+.......\marks4{b-,11,12,text,,,}
+.......\marks4{b+,11,12,text,,,}
+.......\pdfliteral page{EMC}
+.......\marks4{e-,11,12,}
+.......\marks4{e+,11,12,}
+.......\pdfliteral page{/Artifact BMC}
+.......\marks4{b-,12,-1,}
+.......\marks4{b+,12,-1,}
+.......\glue(\parskip) 0.0 plus 1.0
+.......\glue(\parskip) 0.0
+.......\hbox(17.03253+0.0)x448.92128, glue set 202.75902fil
 ........\hbox(0.0+0.0)x0.0
-.........\pdfliteral{q }
-.........\hbox(0.0+0.0)x0.0
+........\hbox(17.03253+0.0)x43.40326
+.........\glue 21.70163
+.........\hbox(0.0+0.0)x0.0, shifted -8.51627
+..........\pdfliteral{q }
+..........\pdfliteral{0 G }
+..........\pdfliteral{0 g }
+..........\pdfliteral{0.3985 w }
 ..........\hbox(0.0+0.0)x0.0
 ...........\pdfliteral{q }
-...........\glue 0.0
-...........\glue 0.0
-...........\glue 0.0
-...........\glue 0.0
-...........\glue 0.0
-...........\pdfliteral{q }
 ...........\hbox(0.0+0.0)x0.0
-............\glue -18.05203
-............\hbox(0.0+0.0)x0.0, shifted 2.73755
-.............\pdfliteral{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+............\hbox(0.0+0.0)x0.0
+.............\pdfliteral{q }
+.............\glue 0.0
+.............\glue 0.0
+.............\glue 0.0
+.............\glue 0.0
+.............\glue 0.0
 .............\pdfliteral{q }
 .............\hbox(0.0+0.0)x0.0
-..............\hbox(7.60422+2.12914)x36.10406
-...............\pdfliteral page{EMC}
-...............\marks4{e-,14,12,}
-...............\marks4{e+,14,12,}
-...............\write1{\new@label@record{mcid-15}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{15}{tagmcid}{\__property_code_tagmcid: }}}
-...............\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-...............\marks4{b-,15,12,text,,,}
-...............\marks4{b+,15,12,text,,,}
-...............\pdfliteral{0 G }
-...............\pdfliteral{0 g }
-...............\hbox(7.60422+2.12914)x36.10406
-................\pdfliteral page{EMC}
-................\marks4{e-,12,12,}
-................\marks4{e+,12,12,}
-................\write1{\new@label@record{mcid-13}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{13}{tagmcid}{\__property_code_tagmcid: }}}
-................\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-................\marks4{b-,13,12,text,,,}
-................\marks4{b+,13,12,text,,,}
-................\T1/lmss/m/n/10.95 M
-................\T1/lmss/m/n/10.95 y
-................\glue 3.65 plus 1.825 minus 1.21666
-................\T1/lmss/m/n/10.95 t
-................\T1/lmss/m/n/10.95 e
-................\T1/lmss/m/n/10.95 x
-................\T1/lmss/m/n/10.95 t
-................\pdfliteral page{EMC}
-................\marks4{e-,13,12,}
-................\marks4{e+,13,12,}
-................\pdfliteral page{/Artifact BMC}
-................\marks4{b-,14,-1,}
-................\marks4{b+,14,-1,}
+..............\glue -18.05203
+..............\hbox(0.0+0.0)x0.0, shifted 2.73755
+...............\pdfliteral{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral{q }
+...............\hbox(0.0+0.0)x0.0
+................\hbox(7.60422+2.12914)x36.10406
+.................\pdfliteral page{EMC}
+.................\marks4{e-,14,12,}
+.................\marks4{e+,14,12,}
+.................\write1{\new@label@record{mcid-15}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{15}{tagmcid}{\__property_code_tagmcid: }}}
+.................\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+.................\marks4{b-,15,12,text,,,}
+.................\marks4{b+,15,12,text,,,}
+.................\pdfliteral{0 G }
+.................\pdfliteral{0 g }
+.................\hbox(7.60422+2.12914)x36.10406
+..................\pdfliteral page{EMC}
+..................\marks4{e-,12,12,}
+..................\marks4{e+,12,12,}
+..................\write1{\new@label@record{mcid-13}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{13}{tagmcid}{\__property_code_tagmcid: }}}
+..................\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..................\marks4{b-,13,12,text,,,}
+..................\marks4{b+,13,12,text,,,}
+..................\T1/lmss/m/n/10.95 M
+..................\T1/lmss/m/n/10.95 y
+..................\glue 3.65 plus 1.825 minus 1.21666
+..................\T1/lmss/m/n/10.95 t
+..................\T1/lmss/m/n/10.95 e
+..................\T1/lmss/m/n/10.95 x
+..................\T1/lmss/m/n/10.95 t
+..................\pdfliteral page{EMC}
+..................\marks4{e-,13,12,}
+..................\marks4{e+,13,12,}
+..................\pdfliteral page{/Artifact BMC}
+..................\marks4{b-,14,-1,}
+..................\marks4{b+,14,-1,}
+.................\glue 0.0
+.................\pdfliteral page{EMC}
+.................\marks4{e-,15,12,}
+.................\marks4{e+,15,12,}
+.................\pdfliteral page{/Artifact BMC}
+.................\marks4{b-,16,-1,}
+.................\marks4{b+,16,-1,}
+...............\pdfliteral{Q }
 ...............\glue 0.0
-...............\pdfliteral page{EMC}
-...............\marks4{e-,15,12,}
-...............\marks4{e+,15,12,}
-...............\pdfliteral page{/Artifact BMC}
-...............\marks4{b-,16,-1,}
-...............\marks4{b+,16,-1,}
+..............\glue 0.0 plus 1.0fil minus 1.0fil
 .............\pdfliteral{Q }
 .............\glue 0.0
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\pdfliteral{Q }
+.............\glue 0.0
+.............\pdfliteral{Q }
 ...........\glue 0.0
 ...........\glue 0.0
 ...........\pdfliteral{Q }
-.........\glue 0.0
-.........\glue 0.0
-.........\pdfliteral{Q }
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\pdfliteral{n }
-........\pdfliteral{Q }
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\pdfliteral page{EMC}
-......\write1{\new@label@record{mcid-17}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{17}{tagmcid}{\__property_code_tagmcid: }}}
-......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-......\pdfliteral page{EMC}
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\marks4{e-,16,12,}
-.....\marks4{e+,16,12,}
-.....\marks4{b-,17,12,text,,,}
-.....\marks4{b+,17,12,text,,,}
-.....\marks4{e-,17,11,}
-.....\marks4{e+,17,11,}
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral{n }
+..........\pdfliteral{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\pdfliteral page{EMC}
+........\write1{\new@label@record{mcid-17}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{17}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\pdfliteral page{EMC}
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\marks4{e-,16,12,}
+.......\marks4{e+,16,12,}
+.......\marks4{b-,17,12,text,,,}
+.......\marks4{b+,17,12,text,,,}
+.......\marks4{e-,17,12,}
+.......\marks4{e+,17,12,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0

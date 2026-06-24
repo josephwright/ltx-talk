@@ -122,7 +122,9 @@
 %  with setting the continuation boolean is needed as otherwise we get an
 %  infinite loop if there is an overlay specification for the frame itself.
 %  Tagging should not of itself force slide continuation, so the global
-%  boolean is reset for the tagged slide.
+%  boolean is reset for the tagged slide. The \cs{vbox:n} just before
+%  the content starts is there to make sure we are in vmode once potential
+%  tagging whatsits have been inserted.
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_slide:nn #1#2
   { 
@@ -163,10 +165,13 @@
                   \@@_frame_notag:n
                 }
                   {
-                    \bool_if:NTF \l_@@_frame_verb_bool
-                      { \@@_slide_aux:n }
-                      { \use:n }
-                        {#2}
+                    \vbox:n
+                      {
+                        \bool_if:NTF \l_@@_frame_verb_bool
+                          { \@@_slide_aux:n }
+                          { \use:n }
+                            {#2}
+                      }
                   }
                \@@_slide_end:
             }
@@ -208,6 +213,9 @@
 % \end{variable}
 %
 % \begin{macro}{\@@_slide_begin:, \@@_slide_end:}
+%   These functions set up the slide box, but leave us in horizontal mode:
+%   that is important to avoid issues with whatsits and spacing. We return
+%   to vertical mode once tagging has been addressed.
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_slide_begin:
   {
@@ -218,10 +226,13 @@
     \@@_cnt_save:
     \vbox_set:Nw \l_@@_slide_box
       \tl_gclear:N \g_@@_onslide_tl
+      \hbox_set:Nw \l_@@_tmp_box
   }
 \cs_new_protected:Npn \@@_slide_end:
   {
-      \tl_use:N \g_@@_onslide_tl
+        \tl_use:N \g_@@_onslide_tl
+      \hbox_set_end:
+      \box_use:N \l_@@_tmp_box
     \vbox_set_end:
     \bool_if:NT \g_@@_slide_continue_bool
       { \@@_cnt_restore: }

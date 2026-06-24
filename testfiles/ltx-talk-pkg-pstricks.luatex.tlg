@@ -69,23 +69,25 @@ Completed box being shipped out [1]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 176.40714fil, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page <lua data reference ...>
-.....\pdfliteral page <lua data reference ...>
-.....\pdfcolorstack 1 push {/opacity0.15 gs}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(56.90549+0.0)x448.92128, glue set 110.64967fil, direction TLT
-......\localpar
-.......\localinterlinepenalty=0
-.......\localbrokenpenalty=0
-.......\localleftbox=null
-.......\localrightbox=null
-......\hbox(0.0+0.0)x0.0, direction TLT
-......\box(56.90549+0.0)x227.62195
-......\pdfcolorstack 1 pop
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
+.....\hbox(56.90549+0.0)x448.92128, direction TLT
+......\vbox(56.90549+0.0)x448.92128, direction TLT
+.......\pdfliteral page <lua data reference ...>
+.......\pdfliteral page <lua data reference ...>
+.......\pdfcolorstack 1 push {/opacity0.15 gs}
+.......\glue(\parskip) 0.0 plus 1.0
+.......\glue(\parskip) 0.0
+.......\hbox(56.90549+0.0)x448.92128, glue set 110.64967fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\box(56.90549+0.0)x227.62195
+........\pdfcolorstack 1 pop
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
 .....\glue 0.0 plus 0.5fil
 ....\glue 0.0 plus 1.0fil
 ....\glue 0.0
@@ -181,23 +183,25 @@ Completed box being shipped out [2]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 176.40714fil, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\pdfcolorstack 1 push {/opacity1 gs}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(56.90549+0.0)x448.92128, glue set 110.64967fil, direction TLT
-......\localpar
-.......\localinterlinepenalty=0
-.......\localbrokenpenalty=0
-.......\localleftbox=null
-.......\localrightbox=null
-......\hbox(0.0+0.0)x0.0, direction TLT
-......\pdfliteral page <lua data reference ...>
-......\pdfliteral page <lua data reference ...>
-......\box(56.90549+0.0)x227.62195
-......\pdfcolorstack 1 pop
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
+.....\hbox(56.90549+0.0)x448.92128, direction TLT
+......\vbox(56.90549+0.0)x448.92128, direction TLT
+.......\pdfcolorstack 1 push {/opacity1 gs}
+.......\glue(\parskip) 0.0 plus 1.0
+.......\glue(\parskip) 0.0
+.......\hbox(56.90549+0.0)x448.92128, glue set 110.64967fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\box(56.90549+0.0)x227.62195
+........\pdfcolorstack 1 pop
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
 .....\glue 0.0 plus 0.5fil
 ....\glue 0.0 plus 1.0fil
 ....\glue 0.0

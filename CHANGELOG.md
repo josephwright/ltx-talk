@@ -16,6 +16,8 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ### Fixed
 
+- Handling of whatsits at start of slide box (see issue
+  [\#217](https://github.com/josephwright/ltx-talk/issues/217))
 - Behavior of `\temporal` (see issue
   [\#224](https://github.com/josephwright/ltx-talk/issues/224))
 

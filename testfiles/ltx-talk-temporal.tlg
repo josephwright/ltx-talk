@@ -71,36 +71,36 @@ Completed box being shipped out [1]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,1,-1,}
-.....\marks4{b+,1,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 185.3147fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 o
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 1
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 2
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 4
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,1,2,}
-.....\marks4{e+,1,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,1,-1,}
+......\marks4{b+,1,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 185.3147fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 o
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 1
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 2
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 4
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,1,2,}
+......\marks4{e+,1,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -197,36 +197,36 @@ Completed box being shipped out [2]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,4,-1,}
-.....\marks4{b+,4,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 185.3147fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 o
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 1
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 2
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 4
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,4,2,}
-.....\marks4{e+,4,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,4,-1,}
+......\marks4{b+,4,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 185.3147fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 o
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 1
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 2
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 4
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,4,2,}
+......\marks4{e+,4,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -322,33 +322,33 @@ Completed box being shipped out [3]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,7,-1,}
-.....\marks4{b+,7,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 191.39801fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 o
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 3
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 5
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,7,2,}
-.....\marks4{e+,7,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,7,-1,}
+......\marks4{b+,7,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 191.39801fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 o
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 3
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 5
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,7,2,}
+......\marks4{e+,7,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -444,38 +444,38 @@ Completed box being shipped out [4]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,10,-1,}
-.....\marks4{b+,10,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 6
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 7
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 8
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,10,2,}
-.....\marks4{e+,10,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,10,-1,}
+......\marks4{b+,10,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 6
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 7
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 8
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,10,2,}
+......\marks4{e+,10,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -571,33 +571,33 @@ Completed box being shipped out [5]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,13,-1,}
-.....\marks4{b+,13,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 191.39801fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 o
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 3
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 5
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,13,2,}
-.....\marks4{e+,13,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,13,-1,}
+......\marks4{b+,13,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 191.39801fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 o
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 3
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 5
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,13,2,}
+......\marks4{e+,13,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -693,38 +693,38 @@ Completed box being shipped out [6]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,16,-1,}
-.....\marks4{b+,16,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 6
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 7
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 8
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,16,2,}
-.....\marks4{e+,16,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,16,-1,}
+......\marks4{b+,16,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 6
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 7
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 8
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,16,2,}
+......\marks4{e+,16,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -820,38 +820,38 @@ Completed box being shipped out [7]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,19,-1,}
-.....\marks4{b+,19,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 6
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 7
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 8
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,19,2,}
-.....\marks4{e+,19,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,19,-1,}
+......\marks4{b+,19,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 6
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 7
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 8
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,19,2,}
+......\marks4{e+,19,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -960,37 +960,39 @@ Completed box being shipped out [8]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
-......\write1{\new@label@record{mcid-22}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{22}{tagmcid}{\__property_code_tagmcid: }}}
-......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 6
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 7
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 8
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\pdfliteral page{EMC}
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\marks4{b-,22,7,text,,,}
-.....\marks4{b+,22,7,text,,,}
-.....\marks4{e-,22,6,}
-.....\marks4{e+,22,6,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
+........\write1{\new@label@record{mcid-22}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{22}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 6
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 7
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 8
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\pdfliteral page{EMC}
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\marks4{b-,22,7,text,,,}
+.......\marks4{b+,22,7,text,,,}
+.......\marks4{e-,22,7,}
+.......\marks4{e+,22,7,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -1100,35 +1102,37 @@ Completed box being shipped out [9]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\hbox(7.60422+1.36874)x448.92128, glue set 185.3147fil
-......\write1{\new@label@record{mcid-27}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{27}{tagmcid}{\__property_code_tagmcid: }}}
-......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 o
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 1
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 2
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 4
-......\pdfliteral page{EMC}
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\marks4{b-,27,11,text,,,}
-.....\marks4{b+,27,11,text,,,}
-.....\marks4{e-,27,10,}
-.....\marks4{e+,27,10,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 185.3147fil
+........\write1{\new@label@record{mcid-27}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{27}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 o
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 1
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 2
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 4
+........\pdfliteral page{EMC}
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\marks4{b-,27,11,text,,,}
+.......\marks4{b+,27,11,text,,,}
+.......\marks4{e-,27,11,}
+.......\marks4{e+,27,11,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -1224,36 +1228,36 @@ Completed box being shipped out [10]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,32,-1,}
-.....\marks4{b+,32,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 185.3147fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 o
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 1
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 2
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 4
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,32,2,}
-.....\marks4{e+,32,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,32,-1,}
+......\marks4{b+,32,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 185.3147fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 o
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 1
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 2
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 4
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,32,2,}
+......\marks4{e+,32,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -1349,33 +1353,33 @@ Completed box being shipped out [11]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,35,-1,}
-.....\marks4{b+,35,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 191.39801fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 o
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 3
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 5
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,35,2,}
-.....\marks4{e+,35,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,35,-1,}
+......\marks4{b+,35,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 191.39801fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 o
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 3
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 5
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,35,2,}
+......\marks4{e+,35,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -1471,33 +1475,33 @@ Completed box being shipped out [12]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,38,-1,}
-.....\marks4{b+,38,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 191.39801fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 o
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 3
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 5
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,38,2,}
-.....\marks4{e+,38,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,38,-1,}
+......\marks4{b+,38,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 191.39801fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 o
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 3
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 5
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,38,2,}
+......\marks4{e+,38,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -1593,33 +1597,33 @@ Completed box being shipped out [13]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,41,-1,}
-.....\marks4{b+,41,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 191.39801fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 o
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 3
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 5
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,41,2,}
-.....\marks4{e+,41,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,41,-1,}
+......\marks4{b+,41,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 191.39801fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 o
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 3
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 5
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,41,2,}
+......\marks4{e+,41,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -1715,38 +1719,38 @@ Completed box being shipped out [14]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,44,-1,}
-.....\marks4{b+,44,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 6
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 7
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 8
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,44,2,}
-.....\marks4{e+,44,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,44,-1,}
+......\marks4{b+,44,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 6
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 7
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 8
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,44,2,}
+......\marks4{e+,44,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -1842,38 +1846,38 @@ Completed box being shipped out [15]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,47,-1,}
-.....\marks4{b+,47,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 6
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 7
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 8
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,47,2,}
-.....\marks4{e+,47,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,47,-1,}
+......\marks4{b+,47,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 6
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 7
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 8
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,47,2,}
+......\marks4{e+,47,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -1969,38 +1973,38 @@ Completed box being shipped out [16]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 224.33966fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,50,-1,}
-.....\marks4{b+,50,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 h
-......\T1/lmss/m/n/10.95 o
-......\kern-0.30418
-......\T1/lmss/m/n/10.95 w
-......\T1/lmss/m/n/10.95 n
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 6
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 7
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 8
-......\T1/lmss/m/n/10.95 ,
-......\glue 3.65 plus 2.28123 minus 0.97333
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\T1/lmss/m/n/10.95 .
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,50,2,}
-.....\marks4{e+,50,2,}
+.....\hbox(7.60422+1.36874)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,50,-1,}
+......\marks4{b+,50,-1,}
+......\vbox(7.60422+1.36874)x448.92128
+.......\hbox(7.60422+1.36874)x448.92128, glue set 184.79765fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 h
+........\T1/lmss/m/n/10.95 o
+........\kern-0.30418
+........\T1/lmss/m/n/10.95 w
+........\T1/lmss/m/n/10.95 n
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 6
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 7
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 8
+........\T1/lmss/m/n/10.95 ,
+........\glue 3.65 plus 2.28123 minus 0.97333
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\T1/lmss/m/n/10.95 .
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,50,2,}
+......\marks4{e+,50,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0

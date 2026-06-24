@@ -72,181 +72,183 @@ Completed box being shipped out [1]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 175.696fil, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page <lua data reference ...>
-.....\pdfliteral page <lua data reference ...>
-.....\pdfcolorstack 1 push {/opacity0.15 gs}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(57.61662+0.0)x448.92128, glue set 196.0079fil, direction TLT
-......\localpar
-.......\localinterlinepenalty=0
-.......\localbrokenpenalty=0
-.......\localleftbox=null
-.......\localrightbox=null
-......\hbox(0.0+0.0)x0.0, direction TLT
-......\hbox(57.61662+0.0)x56.90549, direction TLT
-.......\glue -2.84544
-.......\hbox(0.0+0.0)x0.0, shifted 2.84544, direction TLT
-........\pdfliteral origin{q }
-........\pdfliteral origin{0 G }
-........\pdfliteral origin{0 g }
-........\pdfliteral origin{0.3985 w }
+.....\hbox(57.61662+0.0)x448.92128, direction TLT
+......\vbox(57.61662+0.0)x448.92128, direction TLT
+.......\pdfliteral page <lua data reference ...>
+.......\pdfliteral page <lua data reference ...>
+.......\pdfcolorstack 1 push {/opacity0.15 gs}
+.......\glue(\parskip) 0.0 plus 1.0
+.......\glue(\parskip) 0.0
+.......\hbox(57.61662+0.0)x448.92128, glue set 196.0079fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
 ........\hbox(0.0+0.0)x0.0, direction TLT
-.........\pdfliteral origin{q }
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\hbox(0.0+0.0)x0.0, direction TLT
+........\hbox(57.61662+0.0)x56.90549, direction TLT
+.........\glue -2.84544
+.........\hbox(0.0+0.0)x0.0, shifted 2.84544, direction TLT
+..........\pdfliteral origin{q }
+..........\pdfliteral origin{0 G }
+..........\pdfliteral origin{0 g }
+..........\pdfliteral origin{0.3985 w }
 ..........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfliteral origin{q }
 ...........\glue(\spaceskip) 0.0
-...........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfliteral origin{q }
 ...........\glue(\spaceskip) 0.0
-...........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\glue(\spaceskip) 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
 ...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
+...........\pdfliteral origin{14.54192 32.4572 m }
+...........\pdfliteral origin{7.56854 31.23831 -3.54333 18.62376 8.19225 7.39856 c }
+...........\pdfliteral origin{19.956 -3.82664 81.15709 3.68521 51.53429 40.22429 c }
+...........\pdfliteral origin{26.58939 26.81604 35.15019 39.09018 14.54192 32.4572 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
+...........\pdfliteral origin{25.51193 42.5202 m }
+...........\pdfliteral origin{39.68533 42.5202 m }
+...........\pdfliteral origin{39.68533 52.30501 33.33978 60.23695 25.51193 60.23695 c }
+...........\pdfliteral origin{17.68408 60.23695 11.33855 52.30501 11.33855 42.5202 c }
+...........\pdfliteral origin{11.33855 32.73538 17.68408 24.80345 25.51193 24.80345 c }
+...........\pdfliteral origin{33.33978 24.80345 39.68533 32.73538 39.68533 42.5202 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{25.51193 42.5202 m }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0.875 0.5 0.125 rg 0.875 0.5 0.125 RG}
+...........\pdfliteral origin{11.50896 41.72649 m }
+...........\pdfliteral origin{18.22713 43.37057 15.33563 36.93571 25.79568 38.83498 c }
+...........\pdfliteral origin{2.35255 24.09494 7.6252 38.80685 11.50896 41.72649 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
+...........\pdfliteral origin{23.263 44.85179 m }
+...........\pdfliteral origin{25.64157 43.98607 m }
+...........\pdfliteral origin{26.31088 45.825 25.78856 47.70332 24.4749 48.18144 c }
+...........\pdfliteral origin{23.16125 48.65956 21.55376 47.55644 20.88445 45.71751 c }
+...........\pdfliteral origin{20.21513 43.87857 20.73746 42.00024 22.0511 41.52213 c }
+...........\pdfliteral origin{23.36475 41.044 24.97224 42.14713 25.64157 43.98607 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{23.263 44.85179 m }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0.0 g 0.0 G}
+...........\pdfliteral origin{23.96518 44.2947 m }
+...........\pdfliteral origin{24.91628 43.94853 m }
+...........\pdfliteral origin{25.29857 44.99887 25.18265 46.0053 24.65738 46.19647 c }
+...........\pdfliteral origin{24.1321 46.38766 23.39636 45.6912 23.01408 44.64085 c }
+...........\pdfliteral origin{22.6318 43.59053 22.74771 42.58409 23.273 42.39291 c }
+...........\pdfliteral origin{23.79826 42.20174 24.534 42.8982 24.91628 43.94853 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{23.96518 44.2947 m }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
+...........\pdfliteral origin{15.27176 46.93092 m }
+...........\pdfliteral origin{17.36542 46.16888 m }
+...........\pdfliteral origin{17.97746 47.85046 17.53627 49.55481 16.37997 49.97566 c }
+...........\pdfliteral origin{15.22368 50.39651 13.79016 49.37453 13.17812 47.69295 c }
+...........\pdfliteral origin{12.56607 46.01137 13.00726 44.30702 14.16356 43.88617 c }
+...........\pdfliteral origin{15.31984 43.46532 16.75336 44.4873 17.36542 46.16888 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{15.27176 46.93092 m }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0.0 g 0.0 G}
+...........\pdfliteral origin{15.9738 46.37344 m }
+...........\pdfliteral origin{16.73549 46.09622 m }
+...........\pdfliteral origin{17.07977 47.04216 17.01788 47.93312 16.59721 48.08623 c }
+...........\pdfliteral origin{16.17654 48.23932 15.55643 47.59662 15.21213 46.65067 c }
+...........\pdfliteral origin{14.86783 45.70473 14.92973 44.81377 15.3504 44.66068 c }
+...........\pdfliteral origin{15.77107 44.50757 16.39119 45.15028 16.73549 46.09622 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{15.9738 46.37344 m }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
 ...........\glue(\spaceskip) 0.0
 ...........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(0.0+0.0)x0.0, direction TLT
-...........\pdfliteral origin{q }
 ...........\glue(\spaceskip) 0.0
 ...........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
-.........\pdfliteral origin{14.54192 32.4572 m }
-.........\pdfliteral origin{7.56854 31.23831 -3.54333 18.62376 8.19225 7.39856 c }
-.........\pdfliteral origin{19.956 -3.82664 81.15709 3.68521 51.53429 40.22429 c }
-.........\pdfliteral origin{26.58939 26.81604 35.15019 39.09018 14.54192 32.4572 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
-.........\pdfliteral origin{25.51193 42.5202 m }
-.........\pdfliteral origin{39.68533 42.5202 m }
-.........\pdfliteral origin{39.68533 52.30501 33.33978 60.23695 25.51193 60.23695 c }
-.........\pdfliteral origin{17.68408 60.23695 11.33855 52.30501 11.33855 42.5202 c }
-.........\pdfliteral origin{11.33855 32.73538 17.68408 24.80345 25.51193 24.80345 c }
-.........\pdfliteral origin{33.33978 24.80345 39.68533 32.73538 39.68533 42.5202 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{25.51193 42.5202 m }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0.875 0.5 0.125 rg 0.875 0.5 0.125 RG}
-.........\pdfliteral origin{11.50896 41.72649 m }
-.........\pdfliteral origin{18.22713 43.37057 15.33563 36.93571 25.79568 38.83498 c }
-.........\pdfliteral origin{2.35255 24.09494 7.6252 38.80685 11.50896 41.72649 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
-.........\pdfliteral origin{23.263 44.85179 m }
-.........\pdfliteral origin{25.64157 43.98607 m }
-.........\pdfliteral origin{26.31088 45.825 25.78856 47.70332 24.4749 48.18144 c }
-.........\pdfliteral origin{23.16125 48.65956 21.55376 47.55644 20.88445 45.71751 c }
-.........\pdfliteral origin{20.21513 43.87857 20.73746 42.00024 22.0511 41.52213 c }
-.........\pdfliteral origin{23.36475 41.044 24.97224 42.14713 25.64157 43.98607 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{23.263 44.85179 m }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0.0 g 0.0 G}
-.........\pdfliteral origin{23.96518 44.2947 m }
-.........\pdfliteral origin{24.91628 43.94853 m }
-.........\pdfliteral origin{25.29857 44.99887 25.18265 46.0053 24.65738 46.19647 c }
-.........\pdfliteral origin{24.1321 46.38766 23.39636 45.6912 23.01408 44.64085 c }
-.........\pdfliteral origin{22.6318 43.59053 22.74771 42.58409 23.273 42.39291 c }
-.........\pdfliteral origin{23.79826 42.20174 24.534 42.8982 24.91628 43.94853 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{23.96518 44.2947 m }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
-.........\pdfliteral origin{15.27176 46.93092 m }
-.........\pdfliteral origin{17.36542 46.16888 m }
-.........\pdfliteral origin{17.97746 47.85046 17.53627 49.55481 16.37997 49.97566 c }
-.........\pdfliteral origin{15.22368 50.39651 13.79016 49.37453 13.17812 47.69295 c }
-.........\pdfliteral origin{12.56607 46.01137 13.00726 44.30702 14.16356 43.88617 c }
-.........\pdfliteral origin{15.31984 43.46532 16.75336 44.4873 17.36542 46.16888 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{15.27176 46.93092 m }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0.0 g 0.0 G}
-.........\pdfliteral origin{15.9738 46.37344 m }
-.........\pdfliteral origin{16.73549 46.09622 m }
-.........\pdfliteral origin{17.07977 47.04216 17.01788 47.93312 16.59721 48.08623 c }
-.........\pdfliteral origin{16.17654 48.23932 15.55643 47.59662 15.21213 46.65067 c }
-.........\pdfliteral origin{14.86783 45.70473 14.92973 44.81377 15.3504 44.66068 c }
-.........\pdfliteral origin{15.77107 44.50757 16.39119 45.15028 16.73549 46.09622 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{15.9738 46.37344 m }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{Q }
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\pdfliteral origin{n }
-........\pdfliteral origin{Q }
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\pdfcolorstack 1 pop
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral origin{n }
+..........\pdfliteral origin{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\pdfcolorstack 1 pop
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
 .....\glue 0.0 plus 0.5fil
 ....\glue 0.0 plus 1.0fil
 ....\glue 0.0
@@ -353,186 +355,188 @@ Completed box being shipped out [2]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 175.696fil, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\pdfcolorstack 1 push {/opacity1 gs}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(57.61662+0.0)x448.92128, glue set 196.0079fil, direction TLT
-......\localpar
-.......\localinterlinepenalty=0
-.......\localbrokenpenalty=0
-.......\localleftbox=null
-.......\localrightbox=null
-......\hbox(0.0+0.0)x0.0, direction TLT
-......\hbox(57.61662+0.0)x56.90549, direction TLT
-.......\glue -2.84544
-.......\hbox(0.0+0.0)x0.0, shifted 2.84544, direction TLT
-........\pdfliteral page <lua data reference ...>
-........\pdfliteral page <lua data reference ...>
-........\pdfliteral origin{q }
-........\pdfliteral origin{0 G }
-........\pdfliteral origin{0 g }
-........\pdfliteral origin{0.3985 w }
+.....\hbox(57.61662+0.0)x448.92128, direction TLT
+......\vbox(57.61662+0.0)x448.92128, direction TLT
+.......\pdfcolorstack 1 push {/opacity1 gs}
+.......\glue(\parskip) 0.0 plus 1.0
+.......\glue(\parskip) 0.0
+.......\hbox(57.61662+0.0)x448.92128, glue set 196.0079fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
 ........\hbox(0.0+0.0)x0.0, direction TLT
-.........\pdfliteral origin{q }
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\hbox(0.0+0.0)x0.0, direction TLT
+........\hbox(57.61662+0.0)x56.90549, direction TLT
+.........\glue -2.84544
+.........\hbox(0.0+0.0)x0.0, shifted 2.84544, direction TLT
+..........\pdfliteral page <lua data reference ...>
+..........\pdfliteral page <lua data reference ...>
+..........\pdfliteral origin{q }
+..........\pdfliteral origin{0 G }
+..........\pdfliteral origin{0 g }
+..........\pdfliteral origin{0.3985 w }
 ..........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfliteral origin{q }
 ...........\glue(\spaceskip) 0.0
-...........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfliteral origin{q }
 ...........\glue(\spaceskip) 0.0
-...........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\glue(\spaceskip) 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
 ...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
+...........\pdfliteral origin{14.54192 32.4572 m }
+...........\pdfliteral origin{7.56854 31.23831 -3.54333 18.62376 8.19225 7.39856 c }
+...........\pdfliteral origin{19.956 -3.82664 81.15709 3.68521 51.53429 40.22429 c }
+...........\pdfliteral origin{26.58939 26.81604 35.15019 39.09018 14.54192 32.4572 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
+...........\pdfliteral origin{25.51193 42.5202 m }
+...........\pdfliteral origin{39.68533 42.5202 m }
+...........\pdfliteral origin{39.68533 52.30501 33.33978 60.23695 25.51193 60.23695 c }
+...........\pdfliteral origin{17.68408 60.23695 11.33855 52.30501 11.33855 42.5202 c }
+...........\pdfliteral origin{11.33855 32.73538 17.68408 24.80345 25.51193 24.80345 c }
+...........\pdfliteral origin{33.33978 24.80345 39.68533 32.73538 39.68533 42.5202 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{25.51193 42.5202 m }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0.875 0.5 0.125 rg 0.875 0.5 0.125 RG}
+...........\pdfliteral origin{11.50896 41.72649 m }
+...........\pdfliteral origin{18.22713 43.37057 15.33563 36.93571 25.79568 38.83498 c }
+...........\pdfliteral origin{2.35255 24.09494 7.6252 38.80685 11.50896 41.72649 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
+...........\pdfliteral origin{23.263 44.85179 m }
+...........\pdfliteral origin{25.64157 43.98607 m }
+...........\pdfliteral origin{26.31088 45.825 25.78856 47.70332 24.4749 48.18144 c }
+...........\pdfliteral origin{23.16125 48.65956 21.55376 47.55644 20.88445 45.71751 c }
+...........\pdfliteral origin{20.21513 43.87857 20.73746 42.00024 22.0511 41.52213 c }
+...........\pdfliteral origin{23.36475 41.044 24.97224 42.14713 25.64157 43.98607 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{23.263 44.85179 m }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0.0 g 0.0 G}
+...........\pdfliteral origin{23.96518 44.2947 m }
+...........\pdfliteral origin{24.91628 43.94853 m }
+...........\pdfliteral origin{25.29857 44.99887 25.18265 46.0053 24.65738 46.19647 c }
+...........\pdfliteral origin{24.1321 46.38766 23.39636 45.6912 23.01408 44.64085 c }
+...........\pdfliteral origin{22.6318 43.59053 22.74771 42.58409 23.273 42.39291 c }
+...........\pdfliteral origin{23.79826 42.20174 24.534 42.8982 24.91628 43.94853 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{23.96518 44.2947 m }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
+...........\pdfliteral origin{15.27176 46.93092 m }
+...........\pdfliteral origin{17.36542 46.16888 m }
+...........\pdfliteral origin{17.97746 47.85046 17.53627 49.55481 16.37997 49.97566 c }
+...........\pdfliteral origin{15.22368 50.39651 13.79016 49.37453 13.17812 47.69295 c }
+...........\pdfliteral origin{12.56607 46.01137 13.00726 44.30702 14.16356 43.88617 c }
+...........\pdfliteral origin{15.31984 43.46532 16.75336 44.4873 17.36542 46.16888 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{15.27176 46.93092 m }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0.0 g 0.0 G}
+...........\pdfliteral origin{15.9738 46.37344 m }
+...........\pdfliteral origin{16.73549 46.09622 m }
+...........\pdfliteral origin{17.07977 47.04216 17.01788 47.93312 16.59721 48.08623 c }
+...........\pdfliteral origin{16.17654 48.23932 15.55643 47.59662 15.21213 46.65067 c }
+...........\pdfliteral origin{14.86783 45.70473 14.92973 44.81377 15.3504 44.66068 c }
+...........\pdfliteral origin{15.77107 44.50757 16.39119 45.15028 16.73549 46.09622 c }
+...........\pdfliteral origin{h }
+...........\pdfliteral origin{15.9738 46.37344 m }
+...........\pdfliteral origin{f }
+...........\glue(\spaceskip) 0.0
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
 ...........\glue(\spaceskip) 0.0
 ...........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(0.0+0.0)x0.0, direction TLT
-...........\pdfliteral origin{q }
 ...........\glue(\spaceskip) 0.0
 ...........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
-.........\pdfliteral origin{14.54192 32.4572 m }
-.........\pdfliteral origin{7.56854 31.23831 -3.54333 18.62376 8.19225 7.39856 c }
-.........\pdfliteral origin{19.956 -3.82664 81.15709 3.68521 51.53429 40.22429 c }
-.........\pdfliteral origin{26.58939 26.81604 35.15019 39.09018 14.54192 32.4572 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0 0.075 0.85 0.075 k 0 0.075 0.85 0.075 K}
-.........\pdfliteral origin{25.51193 42.5202 m }
-.........\pdfliteral origin{39.68533 42.5202 m }
-.........\pdfliteral origin{39.68533 52.30501 33.33978 60.23695 25.51193 60.23695 c }
-.........\pdfliteral origin{17.68408 60.23695 11.33855 52.30501 11.33855 42.5202 c }
-.........\pdfliteral origin{11.33855 32.73538 17.68408 24.80345 25.51193 24.80345 c }
-.........\pdfliteral origin{33.33978 24.80345 39.68533 32.73538 39.68533 42.5202 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{25.51193 42.5202 m }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0.875 0.5 0.125 rg 0.875 0.5 0.125 RG}
-.........\pdfliteral origin{11.50896 41.72649 m }
-.........\pdfliteral origin{18.22713 43.37057 15.33563 36.93571 25.79568 38.83498 c }
-.........\pdfliteral origin{2.35255 24.09494 7.6252 38.80685 11.50896 41.72649 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
-.........\pdfliteral origin{23.263 44.85179 m }
-.........\pdfliteral origin{25.64157 43.98607 m }
-.........\pdfliteral origin{26.31088 45.825 25.78856 47.70332 24.4749 48.18144 c }
-.........\pdfliteral origin{23.16125 48.65956 21.55376 47.55644 20.88445 45.71751 c }
-.........\pdfliteral origin{20.21513 43.87857 20.73746 42.00024 22.0511 41.52213 c }
-.........\pdfliteral origin{23.36475 41.044 24.97224 42.14713 25.64157 43.98607 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{23.263 44.85179 m }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0.0 g 0.0 G}
-.........\pdfliteral origin{23.96518 44.2947 m }
-.........\pdfliteral origin{24.91628 43.94853 m }
-.........\pdfliteral origin{25.29857 44.99887 25.18265 46.0053 24.65738 46.19647 c }
-.........\pdfliteral origin{24.1321 46.38766 23.39636 45.6912 23.01408 44.64085 c }
-.........\pdfliteral origin{22.6318 43.59053 22.74771 42.58409 23.273 42.39291 c }
-.........\pdfliteral origin{23.79826 42.20174 24.534 42.8982 24.91628 43.94853 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{23.96518 44.2947 m }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0 0 0.15 0 k 0 0 0.15 0 K}
-.........\pdfliteral origin{15.27176 46.93092 m }
-.........\pdfliteral origin{17.36542 46.16888 m }
-.........\pdfliteral origin{17.97746 47.85046 17.53627 49.55481 16.37997 49.97566 c }
-.........\pdfliteral origin{15.22368 50.39651 13.79016 49.37453 13.17812 47.69295 c }
-.........\pdfliteral origin{12.56607 46.01137 13.00726 44.30702 14.16356 43.88617 c }
-.........\pdfliteral origin{15.31984 43.46532 16.75336 44.4873 17.36542 46.16888 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{15.27176 46.93092 m }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{q }
-.........\pdfcolorstack 0 push {0.0 g 0.0 G}
-.........\pdfliteral origin{15.9738 46.37344 m }
-.........\pdfliteral origin{16.73549 46.09622 m }
-.........\pdfliteral origin{17.07977 47.04216 17.01788 47.93312 16.59721 48.08623 c }
-.........\pdfliteral origin{16.17654 48.23932 15.55643 47.59662 15.21213 46.65067 c }
-.........\pdfliteral origin{14.86783 45.70473 14.92973 44.81377 15.3504 44.66068 c }
-.........\pdfliteral origin{15.77107 44.50757 16.39119 45.15028 16.73549 46.09622 c }
-.........\pdfliteral origin{h }
-.........\pdfliteral origin{15.9738 46.37344 m }
-.........\pdfliteral origin{f }
-.........\glue(\spaceskip) 0.0
-.........\pdfcolorstack 0 pop
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{Q }
-.........\hbox(0.0+0.0)x0.0, direction TLT
-..........\savepos
-..........\write1{\noexpand \pgfsyspdfmark {pgfid2}{\the \lastxpos }{\the \lastypos }}
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\pdfliteral origin{n }
-........\pdfliteral origin{Q }
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\pdfliteral page <lua data reference ...>
-......\pdfliteral page <lua data reference ...>
-......\pdfcolorstack 1 pop
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\savepos
+............\write1{\noexpand \pgfsyspdfmark {pgfid2}{\the \lastxpos }{\the \lastypos }}
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral origin{n }
+..........\pdfliteral origin{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\pdfcolorstack 1 pop
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
 .....\glue 0.0 plus 0.5fil
 ....\glue 0.0 plus 1.0fil
 ....\glue 0.0
@@ -627,78 +631,80 @@ Completed box being shipped out [3]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 216.16937fil, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(17.14325+0.0)x448.92128, glue set 202.76547fil, direction TLT
-......\localpar
-.......\localinterlinepenalty=0
-.......\localbrokenpenalty=0
-.......\localleftbox=null
-.......\localrightbox=null
-......\hbox(0.0+0.0)x0.0, direction TLT
-......\hbox(17.14325+0.0)x43.39035, direction TLT
-.......\glue 21.69518
-.......\hbox(0.0+0.0)x0.0, shifted -8.57162, direction TLT
-........\pdfliteral page <lua data reference ...>
-........\pdfliteral page <lua data reference ...>
-........\pdfliteral origin{q }
-........\pdfliteral origin{0 G }
-........\pdfliteral origin{0 g }
-........\pdfliteral origin{0.3985 w }
+.....\hbox(17.14325+0.0)x448.92128, direction TLT
+......\vbox(17.14325+0.0)x448.92128, direction TLT
+.......\hbox(17.14325+0.0)x448.92128, glue set 202.76547fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
 ........\hbox(0.0+0.0)x0.0, direction TLT
-.........\pdfliteral origin{q }
-.........\hbox(0.0+0.0)x0.0, direction TLT
+........\hbox(17.14325+0.0)x43.39035, direction TLT
+.........\glue 21.69518
+.........\hbox(0.0+0.0)x0.0, shifted -8.57162, direction TLT
+..........\pdfliteral page <lua data reference ...>
+..........\pdfliteral page <lua data reference ...>
+..........\pdfliteral origin{q }
+..........\pdfliteral origin{0 G }
+..........\pdfliteral origin{0 g }
+..........\pdfliteral origin{0.3985 w }
 ..........\hbox(0.0+0.0)x0.0, direction TLT
-...........\pdfliteral page <lua data reference ...>
-...........\pdfliteral page <lua data reference ...>
-...........\pdfliteral origin{q }
-...........\glue(\spaceskip) 0.0
-...........\glue(\spaceskip) 0.0
-...........\glue(\spaceskip) 0.0
-...........\glue(\spaceskip) 0.0
-...........\glue(\spaceskip) 0.0
-...........\pdfliteral page <lua data reference ...>
-...........\pdfliteral page <lua data reference ...>
 ...........\pdfliteral origin{q }
 ...........\hbox(0.0+0.0)x0.0, direction TLT
-............\glue -18.04558
-............\hbox(0.0+0.0)x0.0, shifted 2.67728, direction TLT
-.............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
 .............\pdfliteral origin{q }
 .............\hbox(0.0+0.0)x0.0, direction TLT
-..............\hbox(7.5993+2.24475)x36.09117, direction TLT
+..............\glue -18.04558
+..............\hbox(0.0+0.0)x0.0, shifted 2.67728, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(7.5993+2.24475)x36.09117, direction TLT
+.................\pdfliteral page <lua data reference ...>
+.................\pdfliteral page <lua data reference ...>
+.................\pdfliteral origin{0 G }
+.................\pdfliteral origin{0 g }
+.................\hbox(7.5993+2.24475)x36.09117, direction TLT
+..................\pdfliteral page <lua data reference ...>
+..................\pdfliteral page <lua data reference ...>
+..................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 M
+..................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 y
+..................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+..................\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+..................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+..................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+..................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
+..................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+.................\glue(\spaceskip) 0.0
 ...............\pdfliteral page <lua data reference ...>
 ...............\pdfliteral page <lua data reference ...>
-...............\pdfliteral origin{0 G }
-...............\pdfliteral origin{0 g }
-...............\hbox(7.5993+2.24475)x36.09117, direction TLT
-................\pdfliteral page <lua data reference ...>
-................\pdfliteral page <lua data reference ...>
-................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 M
-................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 y
-................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
-................\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
-................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+...............\pdfliteral origin{Q }
 ...............\glue(\spaceskip) 0.0
-.............\pdfliteral page <lua data reference ...>
-.............\pdfliteral page <lua data reference ...>
+..............\glue 0.0 plus 1.0fil minus 1.0fil
 .............\pdfliteral origin{Q }
 .............\glue(\spaceskip) 0.0
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\pdfliteral origin{Q }
+.............\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
 ...........\glue(\spaceskip) 0.0
 ...........\pdfliteral origin{Q }
-.........\glue(\spaceskip) 0.0
-.........\glue(\spaceskip) 0.0
-.........\pdfliteral origin{Q }
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\pdfliteral origin{n }
-........\pdfliteral origin{Q }
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral origin{n }
+..........\pdfliteral origin{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
 .....\glue 0.0 plus 0.5fil
 ....\glue 0.0 plus 1.0fil
 ....\glue 0.0

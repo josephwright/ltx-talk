@@ -65,80 +65,82 @@ Completed box being shipped out [1]
 ....\vbox(233.31262+0.0)x448.92128, glue set 204.26534fil
 .....\glue 0.0 plus 0.5fil
 .....\hbox(17.26114+11.78615)x448.92128
-......\write1{\new@label@record{mcid-1}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{1}{tagmcid}{\__property_code_tagmcid: }}}
-......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-......\hbox(0.0+0.0)x0.0
-......\pdfliteral page{EMC}
 ......\vbox(17.26114+11.78615)x448.92128
-.......\hbox(6.31815+0.0)x448.92128, glue set 215.9745fil
-........\write1{\new@label@record{mcid-2}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{2}{tagmcid}{\__property_code_tagmcid: }}}
+.......\hbox(17.26114+11.78615)x448.92128
+........\write1{\new@label@record{mcid-1}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{1}{tagmcid}{\__property_code_tagmcid: }}}
 ........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ........\hbox(0.0+0.0)x0.0
-........\T1/lmss/m/n/10.95 t
-........\T1/lmss/m/n/10.95 e
-........\T1/lmss/m/n/10.95 s
-........\T1/lmss/m/n/10.95 t
+........\pdfliteral page{EMC}
+........\vbox(17.26114+11.78615)x448.92128
+.........\hbox(6.31815+0.0)x448.92128, glue set 215.9745fil
+..........\write1{\new@label@record{mcid-2}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{2}{tagmcid}{\__property_code_tagmcid: }}}
+..........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..........\hbox(0.0+0.0)x0.0
+..........\T1/lmss/m/n/10.95 t
+..........\T1/lmss/m/n/10.95 e
+..........\T1/lmss/m/n/10.95 s
+..........\T1/lmss/m/n/10.95 t
+..........\pdfliteral page{EMC}
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\marks4{b-,2,10,text,,,}
+.........\marks4{b+,2,10,text,,,}
+.........\marks4{e-,2,10,}
+.........\marks4{e+,2,10,}
+.........\glue 7.0
+.........\glue(\baselineskip) 5.99579
+.........\hbox(7.60422+2.12914)x448.92128, glue set 192.73604fil
+..........\glue 0.0 plus 1.0fil
+..........\write1{\new@label@record{mcid-3}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{3}{tagmcid}{\__property_code_tagmcid: }}}
+..........\pdfliteral shipout page{/Lbl <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..........\T1/lmss/m/n/10.95 F
+..........\T1/lmss/m/n/10.95 i
+..........\T1/lmss/m/n/10.95 g
+..........\T1/lmss/m/n/10.95 u
+..........\T1/lmss/m/n/10.95 r
+..........\T1/lmss/m/n/10.95 e
+..........\T1/lmss/m/n/10.95 :
+..........\glue 4.86665 plus 3.65 minus 0.60832
+..........\pdfliteral page{EMC}
+..........\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
+..........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..........\T1/lmss/m/n/10.95 D
+..........\T1/lmss/m/n/10.95 e
+..........\T1/lmss/m/n/10.95 m
+..........\T1/lmss/m/n/10.95 o
+..........\pdfliteral page{EMC}
+..........\glue 0.0 plus 1.0fil
+.........\marks4{b-,3,12,Lbl,,,}
+.........\marks4{b+,3,12,Lbl,,,}
+.........\marks4{e-,3,12,}
+.........\marks4{e+,3,12,}
+.........\marks4{b-,4,13,text,,,}
+.........\marks4{b+,4,13,text,,,}
+.........\marks4{e-,4,13,}
+.........\marks4{e+,4,13,}
+.........\glue 7.0
+.........\glue -7.0
+.........\glue 7.0
+.........\glue -9.12914
+.........\penalty 0
+.........\glue 2.12914
+.........\glue 7.0
+.........\glue -7.0
+........\write1{\new@label@record{mcid-5}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{5}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ........\pdfliteral page{EMC}
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
-.......\marks4{b-,2,10,text,,,}
-.......\marks4{b+,2,10,text,,,}
-.......\marks4{e-,2,10,}
-.......\marks4{e+,2,10,}
-.......\glue 7.0
-.......\glue(\baselineskip) 5.99579
-.......\hbox(7.60422+2.12914)x448.92128, glue set 192.73604fil
-........\glue 0.0 plus 1.0fil
-........\write1{\new@label@record{mcid-3}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{3}{tagmcid}{\__property_code_tagmcid: }}}
-........\pdfliteral shipout page{/Lbl <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-........\T1/lmss/m/n/10.95 F
-........\T1/lmss/m/n/10.95 i
-........\T1/lmss/m/n/10.95 g
-........\T1/lmss/m/n/10.95 u
-........\T1/lmss/m/n/10.95 r
-........\T1/lmss/m/n/10.95 e
-........\T1/lmss/m/n/10.95 :
-........\glue 4.86665 plus 3.65 minus 0.60832
-........\pdfliteral page{EMC}
-........\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
-........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-........\T1/lmss/m/n/10.95 D
-........\T1/lmss/m/n/10.95 e
-........\T1/lmss/m/n/10.95 m
-........\T1/lmss/m/n/10.95 o
-........\pdfliteral page{EMC}
-........\glue 0.0 plus 1.0fil
-.......\marks4{b-,3,12,Lbl,,,}
-.......\marks4{b+,3,12,Lbl,,,}
-.......\marks4{e-,3,12,}
-.......\marks4{e+,3,12,}
-.......\marks4{b-,4,13,text,,,}
-.......\marks4{b+,4,13,text,,,}
-.......\marks4{e-,4,13,}
-.......\marks4{e+,4,13,}
-.......\glue 7.0
-.......\glue -7.0
-.......\glue 7.0
-.......\glue -9.12914
-.......\penalty 0
-.......\glue 2.12914
-.......\glue 7.0
-.......\glue -7.0
-......\write1{\new@label@record{mcid-5}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{5}{tagmcid}{\__property_code_tagmcid: }}}
-......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-......\pdfliteral page{EMC}
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\marks4{b-,1,7,text,,,}
-.....\marks4{b+,1,7,text,,,}
-.....\marks4{e-,1,7,}
-.....\marks4{e+,1,7,}
-.....\marks4{b-,5,14,text,,,}
-.....\marks4{b+,5,14,text,,,}
-.....\marks4{e-,5,6,}
-.....\marks4{e+,5,6,}
+.......\marks4{b-,1,7,text,,,}
+.......\marks4{b+,1,7,text,,,}
+.......\marks4{e-,1,7,}
+.......\marks4{e+,1,7,}
+.......\marks4{b-,5,14,text,,,}
+.......\marks4{b+,5,14,text,,,}
+.......\marks4{e-,5,14,}
+.......\marks4{e+,5,14,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -228,68 +230,68 @@ Completed box being shipped out [2]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 195.37505fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,8,-1,}
-.....\marks4{b+,8,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(17.90417+12.42918)x448.92128
-......\hbox(0.0+0.0)x0.0
-......\vbox(17.90417+12.42918)x448.92128
-.......\hbox(7.60422+0.0)x448.92128, glue set 213.66231fil
+.....\hbox(37.93758+0.0)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,8,-1,}
+......\marks4{b+,8,-1,}
+......\vbox(37.93758+0.0)x448.92128
+.......\hbox(17.90417+12.42918)x448.92128
 ........\hbox(0.0+0.0)x0.0
-........\T1/lmss/m/n/10.95 A
-........\T1/lmss/m/n/10.95 B
-........\T1/lmss/m/n/10.95 C
+........\vbox(17.90417+12.42918)x448.92128
+.........\hbox(7.60422+0.0)x448.92128, glue set 213.66231fil
+..........\hbox(0.0+0.0)x0.0
+..........\T1/lmss/m/n/10.95 A
+..........\T1/lmss/m/n/10.95 B
+..........\T1/lmss/m/n/10.95 C
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 7.0
+.........\glue(\baselineskip) 5.99579
+.........\hbox(7.60422+2.12914)x448.92128, glue set 192.73604fil
+..........\glue 0.0 plus 1.0fil
+..........\T1/lmss/m/n/10.95 F
+..........\T1/lmss/m/n/10.95 i
+..........\T1/lmss/m/n/10.95 g
+..........\T1/lmss/m/n/10.95 u
+..........\T1/lmss/m/n/10.95 r
+..........\T1/lmss/m/n/10.95 e
+..........\T1/lmss/m/n/10.95 :
+..........\glue 4.86665 plus 3.65 minus 0.60832
+..........\T1/lmss/m/n/10.95 D
+..........\T1/lmss/m/n/10.95 e
+..........\T1/lmss/m/n/10.95 m
+..........\T1/lmss/m/n/10.95 o
+..........\glue 0.0 plus 1.0fil
+.........\glue 7.0
+.........\glue -7.0
+.........\glue 7.0
+.........\glue -9.12914
+.........\penalty 0
+.........\glue 2.12914
+.........\glue 7.0
+.........\glue -7.0
+........\pdfcolorstack 1 push {/opacity0 gs}
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\penalty 300
+.......\glue(\lineskip) 0.0
+.......\hbox(7.60422+0.0)x448.92128, glue set 207.15346fil
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 l
+........\T1/lmss/m/n/10.95 i
+........\T1/lmss/m/n/10.95 d
+........\T1/lmss/m/n/10.95 e
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 2
+........\T1/lmss/m/n/10.95 -
+........\discretionary
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
-.......\glue 7.0
-.......\glue(\baselineskip) 5.99579
-.......\hbox(7.60422+2.12914)x448.92128, glue set 192.73604fil
-........\glue 0.0 plus 1.0fil
-........\T1/lmss/m/n/10.95 F
-........\T1/lmss/m/n/10.95 i
-........\T1/lmss/m/n/10.95 g
-........\T1/lmss/m/n/10.95 u
-........\T1/lmss/m/n/10.95 r
-........\T1/lmss/m/n/10.95 e
-........\T1/lmss/m/n/10.95 :
-........\glue 4.86665 plus 3.65 minus 0.60832
-........\T1/lmss/m/n/10.95 D
-........\T1/lmss/m/n/10.95 e
-........\T1/lmss/m/n/10.95 m
-........\T1/lmss/m/n/10.95 o
-........\glue 0.0 plus 1.0fil
-.......\glue 7.0
-.......\glue -7.0
-.......\glue 7.0
-.......\glue -9.12914
-.......\penalty 0
-.......\glue 2.12914
-.......\glue 7.0
-.......\glue -7.0
-......\pdfcolorstack 1 push {/opacity0 gs}
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\penalty 300
-.....\glue(\lineskip) 0.0
-.....\hbox(7.60422+0.0)x448.92128, glue set 207.15346fil
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 l
-......\T1/lmss/m/n/10.95 i
-......\T1/lmss/m/n/10.95 d
-......\T1/lmss/m/n/10.95 e
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 2
-......\T1/lmss/m/n/10.95 -
-......\discretionary
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,8,2,}
-.....\marks4{e+,8,2,}
-.....\pdfcolorstack 1 pop
+......\pdfliteral page{EMC}
+......\marks4{e-,8,2,}
+......\marks4{e+,8,2,}
+......\pdfcolorstack 1 pop
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -377,93 +379,95 @@ Completed box being shipped out [3]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 195.37505fil
 .....\glue 0.0 plus 0.5fil
-.....\hbox(17.90417+12.42918)x448.92128
-......\write1{\new@label@record{mcid-11}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{11}{tagmcid}{\__property_code_tagmcid: }}}
-......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-......\hbox(0.0+0.0)x0.0
-......\pdfliteral page{EMC}
-......\vbox(17.90417+12.42918)x448.92128
-.......\hbox(7.60422+0.0)x448.92128, glue set 213.66231fil
-........\write1{\new@label@record{mcid-12}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{12}{tagmcid}{\__property_code_tagmcid: }}}
+.....\hbox(37.93758+0.0)x448.92128
+......\vbox(37.93758+0.0)x448.92128
+.......\hbox(17.90417+12.42918)x448.92128
+........\write1{\new@label@record{mcid-11}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{11}{tagmcid}{\__property_code_tagmcid: }}}
 ........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ........\hbox(0.0+0.0)x0.0
-........\T1/lmss/m/n/10.95 A
-........\T1/lmss/m/n/10.95 B
-........\T1/lmss/m/n/10.95 C
+........\pdfliteral page{EMC}
+........\vbox(17.90417+12.42918)x448.92128
+.........\hbox(7.60422+0.0)x448.92128, glue set 213.66231fil
+..........\write1{\new@label@record{mcid-12}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{12}{tagmcid}{\__property_code_tagmcid: }}}
+..........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..........\hbox(0.0+0.0)x0.0
+..........\T1/lmss/m/n/10.95 A
+..........\T1/lmss/m/n/10.95 B
+..........\T1/lmss/m/n/10.95 C
+..........\pdfliteral page{EMC}
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\marks4{b-,12,20,text,,,}
+.........\marks4{b+,12,20,text,,,}
+.........\marks4{e-,12,20,}
+.........\marks4{e+,12,20,}
+.........\glue 7.0
+.........\glue(\baselineskip) 5.99579
+.........\hbox(7.60422+2.12914)x448.92128, glue set 192.73604fil
+..........\glue 0.0 plus 1.0fil
+..........\write1{\new@label@record{mcid-13}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{13}{tagmcid}{\__property_code_tagmcid: }}}
+..........\pdfliteral shipout page{/Lbl <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..........\T1/lmss/m/n/10.95 F
+..........\T1/lmss/m/n/10.95 i
+..........\T1/lmss/m/n/10.95 g
+..........\T1/lmss/m/n/10.95 u
+..........\T1/lmss/m/n/10.95 r
+..........\T1/lmss/m/n/10.95 e
+..........\T1/lmss/m/n/10.95 :
+..........\glue 4.86665 plus 3.65 minus 0.60832
+..........\pdfliteral page{EMC}
+..........\write1{\new@label@record{mcid-14}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{14}{tagmcid}{\__property_code_tagmcid: }}}
+..........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..........\T1/lmss/m/n/10.95 D
+..........\T1/lmss/m/n/10.95 e
+..........\T1/lmss/m/n/10.95 m
+..........\T1/lmss/m/n/10.95 o
+..........\pdfliteral page{EMC}
+..........\glue 0.0 plus 1.0fil
+.........\marks4{b-,13,22,Lbl,,,}
+.........\marks4{b+,13,22,Lbl,,,}
+.........\marks4{e-,13,22,}
+.........\marks4{e+,13,22,}
+.........\marks4{b-,14,23,text,,,}
+.........\marks4{b+,14,23,text,,,}
+.........\marks4{e-,14,23,}
+.........\marks4{e+,14,23,}
+.........\glue 7.0
+.........\glue -7.0
+.........\glue 7.0
+.........\glue -9.12914
+.........\penalty 0
+.........\glue 2.12914
+.........\glue 7.0
+.........\glue -7.0
+........\write1{\new@label@record{mcid-15}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{15}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\marks4{b-,11,17,text,,,}
+.......\marks4{b+,11,17,text,,,}
+.......\marks4{e-,11,17,}
+.......\marks4{e+,11,17,}
+.......\marks4{b-,15,24,text,,,}
+.......\marks4{b+,15,24,text,,,}
+.......\penalty 300
+.......\glue(\lineskip) 0.0
+.......\hbox(7.60422+0.0)x448.92128, glue set 207.15346fil
+........\T1/lmss/m/n/10.95 S
+........\T1/lmss/m/n/10.95 l
+........\T1/lmss/m/n/10.95 i
+........\T1/lmss/m/n/10.95 d
+........\T1/lmss/m/n/10.95 e
+........\glue 3.65 plus 1.825 minus 1.21666
+........\T1/lmss/m/n/10.95 2
+........\T1/lmss/m/n/10.95 -
+........\discretionary
 ........\pdfliteral page{EMC}
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
-.......\marks4{b-,12,20,text,,,}
-.......\marks4{b+,12,20,text,,,}
-.......\marks4{e-,12,20,}
-.......\marks4{e+,12,20,}
-.......\glue 7.0
-.......\glue(\baselineskip) 5.99579
-.......\hbox(7.60422+2.12914)x448.92128, glue set 192.73604fil
-........\glue 0.0 plus 1.0fil
-........\write1{\new@label@record{mcid-13}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{13}{tagmcid}{\__property_code_tagmcid: }}}
-........\pdfliteral shipout page{/Lbl <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-........\T1/lmss/m/n/10.95 F
-........\T1/lmss/m/n/10.95 i
-........\T1/lmss/m/n/10.95 g
-........\T1/lmss/m/n/10.95 u
-........\T1/lmss/m/n/10.95 r
-........\T1/lmss/m/n/10.95 e
-........\T1/lmss/m/n/10.95 :
-........\glue 4.86665 plus 3.65 minus 0.60832
-........\pdfliteral page{EMC}
-........\write1{\new@label@record{mcid-14}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{14}{tagmcid}{\__property_code_tagmcid: }}}
-........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-........\T1/lmss/m/n/10.95 D
-........\T1/lmss/m/n/10.95 e
-........\T1/lmss/m/n/10.95 m
-........\T1/lmss/m/n/10.95 o
-........\pdfliteral page{EMC}
-........\glue 0.0 plus 1.0fil
-.......\marks4{b-,13,22,Lbl,,,}
-.......\marks4{b+,13,22,Lbl,,,}
-.......\marks4{e-,13,22,}
-.......\marks4{e+,13,22,}
-.......\marks4{b-,14,23,text,,,}
-.......\marks4{b+,14,23,text,,,}
-.......\marks4{e-,14,23,}
-.......\marks4{e+,14,23,}
-.......\glue 7.0
-.......\glue -7.0
-.......\glue 7.0
-.......\glue -9.12914
-.......\penalty 0
-.......\glue 2.12914
-.......\glue 7.0
-.......\glue -7.0
-......\write1{\new@label@record{mcid-15}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{15}{tagmcid}{\__property_code_tagmcid: }}}
-......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\marks4{b-,11,17,text,,,}
-.....\marks4{b+,11,17,text,,,}
-.....\marks4{e-,11,17,}
-.....\marks4{e+,11,17,}
-.....\marks4{b-,15,24,text,,,}
-.....\marks4{b+,15,24,text,,,}
-.....\penalty 300
-.....\glue(\lineskip) 0.0
-.....\hbox(7.60422+0.0)x448.92128, glue set 207.15346fil
-......\T1/lmss/m/n/10.95 S
-......\T1/lmss/m/n/10.95 l
-......\T1/lmss/m/n/10.95 i
-......\T1/lmss/m/n/10.95 d
-......\T1/lmss/m/n/10.95 e
-......\glue 3.65 plus 1.825 minus 1.21666
-......\T1/lmss/m/n/10.95 2
-......\T1/lmss/m/n/10.95 -
-......\discretionary
-......\pdfliteral page{EMC}
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\marks4{e-,15,16,}
-.....\marks4{e+,15,16,}
+.......\marks4{e-,15,24,}
+.......\marks4{e+,15,24,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -552,51 +556,53 @@ Completed box being shipped out [4]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 206.11261fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,18,-1,}
-.....\marks4{b+,18,-1,}
-.....\hbox(16.2636+10.93642)x448.92128, glue set 89.78975fil
-......\vbox(5.82266+0.49548)x179.56577
-.......\hbox(6.31815+0.0)x179.56577, glue set 81.29675fil
-........\hbox(0.0+0.0)x0.0
-........\pdfcolorstack 1 push {/opacity0.15 gs}
-........\T1/lmss/m/n/10.95 t
-........\T1/lmss/m/n/10.95 e
-........\T1/lmss/m/n/10.95 s
-........\T1/lmss/m/n/10.95 t
-........\pdfcolorstack 1 pop
-........\penalty 10000
-........\glue(\parfillskip) 0.0 plus 1.0fil
-........\glue(\rightskip) 0.0 plus 1.0fil
-......\glue 0.0 plus 1.0fil
-......\vbox(16.2636+10.93642)x179.56577
-.......\hbox(0.0+0.0)x179.56577, glue set 179.56577fil
-........\hbox(0.0+0.0)x0.0
-........\pdfcolorstack 1 push {/opacity0.15 gs}
-........\glue(\rightskip) 0.0 plus 1.0fil
-.......\penalty 150
-.......\glue(\baselineskip) 7.70345
-.......\hbox(5.89656+0.42159)x179.56577
-........\vbox(5.89656+0.42159)x179.56577
+.....\hbox(16.2636+10.93642)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,18,-1,}
+......\marks4{b+,18,-1,}
+......\vbox(16.2636+10.93642)x448.92128
+.......\hbox(16.2636+10.93642)x448.92128, glue set 89.78975fil
+........\vbox(5.82266+0.49548)x179.56577
 .........\hbox(6.31815+0.0)x179.56577, glue set 81.29675fil
 ..........\hbox(0.0+0.0)x0.0
+..........\pdfcolorstack 1 push {/opacity0.15 gs}
 ..........\T1/lmss/m/n/10.95 t
 ..........\T1/lmss/m/n/10.95 e
 ..........\T1/lmss/m/n/10.95 s
 ..........\T1/lmss/m/n/10.95 t
+..........\pdfcolorstack 1 pop
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
-.........\penalty 0
-........\pdfcolorstack 1 pop
-........\glue(\rightskip) 0.0 plus 1.0fil
-.......\penalty 150
-.......\glue(\baselineskip) 13.17842
-.......\hbox(0.0+0.0)x179.56577, glue set 179.56577fil
-........\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,18,2,}
-.....\marks4{e+,18,2,}
+........\glue 0.0 plus 1.0fil
+........\vbox(16.2636+10.93642)x179.56577
+.........\hbox(0.0+0.0)x179.56577, glue set 179.56577fil
+..........\hbox(0.0+0.0)x0.0
+..........\pdfcolorstack 1 push {/opacity0.15 gs}
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\penalty 150
+.........\glue(\baselineskip) 7.70345
+.........\hbox(5.89656+0.42159)x179.56577
+..........\vbox(5.89656+0.42159)x179.56577
+...........\hbox(6.31815+0.0)x179.56577, glue set 81.29675fil
+............\hbox(0.0+0.0)x0.0
+............\T1/lmss/m/n/10.95 t
+............\T1/lmss/m/n/10.95 e
+............\T1/lmss/m/n/10.95 s
+............\T1/lmss/m/n/10.95 t
+............\penalty 10000
+............\glue(\parfillskip) 0.0 plus 1.0fil
+............\glue(\rightskip) 0.0 plus 1.0fil
+...........\penalty 0
+..........\pdfcolorstack 1 pop
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\penalty 150
+.........\glue(\baselineskip) 13.17842
+.........\hbox(0.0+0.0)x179.56577, glue set 179.56577fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,18,2,}
+......\marks4{e+,18,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -684,71 +690,73 @@ Completed box being shipped out [5]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 219.29105fil
 .....\glue 0.0 plus 0.5fil
-.....\hbox(9.67438+4.3472)x448.92128, glue set 89.78975fil
-......\vbox(5.82266+0.49548)x179.56577
-.......\hbox(6.31815+0.0)x179.56577, glue set 81.29675fil
-........\write1{\new@label@record{mcid-21}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{21}{tagmcid}{\__property_code_tagmcid: }}}
-........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-........\hbox(0.0+0.0)x0.0
-........\pdfcolorstack 1 push {/opacity1 gs}
-........\T1/lmss/m/n/10.95 t
-........\T1/lmss/m/n/10.95 e
-........\T1/lmss/m/n/10.95 s
-........\T1/lmss/m/n/10.95 t
-........\pdfcolorstack 1 pop
-........\pdfliteral page{EMC}
-........\penalty 10000
-........\glue(\parfillskip) 0.0 plus 1.0fil
-........\glue(\rightskip) 0.0 plus 1.0fil
-.......\marks4{b-,21,27,text,,,}
-.......\marks4{b+,21,27,text,,,}
-.......\marks4{e-,21,27,}
-.......\marks4{e+,21,27,}
-......\glue 0.0 plus 1.0fil
-......\vbox(9.67438+4.3472)x179.56577
-.......\hbox(0.0+0.0)x179.56577, glue set 179.56577fil
-........\write1{\new@label@record{mcid-22}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{22}{tagmcid}{\__property_code_tagmcid: }}}
-........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-........\hbox(0.0+0.0)x0.0
-........\pdfcolorstack 1 push {/opacity1 gs}
-........\glue(\rightskip) 0.0 plus 1.0fil
-.......\marks4{b-,22,29,text,,,}
-.......\marks4{b+,22,29,text,,,}
-.......\penalty 300
-.......\glue(\baselineskip) 7.70345
-.......\hbox(5.89656+0.42159)x179.56577
-........\pdfliteral page{EMC}
-........\vbox(5.89656+0.42159)x179.56577
+.....\hbox(9.67438+4.3472)x448.92128
+......\vbox(9.67438+4.3472)x448.92128
+.......\hbox(9.67438+4.3472)x448.92128, glue set 89.78975fil
+........\vbox(5.82266+0.49548)x179.56577
 .........\hbox(6.31815+0.0)x179.56577, glue set 81.29675fil
-..........\write1{\new@label@record{mcid-23}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{23}{tagmcid}{\__property_code_tagmcid: }}}
+..........\write1{\new@label@record{mcid-21}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{21}{tagmcid}{\__property_code_tagmcid: }}}
 ..........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ..........\hbox(0.0+0.0)x0.0
+..........\pdfcolorstack 1 push {/opacity1 gs}
 ..........\T1/lmss/m/n/10.95 t
 ..........\T1/lmss/m/n/10.95 e
 ..........\T1/lmss/m/n/10.95 s
 ..........\T1/lmss/m/n/10.95 t
+..........\pdfcolorstack 1 pop
 ..........\pdfliteral page{EMC}
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
-.........\marks4{b-,23,32,text,,,}
-.........\marks4{b+,23,32,text,,,}
-.........\marks4{e-,23,32,}
-.........\marks4{e+,23,32,}
-.........\penalty 0
-........\write1{\new@label@record{mcid-24}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{24}{tagmcid}{\__property_code_tagmcid: }}}
-........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-........\pdfcolorstack 1 pop
-........\pdfliteral page{EMC}
-........\penalty 10000
-........\glue(\parfillskip) 0.0 plus 1.0fil
-........\glue(\rightskip) 0.0 plus 1.0fil
-.......\marks4{e-,22,29,}
-.......\marks4{e+,22,29,}
-.......\marks4{b-,24,33,text,,,}
-.......\marks4{b+,24,33,text,,,}
-.......\marks4{e-,24,33,}
-.......\marks4{e+,24,33,}
+.........\marks4{b-,21,27,text,,,}
+.........\marks4{b+,21,27,text,,,}
+.........\marks4{e-,21,27,}
+.........\marks4{e+,21,27,}
+........\glue 0.0 plus 1.0fil
+........\vbox(9.67438+4.3472)x179.56577
+.........\hbox(0.0+0.0)x179.56577, glue set 179.56577fil
+..........\write1{\new@label@record{mcid-22}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{22}{tagmcid}{\__property_code_tagmcid: }}}
+..........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..........\hbox(0.0+0.0)x0.0
+..........\pdfcolorstack 1 push {/opacity1 gs}
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\marks4{b-,22,29,text,,,}
+.........\marks4{b+,22,29,text,,,}
+.........\penalty 300
+.........\glue(\baselineskip) 7.70345
+.........\hbox(5.89656+0.42159)x179.56577
+..........\pdfliteral page{EMC}
+..........\vbox(5.89656+0.42159)x179.56577
+...........\hbox(6.31815+0.0)x179.56577, glue set 81.29675fil
+............\write1{\new@label@record{mcid-23}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{23}{tagmcid}{\__property_code_tagmcid: }}}
+............\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+............\hbox(0.0+0.0)x0.0
+............\T1/lmss/m/n/10.95 t
+............\T1/lmss/m/n/10.95 e
+............\T1/lmss/m/n/10.95 s
+............\T1/lmss/m/n/10.95 t
+............\pdfliteral page{EMC}
+............\penalty 10000
+............\glue(\parfillskip) 0.0 plus 1.0fil
+............\glue(\rightskip) 0.0 plus 1.0fil
+...........\marks4{b-,23,32,text,,,}
+...........\marks4{b+,23,32,text,,,}
+...........\marks4{e-,23,32,}
+...........\marks4{e+,23,32,}
+...........\penalty 0
+..........\write1{\new@label@record{mcid-24}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{24}{tagmcid}{\__property_code_tagmcid: }}}
+..........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..........\pdfcolorstack 1 pop
+..........\pdfliteral page{EMC}
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\marks4{e-,22,29,}
+.........\marks4{e+,22,29,}
+.........\marks4{b-,24,33,text,,,}
+.........\marks4{b+,24,33,text,,,}
+.........\marks4{e-,24,33,}
+.........\marks4{e+,24,33,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -781,4 +789,3 @@ Completed box being shipped out [5]
 .\hbox(0.0+0.0)x0.0
 .\kern 655.4883
 (ltx-talk-floats.aux)
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.

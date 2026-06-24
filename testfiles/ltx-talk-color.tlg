@@ -63,45 +63,47 @@ Completed box being shipped out [1]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 220.99448fil
 .....\glue 0.0 plus 0.5fil
-.....\hbox(9.31815+3.0)x448.92128, glue set 193.75146fil
-......\write1{\new@label@record{mcid-1}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{1}{tagmcid}{\__property_code_tagmcid: }}}
-......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 t
-......\T1/lmss/m/n/10.95 e
-......\T1/lmss/m/n/10.95 s
-......\T1/lmss/m/n/10.95 t
-......\pdfcolorstack 0 push {1.0 0.0 0.0 rg 1.0 0.0 0.0 RG}
-......\T1/lmss/m/n/10.95 t
-......\T1/lmss/m/n/10.95 e
-......\T1/lmss/m/n/10.95 s
-......\T1/lmss/m/n/10.95 t
-......\glue 3.65 plus 1.825 minus 1.21666
-......\pdfcolorstack 0 push {0.75 0.75 1 rg 0.75 0.75 1 RG}
-......\pdfcolorstack 0 push {0.75 0.75 1 rg 0.75 0.75 1 RG}
-......\hbox(9.31815+3.0)x0.0, glue set - 23.8238fil
-.......\rule(9.31815+3.0)x23.8238
-.......\glue 0.0 plus 1.0fil minus 1.0fil
-......\pdfcolorstack 0 pop
-......\hbox(9.31815+3.0)x23.8238
-.......\kern 3.0
-.......\pdfcolorstack 0 push {1.0 0.0 0.0 rg 1.0 0.0 0.0 RG}
-.......\T1/lmss/m/n/10.95 t
-.......\T1/lmss/m/n/10.95 e
-.......\T1/lmss/m/n/10.95 x
-.......\T1/lmss/m/n/10.95 t
+.....\hbox(9.31815+3.0)x448.92128
+......\vbox(9.31815+3.0)x448.92128
+.......\hbox(9.31815+3.0)x448.92128, glue set 193.75146fil
+........\write1{\new@label@record{mcid-1}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{1}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 t
+........\T1/lmss/m/n/10.95 e
+........\T1/lmss/m/n/10.95 s
+........\T1/lmss/m/n/10.95 t
+........\pdfcolorstack 0 push {1.0 0.0 0.0 rg 1.0 0.0 0.0 RG}
+........\T1/lmss/m/n/10.95 t
+........\T1/lmss/m/n/10.95 e
+........\T1/lmss/m/n/10.95 s
+........\T1/lmss/m/n/10.95 t
+........\glue 3.65 plus 1.825 minus 1.21666
+........\pdfcolorstack 0 push {0.75 0.75 1 rg 0.75 0.75 1 RG}
+........\pdfcolorstack 0 push {0.75 0.75 1 rg 0.75 0.75 1 RG}
+........\hbox(9.31815+3.0)x0.0, glue set - 23.8238fil
+.........\rule(9.31815+3.0)x23.8238
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\pdfcolorstack 0 pop
+........\hbox(9.31815+3.0)x23.8238
+.........\kern 3.0
+.........\pdfcolorstack 0 push {1.0 0.0 0.0 rg 1.0 0.0 0.0 RG}
+.........\T1/lmss/m/n/10.95 t
+.........\T1/lmss/m/n/10.95 e
+.........\T1/lmss/m/n/10.95 x
+.........\T1/lmss/m/n/10.95 t
+.........\pdfcolorstack 0 pop
+.........\kern 3.0
+........\pdfcolorstack 0 pop
+........\pdfliteral page{EMC}
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\marks4{b-,1,7,text,,,}
+.......\marks4{b+,1,7,text,,,}
+.......\marks4{e-,1,7,}
+.......\marks4{e+,1,7,}
 .......\pdfcolorstack 0 pop
-.......\kern 3.0
-......\pdfcolorstack 0 pop
-......\pdfliteral page{EMC}
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\marks4{b-,1,7,text,,,}
-.....\marks4{b+,1,7,text,,,}
-.....\marks4{e-,1,6,}
-.....\marks4{e+,1,6,}
-.....\pdfcolorstack 0 pop
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -198,22 +200,24 @@ Completed box being shipped out [2]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 226.99448fil
 .....\glue 0.0 plus 0.5fil
-.....\hbox(6.31815+0.0)x448.92128, glue set 215.9745fil
-......\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
-......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 t
-......\T1/lmss/m/n/10.95 e
-......\T1/lmss/m/n/10.95 s
-......\T1/lmss/m/n/10.95 t
-......\pdfliteral page{EMC}
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\marks4{b-,4,10,text,,,}
-.....\marks4{b+,4,10,text,,,}
-.....\marks4{e-,4,9,}
-.....\marks4{e+,4,9,}
+.....\hbox(6.31815+0.0)x448.92128
+......\vbox(6.31815+0.0)x448.92128
+.......\hbox(6.31815+0.0)x448.92128, glue set 215.9745fil
+........\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 t
+........\T1/lmss/m/n/10.95 e
+........\T1/lmss/m/n/10.95 s
+........\T1/lmss/m/n/10.95 t
+........\pdfliteral page{EMC}
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\marks4{b-,4,10,text,,,}
+.......\marks4{b+,4,10,text,,,}
+.......\marks4{e-,4,10,}
+.......\marks4{e+,4,10,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -309,23 +313,23 @@ Completed box being shipped out [3]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 226.99448fil
 .....\glue 0.0 plus 0.5fil
-.....\pdfliteral page{/Artifact BMC}
-.....\marks4{b-,7,-1,}
-.....\marks4{b+,7,-1,}
-.....\glue(\parskip) 0.0 plus 1.0
-.....\glue(\parskip) 0.0
-.....\hbox(6.31815+0.0)x448.92128, glue set 215.9745fil
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 t
-......\T1/lmss/m/n/10.95 e
-......\T1/lmss/m/n/10.95 s
-......\T1/lmss/m/n/10.95 t
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\pdfliteral page{EMC}
-.....\marks4{e-,7,2,}
-.....\marks4{e+,7,2,}
+.....\hbox(6.31815+0.0)x448.92128
+......\pdfliteral page{/Artifact BMC}
+......\marks4{b-,7,-1,}
+......\marks4{b+,7,-1,}
+......\vbox(6.31815+0.0)x448.92128
+.......\hbox(6.31815+0.0)x448.92128, glue set 215.9745fil
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 t
+........\T1/lmss/m/n/10.95 e
+........\T1/lmss/m/n/10.95 s
+........\T1/lmss/m/n/10.95 t
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfliteral page{EMC}
+......\marks4{e-,7,2,}
+......\marks4{e+,7,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -426,24 +430,26 @@ Completed box being shipped out [4]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 226.99448fil
 .....\glue 0.0 plus 0.5fil
-.....\hbox(6.31815+0.0)x448.92128, glue set 215.9745fil
-......\write1{\new@label@record{mcid-10}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{10}{tagmcid}{\__property_code_tagmcid: }}}
-......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-......\hbox(0.0+0.0)x0.0
-......\T1/lmss/m/n/10.95 t
-......\T1/lmss/m/n/10.95 e
-......\T1/lmss/m/n/10.95 s
-......\T1/lmss/m/n/10.95 t
-......\pdfcolorstack 0 push {0 g 0 G}
-......\pdfcolorstack 0 pop
-......\pdfliteral page{EMC}
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
-.....\marks4{b-,10,13,text,,,}
-.....\marks4{b+,10,13,text,,,}
-.....\marks4{e-,10,12,}
-.....\marks4{e+,10,12,}
+.....\hbox(6.31815+0.0)x448.92128
+......\vbox(6.31815+0.0)x448.92128
+.......\hbox(6.31815+0.0)x448.92128, glue set 215.9745fil
+........\write1{\new@label@record{mcid-10}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{10}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 t
+........\T1/lmss/m/n/10.95 e
+........\T1/lmss/m/n/10.95 s
+........\T1/lmss/m/n/10.95 t
+........\pdfcolorstack 0 push {0 g 0 G}
+........\pdfliteral page{EMC}
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\marks4{b-,10,13,text,,,}
+.......\marks4{b+,10,13,text,,,}
+.......\marks4{e-,10,13,}
+.......\marks4{e+,10,13,}
+.......\pdfcolorstack 0 pop
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
@@ -476,4 +482,3 @@ Completed box being shipped out [4]
 .\hbox(0.0+0.0)x0.0
 .\kern 655.4883
 (ltx-talk-color.aux)
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.

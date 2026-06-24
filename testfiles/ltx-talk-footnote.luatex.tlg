@@ -63,52 +63,54 @@ Completed box being shipped out [1]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+3.30003)x448.92128, glue set 204.88701fil, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(9.60513+0.12045)x448.92128, glue set 186.21838fil, direction TLT
-......\localpar
-.......\localinterlinepenalty=0
-.......\localbrokenpenalty=0
-.......\localleftbox=null
-.......\localrightbox=null
-......\hbox(0.0+0.0)x0.0, direction TLT
-......\pdfliteral page <lua data reference ...>
-......\pdfliteral page <lua data reference ...>
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 T
-......\kern-0.90884 (font)
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-......\penalty 10000
-......\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 2/Contents (artifact)} action struct name{footnote*.1} goto name{footnote*.1}
-......\hbox(9.60513+0.0)x4.248, direction TLT
-.......\hbox(5.424+0.0)x4.248, shifted -4.18114, direction TLT
-........\pdfcolorstack 0 push {0 g 0 G}
-........\TU/NewCMSans10-Regular.otf(0)/m/n/8 1
-........\pdfcolorstack 0 pop
-......\pdfendlink
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
-......\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 m
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
-......\kern-0.3066 (font)
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 r
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
-......\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-......\penalty 10000
-......\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 3/Contents (artifact)} action struct name{footnote*.3} goto name{footnote*.3}
-......\hbox(9.60513+0.0)x4.248, direction TLT
-.......\hbox(5.424+0.0)x4.248, shifted -4.18114, direction TLT
-........\pdfcolorstack 0 push {0 g 0 G}
-........\TU/NewCMSans10-Regular.otf(0)/m/n/8 2
-........\pdfcolorstack 0 pop
-......\pdfendlink
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
+.....\hbox(9.60513+0.12045)x448.92128, direction TLT
+......\vbox(9.60513+0.12045)x448.92128, direction TLT
+.......\hbox(9.60513+0.12045)x448.92128, glue set 186.21838fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 T
+........\kern-0.90884 (font)
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\penalty 10000
+........\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 2/Contents (artifact)} action struct name{footnote*.1} goto name{footnote*.1}
+........\hbox(9.60513+0.0)x4.248, direction TLT
+.........\hbox(5.424+0.0)x4.248, shifted -4.18114, direction TLT
+..........\pdfcolorstack 0 push {0 g 0 G}
+..........\TU/NewCMSans10-Regular.otf(0)/m/n/8 1
+..........\pdfcolorstack 0 pop
+........\pdfendlink
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 m
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
+........\kern-0.3066 (font)
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 r
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\penalty 10000
+........\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 3/Contents (artifact)} action struct name{footnote*.3} goto name{footnote*.3}
+........\hbox(9.60513+0.0)x4.248, direction TLT
+.........\hbox(5.424+0.0)x4.248, shifted -4.18114, direction TLT
+..........\pdfcolorstack 0 push {0 g 0 G}
+..........\TU/NewCMSans10-Regular.otf(0)/m/n/8 2
+..........\pdfcolorstack 0 pop
+........\pdfendlink
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
 .....\glue 0.0 plus 0.5fil
 .....\kern-3.0
 .....\pdfliteral page <lua data reference ...>
@@ -293,66 +295,68 @@ Completed box being shipped out [2]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+3.30003)x448.92128, glue set 204.88701fil, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(9.60513+0.12045)x448.92128, glue set 186.21838fil, direction TLT
-......\localpar
-.......\localinterlinepenalty=0
-.......\localbrokenpenalty=0
-.......\localleftbox=null
-.......\localrightbox=null
-......\hbox(0.0+0.0)x0.0, direction TLT
-......\pdfliteral page <lua data reference ...>
-......\pdfliteral page <lua data reference ...>
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 T
-......\kern-0.90884 (font)
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-......\penalty 10000
-......\pdfliteral page <lua data reference ...>
-......\pdfliteral page <lua data reference ...>
-......\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 4} action struct name{footnote*.5} goto name{footnote*.5}
-......\hbox(9.60513+0.0)x4.248, direction TLT
-.......\hbox(5.424+0.0)x4.248, shifted -4.18114, direction TLT
+.....\hbox(9.60513+0.12045)x448.92128, direction TLT
+......\vbox(9.60513+0.12045)x448.92128, direction TLT
+.......\hbox(9.60513+0.12045)x448.92128, glue set 186.21838fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
 ........\pdfliteral page <lua data reference ...>
 ........\pdfliteral page <lua data reference ...>
-........\pdfcolorstack 0 push {0 g 0 G}
-........\TU/NewCMSans10-Regular.otf(0)/m/n/8 1
-........\pdfcolorstack 0 pop
-......\pdfliteral page <lua data reference ...>
-......\pdfliteral page <lua data reference ...>
-......\pdfendlink
-......\pdfliteral page <lua data reference ...>
-......\pdfliteral page <lua data reference ...>
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
-......\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 m
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
-......\kern-0.3066 (font)
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 r
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
-......\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-......\penalty 10000
-......\pdfliteral page <lua data reference ...>
-......\pdfliteral page <lua data reference ...>
-......\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 5} action struct name{footnote*.7} goto name{footnote*.7}
-......\hbox(9.60513+0.0)x4.248, direction TLT
-.......\hbox(5.424+0.0)x4.248, shifted -4.18114, direction TLT
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 T
+........\kern-0.90884 (font)
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\penalty 10000
 ........\pdfliteral page <lua data reference ...>
 ........\pdfliteral page <lua data reference ...>
-........\pdfcolorstack 0 push {0 g 0 G}
-........\TU/NewCMSans10-Regular.otf(0)/m/n/8 2
-........\pdfcolorstack 0 pop
-......\pdfliteral page <lua data reference ...>
-......\pdfliteral page <lua data reference ...>
-......\pdfendlink
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
+........\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 4} action struct name{footnote*.5} goto name{footnote*.5}
+........\hbox(9.60513+0.0)x4.248, direction TLT
+.........\hbox(5.424+0.0)x4.248, shifted -4.18114, direction TLT
+..........\pdfliteral page <lua data reference ...>
+..........\pdfliteral page <lua data reference ...>
+..........\pdfcolorstack 0 push {0 g 0 G}
+..........\TU/NewCMSans10-Regular.otf(0)/m/n/8 1
+..........\pdfcolorstack 0 pop
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\pdfendlink
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 m
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
+........\kern-0.3066 (font)
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 r
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\penalty 10000
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 5} action struct name{footnote*.7} goto name{footnote*.7}
+........\hbox(9.60513+0.0)x4.248, direction TLT
+.........\hbox(5.424+0.0)x4.248, shifted -4.18114, direction TLT
+..........\pdfliteral page <lua data reference ...>
+..........\pdfliteral page <lua data reference ...>
+..........\pdfcolorstack 0 push {0 g 0 G}
+..........\TU/NewCMSans10-Regular.otf(0)/m/n/8 2
+..........\pdfcolorstack 0 pop
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\pdfendlink
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
 .....\glue 0.0 plus 0.5fil
 .....\kern-3.0
 .....\pdfliteral page <lua data reference ...>

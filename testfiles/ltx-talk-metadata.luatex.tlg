@@ -61,27 +61,29 @@ Completed box being shipped out [1]
 ....\glue(\topskip) 0.0
 ....\vbox(233.31262+0.0)x448.92128, glue set 226.93973fil, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(6.25244+0.12045)x448.92128, glue set 207.24725fil, direction TLT
-......\localpar
-.......\localinterlinepenalty=0
-.......\localbrokenpenalty=0
-.......\localleftbox=null
-.......\localrightbox=null
-......\hbox(0.0+0.0)x0.0, direction TLT
-......\pdfliteral page <lua data reference ...>
-......\pdfliteral page <lua data reference ...>
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 c
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 n
-......\discretionary (penalty 50)
-.......< \TU/NewCMSans10-Regular.otf(0)/m/n/10.95 -
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 n
-......\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-......\penalty 10000
-......\glue(\parfillskip) 0.0 plus 1.0fil
-......\glue(\rightskip) 0.0 plus 1.0fil
+.....\hbox(6.25244+0.12045)x448.92128, direction TLT
+......\vbox(6.25244+0.12045)x448.92128, direction TLT
+.......\hbox(6.25244+0.12045)x448.92128, glue set 207.24725fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 c
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 n
+........\discretionary (penalty 50)
+.........< \TU/NewCMSans10-Regular.otf(0)/m/n/10.95 -
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 n
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
 .....\glue 0.0 plus 0.5fil
 ....\glue 0.0 plus 1.0fil
 ....\glue 0.0
