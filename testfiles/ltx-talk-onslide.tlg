@@ -66,8 +66,6 @@ Completed box being shipped out [1]
 .....\glue 0.0 plus 0.5fil
 .....\hbox(27.20422+0.0)x448.92128
 ......\pdfliteral page{/Artifact BMC}
-......\marks4{b-,1,-1,}
-......\marks4{b+,1,-1,}
 ......\vbox(27.20422+0.0)x448.92128
 .......\hbox(7.60422+0.0)x448.92128, glue set 206.18028fil
 ........\hbox(0.0+0.0)x0.0
@@ -117,9 +115,11 @@ Completed box being shipped out [1]
 .......\penalty 0
 .......\glue 3.0 plus 2.0 minus 2.5
 ......\pdfliteral page{EMC}
-......\marks4{e-,1,2,}
-......\marks4{e+,1,2,}
 ......\pdfcolorstack 1 pop
+.....\marks4{b-,1,-1,}
+.....\marks4{b+,1,-1,}
+.....\marks4{e-,1,2,}
+.....\marks4{e+,1,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0

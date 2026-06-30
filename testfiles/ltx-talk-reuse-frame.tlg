@@ -66,8 +66,6 @@ Completed box being shipped out [1]
 .....\glue 0.0 plus 0.5fil
 .....\hbox(7.60422+0.0)x448.92128
 ......\pdfliteral page{/Artifact BMC}
-......\marks4{b-,1,-1,}
-......\marks4{b+,1,-1,}
 ......\vbox(7.60422+0.0)x448.92128
 .......\hbox(7.60422+0.0)x448.92128, glue set 163.3385fil
 ........\hbox(0.0+0.0)x0.0
@@ -101,8 +99,10 @@ Completed box being shipped out [1]
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
 ......\pdfliteral page{EMC}
-......\marks4{e-,1,2,}
-......\marks4{e+,1,2,}
+.....\marks4{b-,1,-1,}
+.....\marks4{b+,1,-1,}
+.....\marks4{e-,1,2,}
+.....\marks4{e+,1,2,}
 .....\glue 0.0 plus 0.5fil
 ....\kern 0.0
 ....\hbox(0.0+0.0)x0.0
