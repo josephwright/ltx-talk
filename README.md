@@ -11,7 +11,8 @@ It *requires* LaTeX 2025-11-01 or newer.
 ## Description
 
 The `ltx-talk` class is focused on producing (on-screen) presentations, along
-with support material such as handouts and speaker notes. Content is created in
+with support material such as handouts. Support for speaker notes is planned
+([#156](https://github.com/josephwright/ltx-talk/issues/156)). Content is created in
 a `frame` environment, each of which can be divided up into a number of slides
 (actual output pages). A simple 'overlay' notation is used to specify which
 material appears on each slide within a frame. The class supports a range of
