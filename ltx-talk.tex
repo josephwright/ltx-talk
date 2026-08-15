@@ -272,9 +272,10 @@ important to note for the user.
     the overlay argument, e.g. |\includegraphics*<...>|: this reflects the
     fact that the star is usually described as part of the command name rather
     than as an argument
-  \item There are no optional braced arguments in \cls{ltx-talk}, in particular
-    frame titles are given either using a \emph{mandatory} |{...}|
-    argument or using \cs{frametitle} (see below)
+  \item There are no optional braced arguments in \cls{ltx-talk}: frame
+    titles are given using \cs{frametitle} or, with the class option
+    \opt{frame-title-arg}, using a \emph{mandatory} |{...}| argument
+    (see Section~\ref{sec:frame-title})
   \item New overlay-aware commands and environments should be defined using
     \pkg{ltcmd} (\cs{NewDocumentCommand} and so on): no changes are made to the
     behavior of \cs{newcommand} or \cs{newenvironment}
@@ -366,6 +367,7 @@ The \env{frame} and \env{frame*} environments recognise the following options
 \subsection{Components of a frame}
 
 \subsubsection{The frame title}
+\label{sec:frame-title}
 
 \DescribeMacro{\frametitle}
 \DescribeMacro{\framesubtitle}
