@@ -735,9 +735,7 @@
 %    \end{macrocode}
 %   A rather long block done by expansion to avoid duplication in a patch.
 %    \begin{macrocode}
-    \IfFormatAtLeastTF { 2026-06-01 }
-      { \cs_gset_protected:Npe \BlockEnvEnd }
-      { \cs_gset:Npe \endblockenv }
+    \cs_gset_protected:Npe \BlockEnvEnd
       {
         \exp_not:n
           { \__block_debug_typeout:n { blockenv~common~ending \on@line } }
@@ -808,21 +806,9 @@
   {
     \clist_map_inline:nn { itemize , enumerate , description }
       {
-        \IfFormatAtLeastTF { 2026-06-01 }
-          {
-            \RenewDocumentEnvironment {#1} { = { action-spec } !o }
-              { \SimpleBlockEnv {#1} {##1} }
-              { \BlockEnvEnd }
-          }
-          {
-            \RenewDocumentEnvironment {#1} { = { action-spec } !o }
-              {
-                \IfNoValueTF {##1}
-                  { \UseInstance { blockenv } {#1} { } }
-                  { \UseInstance { blockenv } {#1} {##1} }
-              }
-              { \endblockenv }
-          }
+        \RenewDocumentEnvironment {#1} { = { action-spec } !o }
+          { \SimpleBlockEnv {#1} {##1} }
+          { \BlockEnvEnd }
       }
   }
 %    \end{macrocode}
@@ -842,18 +828,10 @@
 %   Add an overlay key to the \texttt{block} template.  Placed here, it applies
 %   \emph{before} the \cs{item} starts, so we do not have to redefine the
 %   latter to do actions up-front. This also means it can apply to whatever we
-%   want it to within a block. Currently two versions but that will only last
-%   until the 2026-06-01 release of \LaTeX{} is out.
+%   want it to within a block.
 %    \begin{macrocode}
-\IfFormatAtLeastTF { 2026-06-01 }
-  {
-    \keys_define:nn { template / block / std  }
-      { action-spec .str_set:N = \l_@@_action_spec_str }
-  }
-  {
-    \keys_define:nn { template / block / display  }
-      { action-spec .str_set:N = \l_@@_action_spec_str }
-  }
+\keys_define:nn { template / block / std  }
+  { action-spec .str_set:N = \l_@@_action_spec_str }
 %    \end{macrocode}
 % \end{variable}
 %
