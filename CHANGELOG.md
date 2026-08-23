@@ -20,7 +20,6 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
   [\#253](https://github.com/josephwright/ltx-talk/issues/253))
 - Frame options `auto-break` and `auto-break-coverage`
 
-
 ### Changed
 
 - Require LaTeX 2026-06-01
