@@ -894,6 +894,38 @@
 %    \end{macrocode}
 % \end{macro}
 %
+% \subsection{Bibliographies}
+%
+% \begin{macro}{thebibliography}
+%   The \cls{article} definition but without the section part.
+%    \begin{macrocode}
+\NewDocumentEnvironment { thebibliography } { m }
+  {
+    \list { \@biblabel { \@arabic \c@enumiv } }
+      {
+        \settowidth \labelwidth { \@biblabel {#1} }
+        \leftmargin \labelwidth
+        \advance \leftmargin \labelsep
+        \@openbib@code
+        \usecounter { enumiv }
+        \let \p@enumiv \@empty
+        \renewcommand \theenumiv { \@arabic \c@enumiv }
+      }
+    \sloppy
+    \clubpenalty 4000
+    \@clubpenalty \clubpenalty
+    \widowpenalty 4000
+    \sfcode `\. \@m
+  }
+  {
+    \def \@noitemerr
+      { \@latex@warning { Empty~`thebibliography'~environment } }
+    \endlist
+  }
+\cs_set_eq:NN \@openbib@code \@empty
+%    \end{macrocode}
+% \end{macro}
+%
 % \subsection{Supplementary material}
 %
 % \begin{variable}{\l_@@_appendix_bool}

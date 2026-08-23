@@ -10,6 +10,8 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ### Added
 
+- Definition for `thebibliography` environment (see issue 
+  [\#207](https://github.com/josephwright/ltx-talk/issues/207))
 - `\appendix` command (see issue 
   [\#252](https://github.com/josephwright/ltx-talk/issues/252))
 - Handling for supplementary frames (see issue 
