@@ -1949,6 +1949,17 @@ more than a thousand pictures.)
     reproduce on printouts and on transparencies.
 \end{itemize}
 
+\section{Code interfaces}
+
+Some interfaces for customization are provided using the L3 programming layer;
+these are intended for progammers, and are currently somewhat experimental.
+
+\begin{variable}{\l_talk_frame_properties_clist}
+  Contains names of properties which should be recorded at the start of
+  each frame. The properties should be defined using \cs{property_new:nnnn}.
+  The class does not add any entries to this list.
+\end{variable}
+
 \end{documentation}
 
 \PrintIndex

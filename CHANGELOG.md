@@ -12,11 +12,14 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 - Definition for `thebibliography` environment (see issue 
   [\#207](https://github.com/josephwright/ltx-talk/issues/207))
+- `\l_talk_frame_properties_clist` (see issue 
+  [\#241](https://github.com/josephwright/ltx-talk/issues/241))
 - `\appendix` command (see issue 
   [\#252](https://github.com/josephwright/ltx-talk/issues/252))
 - Handling for supplementary frames (see issue 
   [\#253](https://github.com/josephwright/ltx-talk/issues/253))
 - Frame options `auto-break` and `auto-break-coverage`
+
 
 ### Changed
 

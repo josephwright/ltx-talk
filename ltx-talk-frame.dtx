@@ -863,6 +863,13 @@
 %    \end{macrocode}
 % \end{variable}
 %
+% \begin{variable}{\l_talk_frame_properties_clist}
+%   Currently somewhat experimental: not used by us, but helpful for users.
+%    \begin{macrocode}
+\clist_new:N \l_talk_frame_properties_clist
+%    \end{macrocode}
+% \end{variable}
+%
 %    \begin{macrocode}
 \AddToHook { enddocument / afterlastpage }
   {
@@ -888,6 +895,11 @@
 \cs_new_protected:Npn \@@_frame_process:nn #1#2
   {
     \int_gincr:N \g_@@_frame_int
+    \clist_if_empty:NF \l_talk_frame_properties_clist
+      {
+        \property_record:ee { frame . \int_use:N \g_@@_frame_int }
+          \l_talk_frame_properties_clist
+      }
     \bool_if:NT \l_@@_appendix_bool
       { \int_gincr:N \g_@@_appendixframe_int }
     \bool_set_true:N \l_@@_frame_bool
