@@ -289,11 +289,14 @@
             \vbox_unpack_drop:N \g_@@_footnote_box
           }
       }
-      \bool_if:NF \g_@@_slide_continue_bool
-        {
-          \property_record:ee { frame . \int_use:N \g_@@_frame_int }
-            { slides }
-        }
+    \bool_if:NF \g_@@_slide_continue_bool
+      {
+        \clist_set_eq:NN \l_@@_tmp_clist \l_talk_frame_properties_clist
+        \clist_put_left:Nn \l_@@_tmp_clist { slides }
+        \clist_remove_duplicates:N \l_@@_tmp_clist
+        \property_record:ee { frame . \int_use:N \g_@@_frame_int }
+          { \l_@@_tmp_clist }
+      }
     \clearpage
   }
 %    \end{macrocode}
@@ -895,11 +898,6 @@
 \cs_new_protected:Npn \@@_frame_process:nn #1#2
   {
     \int_gincr:N \g_@@_frame_int
-    \clist_if_empty:NF \l_talk_frame_properties_clist
-      {
-        \property_record:ee { frame . \int_use:N \g_@@_frame_int }
-          \l_talk_frame_properties_clist
-      }
     \bool_if:NT \l_@@_appendix_bool
       { \int_gincr:N \g_@@_appendixframe_int }
     \bool_set_true:N \l_@@_frame_bool

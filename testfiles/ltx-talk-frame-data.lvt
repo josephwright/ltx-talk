@@ -1,0 +1,24 @@
+\input{regression-test}
+
+\DocumentMetadata{tagging = draft}
+\documentclass{ltx-talk}
+
+\ExplSyntaxOn
+\property_new:nnnn { frametitle } { now } { } { \g__talk_frame_title_tl }
+\clist_set:Nn \l_talk_frame_properties_clist { frametitle }
+\ExplSyntaxOff
+
+\START
+
+\SHOWFILE{\jobname.aux}
+
+\OMIT
+
+\begin{document}
+
+\begin{frame}
+  \frametitle{My Title}
+  Content with title: \RefProperty{frame.1}{frametitle}
+\end{frame}
+
+\end{document}

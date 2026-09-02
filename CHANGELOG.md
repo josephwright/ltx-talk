@@ -8,6 +8,11 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- Refine implementation of frame property storage (see issue 
+  [\#241](https://github.com/josephwright/ltx-talk/issues/241))
+
 ## [v0.6.0] - 2026-08-23
 
 ### Added

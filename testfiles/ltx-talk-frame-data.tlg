@@ -1,0 +1,15 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+-------- ltx-talk-frame-data.aux (start) ---------
+(ltx-talk-frame-data.aux) \relax[nl]
+\providecommand\hyper@newdestlabel[2]{}[nl]
+\providecommand\HyField@AuxAddToFields[1]{}[nl]
+\providecommand\HyField@AuxAddToCoFields[2]{}[nl]
+\providecommand\BKM@entry[2]{}[nl]
+\new@label@record{mcid-3}{{tagabspage}{1}{tagmcabs}{3}{tagmcid}{0}}[nl]
+\new@label@record{mcid-1}{{tagabspage}{1}{tagmcabs}{1}{tagmcid}{1}}[nl]
+\new@label@record{frame.1}{{slides}{1}{frametitle}{My Title}}[nl]
+\new@label@record{@tag@LastPage}{{abspage}{1}{tagmcabs}{5}{tagstruct}{8}}[nl]
+\new@label@record{lastpage}{{appendixframes}{0}{frames}{1}{totalframes}{1}}[nl]
+\gdef \@abspage@last{1}[nl]
+-------- ltx-talk-frame-data.aux (end) -----------
