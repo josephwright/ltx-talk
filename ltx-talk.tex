@@ -1519,7 +1519,12 @@ for example bold math usage, you may wish to adjust the font setup using a
   \usepackage{lum-newcomputermodernsans}
 \end{verbatim}
 This area is very experimental and users may need to manually adjust loading if
-they have specific font requirements.
+they have specific font requirements. If you want to set the math font
+directly, you may also need to adjust the one use for \cs{mathrm}, for example
+\begin{verbatim}
+  \setmathfont{STIX Two Math}
+  \setmathrm{STIX Two Text}
+\end{verbatim}
 
 \subsection{Template \texttt{floatenv}}
 
