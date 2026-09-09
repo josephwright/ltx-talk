@@ -215,10 +215,10 @@
     handout .value_forbidden:n = true ,
     mode .choices:nn =
       { handout , projector }
-      { \str_set_eq:NN \l_@@_mode_str \l_keys_choice_tl } ,
+      { \str_set_eq:NN \l_@@_mode_str \l_keys_choice_str } ,
     supplementary-frames .choices:nn =
       { appendix , in-place , omit }
-      { \str_set_eq:NN \l_@@_suppl_mode_str \l_keys_choice_tl }
+      { \str_set_eq:NN \l_@@_suppl_mode_str \l_keys_choice_str }
   }
 \str_new:N \l_@@_mode_str
 \str_new:N \l_@@_suppl_mode_str
