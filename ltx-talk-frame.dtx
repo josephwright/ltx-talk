@@ -572,7 +572,8 @@
 %     \l_@@_header_ht_dim          ,
 %     \l_@@_header_left_skip       ,
 %     \l_@@_header_frametitle_bool ,
-%     \l_@@_header_right_skip 
+%     \l_@@_header_right_skip      ,
+%     \l_@@_header_title_box
 %   }
 %   Templates for the header area. The background always covers the full width,
 %   but the text area may be narrower. The setup here aims to avoid repeated
@@ -590,6 +591,8 @@
     print-frame-title : boolean = true ,
     right-hspace      : skip = \Gm@rmargin
   }
+\box_new:N \l_@@_header_title_box
+\dim_new:N \g_@@_header_title_after_dim
 \DeclareTemplateCode { header } { talk } { 0 }
   {
     background-color  = \l_@@_header_bg_tl ,
@@ -602,21 +605,50 @@
   }
   {
     \noindent
-    \@@_wallpaper_hrule:Nnn
-      \l_@@_header_bg_tl
-      { \l_@@_header_ht_dim - \headsep }
-      { \headsep }
-    \skip_horizontal:n { \l_@@_header_left_skip }
     \group_begin:
       \tl_if_empty:NF \l_@@_header_fg_tl
         { \color_select:V \l_@@_header_fg_tl }
       \l_@@_header_font_tl
-      \bool_if:NT \l_@@_header_frametitle_bool
+%    \end{macrocode}
+%   The title has to be boxed before the rule is drawn: it may wrap, and the
+%   rule has to cover however many lines it took. The box stays empty when
+%   there is no title to set, as its depth is what the rule grows by and a
+%   \cs{parbox} holding nothing is still a line deep.
+%    \begin{macrocode}
+      \hbox_set:Nn \l_@@_header_title_box
         {
-          \ExpandArgs { nnV }
-            \UseInstance { frametitle } { header }
-              \g_@@_frame_title_tl
+          \bool_if:NT \l_@@_header_frametitle_bool
+            {
+              \tl_if_empty:NF \g_@@_frame_title_tl
+                {
+                  \parbox [ t ]
+                    {
+                      \dimexpr \paperwidth
+                        - \l_@@_header_left_skip
+                        - \l_@@_header_right_skip \relax
+                    }
+                    { \raggedright
+                      \ExpandArgs { nnV }
+                        \UseInstance { frametitle } { header }
+                          \g_@@_frame_title_tl
+                      \dim_gset:Nn \g_@@_header_title_after_dim
+                        { \l_@@_frametitle_after_skip }
+                    }
+                }
+            }
         }
+      \@@_wallpaper_hrule:Nnn
+        \l_@@_header_bg_tl
+        { \l_@@_header_ht_dim - \headsep }
+        {
+          \dim_max:nn { \headsep }
+            {
+              \box_dp:N \l_@@_header_title_box
+                - \g_@@_header_title_after_dim
+            }
+        }
+      \skip_horizontal:n { \l_@@_header_left_skip }
+      \box_use_drop:N \l_@@_header_title_box
     \group_end:
   }
 \DeclareInstance { header } { std } { talk } { }
