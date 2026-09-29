@@ -73,10 +73,11 @@ Completed box being shipped out [1]
 ....\pdfdest name{Doc-Start} xyz
 ....\pdfdest name{Doc-Start} xyz
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 183.14232fil, direction TLT
+....\vbox(233.31262+0.0)x448.92128, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(50.1703+0.0)x448.92128, direction TLT
-......\vbox(50.1703+0.0)x448.92128, direction TLT
+.....\hbox(233.31262+0.0)x448.92128, direction TLT
+......\vbox(233.31262+0.0)x448.92128, glue set 183.14232fil, direction TLT
+.......\glue 0.0 plus 0.5fil
 .......\penalty 0
 .......\glue 9.0 plus 4.0 minus 5.0
 .......\pdfdest name{thrm.1} xyz
@@ -188,6 +189,7 @@ Completed box being shipped out [1]
 ........\glue(\rightskip) 0.0
 .......\penalty 0
 .......\glue 9.0 plus 3.0 minus 5.0
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\pdfliteral page <lua data reference ...>
 ....\pdfliteral page <lua data reference ...>

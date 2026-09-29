@@ -8,6 +8,11 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Stretchable vertical glue in frame content (see issue
+  [\#279](https://github.com/josephwright/ltx-talk/issues/279))
+
 ## [v0.6.7] - 2026-09-26
 
 ### Changed

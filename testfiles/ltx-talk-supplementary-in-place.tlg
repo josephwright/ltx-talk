@@ -68,10 +68,11 @@ Completed box being shipped out [1]
 ....\pdfdest name{Doc-Start} xyz
 ....\pdfdest struct22 name{Doc-Start} xyz
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 225.7084fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(7.60422+0.0)x448.92128
-......\vbox(7.60422+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 225.7084fil
+.......\glue 0.0 plus 0.5fil
 .......\hbox(7.60422+0.0)x448.92128, glue set 193.86154fil
 ........\write1{\new@label@record{mcid-1}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{1}{tagmcid}{\__property_code_tagmcid: }}}
 ........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
@@ -96,6 +97,7 @@ Completed box being shipped out [1]
 .......\marks4{b+,1,7,text,,,}
 .......\marks4{e-,1,7,}
 .......\marks4{e+,1,7,}
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\write1{\new@label@record{frame.1}{{slides}{1}}}
 ....\kern 0.0
@@ -190,10 +192,11 @@ Completed box being shipped out [2]
 ....\hbox(0.0+0.0)x0.0
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 225.7084fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(7.60422+0.0)x448.92128
-......\vbox(7.60422+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 225.7084fil
+.......\glue 0.0 plus 0.5fil
 .......\hbox(7.60422+0.0)x448.92128, glue set 188.58458fil
 ........\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
 ........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
@@ -221,6 +224,7 @@ Completed box being shipped out [2]
 .......\marks4{b+,4,10,text,,,}
 .......\marks4{e-,4,10,}
 .......\marks4{e+,4,10,}
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\write1{\new@label@record{frame.2}{{slides}{1}}}
 ....\kern 0.0

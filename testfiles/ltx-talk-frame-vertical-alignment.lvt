@@ -1,0 +1,36 @@
+\input{regression-test}
+
+\DocumentMetadata{tagging = draft}
+\documentclass{ltx-talk}
+
+\begin{document}
+
+\START
+
+\showoutput
+
+\begin{frame}[vertical-alignment = top]
+  Top
+\end{frame}
+
+\begin{frame}[vertical-alignment = center]
+  Center
+\end{frame}
+
+\begin{frame}[vertical-alignment = bottom]
+  Bottom
+\end{frame}
+
+\begin{frame}[vertical-alignment = stretch]
+  Top
+  \vfill
+  Bottom
+\end{frame}
+
+\begin{frame}[vertical-alignment = top]
+  Top\footnote{Note}
+  \vfill
+  Bottom
+\end{frame}
+
+\end{document}

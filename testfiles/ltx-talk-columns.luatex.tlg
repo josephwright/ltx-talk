@@ -75,10 +75,11 @@ Completed box being shipped out [1]
 ....\pdfdest name{Doc-Start} xyz
 ....\pdfdest name{Doc-Start} xyz
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 211.87244fil, direction TLT
+....\vbox(233.31262+0.0)x448.92128, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(13.4576+7.98259)x448.92128, direction TLT
-......\vbox(13.4576+7.98259)x448.92128, direction TLT
+.....\hbox(233.31262+0.0)x448.92128, direction TLT
+......\vbox(233.31262+0.0)x448.92128, glue set 211.87244fil, direction TLT
+.......\glue 0.0 plus 0.5fil
 .......\hbox(13.4576+7.98259)x448.92128, glue set 179.56578fil, direction TLT
 ........\vbox(13.4576+7.98259)x269.3555, direction TLT
 .........\hbox(7.71974+0.12045)x269.3555, glue set 254.7482fil, direction TLT
@@ -131,6 +132,7 @@ Completed box being shipped out [1]
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\pdfliteral page <lua data reference ...>
 ....\pdfliteral page <lua data reference ...>

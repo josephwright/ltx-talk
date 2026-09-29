@@ -69,10 +69,11 @@ Completed box being shipped out [1]
 ....\pdfdest name{Doc-Start} xyz
 ....\pdfdest struct22 name{Doc-Start} xyz
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 204.26534fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(17.26114+11.78615)x448.92128
-......\vbox(17.26114+11.78615)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 204.26534fil
+.......\glue 0.0 plus 0.5fil
 .......\hbox(17.26114+11.78615)x448.92128
 ........\write1{\new@label@record{mcid-1}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{1}{tagmcid}{\__property_code_tagmcid: }}}
 ........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
@@ -148,6 +149,7 @@ Completed box being shipped out [1]
 .......\marks4{b+,5,14,text,,,}
 .......\marks4{e-,5,14,}
 .......\marks4{e+,5,14,}
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\write1{\new@label@record{frame.1}{{slides}{1}}}
 ....\kern 0.0
@@ -242,13 +244,14 @@ Completed box being shipped out [2]
 ....\hbox(0.0+0.0)x0.0
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 195.37505fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(37.93758+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
 ......\pdfliteral page{/Artifact BMC}
 ......\marks4{b-,8,-1,}
 ......\marks4{b+,8,-1,}
-......\vbox(37.93758+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 195.37505fil
+.......\glue 0.0 plus 0.5fil
 .......\hbox(17.90417+12.42918)x448.92128
 ........\hbox(0.0+0.0)x0.0
 ........\vbox(17.90417+12.42918)x448.92128
@@ -303,6 +306,7 @@ Completed box being shipped out [2]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 ......\pdfliteral page{EMC}
 ......\marks4{e-,8,2,}
 ......\marks4{e+,8,2,}
@@ -398,10 +402,11 @@ Completed box being shipped out [3]
 ....\hbox(0.0+0.0)x0.0
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 195.37505fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(37.93758+0.0)x448.92128
-......\vbox(37.93758+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 195.37505fil
+.......\glue 0.0 plus 0.5fil
 .......\hbox(17.90417+12.42918)x448.92128
 ........\write1{\new@label@record{mcid-11}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{11}{tagmcid}{\__property_code_tagmcid: }}}
 ........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
@@ -489,6 +494,7 @@ Completed box being shipped out [3]
 ........\glue(\rightskip) 0.0 plus 1.0fil
 .......\marks4{e-,15,24,}
 .......\marks4{e+,15,24,}
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\write1{\new@label@record{frame.2}{{slides}{2}}}
 ....\kern 0.0
@@ -582,13 +588,14 @@ Completed box being shipped out [4]
 ....\hbox(0.0+0.0)x0.0
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 206.11261fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(16.2636+10.93642)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
 ......\pdfliteral page{/Artifact BMC}
 ......\marks4{b-,18,-1,}
 ......\marks4{b+,18,-1,}
-......\vbox(16.2636+10.93642)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 206.11261fil
+.......\glue 0.0 plus 0.5fil
 .......\hbox(16.2636+10.93642)x448.92128, glue set 89.78975fil
 ........\vbox(5.82266+0.49548)x179.56577
 .........\hbox(6.31815+0.0)x179.56577, glue set 81.29675fil
@@ -628,6 +635,7 @@ Completed box being shipped out [4]
 .........\glue(\baselineskip) 13.17842
 .........\hbox(0.0+0.0)x179.56577, glue set 179.56577fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 ......\pdfliteral page{EMC}
 ......\marks4{e-,18,2,}
 ......\marks4{e+,18,2,}
@@ -723,10 +731,11 @@ Completed box being shipped out [5]
 ....\hbox(0.0+0.0)x0.0
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 219.29105fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(9.67438+4.3472)x448.92128
-......\vbox(9.67438+4.3472)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 219.29105fil
+.......\glue 0.0 plus 0.5fil
 .......\hbox(9.67438+4.3472)x448.92128, glue set 89.78975fil
 ........\vbox(5.82266+0.49548)x179.56577
 .........\hbox(6.31815+0.0)x179.56577, glue set 81.29675fil
@@ -792,6 +801,7 @@ Completed box being shipped out [5]
 .........\marks4{b+,24,33,text,,,}
 .........\marks4{e-,24,33,}
 .........\marks4{e+,24,33,}
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\write1{\new@label@record{frame.3}{{slides}{2}}}
 ....\kern 0.0

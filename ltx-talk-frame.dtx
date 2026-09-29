@@ -193,7 +193,10 @@
               > \textheight
           }
           { \@@_slide_break: }
-          { \@@_slide_auxiii: }
+          {
+            \@@_slide_fill:
+            \@@_slide_auxiii:
+          }
   }
 \cs_new_protected:Npn \@@_slide_auxiii:
   {
@@ -244,6 +247,29 @@
       { \bool_gset_false:N \g_@@_frame_tag_bool }
     \bool_gset_eq:NN \g_@@_slide_continue_bool
       \l_@@_slide_continue_bool
+  }
+%    \end{macrocode}
+% \end{macro}
+% \begin{macro}{\@@_slide_fill:}
+%   Once the horizontal box carrying the tagging is closed, the content
+%   inside it is rigid, and so any stretchable glue in it (\cs{vfill}, the
+%   \opt{stretch} alignment) would stay at its natural size. So a slide that
+%   is not being broken is re-set here, still inside that box, to the height
+%   available for it and with the alignment glue around it. Footnotes are
+%   added below the content in \cs{@@_slide_output:}, and so their height is
+%   not available: the standard \cs{footnoterule} takes up no net height, and
+%   the depth of the last footnote becomes the depth of the slide. (The depth
+%   of the last line of content needs no allowance either: the alignment glue
+%   ends the box, and so that depth is part of its height.)
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_slide_fill:
+  {
+    \vbox_set_to_ht:Nnn \l_@@_slide_box
+      { \textheight - \box_ht:N \g_@@_footnote_box }
+      {
+        \use:c { @@_slide_align_ \l_@@_frame_alignment_tl :n }
+          { \vbox_unpack_drop:N \l_@@_slide_box }
+      }
   }
 %    \end{macrocode}
 % \end{macro}

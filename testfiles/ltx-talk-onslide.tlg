@@ -69,13 +69,14 @@ Completed box being shipped out [1]
 ....\pdfdest name{Doc-Start} xyz
 ....\pdfdest struct22 name{Doc-Start} xyz
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 206.1084fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(27.20422+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
 ......\pdfliteral page{/Artifact BMC}
 ......\marks4{b-,1,-1,}
 ......\marks4{b+,1,-1,}
-......\vbox(27.20422+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 206.1084fil
+.......\glue 0.0 plus 0.5fil
 .......\hbox(7.60422+0.0)x448.92128, glue set 206.18028fil
 ........\hbox(0.0+0.0)x0.0
 ........\T1/lmss/m/n/10.95 C
@@ -124,6 +125,7 @@ Completed box being shipped out [1]
 .......\penalty 0
 .......\pdfcolorstack 1 pop
 .......\glue 3.0 plus 2.0 minus 2.5
+.......\glue 0.0 plus 0.5fil
 ......\pdfliteral page{EMC}
 ......\marks4{e-,1,2,}
 ......\marks4{e+,1,2,}
@@ -220,10 +222,11 @@ Completed box being shipped out [2]
 ....\hbox(0.0+0.0)x0.0
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 206.1084fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(27.20422+0.0)x448.92128
-......\vbox(27.20422+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 206.1084fil
+.......\glue 0.0 plus 0.5fil
 .......\hbox(7.60422+0.0)x448.92128, glue set 206.18028fil
 ........\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
 ........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
@@ -289,6 +292,7 @@ Completed box being shipped out [2]
 .......\marks4{e+,6,13,}
 .......\penalty 0
 .......\glue 3.0 plus 2.0 minus 2.5
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\write1{\new@label@record{frame.1}{{slides}{2}}}
 ....\kern 0.0
@@ -382,10 +386,11 @@ Completed box being shipped out [3]
 ....\hbox(0.0+0.0)x0.0
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 225.7084fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(7.60422+0.0)x448.92128
-......\vbox(7.60422+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 225.7084fil
+.......\glue 0.0 plus 0.5fil
 .......\hbox(7.60422+0.0)x448.92128, glue set 200.00578fil
 ........\write1{\new@label@record{mcid-9}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{9}{tagmcid}{\__property_code_tagmcid: }}}
 ........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
@@ -408,6 +413,7 @@ Completed box being shipped out [3]
 .......\marks4{b+,9,16,text,,,}
 .......\marks4{e-,9,16,}
 .......\marks4{e+,9,16,}
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\write1{\new@label@record{frame.2}{{slides}{1}}}
 ....\kern 0.0

@@ -71,10 +71,11 @@ Completed box being shipped out [1]
 ....\pdfdest name{Doc-Start} xyz
 ....\pdfdest name{Doc-Start} xyz
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 225.59286fil, direction TLT
+....\vbox(233.31262+0.0)x448.92128, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(7.5993+0.12045)x448.92128, direction TLT
-......\vbox(7.5993+0.12045)x448.92128, direction TLT
+.....\hbox(233.31262+0.0)x448.92128, direction TLT
+......\vbox(233.31262+0.0)x448.92128, glue set 225.59286fil, direction TLT
+.......\glue 0.0 plus 0.5fil
 .......\hbox(7.5993+0.12045)x448.92128, glue set 193.86087fil, direction TLT
 ........\localpar
 .........\localinterlinepenalty=0
@@ -102,6 +103,7 @@ Completed box being shipped out [1]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\pdfliteral page <lua data reference ...>
 ....\pdfliteral page <lua data reference ...>
@@ -205,10 +207,11 @@ Completed box being shipped out [2]
 ....\write-{}
 ....\write1{\@writefile{toc}{\appendixmarker }}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 225.62572fil, direction TLT
+....\vbox(233.31262+0.0)x448.92128, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(7.56645+0.12045)x448.92128, direction TLT
-......\vbox(7.56645+0.12045)x448.92128, direction TLT
+.....\hbox(233.31262+0.0)x448.92128, direction TLT
+......\vbox(233.31262+0.0)x448.92128, glue set 225.62572fil, direction TLT
+.......\glue 0.0 plus 0.5fil
 .......\hbox(7.56645+0.12045)x448.92128, glue set 188.58844fil, direction TLT
 ........\localpar
 .........\localinterlinepenalty=0
@@ -242,6 +245,7 @@ Completed box being shipped out [2]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\pdfliteral page <lua data reference ...>
 ....\pdfliteral page <lua data reference ...>

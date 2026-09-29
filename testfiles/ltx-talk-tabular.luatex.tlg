@@ -75,10 +75,11 @@ Completed box being shipped out [1]
 ....\pdfdest name{Doc-Start} xyz
 ....\pdfdest name{Doc-Start} xyz
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 177.20454fil, direction TLT
+....\vbox(233.31262+0.0)x448.92128, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(55.98763+0.12045)x448.92128, direction TLT
-......\vbox(55.98763+0.12045)x448.92128, direction TLT
+.....\hbox(233.31262+0.0)x448.92128, direction TLT
+......\vbox(233.31262+0.0)x448.92128, glue set 177.20454fil, direction TLT
+.......\glue 0.0 plus 0.5fil
 .......\pdfliteral page <lua data reference ...>
 .......\pdfliteral page <lua data reference ...>
 .......\pdfcolorstack 1 push {/opacity1 gs}
@@ -238,6 +239,7 @@ Completed box being shipped out [1]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\glue 0.0 plus 1.0fil
 ....\glue 0.0
@@ -339,10 +341,11 @@ Completed box being shipped out [2]
 ...\vbox(233.31262+0.0)x448.92128, direction TLT
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 177.20454fil, direction TLT
+....\vbox(233.31262+0.0)x448.92128, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(55.98763+0.12045)x448.92128, direction TLT
-......\vbox(55.98763+0.12045)x448.92128, direction TLT
+.....\hbox(233.31262+0.0)x448.92128, direction TLT
+......\vbox(233.31262+0.0)x448.92128, glue set 177.20454fil, direction TLT
+.......\glue 0.0 plus 0.5fil
 .......\pdfliteral page <lua data reference ...>
 .......\pdfliteral page <lua data reference ...>
 .......\pdfcolorstack 1 push {/opacity1 gs}
@@ -502,6 +505,7 @@ Completed box being shipped out [2]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\glue 0.0 plus 1.0fil
 ....\glue 0.0
@@ -602,10 +606,11 @@ Completed box being shipped out [3]
 ...\vbox(233.31262+0.0)x448.92128, direction TLT
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 177.20454fil, direction TLT
+....\vbox(233.31262+0.0)x448.92128, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(55.98763+0.12045)x448.92128, direction TLT
-......\vbox(55.98763+0.12045)x448.92128, direction TLT
+.....\hbox(233.31262+0.0)x448.92128, direction TLT
+......\vbox(233.31262+0.0)x448.92128, glue set 177.20454fil, direction TLT
+.......\glue 0.0 plus 0.5fil
 .......\pdfliteral page <lua data reference ...>
 .......\pdfliteral page <lua data reference ...>
 .......\pdfcolorstack 1 push {/opacity1 gs}
@@ -763,6 +768,7 @@ Completed box being shipped out [3]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\glue 0.0 plus 1.0fil
 ....\glue 0.0
@@ -863,10 +869,11 @@ Completed box being shipped out [4]
 ...\vbox(233.31262+0.0)x448.92128, direction TLT
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 177.20454fil, direction TLT
+....\vbox(233.31262+0.0)x448.92128, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(55.98763+0.12045)x448.92128, direction TLT
-......\vbox(55.98763+0.12045)x448.92128, direction TLT
+.....\hbox(233.31262+0.0)x448.92128, direction TLT
+......\vbox(233.31262+0.0)x448.92128, glue set 177.20454fil, direction TLT
+.......\glue 0.0 plus 0.5fil
 .......\pdfcolorstack 1 push {/opacity1 gs}
 .......\glue(\parskip) 0.0 plus 1.0
 .......\glue(\parskip) 0.0
@@ -1050,6 +1057,7 @@ Completed box being shipped out [4]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\pdfliteral page <lua data reference ...>
 ....\pdfliteral page <lua data reference ...>
@@ -1151,10 +1159,11 @@ Completed box being shipped out [5]
 ...\vbox(233.31262+0.0)x448.92128, direction TLT
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 190.00455fil, direction TLT
+....\vbox(233.31262+0.0)x448.92128, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(43.18762+0.12045)x448.92128, direction TLT
-......\vbox(43.18762+0.12045)x448.92128, direction TLT
+.....\hbox(233.31262+0.0)x448.92128, direction TLT
+......\vbox(233.31262+0.0)x448.92128, glue set 190.00455fil, direction TLT
+.......\glue 0.0 plus 0.5fil
 .......\hbox(7.5336+0.12045)x448.92128, glue set 214.25525fil, direction TLT
 ........\localpar
 .........\localinterlinepenalty=0
@@ -1238,6 +1247,7 @@ Completed box being shipped out [5]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\glue 0.0 plus 1.0fil
 ....\glue 0.0
@@ -1338,10 +1348,11 @@ Completed box being shipped out [6]
 ...\vbox(233.31262+0.0)x448.92128, direction TLT
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 190.00455fil, direction TLT
+....\vbox(233.31262+0.0)x448.92128, direction TLT
 .....\glue 0.0 plus 0.5fil
-.....\hbox(43.18762+0.12045)x448.92128, direction TLT
-......\vbox(43.18762+0.12045)x448.92128, direction TLT
+.....\hbox(233.31262+0.0)x448.92128, direction TLT
+......\vbox(233.31262+0.0)x448.92128, glue set 190.00455fil, direction TLT
+.......\glue 0.0 plus 0.5fil
 .......\hbox(7.5336+0.12045)x448.92128, glue set 214.25525fil, direction TLT
 ........\localpar
 .........\localinterlinepenalty=0
@@ -1435,6 +1446,7 @@ Completed box being shipped out [6]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\pdfliteral page <lua data reference ...>
 ....\pdfliteral page <lua data reference ...>

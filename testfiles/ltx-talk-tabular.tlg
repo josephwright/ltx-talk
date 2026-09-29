@@ -69,13 +69,14 @@ Completed box being shipped out [1]
 ....\pdfdest name{Doc-Start} xyz
 ....\pdfdest struct22 name{Doc-Start} xyz
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 177.30421fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(56.0084+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
 ......\pdfliteral page{/Artifact BMC}
 ......\marks4{b-,1,-1,}
 ......\marks4{b+,1,-1,}
-......\vbox(56.0084+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 177.30421fil
+.......\glue 0.0 plus 0.5fil
 .......\pdfcolorstack 1 push {/opacity1 gs}
 .......\glue(\parskip) 0.0 plus 1.0
 .......\glue(\parskip) 0.0
@@ -206,6 +207,7 @@ Completed box being shipped out [1]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 ......\pdfliteral page{EMC}
 ......\marks4{e-,1,2,}
 ......\marks4{e+,1,2,}
@@ -302,13 +304,14 @@ Completed box being shipped out [2]
 ....\hbox(0.0+0.0)x0.0
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 177.30421fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(56.0084+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
 ......\pdfliteral page{/Artifact BMC}
 ......\marks4{b-,4,-1,}
 ......\marks4{b+,4,-1,}
-......\vbox(56.0084+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 177.30421fil
+.......\glue 0.0 plus 0.5fil
 .......\pdfcolorstack 1 push {/opacity1 gs}
 .......\glue(\parskip) 0.0 plus 1.0
 .......\glue(\parskip) 0.0
@@ -439,6 +442,7 @@ Completed box being shipped out [2]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 ......\pdfliteral page{EMC}
 ......\marks4{e-,4,2,}
 ......\marks4{e+,4,2,}
@@ -534,13 +538,14 @@ Completed box being shipped out [3]
 ....\hbox(0.0+0.0)x0.0
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 177.30421fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(56.0084+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
 ......\pdfliteral page{/Artifact BMC}
 ......\marks4{b-,7,-1,}
 ......\marks4{b+,7,-1,}
-......\vbox(56.0084+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 177.30421fil
+.......\glue 0.0 plus 0.5fil
 .......\pdfcolorstack 1 push {/opacity1 gs}
 .......\glue(\parskip) 0.0 plus 1.0
 .......\glue(\parskip) 0.0
@@ -669,6 +674,7 @@ Completed box being shipped out [3]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 ......\pdfliteral page{EMC}
 ......\marks4{e-,7,2,}
 ......\marks4{e+,7,2,}
@@ -764,10 +770,11 @@ Completed box being shipped out [4]
 ....\hbox(0.0+0.0)x0.0
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 177.30421fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(56.0084+0.0)x448.92128
-......\vbox(56.0084+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 177.30421fil
+.......\glue 0.0 plus 0.5fil
 .......\pdfcolorstack 1 push {/opacity1 gs}
 .......\glue(\parskip) 0.0 plus 1.0
 .......\glue(\parskip) 0.0
@@ -1009,6 +1016,7 @@ Completed box being shipped out [4]
 .......\marks4{b+,22,25,text,,,}
 .......\marks4{e-,22,25,}
 .......\marks4{e+,22,25,}
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\write1{\new@label@record{frame.1}{{slides}{4}}}
 ....\kern 0.0
@@ -1102,13 +1110,14 @@ Completed box being shipped out [5]
 ....\hbox(0.0+0.0)x0.0
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 190.10422fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(43.2084+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
 ......\pdfliteral page{/Artifact BMC}
 ......\marks4{b-,25,-1,}
 ......\marks4{b+,25,-1,}
-......\vbox(43.2084+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 190.10422fil
+.......\glue 0.0 plus 0.5fil
 .......\hbox(7.60422+0.0)x448.92128, glue set 214.256fil
 ........\hbox(0.0+0.0)x0.0
 ........\T1/lmss/m/n/10.95 T
@@ -1173,6 +1182,7 @@ Completed box being shipped out [5]
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
 ......\pdfliteral page{EMC}
 ......\marks4{e-,25,2,}
 ......\marks4{e+,25,2,}
@@ -1268,10 +1278,11 @@ Completed box being shipped out [6]
 ....\hbox(0.0+0.0)x0.0
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(233.31262+0.0)x448.92128, glue set 190.10422fil
+....\vbox(233.31262+0.0)x448.92128
 .....\glue 0.0 plus 0.5fil
-.....\hbox(43.2084+0.0)x448.92128
-......\vbox(43.2084+0.0)x448.92128
+.....\hbox(233.31262+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 190.10422fil
+.......\glue 0.0 plus 0.5fil
 .......\hbox(7.60422+0.0)x448.92128, glue set 214.256fil
 ........\write1{\new@label@record{mcid-28}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{28}{tagmcid}{\__property_code_tagmcid: }}}
 ........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
@@ -1382,6 +1393,7 @@ Completed box being shipped out [6]
 .......\marks4{b+,33,38,text,,,}
 .......\marks4{e-,33,38,}
 .......\marks4{e+,33,38,}
+.......\glue 0.0 plus 0.5fil
 .....\glue 0.0 plus 0.5fil
 ....\write1{\new@label@record{frame.2}{{slides}{2}}}
 ....\kern 0.0
