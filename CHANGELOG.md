@@ -8,6 +8,11 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Correct behavior of overlays after `handout:0` is applied outside a frame (see
+  issue [\#284](https://github.com/josephwright/ltx-talk/issues/284))
+
 ## [v0.6.8] - 2026-09-30
 
 ### Fixed

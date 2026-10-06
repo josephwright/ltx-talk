@@ -155,6 +155,8 @@
       }
     \test:nnTF { handout } { 1- } \TRUE \ERROR
     \test:nnTF { handout } { 1-|handout:0 } \ERROR \FALSE
+    % Deliberately immediately after the handout:0 one
+    \test:nnTF { handout } { 2- } \TRUE \ERROR
     \test:nnTF { handout } { projector } \ERROR \FALSE
     \test:nnTF { handout } { article|projector } \ERROR \FALSE
     \test:nnTF { handout } { article|projector:1 } \ERROR \FALSE
