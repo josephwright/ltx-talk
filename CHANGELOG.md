@@ -8,6 +8,9 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+- Correct naming of `frame-style` key (see issue
+  [\#285](https://github.com/josephwright/ltx-talk/issues/285))
+
 ## [v0.6.9] - 2026-10-06
 
 ### Fixed

@@ -244,14 +244,14 @@
         institute ,
         date
       } ,
-    framestyle : tokenlist = talk ,
+    frame-style : tokenlist = talk ,
     horizontal-alignment : choice { left , center ,  right } = center ,
     vertical-alignment : choice { bottom , center , stretch , top } = center
   }
 \DeclareTemplateCode { titlepage } { talk } { 0 }
   {
     element-order = \l_@@_titlepage_order_clist ,
-    framestyle = \l_@@_titlepage_framestyle_tl ,
+    frame-style = \l_@@_titlepage_frame-style_tl ,
     horizontal-alignment =
       {
         left = \tl_set:Nn \l_@@_titlepage_alignment_tl { flushleft } ,
