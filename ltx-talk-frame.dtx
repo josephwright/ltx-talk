@@ -935,8 +935,7 @@
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_frame_process:nn #1#2
   {
-    \@@_decode_parse:n {#1}
-    \bool_if:NT \l_@@_decode_mode_bool
+    \@@_if_mode:nT {#1}
       { \@@_frame_process_aux:nn {#1} {#2} }
   }
 \cs_new_protected:Npn \@@_frame_process_aux:nn #1#2

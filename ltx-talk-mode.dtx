@@ -73,25 +73,23 @@
 %<@@=talk>
 %    \end{macrocode}
 %
-% \begin{macro}{\@@_mode:nT}
-%   A simplified version of \cs{mode}: only deal with the argument form,
-%   only check the entire overlay spec as a string.
+% \begin{macro}[TF}{\@@_if_mode:n}
 %    \begin{macrocode}
-\prg_new_protected_conditional:Npnn \@@_mode:n #1 { T }
+\prg_new_protected_conditional:Npnn \@@_if_mode:n #1 { T , F , TF }
   {
-    \bool_lazy_or:nnTF
-      { \str_if_eq_p:nn {#1} { all } }
-      { \str_if_eq_p:Vn \l_@@_mode_str {#1} }
+    \@@_decode_parse:n {#1}
+    \bool_if:NTF \l_@@_decode_mode_bool
       \prg_return_true:
       \prg_return_false:
   }
+\prg_generate_conditional_variant:Nnn \@@_if_mode:n { V } { T , F , TF }
 %    \end{macrocode}
 % \end{macro}
 %
 % \begin{macro}{\mode}
 %    \begin{macrocode}
 \NewDocumentCommand \mode { D <> { all } +m }
-  { \@@_mode:nT {#1} {#2} }
+  { \@@_if_mode:nT {#1} {#2} }
 %    \end{macrocode}
 % \end{macro}
 %
