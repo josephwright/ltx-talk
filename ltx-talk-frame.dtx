@@ -1082,10 +1082,10 @@
     \use:c { bool_set_ #1 :N } \l_@@_frame_verb_bool
     \@@_frame_process:nn {#3} {#2}
   }
-\NewDocumentCommand \reuseframe { D <> { all } = { action-spec } O { } m }
+\NewDocumentCommand \reuseframe { D <> { all } O { } m }
   {
     \group_begin:
-      \keys_set:nn { talk / frame } {#2}
+      \@@_frame_set:n {#2}
       \str_clear:N \l_@@_frame_name_str
       \@@_frame_reuse:nn {#1} {#3}
     \group_end:
