@@ -829,19 +829,43 @@
       { \l_@@_list_end_tl }
   }
 %    \end{macrocode}
+% \begin{macro}{\@@_block_set:n}
+% \begin{macro}{\@@_block_set:w}
+%   We need to handle the classical \cls{beamer} syntax in optional arguments:
+%   |[<...>]|. The code here uses the same idea as the function for frames, but
+%   with only one key set up and the need to return a value, things are be done
+%   slightly differently.
+%    \end{macrocode}
+\cs_new_protected:Npn \@@_block_set:n #1
+  {
+    \tl_clear:N \l_@@_tmp_tl
+    \tl_if_head_eq_charcode:nNT {#1} { < }
+      { \@@_block_set:w #1 \q_nil > \q_nil \q_stop }
+   }
+\cs_new_protected:Npn \@@_block_set:w < #1 > \q_nil #2 \q_stop
+  {
+    \tl_if_empty:nF {#2}
+      {
+        \keys_set_known:nnN { talk / block } { action-spec = { < #1 > } }
+          \l_@@_tmp_tl
+      }
+  }
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
 % \begin{environment}{itemize, enumerate, description}
+%   Allow for the classical \cls{beamer} syntax.
 %    \begin{macrocode}
 \AddToHook { begindocument / before }
   {
     \clist_map_inline:nn { itemize , enumerate , description }
       {
-        \RenewDocumentEnvironment {#1} { = { action-spec } !o }
+        \RenewDocumentEnvironment {#1} { !o }
           {
             \IfNoValueTF {##1}
               { \SimpleBlockEnv {#1} { } }
               {
-                \keys_set_known:nnN { talk / block } {##1}
-                 \l_@@_tmp_tl
+                \@@_block_set:n {##1}
                 \ExpandArgs { nV } \SimpleBlockEnv {#1} \l_@@_tmp_tl
               }
           }
