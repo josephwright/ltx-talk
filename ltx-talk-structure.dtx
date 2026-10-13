@@ -830,15 +830,21 @@
   }
 %    \end{macrocode}
 % \begin{environment}{itemize, enumerate, description}
-%   Allow for the classical \cls{beamer} syntax: currently two versions but that
-%   will only last until the 2026-06-01 release of \LaTeX{} is out.
 %    \begin{macrocode}
 \AddToHook { begindocument / before }
   {
     \clist_map_inline:nn { itemize , enumerate , description }
       {
         \RenewDocumentEnvironment {#1} { = { action-spec } !o }
-          { \SimpleBlockEnv {#1} {##1} }
+          {
+            \IfNoValueTF {##1}
+              { \SimpleBlockEnv {#1} { } }
+              {
+                \keys_set_known:nnN { talk / block } {##1}
+                 \l_@@_tmp_tl
+                \ExpandArgs { nV } \SimpleBlockEnv {#1} \l_@@_tmp_tl
+              }
+          }
           { \BlockEnvEnd }
       }
   }
@@ -861,7 +867,7 @@
 %   latter to do actions up-front. This also means it can apply to whatever we
 %   want it to within a block.
 %    \begin{macrocode}
-\keys_define:nn { template / block / std  }
+\keys_define:nn { talk / block }
   { action-spec .str_set:N = \l_@@_action_spec_str }
 %    \end{macrocode}
 % \end{variable}
