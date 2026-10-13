@@ -25,4 +25,10 @@
   Content
 \end{frame}
 
+\begin{frame}
+  \frametitle{A normal title}
+  \framesubtitle{A subtitle}
+  Content
+\end{frame}
+
 \end{document}

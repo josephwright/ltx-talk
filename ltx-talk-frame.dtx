@@ -648,6 +648,11 @@
             \ExpandArgs { nnV }
               \UseInstance { frametitle } { header }
                 \g_@@_frame_title_tl
+            \tl_if_empty:NF \g_@@_frame_subtitle_tl
+              {
+                \msg_warning:nnV { talk } { subtitle-not-implemented }
+                  \g_@@_frame_subtitle_tl
+              }
           }
       }
     \dim_compare:nNnT { \box_ht:N \l_@@_tmp_box + \box_dp:N \l_@@_tmp_box }
@@ -1113,6 +1118,13 @@
   {
     Typesetting~the~frame~header,~there~was~too~much~vertical~space~used.
     You~likely~need~to~adjusst~the~overall~space~available~for~frame~titles.
+  }
+\msg_new:nnnn { talk } { subtitle-not-implemented }
+  { Frame~subtitle~not~printed~on~frame~ \int_use:N \g_@@_frame_int ! }
+  {
+    Typesetting~the~frame~header,~the~frame~subtitle~"#1"~was~given;~
+    at~present,~printing~frame~subtitles~is~not~implemented~in~the~standard~
+    template.~The~text~will~therefore~be~lost.
   }
 \msg_new:nnnn { talk } { unknown-frame-name }
   { Unknown~frame~name~"#1"! }

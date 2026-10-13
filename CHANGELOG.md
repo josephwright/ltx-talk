@@ -8,6 +8,8 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+- Warn if a frame subtitle is given (see issue
+  [\#73](https://github.com/josephwright/ltx-talk/issues/73))
 - Correct naming of `frame-style` key (see issue
   [\#285](https://github.com/josephwright/ltx-talk/issues/285))
 - Support booleans without `= true` in frame optional argument
