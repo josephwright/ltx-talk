@@ -992,7 +992,7 @@
 %   We need to handle the classical \cls{beamer} syntax in optional arguments:
 %   |[<...>]|. That can be done while still allowing keyvals not to show values,
 %   for example |auto-break|.
-%    \end{macrocode}
+%    \begin{macrocode}
 \cs_new_protected:Npn \@@_frame_set:n #1
   {
     \tl_if_head_eq_charcode:nNTF {#1} { < }
