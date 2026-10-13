@@ -982,6 +982,28 @@
 % \end{macro}
 % \end{macro}
 %
+% \begin{macro}{\@@_frame_set:n}
+% \begin{macro}{\@@_frame_set:w}
+%   We need to handle the classical \cls{beamer} syntax in optional arguments:
+%   |[<...>]|. That can be done while still allowing keyvals not to show values,
+%   for example |auto-break|.
+%    \end{macrocode}
+\cs_new_protected:Npn \@@_frame_set:n #1
+  {
+    \tl_if_head_eq_charcode:nNTF {#1} { < }
+      { \@@_frame_set:w #1 \q_nil > \q_nil \q_stop {#1} }
+      { \keys_set:nn { talk / frame } {#1} }
+   }
+\cs_new_protected:Npn \@@_frame_set:w < #1 > \q_nil #2 \q_stop #3
+  {
+    \tl_if_empty:nTF {#2}
+      { \keys_set:nn { talk / frame } {#3} }
+      { \keys_set:nn { talk / frame } { action-spec = { < #1 > } } }
+  }
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+%
 % \begin{macro}{frame, frame*}
 %   The definition for the \env{frame} and \env{frame*} environments: the exact
 %   interface at both the document and code levels is still open.
@@ -989,19 +1011,19 @@
 \bool_if:NTF \l_@@_frame_title_bool
   {
     \RenewDocumentEnvironment { frame }
-      { D <> { all } = { action-spec } O { } +m +b }
+      { D <> { all } O { } +m +b }
       {
         \str_clear:N \l_@@_frame_name_str
-        \keys_set:nn { talk / frame } {#2}
+        \@@_frame_set:n {#2}
         \bool_set_false:N \l_@@_frame_verb_bool
         \@@_frame_process:nn {#1} { \frametitle {#3} #4 }
       }
       { }
     \NewDocumentEnvironment { frame* }
-      { D <> { all } = { action-spec } O { } +m c }
+      { D <> { all } O { } +m c }
       {
         \str_clear:N \l_@@_frame_name_str
-        \keys_set:nn { talk / frame } {#2}
+        \@@_frame_set:n {#2}
         \bool_set_true:N \l_@@_frame_verb_bool
         \tl_gset:Nn \g_@@_frame_title_tl {#3}
         \exp_args:Nne \@@_frame_process:nn {#1}
@@ -1011,19 +1033,19 @@
   }
   {
     \RenewDocumentEnvironment { frame }
-      { !D <> { all } = { action-spec } !O { } +b }
+      { !D <> { all } !O { } +b }
       {
         \str_clear:N \l_@@_frame_name_str
-        \keys_set:nn { talk / frame } {#2}
+        \@@_frame_set:n {#2}
         \bool_set_false:N \l_@@_frame_verb_bool
         \@@_frame_process:nn {#1} {#3}
       }
       { }
     \NewDocumentEnvironment { frame* }
-      { !D <> { all } = { action-spec } !O { } c }
+      { !D <> { all } !O { } c }
       {
         \str_clear:N \l_@@_frame_name_str
-        \keys_set:nn { talk / frame } {#2}
+        \@@_frame_set:n {#2}
         \bool_set_true:N \l_@@_frame_verb_bool
         \@@_frame_process:nn {#1} {#3}
       }
