@@ -1,0 +1,31 @@
+\DocumentMetadata{tagging = on, pdfstandard = ua-2}
+
+\documentclass{ltx-talk}
+
+\title{Background images for single frames}
+
+\begin{document}
+
+\begin{frame}
+  Some text
+
+  \AddToHookNext{shipout/background}
+    {\put(0cm, -\paperheight)
+        {\includegraphics[artifact, width = \paperwidth, height = \paperheight]
+            {example-image-a}}}
+\end{frame}
+
+\begin{frame}
+  Some text on a plain background
+\end{frame}
+
+\begin{frame}
+  Some text with a centred background image
+  \AddToHookNext{shipout/background}{\put (0.5\paperwidth,-0.95\paperheight) {\clap{\includegraphics{example-image}}}}
+\end{frame}
+
+\begin{frame}
+  Some text on a plain background
+\end{frame}
+
+\end{document}
