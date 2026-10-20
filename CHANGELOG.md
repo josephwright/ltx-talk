@@ -8,6 +8,11 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Left margin of lists nested four or more levels deep (see issue
+  [\#292](https://github.com/josephwright/ltx-talk/issues/292))
+
 ## [v0.6.10] - 2026-10-13
 
 - Warn if a frame subtitle is given (see issue

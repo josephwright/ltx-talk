@@ -1,0 +1,34 @@
+\input{regression-test}
+
+\DocumentMetadata{tagging = draft}
+\documentclass{ltx-talk}
+
+\begin{document}
+
+\START
+
+\showoutput
+
+\begin{frame}
+  \begin{itemize}
+    \item Level one
+      \begin{itemize}
+        \item Level two
+          \begin{itemize}
+            \item Level three
+              \begin{itemize}
+                \item Level four with enough text to wrap onto a second
+                  line\TYPE{Level four: \the\leftmargin}
+                  \begin{description}
+                    \item[Five] Level five\TYPE{Level five: \the\leftmargin}
+                      \begin{enumerate}
+                        \item Level six\TYPE{Level six: \the\leftmargin}
+                      \end{enumerate}
+                  \end{description}
+              \end{itemize}
+          \end{itemize}
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\end{document}
