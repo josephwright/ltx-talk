@@ -166,15 +166,15 @@ Completed box being shipped out [1]
 .......\hbox(7.50455+0.0)x3.186, direction TLT
 ........\hbox(4.068+0.0)x3.186, shifted -3.43655, direction TLT
 .........\pdfcolorstack 0 push {0 g 0 G}
-.........\TU/NewCMSans10-Regular.otf(0)/m/n/6 1
+.........\kern3.186
 .........\pdfcolorstack 0 pop
 ......\hbox(7.7+0.0)x0.0, direction TLT
 .......\rule(7.7+0.0)x0.0
-......\TU/NewCMSans10-Regular.otf(0)/m/n/9 F
+......\kern5.121
 ......\kern-0.252 (font)
-......\TU/NewCMSans10-Regular.otf(0)/m/n/9 o
+......\kern4.5
 ......\kern0.252 (font)
-......\TU/NewCMSans10-Regular.otf(0)/m/n/9 o
+......\kern4.5
 ......\penalty 10000
 ......\rule(0.0+3.30003)x0.0
 ......\penalty 10000

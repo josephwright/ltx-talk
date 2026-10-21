@@ -1,0 +1,31 @@
+\input{regression-test}
+
+\DocumentMetadata{tagging = draft}
+\documentclass{ltx-talk}
+
+\begin{document}
+
+\START
+
+\begin{frame}
+  \begin{itemize}
+    \item Always shown
+    \item<2-> Shown from slide two, with \uncover<3->{three words more}
+      and some mathematics $\frac{a}{b}$
+  \end{itemize}
+  \only<1>{First caption}\only<2->{Later caption}
+\end{frame}
+
+\ifdefined\directlua
+  \directlua{
+    for page = 1, status.total_pages do
+      texio.write_nl("term and log", "Page " .. page .. ": "
+        .. (ltxtalk.hidden_text_pages[page] or 0) .. " hidden glyphs, "
+        .. (ltxtalk.hidden_text_remove and "removed" or "kept"))
+    end
+  }
+\else
+  \TYPE{No Lua, so no hidden-text removal}
+\fi
+
+\end{document}

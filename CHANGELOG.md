@@ -8,6 +8,13 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Class option `hidden-text`: with LuaTeX, text hidden by an overlay is
+  removed from the page rather than left at opacity zero, where search, text
+  selection and screen readers reach it (see issue
+  [\#294](https://github.com/josephwright/ltx-talk/issues/294))
+
 ### Fixed
 
 - Key-value options for lists, such as `start` or `item-label`, alone or after

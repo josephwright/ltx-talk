@@ -866,8 +866,157 @@
   }
 %    \end{macrocode}
 %
+% \subsection{Hidden text}
+%
+% Content hidden by an overlay is drawn at opacity~$0$, which leaves its
+% glyphs in the page: a PDF reader's search and text selection find them,
+% and on a tagged slide assistive technology reads them. With Lua\TeX{} the
+% page can be adjusted just before shipout: the code in \file{ltx-talk.lua}
+% walks the page box, follows the opacity colour stack, and replaces every
+% glyph drawn at opacity~$0$ by a kern of the same width, so the layout is
+% unchanged and the text is gone. The |hidden-text| option selects
+% whether that happens.
+%    \begin{macrocode}
+\sys_if_engine_luatex:T
+  {
+    \lua_now:n { require("ltx-talk.lua") }
+    \str_if_eq:VnF \l_@@_hidden_text_str { remove }
+      { \lua_now:n { ltxtalk.hidden_text_remove = false } }
+  }
+%    \end{macrocode}
+%
 %    \begin{macrocode}
 %</class>
+%    \end{macrocode}
+%
+% \subsection{Lua code}
+%
+% The walk runs in the |pre_shipout_filter| callback, on the finished page
+% box. The opacity in force is tracked as a PDF reader would see it:
+% \pkg{l3opacity} sets opacity through a colour stack in \enquote{page}
+% mode, whose top value is reissued at the start of every page, and the
+% operators it pushes name the value (|/opacity0 gs|). The stack is
+% recognised by that data the first time it is pushed, and its contents are
+% mirrored here across pages; |q| and |Q| from the graphics drivers save and
+% restore the value in the same way. Rules and drawings met at opacity~$0$
+% are left alone, as they carry no text. The number of hidden glyphs met on
+% each page is kept in |ltxtalk.hidden_text_pages|, for tests.
+%    \begin{macrocode}
+%<*lua>
+ltxtalk = ltxtalk or {}
+local ltxtalk = ltxtalk
+
+-- Set from TeX: true removes hidden glyphs, false only counts them
+ltxtalk.hidden_text_remove = true
+
+-- Hidden glyphs met on each page, by page number
+ltxtalk.hidden_text_pages = {}
+
+local node = node
+local HLIST, VLIST = node.id("hlist"), node.id("vlist")
+local GLYPH, KERN = node.id("glyph"), node.id("kern")
+local DISC, GLUE, WHATSIT = node.id("disc"), node.id("glue"), node.id("whatsit")
+
+local whatsits = {}
+for id, name in pairs(node.whatsits()) do whatsits[name] = id end
+local PDF_COLORSTACK = whatsits.pdf_colorstack
+local PDF_SAVE, PDF_RESTORE = whatsits.pdf_save, whatsits.pdf_restore
+
+-- pdf_colorstack commands
+local STACK_SET, STACK_PUSH, STACK_POP = 0, 1, 2
+
+local stack_number
+local stack = {}
+local function stack_top() return stack[#stack] or 1 end
+local function opacity_of(data)
+  local v = data and data:match("^%s*/opacity([%d%.]+)%s+gs%s*$")
+  return v and tonumber(v)
+end
+
+local eff      -- the opacity in force
+local saved    -- opacities saved by q, restored by Q
+local hidden   -- glyphs met at opacity 0 on this page
+
+local walk
+walk = function(head)
+  local doomed
+  for n in node.traverse(head) do
+    local id = n.id
+    if id == HLIST or id == VLIST then
+      if n.list then n.list = walk(n.list) end
+    elseif id == GLYPH then
+      if eff == 0 then
+        hidden = hidden + 1
+        if ltxtalk.hidden_text_remove then
+          doomed = doomed or {}
+          doomed[#doomed + 1] = n
+        end
+      end
+    elseif id == DISC then
+      if n.pre then n.pre = walk(n.pre) end
+      if n.post then n.post = walk(n.post) end
+      if n.replace then n.replace = walk(n.replace) end
+    elseif id == GLUE then
+      local leader = n.leader
+      if leader and (leader.id == HLIST or leader.id == VLIST)
+        and leader.list then
+        leader.list = walk(leader.list)
+      end
+    elseif id == WHATSIT then
+      local st = n.subtype
+      if st == PDF_COLORSTACK then
+        local v = opacity_of(n.data)
+        if v and not stack_number then stack_number = n.stack end
+        if n.stack == stack_number then
+          local cmd = n.command
+          if cmd == STACK_PUSH then
+            stack[#stack + 1] = v or 1
+          elseif cmd == STACK_POP then
+            stack[#stack] = nil
+          elseif cmd == STACK_SET then
+            stack[math.max(#stack, 1)] = v or 1
+          end
+          eff = stack_top()
+        end
+      elseif st == PDF_SAVE then
+        saved[#saved + 1] = eff
+      elseif st == PDF_RESTORE then
+        if #saved > 0 then
+          eff = saved[#saved]
+          saved[#saved] = nil
+        end
+      end
+    end
+  end
+  -- Replace after the walk, so the traversal is not disturbed
+  if doomed then
+    for _, g in ipairs(doomed) do
+      local k = node.new(KERN, 1)
+      local w = g.width
+      local ef = g.expansion_factor
+      if ef and ef ~= 0 then w = w + w * ef // 1000000 end
+      k.kern = w
+      k.attr = g.attr
+      head = node.insert_before(head, g, k)
+      head = node.remove(head, g)
+      node.free(g)
+    end
+  end
+  return head
+end
+
+local function shipout(box)
+  eff, saved, hidden = stack_top(), {}, 0
+  if box.list then box.list = walk(box.list) end
+  ltxtalk.hidden_text_pages[status.total_pages + 1] = hidden
+  return true
+end
+
+if luatexbase.callbacktypes.pre_shipout_filter then
+  luatexbase.add_to_callback("pre_shipout_filter", shipout,
+    "ltx-talk.hidden-text")
+end
+%</lua>
 %    \end{macrocode}
 %
 % \end{implementation}

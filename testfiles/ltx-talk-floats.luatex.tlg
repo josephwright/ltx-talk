@@ -306,15 +306,15 @@ Completed box being shipped out [2]
 .......\penalty 300
 .......\glue(\lineskip) 0.0
 .......\hbox(7.8402+0.2409)x448.92128, glue set 207.15417fil, direction TLT
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 S
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 l
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 i
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 d
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\kern6.0882
+........\kern2.61705
+........\kern2.61705
+........\kern5.66115
+........\kern4.8618
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 2
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 -
+........\kern5.475
+........\kern3.64635
 ........\pdfcolorstack 1 pop
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil

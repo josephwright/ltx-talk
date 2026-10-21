@@ -204,7 +204,7 @@ Completed box being shipped out [1]
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
 ...........\hbox(5.17935+0.0)x8.5191, direction TLT
 ............\pdfcolorstack 0 push {1.0 0.0 0.0 rg 1.0 0.0 0.0 RG}
-............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 ≡
+............\kern8.5191
 ............\pdfcolorstack 0 pop
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
 ...........\hbox(14.83725+7.75261)x7.875, direction TLT
@@ -212,12 +212,12 @@ Completed box being shipped out [1]
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 .............\vbox(14.83725+7.75261)x5.475, direction TLT
 ..............\hbox(7.4241+0.0)x5.475, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 2
+...............\kern5.475
 ..............\kern4.34714 (font)
 ..............\rule(0.657+0.0)x*
 ..............\kern2.7375 (font)
 ..............\hbox(7.1832+0.2409)x5.475, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 5
+...............\kern5.475
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 ..........\mathoff
 .........\glue 0.0 plus 1.0fil
@@ -245,10 +245,10 @@ Completed box being shipped out [1]
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 2
+............\kern4.25955
+............\kern5.475
 ............\kern0.0 (italic)
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 )
+............\kern4.25955
 ........\glue(\tabskip) 0.0
 .......\penalty 10000
 .......\glue 0.0
@@ -279,7 +279,7 @@ Completed box being shipped out [1]
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfcolorstack 1 push {/opacity0 gs}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 =
+...........\kern8.5191
 ...........\pdfcolorstack 0 push {1.0 0.0 0.0 rg 1.0 0.0 0.0 RG}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
 ...........\hbox(14.83725+7.75261)x7.875, direction TLT
@@ -287,20 +287,20 @@ Completed box being shipped out [1]
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 .............\vbox(14.83725+7.75261)x5.475, direction TLT
 ..............\hbox(7.4241+0.0)x5.475, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 1
+...............\kern5.475
 ..............\kern4.34714 (font)
 ..............\rule(0.657+0.0)x*
 ..............\kern2.4966 (font)
 ..............\hbox(7.4241+0.2409)x5.475, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 3
+...............\kern5.475
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 ...........\pdfcolorstack 0 pop
 ...........\glue(\medmuskip) 2.43329 plus 1.21664 minus 2.43329
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 +
+...........\kern8.0373
 ...........\glue(\medmuskip) 2.43329 plus 1.21664 minus 2.43329
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 1
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 2
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 3
+...........\kern5.475
+...........\kern5.475
+...........\kern5.475
 ..........\mathoff
 .........\glue 0.0 plus 1.0fil
 ........\glue(\tabskip) 194.85095
@@ -327,10 +327,10 @@ Completed box being shipped out [1]
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 3
+............\kern4.25955
+............\kern5.475
 ............\kern0.0 (italic)
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 )
+............\kern4.25955
 ........\glue(\tabskip) 0.0
 .......\penalty 10000
 .......\glue 0.0
@@ -361,7 +361,7 @@ Completed box being shipped out [1]
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfcolorstack 1 push {/opacity0 gs}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 =
+...........\kern8.5191
 ...........\pdfcolorstack 0 push {1.0 0.0 0.0 rg 1.0 0.0 0.0 RG}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
 ...........\hbox(14.83725+7.75261)x7.875, direction TLT
@@ -369,12 +369,12 @@ Completed box being shipped out [1]
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 .............\vbox(14.83725+7.75261)x5.475, direction TLT
 ..............\hbox(7.4241+0.0)x5.475, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 1
+...............\kern5.475
 ..............\kern4.34714 (font)
 ..............\rule(0.657+0.0)x*
 ..............\kern2.4966 (font)
 ..............\hbox(7.4241+0.2409)x5.475, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 3
+...............\kern5.475
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 ...........\pdfcolorstack 0 pop
 ..........\mathoff
@@ -403,10 +403,10 @@ Completed box being shipped out [1]
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 4
+............\kern4.25955
+............\kern5.475
 ............\kern0.0 (italic)
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 )
+............\kern4.25955
 ........\glue(\tabskip) 0.0
 .......\penalty 10000
 .......\glue 0.0
@@ -437,20 +437,20 @@ Completed box being shipped out [1]
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfcolorstack 1 push {/opacity0 gs}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 =
+...........\kern8.5191
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
 ...........\hbox(12.28589+7.5117)x9.05759, direction TLT
 ............\hbox(12.28589+7.5117)x9.05759, direction TLT
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 .............\vbox(12.28589+7.5117)x6.6576, direction TLT
 ..............\hbox(4.87274+0.12045)x6.6576, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 𝜋
+...............\kern6.38385
 ..............\kern4.22668 (font)
 ..............\rule(0.657+0.0)x*
 ..............\kern2.7375 (font)
 ..............\hbox(7.1832+0.0)x6.6576, glue set 0.5913fil, direction TLT
 ...............\glue 0.0 plus 1.0fil minus 1.0fil
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 4
+...............\kern5.475
 ...............\glue 0.0 plus 1.0fil minus 1.0fil
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 ..........\mathoff
@@ -479,10 +479,10 @@ Completed box being shipped out [1]
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 5
+............\kern4.25955
+............\kern5.475
 ............\kern0.0 (italic)
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 )
+............\kern4.25955
 ........\glue(\tabskip) 0.0
 .......\penalty 10000
 .......\glue -16.6
@@ -542,10 +542,10 @@ Completed box being shipped out [1]
 ........\pdfcolorstack 1 push {/opacity0 gs}
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue 0.0 plus 1.82318 minus 1.21545
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\kern3.95294
+........\kern4.8618
+........\kern5.04794
+........\kern3.95294
 ........\pdfcolorstack 1 pop
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
@@ -875,7 +875,7 @@ Completed box being shipped out [2]
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfcolorstack 1 push {/opacity0 gs}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 =
+...........\kern8.5191
 ...........\pdfcolorstack 0 push {1.0 0.0 0.0 rg 1.0 0.0 0.0 RG}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
 ...........\hbox(14.83725+7.75261)x7.875, direction TLT
@@ -883,20 +883,20 @@ Completed box being shipped out [2]
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 .............\vbox(14.83725+7.75261)x5.475, direction TLT
 ..............\hbox(7.4241+0.0)x5.475, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 1
+...............\kern5.475
 ..............\kern4.34714 (font)
 ..............\rule(0.657+0.0)x*
 ..............\kern2.4966 (font)
 ..............\hbox(7.4241+0.2409)x5.475, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 3
+...............\kern5.475
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 ...........\pdfcolorstack 0 pop
 ...........\glue(\medmuskip) 2.43329 plus 1.21664 minus 2.43329
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 +
+...........\kern8.0373
 ...........\glue(\medmuskip) 2.43329 plus 1.21664 minus 2.43329
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 1
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 2
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 3
+...........\kern5.475
+...........\kern5.475
+...........\kern5.475
 ..........\mathoff
 .........\glue 0.0 plus 1.0fil
 ........\glue(\tabskip) 194.85095
@@ -919,12 +919,10 @@ Completed box being shipped out [2]
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 3
+............\kern4.25955
+............\kern5.475
 ............\kern0.0 (italic)
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 )
+............\kern4.25955
 ........\glue(\tabskip) 0.0
 .......\penalty 10000
 .......\glue 0.0
@@ -937,8 +935,6 @@ Completed box being shipped out [2]
 ..........\vbox(9.51996+4.08003)x0.0, direction TLT
 ...........\kern0.0
 ...........\hbox(9.51996+4.08003)x0.0, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\rule(9.51996+4.08003)x0.0
 .........\hbox(0.0+0.0)x0.0, direction TLT
 ..........\pdfliteral page <lua data reference ...>
@@ -955,7 +951,7 @@ Completed box being shipped out [2]
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfcolorstack 1 push {/opacity0 gs}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 =
+...........\kern8.5191
 ...........\pdfcolorstack 0 push {1.0 0.0 0.0 rg 1.0 0.0 0.0 RG}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
 ...........\hbox(14.83725+7.75261)x7.875, direction TLT
@@ -963,12 +959,12 @@ Completed box being shipped out [2]
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 .............\vbox(14.83725+7.75261)x5.475, direction TLT
 ..............\hbox(7.4241+0.0)x5.475, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 1
+...............\kern5.475
 ..............\kern4.34714 (font)
 ..............\rule(0.657+0.0)x*
 ..............\kern2.4966 (font)
 ..............\hbox(7.4241+0.2409)x5.475, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 3
+...............\kern5.475
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 ...........\pdfcolorstack 0 pop
 ..........\mathoff
@@ -993,12 +989,10 @@ Completed box being shipped out [2]
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 4
+............\kern4.25955
+............\kern5.475
 ............\kern0.0 (italic)
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 )
+............\kern4.25955
 ........\glue(\tabskip) 0.0
 .......\penalty 10000
 .......\glue 0.0
@@ -1011,8 +1005,6 @@ Completed box being shipped out [2]
 ..........\vbox(9.51996+4.08003)x0.0, direction TLT
 ...........\kern0.0
 ...........\hbox(9.51996+4.08003)x0.0, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\rule(9.51996+4.08003)x0.0
 .........\hbox(0.0+0.0)x0.0, direction TLT
 ..........\pdfliteral page <lua data reference ...>
@@ -1029,20 +1021,20 @@ Completed box being shipped out [2]
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfcolorstack 1 push {/opacity0 gs}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 =
+...........\kern8.5191
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
 ...........\hbox(12.28589+7.5117)x9.05759, direction TLT
 ............\hbox(12.28589+7.5117)x9.05759, direction TLT
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 .............\vbox(12.28589+7.5117)x6.6576, direction TLT
 ..............\hbox(4.87274+0.12045)x6.6576, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 𝜋
+...............\kern6.38385
 ..............\kern4.22668 (font)
 ..............\rule(0.657+0.0)x*
 ..............\kern2.7375 (font)
 ..............\hbox(7.1832+0.0)x6.6576, glue set 0.5913fil, direction TLT
 ...............\glue 0.0 plus 1.0fil minus 1.0fil
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 4
+...............\kern5.475
 ...............\glue 0.0 plus 1.0fil minus 1.0fil
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 ..........\mathoff
@@ -1067,12 +1059,10 @@ Completed box being shipped out [2]
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 5
+............\kern4.25955
+............\kern5.475
 ............\kern0.0 (italic)
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 )
+............\kern4.25955
 ........\glue(\tabskip) 0.0
 .......\penalty 10000
 .......\glue -16.6
@@ -1085,8 +1075,6 @@ Completed box being shipped out [2]
 ..........\vbox(9.51996+4.08003)x0.0, direction TLT
 ...........\kern0.0
 ...........\hbox(9.51996+4.08003)x0.0, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\rule(9.51996+4.08003)x0.0
 .........\hbox(0.0+0.0)x0.0, direction TLT
 ..........\pdfliteral page <lua data reference ...>
@@ -1132,10 +1120,10 @@ Completed box being shipped out [2]
 ........\pdfcolorstack 1 push {/opacity0 gs}
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue 0.0 plus 1.82318 minus 1.21545
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\kern3.95294
+........\kern4.8618
+........\kern5.04794
+........\kern3.95294
 ........\pdfcolorstack 1 pop
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
@@ -1544,7 +1532,7 @@ Completed box being shipped out [3]
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfcolorstack 1 push {/opacity0 gs}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 =
+...........\kern8.5191
 ...........\pdfcolorstack 0 push {1.0 0.0 0.0 rg 1.0 0.0 0.0 RG}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
 ...........\hbox(14.83725+7.75261)x7.875, direction TLT
@@ -1552,12 +1540,12 @@ Completed box being shipped out [3]
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 .............\vbox(14.83725+7.75261)x5.475, direction TLT
 ..............\hbox(7.4241+0.0)x5.475, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 1
+...............\kern5.475
 ..............\kern4.34714 (font)
 ..............\rule(0.657+0.0)x*
 ..............\kern2.4966 (font)
 ..............\hbox(7.4241+0.2409)x5.475, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 3
+...............\kern5.475
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 ...........\pdfcolorstack 0 pop
 ..........\mathoff
@@ -1582,12 +1570,10 @@ Completed box being shipped out [3]
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 4
+............\kern4.25955
+............\kern5.475
 ............\kern0.0 (italic)
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 )
+............\kern4.25955
 ........\glue(\tabskip) 0.0
 .......\penalty 10000
 .......\glue 0.0
@@ -1600,8 +1586,6 @@ Completed box being shipped out [3]
 ..........\vbox(9.51996+4.08003)x0.0, direction TLT
 ...........\kern0.0
 ...........\hbox(9.51996+4.08003)x0.0, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\rule(9.51996+4.08003)x0.0
 .........\hbox(0.0+0.0)x0.0, direction TLT
 ..........\pdfliteral page <lua data reference ...>
@@ -1618,20 +1602,20 @@ Completed box being shipped out [3]
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfcolorstack 1 push {/opacity0 gs}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 =
+...........\kern8.5191
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
 ...........\hbox(12.28589+7.5117)x9.05759, direction TLT
 ............\hbox(12.28589+7.5117)x9.05759, direction TLT
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 .............\vbox(12.28589+7.5117)x6.6576, direction TLT
 ..............\hbox(4.87274+0.12045)x6.6576, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 𝜋
+...............\kern6.38385
 ..............\kern4.22668 (font)
 ..............\rule(0.657+0.0)x*
 ..............\kern2.7375 (font)
 ..............\hbox(7.1832+0.0)x6.6576, glue set 0.5913fil, direction TLT
 ...............\glue 0.0 plus 1.0fil minus 1.0fil
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 4
+...............\kern5.475
 ...............\glue 0.0 plus 1.0fil minus 1.0fil
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 ..........\mathoff
@@ -1656,12 +1640,10 @@ Completed box being shipped out [3]
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 5
+............\kern4.25955
+............\kern5.475
 ............\kern0.0 (italic)
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 )
+............\kern4.25955
 ........\glue(\tabskip) 0.0
 .......\penalty 10000
 .......\glue -16.6
@@ -1674,8 +1656,6 @@ Completed box being shipped out [3]
 ..........\vbox(9.51996+4.08003)x0.0, direction TLT
 ...........\kern0.0
 ...........\hbox(9.51996+4.08003)x0.0, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\rule(9.51996+4.08003)x0.0
 .........\hbox(0.0+0.0)x0.0, direction TLT
 ..........\pdfliteral page <lua data reference ...>
@@ -1721,10 +1701,10 @@ Completed box being shipped out [3]
 ........\pdfcolorstack 1 push {/opacity0 gs}
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue 0.0 plus 1.82318 minus 1.21545
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\kern3.95294
+........\kern4.8618
+........\kern5.04794
+........\kern3.95294
 ........\pdfcolorstack 1 pop
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
@@ -2207,20 +2187,20 @@ Completed box being shipped out [4]
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ...........\pdfcolorstack 1 push {/opacity0 gs}
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
-...........\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 =
+...........\kern8.5191
 ...........\glue(\thickmuskip) 3.04161 plus 3.04161
 ...........\hbox(12.28589+7.5117)x9.05759, direction TLT
 ............\hbox(12.28589+7.5117)x9.05759, direction TLT
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 .............\vbox(12.28589+7.5117)x6.6576, direction TLT
 ..............\hbox(4.87274+0.12045)x6.6576, direction TLT
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 𝜋
+...............\kern6.38385
 ..............\kern4.22668 (font)
 ..............\rule(0.657+0.0)x*
 ..............\kern2.7375 (font)
 ..............\hbox(7.1832+0.0)x6.6576, glue set 0.5913fil, direction TLT
 ...............\glue 0.0 plus 1.0fil minus 1.0fil
-...............\TU/NewCMSansMath-Regular.otf(0)/m/n/10.95 4
+...............\kern5.475
 ...............\glue 0.0 plus 1.0fil minus 1.0fil
 .............\hbox(0.0+0.0)x1.2, shifted -2.7375, direction TLT
 ..........\mathoff
@@ -2245,12 +2225,10 @@ Completed box being shipped out [4]
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 5
+............\kern4.25955
+............\kern5.475
 ............\kern0.0 (italic)
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 )
+............\kern4.25955
 ........\glue(\tabskip) 0.0
 .......\penalty 10000
 .......\glue -16.6
@@ -2263,8 +2241,6 @@ Completed box being shipped out [4]
 ..........\vbox(9.51996+4.08003)x0.0, direction TLT
 ...........\kern0.0
 ...........\hbox(9.51996+4.08003)x0.0, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\rule(9.51996+4.08003)x0.0
 .........\hbox(0.0+0.0)x0.0, direction TLT
 ..........\pdfliteral page <lua data reference ...>
@@ -2310,10 +2286,10 @@ Completed box being shipped out [4]
 ........\pdfcolorstack 1 push {/opacity0 gs}
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue 0.0 plus 1.82318 minus 1.21545
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\kern3.95294
+........\kern4.8618
+........\kern5.04794
+........\kern3.95294
 ........\pdfcolorstack 1 pop
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
@@ -2899,10 +2875,10 @@ Completed box being shipped out [5]
 ........\pdfcolorstack 1 push {/opacity0 gs}
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue 0.0 plus 1.82318 minus 1.21545
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\kern3.95294
+........\kern4.8618
+........\kern5.04794
+........\kern3.95294
 ........\pdfcolorstack 1 pop
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545

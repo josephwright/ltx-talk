@@ -168,7 +168,7 @@ Completed box being shipped out [1]
 ............\pdfcolorstack 1 push {/opacity0 gs}
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ............\glue -3.64633
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 B
+............\kern7.30365
 ............\glue 0.0 plus 1.0fil
 ............\glue 6.0
 ...........\glue(\tabskip) 0.0
@@ -176,7 +176,7 @@ Completed box being shipped out [1]
 ............\glue 6.0
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ............\glue -3.64633
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 C
+............\kern6.99706
 ............\pdfcolorstack 1 pop
 ............\glue 0.0 plus 1.0fil
 ............\glue 6.0
@@ -190,11 +190,11 @@ Completed box being shipped out [1]
 ............\pdfcolorstack 1 push {/opacity0 gs}
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ............\glue -3.64633
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 T
+............\kern7.45695
 ............\kern-0.90884 (font)
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+............\kern4.8618
+............\kern5.04794
+............\kern3.95294
 ............\glue 0.0 plus 1.0fil
 ............\glue 6.0
 ...........\glue(\tabskip) 0.0
@@ -211,31 +211,31 @@ Completed box being shipped out [1]
 .........\localleftbox=null
 .........\localrightbox=null
 ........\hbox(0.0+0.0)x0.0, direction TLT
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 T
+........\kern7.45695
 ........\kern-0.90884 (font)
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\kern4.8618
+........\kern5.04794
+........\kern3.95294
 ........\pdfcolorstack 1 push {/opacity0 gs}
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue 0.0 plus 1.82318 minus 1.21545
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 c
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 n
+........\kern4.8618
+........\kern5.475
+........\kern5.66115
 ........\discretionary (penalty 50)
-.........< \TU/NewCMSans10-Regular.otf(0)/m/n/10.95 -
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 n
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+.........< \kern3.64635
+........\kern3.95294
+........\kern4.8618
+........\kern5.66115
+........\kern3.95294
 ........\pdfcolorstack 1 pop
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 m
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
+........\kern8.69429
+........\kern5.475
 ........\kern-0.3066 (font)
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 r
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\kern3.7449
+........\kern4.8618
 ........\pdfcolorstack 1 pop
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
@@ -457,11 +457,11 @@ Completed box being shipped out [2]
 ............\pdfcolorstack 1 push {/opacity0 gs}
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ............\glue -3.64633
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 T
+............\kern7.45695
 ............\kern-0.90884 (font)
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+............\kern4.8618
+............\kern5.04794
+............\kern3.95294
 ............\glue 0.0 plus 1.0fil
 ............\glue 6.0
 ...........\glue(\tabskip) 0.0
@@ -478,31 +478,31 @@ Completed box being shipped out [2]
 .........\localleftbox=null
 .........\localrightbox=null
 ........\hbox(0.0+0.0)x0.0, direction TLT
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 T
+........\kern7.45695
 ........\kern-0.90884 (font)
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\kern4.8618
+........\kern5.04794
+........\kern3.95294
 ........\pdfcolorstack 1 push {/opacity0 gs}
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue 0.0 plus 1.82318 minus 1.21545
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 c
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 n
+........\kern4.8618
+........\kern5.475
+........\kern5.66115
 ........\discretionary (penalty 50)
-.........< \TU/NewCMSans10-Regular.otf(0)/m/n/10.95 -
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 n
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+.........< \kern3.64635
+........\kern3.95294
+........\kern4.8618
+........\kern5.66115
+........\kern3.95294
 ........\pdfcolorstack 1 pop
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 m
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
+........\kern8.69429
+........\kern5.475
 ........\kern-0.3066 (font)
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 r
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\kern3.7449
+........\kern4.8618
 ........\pdfcolorstack 1 pop
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
@@ -751,15 +751,15 @@ Completed box being shipped out [3]
 ........\pdfcolorstack 1 push {/opacity0 gs}
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue 0.0 plus 1.82318 minus 1.21545
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 c
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 n
+........\kern4.8618
+........\kern5.475
+........\kern5.66115
 ........\discretionary (penalty 50)
-.........< \TU/NewCMSans10-Regular.otf(0)/m/n/10.95 -
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 n
-........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+.........< \kern3.64635
+........\kern3.95294
+........\kern4.8618
+........\kern5.66115
+........\kern3.95294
 ........\pdfcolorstack 1 pop
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
@@ -1221,12 +1221,12 @@ Completed box being shipped out [5]
 ............\pdfcolorstack 1 push {/opacity0 gs}
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
 ............\glue -3.64633
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 B
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 B
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 B
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 B
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 B
-............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 B
+............\kern7.30365
+............\kern7.30365
+............\kern7.30365
+............\kern7.30365
+............\kern7.30365
+............\kern7.30365
 ............\pdfcolorstack 1 pop
 ............\glue 0.0 plus 1.0fil
 ...........\glue(\tabskip) 0.0

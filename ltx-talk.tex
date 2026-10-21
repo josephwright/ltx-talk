@@ -1078,6 +1078,24 @@ The replacements of the |+| sign and the |.| sign are no less than zero. This
 prevents errors when encountering large negative offsets, for example
 |<+(-7)->| is converted to |<0->| rather than |<-6->|.
 
+\subsection{Text hidden by overlays}
+
+\DescribeOption{hidden-text}
+Content that a slide has not reached yet, for example an \cs{item} with the
+specification |<2->| on the first slide of its frame, is drawn at opacity zero,
+so that it takes up its final space without being visible. The glyphs remain
+in the page, however: a PDF reader's search and text selection find them, text
+extraction returns them, and on a slide that is tagged assistive technology
+reads them. With Lua\TeX{}, the class therefore removes such text from the
+page just before the page is written, replacing each hidden glyph by blank
+space of the same width: the layout is unchanged, and only the text is gone.
+Hidden rules, images and drawings are left in place, as they carry no text,
+and so is text that is dimmed rather than hidden (a \texttt{hidden} template
+instance with a non-zero opacity), as it is visible.
+The class option \opt{hidden-text = keep} switches this off; the default is
+\opt{hidden-text = remove}. With \pdfTeX{} the page cannot be adjusted in this
+way, and the option has no effect.
+
 \section{Structuring a presentation: the global structure}
 
 This section lists the commands that are used for structuring a presentation
@@ -1494,6 +1512,11 @@ slide of the frame is tagged. You may use mode specifications in the
 \opt{tag-slides} option, for example \opt{tag-slides = n\|handout:1,n} would
 tag the last slide in the frame in \texttt{projector} mode and the first and
 last for \texttt{handout} mode.
+
+With Lua\TeX{}, text that an overlay hides is removed from the page (see the
+\opt{hidden-text} option), so a tagged slide carries only what it shows. With
+\pdfTeX{}, such text stays in the page, and on a tagged slide it is part of
+the structure.
 
 \section{Changing the way things look}
 
