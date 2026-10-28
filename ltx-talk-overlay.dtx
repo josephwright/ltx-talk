@@ -1164,6 +1164,10 @@ end
 if luatexbase.callbacktypes.pre_shipout_filter then
   luatexbase.add_to_callback("pre_shipout_filter", shipout,
     "ltx-talk.hidden-text")
+  -- tagpdf marks the page's content in the same callback; the hidden
+  -- glyphs must be gone first, or their marked content is kept
+  luatexbase.declare_callback_rule("pre_shipout_filter",
+    "ltx-talk.hidden-text", "before", "tagpdf")
 end
 %</lua>
 %    \end{macrocode}
