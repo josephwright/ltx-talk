@@ -1083,18 +1083,26 @@ prevents errors when encountering large negative offsets, for example
 \DescribeOption{hidden-text}
 Content that a slide has not reached yet, for example an \cs{item} with the
 specification |<2->| on the first slide of its frame, is drawn at opacity zero,
-so that it takes up its final space without being visible. The glyphs remain
-in the page, however: a PDF reader's search and text selection find them, text
-extraction returns them, and on a slide that is tagged assistive technology
-reads them. With Lua\TeX{}, the class therefore removes such text from the
-page just before the page is written, replacing each hidden glyph by blank
-space of the same width: the layout is unchanged, and only the text is gone.
+so that it takes up its final space without being visible. That content
+remains in the page, however: a PDF reader's search and text selection find
+its text, text extraction returns it, and on a slide that is tagged assistive
+technology reads it. The class therefore does two things.
+\begin{itemize}
+  \item A formula that starts while hidden is tagged as an artifact, so it
+    has no structure, alternative text or MathML on that slide. This works
+    with every engine.
+  \item With Lua\TeX{}, hidden text is removed from the page just before the
+    page is written, each hidden glyph being replaced by blank space of the
+    same width: the layout is unchanged, and only the text is gone. With
+    \pdfTeX{} the page cannot be adjusted in this way, and hidden text stays.
+\end{itemize}
 Hidden rules, images and drawings are left in place, as they carry no text,
-and so is text that is dimmed rather than hidden (a \texttt{hidden} template
-instance with a non-zero opacity), as it is visible.
-The class option \opt{hidden-text = keep} switches this off; the default is
-\opt{hidden-text = remove}. With \pdfTeX{} the page cannot be adjusted in this
-way, and the option has no effect.
+and so is material that is dimmed rather than hidden (a \texttt{hidden}
+template instance with a non-zero opacity), as it is visible. A formula that
+hides only part of itself, for example with an \cs{uncover} inside an
+\texttt{aligned} block, stays tagged as a whole, and its alternative text is
+the source of the whole formula. The class option \opt{hidden-text = keep}
+switches both off; the default is \opt{hidden-text = remove}.
 
 \section{Structuring a presentation: the global structure}
 
@@ -1513,10 +1521,11 @@ slide of the frame is tagged. You may use mode specifications in the
 tag the last slide in the frame in \texttt{projector} mode and the first and
 last for \texttt{handout} mode.
 
-With Lua\TeX{}, text that an overlay hides is removed from the page (see the
+A formula that an overlay hides is tagged as an artifact on that slide, and
+with Lua\TeX{} hidden text is also removed from the page (see the
 \opt{hidden-text} option), so a tagged slide carries only what it shows. With
-\pdfTeX{}, such text stays in the page, and on a tagged slide it is part of
-the structure.
+\pdfTeX{}, hidden text other than formulas stays in the page, and on a tagged
+slide it is part of the structure.
 
 \section{Changing the way things look}
 

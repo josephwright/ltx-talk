@@ -143,13 +143,48 @@
 % opacity. At present, this seems very \cls{ltx-talk}-specific, so
 % is handled here with a few auxiliaries.
 %
+% \begin{variable}{\g_@@_opacity_seq, \g_@@_hidden_bool}
+%   The opacities in force, innermost first, and whether the innermost is
+%   zero, which is what makes material hidden rather than dimmed (see the
+%   section on hidden text below).
+%    \begin{macrocode}
+\seq_new:N \g_@@_opacity_seq
+\bool_new:N \g_@@_hidden_bool
+%    \end{macrocode}
+% \end{variable}
+%
+% \begin{macro}{\@@_hidden_update:}
+%   Sets the flag from the innermost opacity. It is global: an opacity set
+%   by \cs{pause} lasts until the end of the slide, past the end of any
+%   group it was set in.
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_hidden_update:
+  {
+    \seq_get:NNTF \g_@@_opacity_seq \l_@@_tmp_tl
+      {
+        \bool_gset:Nn \g_@@_hidden_bool
+          { \fp_compare_p:nNn { \l_@@_tmp_tl } = { 0 } }
+      }
+      { \bool_gset_false:N \g_@@_hidden_bool }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
 % \begin{macro}{\@@_opacity_begin:n, \@@_opacity_end:}
-%   Simply tracking wrappers.
+%   Tracking wrappers.
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_opacity_begin:n #1
-  { \@@_shuffle_skip:n { \opacity_begin:n {#1} } }
+  {
+    \seq_gpush:Ne \g_@@_opacity_seq { \fp_to_decimal:n {#1} }
+    \@@_hidden_update:
+    \@@_shuffle_skip:n { \opacity_begin:n {#1} }
+  }
 \cs_new_protected:Npn \@@_opacity_end:
-  { \@@_shuffle_skip:n { \opacity_end: } }
+  {
+    \seq_gpop:NN \g_@@_opacity_seq \l_@@_tmp_tl
+    \@@_hidden_update:
+    \@@_shuffle_skip:n { \opacity_end: }
+  }
 %    \end{macrocode}
 % \end{macro}
 %
@@ -868,15 +903,129 @@
 %
 % \subsection{Hidden text}
 %
-% Content hidden by an overlay is drawn at opacity~$0$, which leaves its
-% glyphs in the page: a PDF reader's search and text selection find them,
-% and on a tagged slide assistive technology reads them. With Lua\TeX{} the
-% page can be adjusted just before shipout: the code in \file{ltx-talk.lua}
-% walks the page box, follows the opacity colour stack, and replaces every
-% glyph drawn at opacity~$0$ by a kern of the same width, so the layout is
-% unchanged and the text is gone. The |hidden-text| option selects
-% whether that happens.
+% Content hidden by an overlay is drawn at opacity~$0$, which leaves it in
+% the page: a PDF reader's search and text selection find its text, and on
+% a tagged slide its structure is there for assistive technology to read.
+% Two things are done about that, both selected by the |hidden-text|
+% option.
+%
+% A formula is wholly inside or wholly outside a hidden region, so a
+% formula that starts while hidden is made an artifact as a whole: it gets
+% no structure element, alternative text or MathML. That is done through
+% the math tagging sockets, so it works with any engine; the flag set by
+% \cs{@@_hidden_update:} says whether a formula starts hidden. Hidden plain
+% text keeps its structure, but with Lua\TeX{} its glyphs are removed from
+% the page just before shipout: the code in \file{ltx-talk.lua} replaces
+% every glyph drawn at opacity~$0$ by a kern of the same width, so the
+% layout is unchanged and the text is gone. Rules, images and drawings are
+% left alone, as they carry no text.
+%
+% For the glyphs, what counts is where they are drawn, not when they were
+% typeset, and so the walk follows the opacity operators on the page
+% rather than a flag or attribute set during typesetting. The two differ
+% for material built before the opacity changes but placed after it: the
+% label of an \cs{item} with an overlay specification is one, as it is
+% boxed before the item's action switches the opacity, and it would keep
+% its text if only nodes typeset while hidden were removed.
+%
+% \begin{variable}{\g_@@_formula_seq}
+%   One entry per formula being typeset, recording whether it was made an
+%   artifact, so that its end matches its start even if the opacity has
+%   changed in between.
 %    \begin{macrocode}
+\seq_new:N \g_@@_formula_seq
+%    \end{macrocode}
+% \end{variable}
+%
+% \begin{macro}{\@@_formula_begin:nn, \@@_formula_end:n}
+%   The begin auxiliary takes the code of the plug that was in place and
+%   the formula; the end auxiliary takes the code of the plug that was in
+%   place. A hidden formula switches paragraph tagging off, as the
+%   standard plug does, and is wrapped in an artifact marked-content
+%   sequence; \pkg{luamml} is told to ignore it.
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_formula_begin:nn #1#2
+  {
+    \bool_if:NTF \g_@@_hidden_bool
+      {
+        \seq_gpush:Nn \g_@@_formula_seq { hidden }
+        \cs_if_exist_use:N \tagpdfparaOff
+        \cs_if_exist_use:N \luamml_ignore:
+        \tag_mc_begin:n { artifact }
+        #2
+      }
+      {
+        \seq_gpush:Nn \g_@@_formula_seq { shown }
+        #1
+      }
+  }
+\cs_new_protected:Npn \@@_formula_end:n #1
+  {
+    \seq_gpop:NNF \g_@@_formula_seq \l_@@_tmp_tl
+      { \tl_set:Nn \l_@@_tmp_tl { shown } }
+    \str_if_eq:VnTF \l_@@_tmp_tl { hidden }
+      { \tag_mc_end: }
+      {#1}
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@@_formula_plugs:n}
+%   For |inline| or |display| math, installs plugs for the formula begin
+%   and end sockets that hand over to the plugs in place before. That is
+%   done at the end of the preamble, once the math tagging code has chosen
+%   its plugs.
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_formula_plugs:n #1
+  {
+    \socket_get_plug:nN { tagsupport / math / #1 / formula / begin }
+      \l_@@_tmp_tl
+    \tl_gset_eq:cN { g_@@_math_ #1 _begin_plug_tl } \l_@@_tmp_tl
+    \socket_get_plug:nN { tagsupport / math / #1 / formula / end }
+      \l_@@_tmp_tl
+    \tl_gset_eq:cN { g_@@_math_ #1 _end_plug_tl } \l_@@_tmp_tl
+    \NewTaggingSocketPlug { math / #1 / formula / begin } { talk-hidden }
+      {
+        \@@_formula_begin:nn
+          {
+            \use:c
+              {
+                __socket_tagsupport / math / #1 / formula / begin _plug_
+                \tl_use:c { g_@@_math_ #1 _begin_plug_tl } :w
+              }
+              {##1} {##2}
+          }
+          {##2}
+      }
+    \NewTaggingSocketPlug { math / #1 / formula / end } { talk-hidden }
+      {
+        \@@_formula_end:n
+          {
+            \use:c
+              {
+                __socket_tagsupport / math / #1 / formula / end _plug_
+                \tl_use:c { g_@@_math_ #1 _end_plug_tl } :w
+              }
+          }
+      }
+    \AssignTaggingSocketPlug { math / #1 / formula / begin } { talk-hidden }
+    \AssignTaggingSocketPlug { math / #1 / formula / end } { talk-hidden }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% With |hidden-text = remove| (the default), the plugs are installed.
+% With Lua\TeX{} the Lua code is loaded either way, as it also counts
+% hidden glyphs; it only removes them for |remove|.
+%    \begin{macrocode}
+\str_if_eq:VnT \l_@@_hidden_text_str { remove }
+  {
+    \hook_gput_code:nnn { begindocument / end } { talk }
+      {
+        \@@_formula_plugs:n { inline }
+        \@@_formula_plugs:n { display }
+      }
+  }
 \sys_if_engine_luatex:T
   {
     \lua_now:n { require("ltx-talk.lua") }
