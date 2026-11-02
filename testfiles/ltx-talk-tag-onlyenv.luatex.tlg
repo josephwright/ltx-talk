@@ -13,24 +13,24 @@ TEST 1: Show PDF Tags
       id="ID.006"
       rolemaps-to="Sect"
      >
-    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+    <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
        id="ID.007"
        rolemaps-to="Part"
       >
-     <text xmlns="https://www.latex-project.org/ns/dflt"
+     <text-block xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.008"
         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
         Layout:TextAlign="Start"
         rolemaps-to="P"
        >
       <?MarkedContent page="2" ?>Always there
-     </text>
-    </text-unit>
-    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+     </text-block>
+    </semantic-para>
+    <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
        id="ID.009"
        rolemaps-to="Part"
       >
-     <text xmlns="https://www.latex-project.org/ns/dflt"
+     <text-block xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.010"
         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
         Layout:TextAlign="Start"
@@ -44,27 +44,27 @@ TEST 1: Show PDF Tags
         >
        <?MarkedContent page="2" ?>
       </Figure>
-     </text>
-    </text-unit>
+     </text-block>
+    </semantic-para>
    </frame>
    <frame xmlns="https://www.latex-project.org/ns/local/ltx-talk"
       id="ID.012"
       rolemaps-to="Sect"
      >
-    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+    <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
        id="ID.013"
        rolemaps-to="Part"
       >
-     <text xmlns="https://www.latex-project.org/ns/dflt"
+     <text-block xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.014"
         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
         Layout:TextAlign="Start"
         rolemaps-to="P"
        >
       <?MarkedContent page="3" ?>Always there
-     </text>
-    </text-unit>
-    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+     </text-block>
+    </semantic-para>
+    <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
        id="ID.015"
        rolemaps-to="Part"
       >
@@ -89,13 +89,13 @@ TEST 1: Show PDF Tags
        <?MarkedContent page="3" ?>   
       </codeline>
      </verbatim>
-    </text-unit>
+    </semantic-para>
    </frame>
    <frame xmlns="https://www.latex-project.org/ns/local/ltx-talk"
       id="ID.019"
       rolemaps-to="Sect"
      >
-    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+    <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
        id="ID.020"
        rolemaps-to="Part"
       >
@@ -119,23 +119,23 @@ TEST 1: Show PDF Tags
           id="ID.024"
           rolemaps-to="LBody"
          >
-        <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
            id="ID.025"
            rolemaps-to="Part"
           >
-         <text xmlns="https://www.latex-project.org/ns/dflt"
+         <text-block xmlns="https://www.latex-project.org/ns/dflt"
             id="ID.026"
             xmlns:Layout="http://iso.org/pdf/ssn/Layout"
             Layout:TextAlign="Start"
             rolemaps-to="P"
            >
           <?MarkedContent page="4" ?>x
-         </text>
-        </text-unit>
+         </text-block>
+        </semantic-para>
        </itembody>
       </item>
      </itemize>
-    </text-unit>
+    </semantic-para>
    </frame>
   </Document>
  </StructTreeRoot>

@@ -13,7 +13,9 @@ Completed box being shipped out [1]
 ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
 ...\hbox(0.0+0.0)x0.0
+....\pdfrunninglinkoff
 ....\glue 0.0 plus 1.0fil minus 1.0fil
+....\pdfrunninglinkon
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\vbox(0.0+0.0)x0.0, glue set 78.96426fil
 ..\kern 0.0
@@ -98,10 +100,11 @@ Completed box being shipped out [1]
 ........\T1/lmss/bx/n/10.95 r
 ........\T1/lmss/bx/n/10.95 e
 ........\T1/lmss/bx/n/10.95 m
+........\glue 4.015 plus 2.00748 minus 1.33833
+........\pdffakespace
 ........\pdfliteral page{EMC}
 ........\write1{\new@label@record{mcid-2}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{2}{tagmcid}{\__property_code_tagmcid: }}}
 ........\pdfliteral shipout page{/Lbl <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-........\glue 4.015 plus 2.00748 minus 1.33833
 ........\T1/lmss/bx/n/10.95 1
 ........\pdfliteral page{EMC}
 ........\write1{\new@label@record{mcid-3}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{3}{tagmcid}{\__property_code_tagmcid: }}}
@@ -113,7 +116,7 @@ Completed box being shipped out [1]
 ........\penalty 10000
 ........\glue -0.00002
 ........\glue 0.00002
-........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\pdfliteral shipout page{/text-block <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ........\penalty 0
 ........\T1/lmss/m/sl/10.95 A
 ........\pdfliteral page{EMC}
@@ -132,8 +135,8 @@ Completed box being shipped out [1]
 .......\marks4{b+,3,7,Caption,,,}
 .......\marks4{e-,3,7,}
 .......\marks4{e+,3,7,}
-.......\marks4{b-,4,10,text,,,}
-.......\marks4{b+,4,10,text,,,}
+.......\marks4{b-,4,10,text-block,,,}
+.......\marks4{b+,4,10,text-block,,,}
 .......\marks4{e-,4,10,}
 .......\marks4{e+,4,10,}
 .......\penalty 0
@@ -165,10 +168,11 @@ Completed box being shipped out [1]
 ........\T1/lmss/bx/n/10.95 i
 ........\T1/lmss/bx/n/10.95 o
 ........\T1/lmss/bx/n/10.95 n
+........\glue 4.015 plus 2.00748 minus 1.33833
+........\pdffakespace
 ........\pdfliteral page{EMC}
 ........\write1{\new@label@record{mcid-6}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{6}{tagmcid}{\__property_code_tagmcid: }}}
 ........\pdfliteral shipout page{/Lbl <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-........\glue 4.015 plus 2.00748 minus 1.33833
 ........\T1/lmss/bx/n/10.95 2
 ........\pdfliteral page{EMC}
 ........\write1{\new@label@record{mcid-7}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{7}{tagmcid}{\__property_code_tagmcid: }}}
@@ -180,7 +184,7 @@ Completed box being shipped out [1]
 ........\penalty 10000
 ........\glue -0.00002
 ........\glue 0.00002
-........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\pdfliteral shipout page{/text-block <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ........\penalty 0
 ........\T1/lmss/m/sl/10.95 B
 ........\pdfliteral page{EMC}
@@ -199,8 +203,8 @@ Completed box being shipped out [1]
 .......\marks4{b+,7,12,Caption,,,}
 .......\marks4{e-,7,12,}
 .......\marks4{e+,7,12,}
-.......\marks4{b-,8,15,text,,,}
-.......\marks4{b+,8,15,text,,,}
+.......\marks4{b-,8,15,text-block,,,}
+.......\marks4{b+,8,15,text-block,,,}
 .......\marks4{e-,8,15,}
 .......\marks4{e+,8,15,}
 .......\penalty 0

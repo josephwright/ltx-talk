@@ -9,10 +9,12 @@ Completed box being shipped out [1]
 ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
 ...\hbox(0.0+0.0)x0.0
+....\pdfrunninglinkoff
 ....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
 .....\kern -72.26999
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
+....\pdfrunninglinkon
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\vbox(0.0+0.0)x0.0, glue set 78.96426fil
 ..\kern 0.0
@@ -299,10 +301,12 @@ Completed box being shipped out [2]
 ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
 ...\hbox(0.0+0.0)x0.0
+....\pdfrunninglinkoff
 ....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
 .....\kern -72.26999
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
+....\pdfrunninglinkon
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\vbox(0.0+0.0)x0.0, glue set 78.96426fil
 ..\kern 0.0
@@ -392,21 +396,15 @@ Completed box being shipped out [2]
 ......\vbox(233.31262+0.0)x448.92128, glue set 175.696fil
 .......\glue 0.0 plus 0.5fil
 .......\pdfcolorstack 1 push {/opacity1 gs}
-.......\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
-.......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-.......\marks4{b-,4,7,text,,,}
-.......\marks4{b+,4,7,text,,,}
-.......\pdfliteral page{EMC}
-.......\marks4{e-,4,7,}
-.......\marks4{e+,4,7,}
-.......\write1{\new@label@record{mcid-5}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{5}{tagmcid}{\__property_code_tagmcid: }}}
-.......\pdfliteral shipout page{/Figure <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-.......\marks4{b-,5,8,Figure,,,}
-.......\marks4{b+,5,8,Figure,,,}
 .......\glue(\parskip) 0.0 plus 1.0
 .......\glue(\parskip) 0.0
 .......\hbox(57.61662+0.0)x448.92128, glue set 196.0079fil
+........\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text-block <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ........\hbox(0.0+0.0)x0.0
+........\pdfliteral page{EMC}
+........\write1{\new@label@record{mcid-5}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{5}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/Figure <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ........\hbox(57.61662+0.0)x56.90549
 .........\glue -2.84544
 .........\hbox(0.0+0.0)x0.0, shifted 2.84544
@@ -571,16 +569,22 @@ Completed box being shipped out [2]
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
 ........\pdfliteral page{EMC}
 ........\write1{\new@label@record{mcid-6}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{6}{tagmcid}{\__property_code_tagmcid: }}}
-........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\pdfliteral shipout page{/text-block <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ........\pdfcolorstack 1 pop
 ........\pdfliteral page{EMC}
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\marks4{b-,4,7,text-block,,,}
+.......\marks4{b+,4,7,text-block,,,}
+.......\marks4{e-,4,7,}
+.......\marks4{e+,4,7,}
+.......\marks4{b-,5,8,Figure,,,}
+.......\marks4{b+,5,8,Figure,,,}
 .......\marks4{e-,5,8,}
 .......\marks4{e+,5,8,}
-.......\marks4{b-,6,7,text,,,}
-.......\marks4{b+,6,7,text,,,}
+.......\marks4{b-,6,7,text-block,,,}
+.......\marks4{b+,6,7,text-block,,,}
 .......\marks4{e-,6,7,}
 .......\marks4{e+,6,7,}
 .......\glue 0.0 plus 0.5fil
@@ -620,10 +624,12 @@ Completed box being shipped out [3]
 ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
 ...\hbox(0.0+0.0)x0.0
+....\pdfrunninglinkoff
 ....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
 .....\kern -72.26999
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
+....\pdfrunninglinkon
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\vbox(0.0+0.0)x0.0, glue set 78.96426fil
 ..\kern 0.0
@@ -685,20 +691,12 @@ Completed box being shipped out [3]
 .....\hbox(233.31262+0.0)x448.92128
 ......\vbox(233.31262+0.0)x448.92128, glue set 216.28009fil
 .......\glue 0.0 plus 0.5fil
-.......\write1{\new@label@record{mcid-11}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{11}{tagmcid}{\__property_code_tagmcid: }}}
-.......\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-.......\marks4{b-,11,12,text,,,}
-.......\marks4{b+,11,12,text,,,}
-.......\pdfliteral page{EMC}
-.......\marks4{e-,11,12,}
-.......\marks4{e+,11,12,}
-.......\pdfliteral page{/Artifact BMC}
-.......\marks4{b-,12,-1,}
-.......\marks4{b+,12,-1,}
-.......\glue(\parskip) 0.0 plus 1.0
-.......\glue(\parskip) 0.0
 .......\hbox(17.03253+0.0)x448.92128, glue set 202.75902fil
+........\write1{\new@label@record{mcid-11}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{11}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text-block <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ........\hbox(0.0+0.0)x0.0
+........\pdfliteral page{EMC}
+........\pdfliteral page{/Artifact BMC}
 ........\hbox(17.03253+0.0)x43.40326
 .........\glue 21.70163
 .........\hbox(0.0+0.0)x0.0, shifted -8.51627
@@ -728,9 +726,9 @@ Completed box being shipped out [3]
 .................\marks4{e-,14,12,}
 .................\marks4{e+,14,12,}
 .................\write1{\new@label@record{mcid-15}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{15}{tagmcid}{\__property_code_tagmcid: }}}
-.................\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-.................\marks4{b-,15,12,text,,,}
-.................\marks4{b+,15,12,text,,,}
+.................\pdfliteral shipout page{/text-block <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+.................\marks4{b-,15,12,text-block,,,}
+.................\marks4{b+,15,12,text-block,,,}
 .................\pdfliteral{0 G }
 .................\pdfliteral{0 g }
 .................\hbox(7.60422+2.12914)x36.10406
@@ -738,9 +736,9 @@ Completed box being shipped out [3]
 ..................\marks4{e-,12,12,}
 ..................\marks4{e+,12,12,}
 ..................\write1{\new@label@record{mcid-13}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{13}{tagmcid}{\__property_code_tagmcid: }}}
-..................\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
-..................\marks4{b-,13,12,text,,,}
-..................\marks4{b+,13,12,text,,,}
+..................\pdfliteral shipout page{/text-block <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..................\marks4{b-,13,12,text-block,,,}
+..................\marks4{b+,13,12,text-block,,,}
 ..................\T1/lmss/m/n/10.95 M
 ..................\T1/lmss/m/n/10.95 y
 ..................\glue 3.65 plus 1.825 minus 1.21666
@@ -777,15 +775,21 @@ Completed box being shipped out [3]
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
 ........\pdfliteral page{EMC}
 ........\write1{\new@label@record{mcid-17}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{17}{tagmcid}{\__property_code_tagmcid: }}}
-........\pdfliteral shipout page{/text <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\pdfliteral shipout page{/text-block <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ........\pdfliteral page{EMC}
 ........\penalty 10000
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fil
+.......\marks4{b-,11,12,text-block,,,}
+.......\marks4{b+,11,12,text-block,,,}
+.......\marks4{e-,11,12,}
+.......\marks4{e+,11,12,}
+.......\marks4{b-,12,-1,}
+.......\marks4{b+,12,-1,}
 .......\marks4{e-,16,12,}
 .......\marks4{e+,16,12,}
-.......\marks4{b-,17,12,text,,,}
-.......\marks4{b+,17,12,text,,,}
+.......\marks4{b-,17,12,text-block,,,}
+.......\marks4{b+,17,12,text-block,,,}
 .......\marks4{e-,17,12,}
 .......\marks4{e+,17,12,}
 .......\glue 0.0 plus 0.5fil

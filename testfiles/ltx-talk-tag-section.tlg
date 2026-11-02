@@ -9,16 +9,17 @@ TEST 1: Show PDF Tags
   <Document xmlns="http://iso.org/pdf2/ssn"
      id="ID.002"
     >
-   <Sect xmlns="http://iso.org/pdf2/ssn"
+   <section xmlns="https://www.latex-project.org/ns/dflt"
       id="ID.005"
+      rolemaps-to="Sect"
      >
-    <section xmlns="https://www.latex-project.org/ns/dflt"
+    <section-heading xmlns="https://www.latex-project.org/ns/dflt"
        id="ID.006"
        title="Section 1"
        actualtext="Section 1"
        rolemaps-to="H1"
       >
-    </section>
+    </section-heading>
     <frame xmlns="https://www.latex-project.org/ns/local/ltx-talk"
        id="ID.007"
        rolemaps-to="Sect"
@@ -30,19 +31,19 @@ TEST 1: Show PDF Tags
        >
       <?MarkedContent page="1" ?>Frame 1
      </frametitle>
-     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+     <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.008"
         rolemaps-to="Part"
        >
-      <text xmlns="https://www.latex-project.org/ns/dflt"
+      <text-block xmlns="https://www.latex-project.org/ns/dflt"
          id="ID.009"
          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
          Layout:TextAlign="Start"
          rolemaps-to="P"
         >
        <?MarkedContent page="1" ?>Content of Frame 1
-      </text>
-     </text-unit>
+      </text-block>
+     </semantic-para>
     </frame>
     <frame xmlns="https://www.latex-project.org/ns/local/ltx-talk"
        id="ID.011"
@@ -55,31 +56,32 @@ TEST 1: Show PDF Tags
        >
       <?MarkedContent page="2" ?>Frame 2
      </frametitle>
-     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+     <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.012"
         rolemaps-to="Part"
        >
-      <text xmlns="https://www.latex-project.org/ns/dflt"
+      <text-block xmlns="https://www.latex-project.org/ns/dflt"
          id="ID.013"
          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
          Layout:TextAlign="Start"
          rolemaps-to="P"
         >
        <?MarkedContent page="2" ?>Content of Frame 2
-      </text>
-     </text-unit>
+      </text-block>
+     </semantic-para>
     </frame>
-   </Sect>
-   <Sect xmlns="http://iso.org/pdf2/ssn"
+   </section>
+   <section xmlns="https://www.latex-project.org/ns/dflt"
       id="ID.015"
+      rolemaps-to="Sect"
      >
-    <section xmlns="https://www.latex-project.org/ns/dflt"
+    <section-heading xmlns="https://www.latex-project.org/ns/dflt"
        id="ID.016"
        title="Section 2"
        actualtext="Section 2"
        rolemaps-to="H1"
       >
-    </section>
+    </section-heading>
     <frame xmlns="https://www.latex-project.org/ns/local/ltx-talk"
        id="ID.017"
        rolemaps-to="Sect"
@@ -91,19 +93,19 @@ TEST 1: Show PDF Tags
        >
       <?MarkedContent page="3" ?>Frame 3
      </frametitle>
-     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+     <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.018"
         rolemaps-to="Part"
        >
-      <text xmlns="https://www.latex-project.org/ns/dflt"
+      <text-block xmlns="https://www.latex-project.org/ns/dflt"
          id="ID.019"
          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
          Layout:TextAlign="Start"
          rolemaps-to="P"
         >
        <?MarkedContent page="3" ?>Content of Frame 3
-      </text>
-     </text-unit>
+      </text-block>
+     </semantic-para>
     </frame>
     <frame xmlns="https://www.latex-project.org/ns/local/ltx-talk"
        id="ID.021"
@@ -116,21 +118,21 @@ TEST 1: Show PDF Tags
        >
       <?MarkedContent page="4" ?>Frame 4
      </frametitle>
-     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+     <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.022"
         rolemaps-to="Part"
        >
-      <text xmlns="https://www.latex-project.org/ns/dflt"
+      <text-block xmlns="https://www.latex-project.org/ns/dflt"
          id="ID.023"
          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
          Layout:TextAlign="Start"
          rolemaps-to="P"
         >
        <?MarkedContent page="4" ?>Content of Frame 4
-      </text>
-     </text-unit>
+      </text-block>
+     </semantic-para>
     </frame>
-   </Sect>
+   </section>
   </Document>
  </StructTreeRoot>
 </PDF>

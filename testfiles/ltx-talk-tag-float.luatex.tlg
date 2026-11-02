@@ -20,19 +20,20 @@ TEST 1: Show PDF Tags
       >
      <?MarkedContent page="1" ?>A figure
     </frametitle>
-    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+    <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
        id="ID.007"
        rolemaps-to="Part"
       >
-     <text xmlns="https://www.latex-project.org/ns/dflt"
+     <text-block xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.008"
         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
         Layout:TextAlign="Start"
         rolemaps-to="P"
        >
-     </text>
-     <Div xmlns="http://iso.org/pdf2/ssn"
+     </text-block>
+     <text-minipage xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.009"
+        rolemaps-to="Div"
        >
       <float xmlns="https://www.latex-project.org/ns/dflt"
          id="ID.010"
@@ -46,31 +47,31 @@ TEST 1: Show PDF Tags
           >
          <?MarkedContent page="1" ?>Figure: 
         </Lbl>
-        <text xmlns="https://www.latex-project.org/ns/dflt"
+        <text-block xmlns="https://www.latex-project.org/ns/dflt"
            id="ID.014"
            xmlns:Layout="http://iso.org/pdf/ssn/Layout"
            Layout:TextAlign="Start"
            rolemaps-to="P"
           >
          <?MarkedContent page="1" ?>A caption
-        </text>
+        </text-block>
        </Caption>
-       <text xmlns="https://www.latex-project.org/ns/dflt"
+       <text-block xmlns="https://www.latex-project.org/ns/dflt"
           id="ID.011"
           xmlns:Layout="http://iso.org/pdf/ssn/Layout"
           Layout:TextAlign="Start"
           rolemaps-to="P"
          >
         <?MarkedContent page="1" ?>Some content
-       </text>
+       </text-block>
       </float>
-     </Div>
-     <text xmlns="https://www.latex-project.org/ns/dflt"
+     </text-minipage>
+     <text-block xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.015"
         rolemaps-to="P"
        >
-     </text>
-    </text-unit>
+     </text-block>
+    </semantic-para>
    </frame>
    <frame xmlns="https://www.latex-project.org/ns/local/ltx-talk"
       id="ID.017"
@@ -83,19 +84,20 @@ TEST 1: Show PDF Tags
       >
      <?MarkedContent page="2" ?>A table
     </frametitle>
-    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+    <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
        id="ID.018"
        rolemaps-to="Part"
       >
-     <text xmlns="https://www.latex-project.org/ns/dflt"
+     <text-block xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.019"
         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
         Layout:TextAlign="Start"
         rolemaps-to="P"
        >
-     </text>
-     <Div xmlns="http://iso.org/pdf2/ssn"
+     </text-block>
+     <text-minipage xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.020"
+        rolemaps-to="Div"
        >
       <float xmlns="https://www.latex-project.org/ns/dflt"
          id="ID.021"
@@ -109,31 +111,31 @@ TEST 1: Show PDF Tags
           >
          <?MarkedContent page="2" ?>Table: 
         </Lbl>
-        <text xmlns="https://www.latex-project.org/ns/dflt"
+        <text-block xmlns="https://www.latex-project.org/ns/dflt"
            id="ID.024"
            xmlns:Layout="http://iso.org/pdf/ssn/Layout"
            Layout:TextAlign="Start"
            rolemaps-to="P"
           >
          <?MarkedContent page="2" ?>A caption
-        </text>
+        </text-block>
        </Caption>
-       <text xmlns="https://www.latex-project.org/ns/dflt"
+       <text-block xmlns="https://www.latex-project.org/ns/dflt"
           id="ID.025"
           xmlns:Layout="http://iso.org/pdf/ssn/Layout"
           Layout:TextAlign="Start"
           rolemaps-to="P"
          >
         <?MarkedContent page="2" ?>Some content
-       </text>
+       </text-block>
       </float>
-     </Div>
-     <text xmlns="https://www.latex-project.org/ns/dflt"
+     </text-minipage>
+     <text-block xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.026"
         rolemaps-to="P"
        >
-     </text>
-    </text-unit>
+     </text-block>
+    </semantic-para>
    </frame>
   </Document>
  </StructTreeRoot>

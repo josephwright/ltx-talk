@@ -9,8 +9,9 @@ Completed box being shipped out [1]
 ..\kern-72.26999
 ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
 ...\kern-72.26999
+...\pdfliteral page <lua data reference ...>
+...\pdflinkstate -3
 ...\hbox(0.0+0.0)x0.0, direction TLT
-....\pdfliteral page <lua data reference ...>
 ....\latelua0{ltx.__pdf.backend_ThisPage_gpush(tex.count["g_shipout_readonly_int"])}
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
@@ -108,10 +109,12 @@ Completed box being shipped out [1]
 ........\TU/NewCMSans10-Regular.otf(0)/b/n/10.95 r
 ........\TU/NewCMSans10-Regular.otf(0)/b/n/10.95 e
 ........\TU/NewCMSans10-Regular.otf(0)/b/n/10.95 m
-........\pdfliteral page <lua data reference ...>
-........\pdfliteral page <lua data reference ...>
 ........\TU/NewCMSans10-Regular.otf(0)/b/n/10.95  
 ........\glue(\spaceskip) 0.0 plus 2.00932 minus 1.33955
+........\TU/NewCMSans10-Regular.otf(0)/b/n/10.95  
+........\glue -4.01865
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
 ........\TU/NewCMSans10-Regular.otf(0)/b/n/10.95 1
 ........\pdfliteral page <lua data reference ...>
 ........\pdfliteral page <lua data reference ...>
@@ -168,10 +171,12 @@ Completed box being shipped out [1]
 ........\TU/NewCMSans10-Regular.otf(0)/b/n/10.95 i
 ........\TU/NewCMSans10-Regular.otf(0)/b/n/10.95 o
 ........\TU/NewCMSans10-Regular.otf(0)/b/n/10.95 n
-........\pdfliteral page <lua data reference ...>
-........\pdfliteral page <lua data reference ...>
 ........\TU/NewCMSans10-Regular.otf(0)/b/n/10.95  
 ........\glue(\spaceskip) 0.0 plus 2.00932 minus 1.33955
+........\TU/NewCMSans10-Regular.otf(0)/b/n/10.95  
+........\glue -4.01865
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
 ........\TU/NewCMSans10-Regular.otf(0)/b/n/10.95 2
 ........\pdfliteral page <lua data reference ...>
 ........\pdfliteral page <lua data reference ...>
