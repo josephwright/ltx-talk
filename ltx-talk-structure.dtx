@@ -188,6 +188,30 @@
 %    \end{macrocode}
 % \end{macro}
 %
+% \begin{macro}{\@@_header_tag_begin:n, \@@_header_tag_begin:e}
+% \begin{macro}{\@@_header_tag_end:}
+%   Generalized control for inserting material into the header area (which is
+%   otherwise outside of tagging).
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_header_tag_begin:n #1
+  {
+    \tag_resume:n { header }
+    \tag_mc_end:
+    \tag_struct_begin:n {#1}
+    \tag_mc_begin:n { }
+  }
+\cs_generate_variant:Nn \@@_header_tag_begin:n { e }
+\cs_new_protected:Npn \@@_header_tag_end:
+  {
+    \tag_mc_end:
+    \tag_struct_end:
+    \tag_mc_begin:n { artifact }
+    \tag_suspend:n { header }
+  }
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+%
 % \subsection{Headings}
 %
 % \begin{variable}
