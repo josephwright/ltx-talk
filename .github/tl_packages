@@ -38,6 +38,7 @@ luapstricks
 mathtools
 mptopdf
 mwe
+nameref
 newcomputermodern
 pdfmanagement
 pdftexcmds
