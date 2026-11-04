@@ -125,14 +125,14 @@
   { \__box_set_to_wd:NNnn #1 \tex_vbox:D }
 \cs_gset_protected:Npn \vbox_set_top_to_wd:Nnn #1
   { \__box_set_to_wd:NNnn #1 \tex_vtop:D }
-\cs_gset_protected:Npn \vbox_to_wd:nn
+\cs_gset_protected:Npn \vbox_to_wd:nn #1#2
   {
-    \__box_set_to_wd:NNnn \l_@@_tmp_box \tex_vbox:D
+    \__box_set_to_wd:NNnn \l_@@_tmp_box \tex_vbox:D {#1} {#2}
     \box_use:N \l_@@_tmp_box
   }
-\cs_gset_protected:Npn \vbox_top_to_wd:nn
+\cs_gset_protected:Npn \vbox_top_to_wd:nn #1#2
   {
-    \__box_set_to_wd:NNnn \l_@@_tmp_box \tex_vtop:D
+    \__box_set_to_wd:NNnn \l_@@_tmp_box \tex_vtop:D {#1} {#2}
     \box_use:N \l_@@_tmp_box
   }
 \cs_gset_protected:Npn \__box_set_to_wd:NNnn #1#2#3#4

@@ -362,26 +362,28 @@ Completed box being shipped out [2]
 ........\vbox(9.99359+12.144)x448.92128, direction TLT
 .........\glue 0.0
 .........\glue 0.0
-.........\hbox(9.99359+0.144)x448.92128, glue set 398.8237fil, direction TLT
-..........\localpar
-...........\localinterlinepenalty=0
-...........\localbrokenpenalty=0
-...........\localleftbox=null
-...........\localrightbox=null
-..........\hbox(0.0+0.0)x0.0, direction TLT
-..........\pdfliteral page <lua data reference ...>
-..........\pdfliteral page <lua data reference ...>
-..........\TU/NewCMSans10-Regular.otf(0)/b/n/14.4 A
-..........\TU/NewCMSans10-Regular.otf(0)/b/n/14.4  
-..........\glue(\spaceskip) 0.0 plus 2.63974 minus 1.76335
-..........\TU/NewCMSans10-Regular.otf(0)/b/n/14.4 d
-..........\TU/NewCMSans10-Regular.otf(0)/b/n/14.4 u
-..........\TU/NewCMSans10-Regular.otf(0)/b/n/14.4 c
-..........\TU/NewCMSans10-Regular.otf(0)/b/n/14.4 k
-..........\TU/NewCMSans10-Regular.otf(0)/b/n/14.4 !
-..........\penalty 10000
-..........\glue(\parfillskip) 0.0 plus 1.0fil
-..........\glue(\rightskip) 0.0
+.........\hbox(9.99359+0.144)x448.92128, direction TLT
+..........\vbox(9.99359+0.144)x448.92128, direction TLT
+...........\hbox(9.99359+0.144)x448.92128, glue set 398.8237fil, direction TLT
+............\localpar
+.............\localinterlinepenalty=0
+.............\localbrokenpenalty=0
+.............\localleftbox=null
+.............\localrightbox=null
+............\hbox(0.0+0.0)x0.0, direction TLT
+............\pdfliteral page <lua data reference ...>
+............\pdfliteral page <lua data reference ...>
+............\TU/NewCMSans10-Regular.otf(0)/b/n/14.4 A
+............\TU/NewCMSans10-Regular.otf(0)/b/n/14.4  
+............\glue(\spaceskip) 0.0 plus 2.63974 minus 1.76335
+............\TU/NewCMSans10-Regular.otf(0)/b/n/14.4 d
+............\TU/NewCMSans10-Regular.otf(0)/b/n/14.4 u
+............\TU/NewCMSans10-Regular.otf(0)/b/n/14.4 c
+............\TU/NewCMSans10-Regular.otf(0)/b/n/14.4 k
+............\TU/NewCMSans10-Regular.otf(0)/b/n/14.4 !
+............\penalty 10000
+............\glue(\parfillskip) 0.0 plus 1.0fil
+............\glue(\rightskip) 0.0
 .........\glue 12.0 plus 4.0 minus 4.0
 .........\glue 0.0
 ........\penalty 10000

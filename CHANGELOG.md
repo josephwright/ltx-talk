@@ -12,6 +12,9 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 - Left margin of lists nested four or more levels deep (see issue
   [\#292](https://github.com/josephwright/ltx-talk/issues/292))
+- Vertical alignment of frame titles when tagging is active and colored
+  background is in use (see issue
+  [\#295](https://github.com/josephwright/ltx-talk/issues/295))
 
 ## [v0.6.10] - 2026-10-13
 

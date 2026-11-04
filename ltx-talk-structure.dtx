@@ -170,20 +170,29 @@
       { \use:n }
         {#1}
   }
+%    \end{macrocode}
+%   We need an hbox here to deal with the specials inside the tagging (when
+%   it is active). That then means using a vbox for the box containing the
+%   heading.
+%    \begin{macrocode}
 \cs_new_protected:Npn \@@_frame_title_tagged:n #1
   {
-   \@@_header_tag_begin:e
+    \hbox:n
       {
-        firstkid = true ,
-        parent   = \int_use:N \g_@@_frame_struct_int ,
-        tag      = frametitle ,
-        title    = { \text_purify:n { \g_@@_frame_title_tl } } ,
+        \@@_header_tag_begin:e
+          {
+            firstkid = true ,
+            parent   = \int_use:N \g_@@_frame_struct_int ,
+            tag      = frametitle ,
+            title    = { \text_purify:n { \g_@@_frame_title_tl } } ,
+          }
+        \vbox_top_to_wd:nn { \textwidth }
+          {
+            \tagpdfparaOff
+            #1
+          }
+         \@@_header_tag_end:
       }
-    \group_begin:
-      \tagpdfparaOff
-      #1
-    \group_end:
-    \@@_header_tag_end:
   }
 %    \end{macrocode}
 % \end{macro}
