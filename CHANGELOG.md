@@ -15,6 +15,9 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 - Vertical alignment of frame titles when tagging is active and colored
   background is in use (see issue
   [\#295](https://github.com/josephwright/ltx-talk/issues/295))
+- Ignore starred sections when setting numbering (see issue
+  [\#296](https://github.com/josephwright/ltx-talk/issues/296))
+
 
 ## [v0.6.10] - 2026-10-13
 

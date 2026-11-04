@@ -2,8 +2,8 @@ This is a generated file for the l3build validation system.
 Don't change this file in any respect.
 -------- ltx-talk-toc.toc (start) ---------
 (ltx-talk-toc.toc)
-\contentsline {section}{Main text}{2}{section.2}%[nl]
-\contentsline {section}{Second section}{3}{section.3}%[nl]
-\contentsline {subsection}{First subsection}{3}{subsection.3.1}%[nl]
-\contentsline {subsection}{Second subsection}{4}{subsection.3.2}%[nl]
+\contentsline {section}{Main text}{2}{section.1}%[nl]
+\contentsline {section}{Second section}{3}{section.2}%[nl]
+\contentsline {subsection}{First subsection}{3}{subsection.2.1}%[nl]
+\contentsline {subsection}{Second subsection}{4}{subsection.2.2}%[nl]
 -------- ltx-talk-toc.toc (end) -----------

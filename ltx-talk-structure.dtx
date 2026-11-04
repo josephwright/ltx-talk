@@ -360,7 +360,8 @@
           }
         \cs_new_protected:Npn \exp_not:c { @@_head_ #1 :Nnn } ##1##2##3
           {
-            \exp_not:N \refstepcounter {#2}
+            \exp_not:N \bool_if:NF ##1 
+              { \exp_not:N \refstepcounter {#2} }
             \UseTaggingSocket { sec / end } { \use:c { toclevel@ #2 } }
             \UseTaggingSocket { sec / begin }
               {
