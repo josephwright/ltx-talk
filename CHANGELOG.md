@@ -8,6 +8,10 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- Added optional macros for `\venue` and `\pronouns`
+
 ## [v0.6.11] - 2026-11-05
 
 ### Fixed
