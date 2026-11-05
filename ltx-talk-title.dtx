@@ -73,12 +73,14 @@
 %<@@=talk>
 %    \end{macrocode}
 %
-% \begin{variable}{\@author, \@date, \@institute, \@subtitle, \@title}
+% \begin{variable}{\@author, \@pronouns, \@date, \@institute, \@venue, \@subtitle, \@title}
 % \begin{variable}
 %   {
 %     \@shortauthor    ,
+%     \@shortpronouns  ,
 %     \@shortdate      ,
 %     \@shortinstitute ,
+%     \@shortvenue     ,
 %     \@shortsubtitle  ,
 %     \@shorttitle
 %   }
@@ -88,7 +90,7 @@
 %   anywhere we might want them.
 %    \begin{macrocode}
 \clist_map_inline:nn
-  { author , date , institute , subtitle , title }
+  { author , pronouns , date , institute , venue , subtitle , title }
   {
     \keys_define:nn { talk / metadata }
       {
@@ -137,10 +139,15 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\institute, \subtitle}
+% \begin{macro}{\pronouns, \institute, \subtitle, \venue}
 %   Simple storage at present: unlike some of the kernel data, there is not
 %   a lot to do here.
 %    \begin{macrocode}
+\NewDocumentCommand \pronouns { = { short-pronouns } O { {#2} } m }
+  {
+    \keys_set:nn { talk / metadata } {#1}
+    \tl_gset:Nn \@pronouns {#2}
+  }  
 \NewDocumentCommand \institute { = { short-institute } O { {#2} } m }
   {
     \keys_set:nn { talk / metadata } {#1}
@@ -151,6 +158,11 @@
     \keys_set:nn { talk / metadata } {#1}
     \tl_gset:Nn \@subtitle {#2}
   }
+\NewDocumentCommand \venue { = { short-venue } O { {#2} } m }
+  {
+    \keys_set:nn { talk / metadata } {#1}
+    \tl_gset:Nn \@venue {#2}
+  }  
 %    \end{macrocode}
 % \end{macro}
 %
@@ -206,10 +218,14 @@
 %    \begin{macrocode}
 \DeclareInstance { titlepage-element } { author } { talk }
   { before-skip = 1em }
+\DeclareInstance { titlepage-element } { pronouns } { talk }
+  { font = \scriptsize }    
 \DeclareInstance { titlepage-element } { date } { talk }
   { after-skip = 0.5em }
 \DeclareInstance { titlepage-element } { institute } { talk }
   { font = \scriptsize }
+\DeclareInstance { titlepage-element } { venue } { talk }
+  { font = \scriptsize }  
 \DeclareInstance { titlepage-element } { subtitle } { talk }
   { before-skip = 0.25em , color = structure }
 \DeclareInstance { titlepage-element } { title } { talk }
