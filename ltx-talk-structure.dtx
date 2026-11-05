@@ -552,16 +552,28 @@
 % \begin{macro}{\@@_toc_level:nnnn}
 %   Initial hard-coded versions to be templated once we have some other effects
 %   also working. We may need to look at this \enquote{higher up} as we will need
-%   to know the section numbers.
+%   to know the section numbers. The setting of \cs{@tempdima} is needed as
+%   \cs{numberline} uses this to set the width of the box holding the section
+%   number (if used): hopefully this \enquote{interface} will change! (Values
+%   here are taken from \cls{article}.)
 %    \begin{macrocode}
 \cs_new_protected:Npn \l@section #1#2
-  { \@@_toc_aux:nnnn { 1 } { \bfseries \color { structure } } {#1} {#2} }
+  {
+    \@@_toc_aux:nnnn { 1 }
+      {
+        \bfseries
+        \color { structure }
+        \dim_set:Nn \@tempdima { 2.3em }
+      }
+      {#1} {#2}
+  }
 \cs_new_protected:Npn \l@subsection #1#2
   {
     \@@_toc_aux:nnnn
       { 2 }
       {
         \skip_set:Nn \leftskip { 2em }
+        \dim_set:Nn \@tempdima { 2.3em }
         \color_ensure_current:
       }
       {#1} {#2}
@@ -572,6 +584,7 @@
       { 3 }
       {
         \skip_set:Nn \leftskip { 4em }
+        \dim_set:Nn \@tempdima { 3.2em }
         \color_ensure_current:
         \footnotesize
       }

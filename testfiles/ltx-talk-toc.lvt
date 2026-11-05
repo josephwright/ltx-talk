@@ -2,14 +2,21 @@
 
 \DocumentMetadata{tagging = draft}
 \documentclass{ltx-talk}
+\setcounter{secnumdepth}{1}
 
 \begin{document}
+
+\START
+
+\showoutput
 
 \section*{Outline}
 
 \begin{frame}
   \tableofcontents
 \end{frame}
+
+\OMIT
 
 \section{Main text}
 
@@ -43,7 +50,7 @@
   Some last text
 \end{frame}
 
-\START
+\TIMO
 
 \SHOWFILE{\jobname.toc}
 

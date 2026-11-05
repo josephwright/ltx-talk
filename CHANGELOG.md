@@ -17,7 +17,8 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
   [\#295](https://github.com/josephwright/ltx-talk/issues/295))
 - Ignore starred sections when setting numbering (see issue
   [\#296](https://github.com/josephwright/ltx-talk/issues/296))
-
+- Correct spacing for numbered sections in table of contents (see issue
+  [\#297](https://github.com/josephwright/ltx-talk/issues/297))
 
 ## [v0.6.10] - 2026-10-13
 
