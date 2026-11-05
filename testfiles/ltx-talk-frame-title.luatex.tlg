@@ -30,15 +30,19 @@ Completed box being shipped out [1]
 .\vbox(206.56702+0.0)x405.10403, direction TLT
 ..\glue -77.96053
 ..\vbox(284.52754+0.0)x448.92128, shifted -43.81725, direction TLT
-...\vbox(28.45274+0.0)x448.92128, glue set 18.45915fil, direction TLT
+...\vbox(28.45274+0.0)x448.92128, direction TLT
 ....\glue 0.0 plus 1.0fil
 ....\pdflinkstate 1
-....\hbox(9.99359+12.144)x448.92128, direction TLT
+....\hbox(28.45274+12.144)x448.92128, direction TLT
 .....\pdfliteral page <lua data reference ...>
 .....\pdfliteral page <lua data reference ...>
 .....\pdfcolorstack 0 push {0 g 0 G}
-.....\hbox(9.99359+12.144)x448.92128, direction TLT
+.....\hbox(28.45274+12.144)x448.92128, direction TLT
 ......\glue -28.45274
+......\pdfcolorstack 0 push {0.5 0.5 1 rg 0.5 0.5 1 RG}
+......\rule(28.45274+5.69054)x505.82677
+......\glue -505.82677
+......\pdfcolorstack 0 pop
 ......\glue 28.45274
 ......\vbox(9.99359+12.144)x448.92128, direction TLT
 .......\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
@@ -197,15 +201,19 @@ Completed box being shipped out [2]
 .\vbox(206.56702+0.0)x405.10403, direction TLT
 ..\glue -77.96053
 ..\vbox(284.52754+0.0)x448.92128, shifted -43.81725, direction TLT
-...\vbox(28.45274+0.0)x448.92128, glue set 18.45915fil, direction TLT
+...\vbox(28.45274+0.0)x448.92128, direction TLT
 ....\glue 0.0 plus 1.0fil
 ....\pdflinkstate 1
-....\hbox(9.99359+30.144)x448.92128, direction TLT
+....\hbox(28.45274+30.144)x448.92128, direction TLT
 .....\pdfliteral page <lua data reference ...>
 .....\pdfliteral page <lua data reference ...>
 .....\pdfcolorstack 0 push {0 g 0 G}
-.....\hbox(9.99359+30.144)x448.92128, direction TLT
+.....\hbox(28.45274+30.144)x448.92128, direction TLT
 ......\glue -28.45274
+......\pdfcolorstack 0 push {0.5 0.5 1 rg 0.5 0.5 1 RG}
+......\rule(28.45274+5.69054)x505.82677
+......\glue -505.82677
+......\pdfcolorstack 0 pop
 ......\glue 28.45274
 ......\vbox(9.99359+30.144)x448.92128, direction TLT
 .......\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
@@ -388,15 +396,19 @@ Completed box being shipped out [3]
 .\vbox(206.56702+0.0)x405.10403, direction TLT
 ..\glue -77.96053
 ..\vbox(284.52754+0.0)x448.92128, shifted -43.81725, direction TLT
-...\vbox(28.45274+0.0)x448.92128, glue set 18.28635fil, direction TLT
+...\vbox(28.45274+0.0)x448.92128, direction TLT
 ....\glue 0.0 plus 1.0fil
 ....\pdflinkstate 1
-....\hbox(10.1664+32.2608)x448.92128, direction TLT
+....\hbox(28.45274+32.2608)x448.92128, direction TLT
 .....\pdfliteral page <lua data reference ...>
 .....\pdfliteral page <lua data reference ...>
 .....\pdfcolorstack 0 push {0 g 0 G}
-.....\hbox(10.1664+32.2608)x448.92128, direction TLT
+.....\hbox(28.45274+32.2608)x448.92128, direction TLT
 ......\glue -28.45274
+......\pdfcolorstack 0 push {0.5 0.5 1 rg 0.5 0.5 1 RG}
+......\rule(28.45274+5.69054)x505.82677
+......\glue -505.82677
+......\pdfcolorstack 0 pop
 ......\glue 28.45274
 ......\vbox(10.1664+32.2608)x448.92128, direction TLT
 .......\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
@@ -665,15 +677,19 @@ Completed box being shipped out [4]
 .\vbox(206.56702+0.0)x405.10403, direction TLT
 ..\glue -77.96053
 ..\vbox(284.52754+0.0)x448.92128, shifted -43.81725, direction TLT
-...\vbox(28.45274+0.0)x448.92128, glue set 18.45915fil, direction TLT
+...\vbox(28.45274+0.0)x448.92128, direction TLT
 ....\glue 0.0 plus 1.0fil
 ....\pdflinkstate 1
-....\hbox(9.99359+12.144)x448.92128, direction TLT
+....\hbox(28.45274+12.144)x448.92128, direction TLT
 .....\pdfliteral page <lua data reference ...>
 .....\pdfliteral page <lua data reference ...>
 .....\pdfcolorstack 0 push {0 g 0 G}
-.....\hbox(9.99359+12.144)x448.92128, direction TLT
+.....\hbox(28.45274+12.144)x448.92128, direction TLT
 ......\glue -28.45274
+......\pdfcolorstack 0 push {0.5 0.5 1 rg 0.5 0.5 1 RG}
+......\rule(28.45274+5.69054)x505.82677
+......\glue -505.82677
+......\pdfcolorstack 0 pop
 ......\glue 28.45274
 ......\vbox(9.99359+12.144)x448.92128, direction TLT
 .......\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
@@ -805,7 +821,7 @@ Completed box being shipped out [4]
 .\hbox(0.0+0.0)x0.0, direction TLT
 .\kern206.56702
 .\pdfliteral page <lua data reference ...>
-(ltx-talk-frame-title.aux)
+<<latex-list-css.html>><<latex-align-css.html>> (ltx-talk-frame-title.aux)
 MathML statistic
 ================
 ==> 0 MathML fragments read
@@ -813,3 +829,14 @@ MathML statistic
 ==> 0 math fragments found
 ==> 0 fitting MathML AF found
 ==> 0 MathML AF attached
+Package tagpdf Info: Finalizing the tagging structure:
+(tagpdf)             Writing out ~21 structure objects
+(tagpdf)             with ~20 'MC' leaf nodes.
+(tagpdf)             Be patient if there are lots of objects!
+Package tagpdf Info: writing ParentTree
+Package tagpdf Info: writing IDTree
+Package tagpdf Info: writing RoleMap
+Package tagpdf Info: writing ClassMap
+Package tagpdf Info: writing NameSpaces
+Package tagpdf Info: writing StructElems
+Package tagpdf Info: writing Root

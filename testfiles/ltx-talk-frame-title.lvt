@@ -1,7 +1,8 @@
 \input{regression-test}
 
-\DocumentMetadata{tagging = draft}
+\DocumentMetadata{tagging = on}
 \documentclass{ltx-talk}
+\EditInstance{header}{std}{background-color = blue!50}
 
 \begin{document}
 
