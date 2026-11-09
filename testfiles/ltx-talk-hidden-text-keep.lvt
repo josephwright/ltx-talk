@@ -1,7 +1,7 @@
 \input{regression-test}
 
 \DocumentMetadata{tagging = draft}
-\documentclass[hidden-text = keep]{ltx-talk}
+\documentclass{ltx-talk}
 
 \begin{document}
 
@@ -16,16 +16,15 @@
   \only<1>{First caption}\only<2->{Later caption}
 \end{frame}
 
+% The default, hidden-text = keep: no Lua code is loaded
+\ExplSyntaxOn
+\TYPE { hidden-text~=~\l__talk_hidden_text_str }
+\ExplSyntaxOff
 \ifdefined\directlua
   \directlua{
-    for page = 1, status.total_pages do
-      texio.write_nl("term and log", "Page " .. page .. ": "
-        .. (ltxtalk.hidden_text_pages[page] or 0) .. " hidden glyphs, "
-        .. (ltxtalk.hidden_text_remove and "removed" or "kept"))
-    end
+    texio.write_nl("term and log", "Lua code "
+      .. (ltxtalk and "loaded" or "not loaded"))
   }
-\else
-  \TYPE{No Lua, so no hidden-text removal}
 \fi
 
 \end{document}

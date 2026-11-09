@@ -6,9 +6,8 @@ File: tulmr-base.fd ....-..-.. v... LaTeX font definitions for Latin Modern in b
 ) [1] [2
 ] [3
 ]
-Page 1: 60 hidden glyphs, kept
-Page 2: 14 hidden glyphs, kept
-Page 3: 0 hidden glyphs, kept (ltx-talk-hidden-text-keep.aux)
+hidden-text = keep
+Lua code not loaded (ltx-talk-hidden-text-keep.aux)
 MathML statistic
 ================
 ==> 1 MathML fragments read

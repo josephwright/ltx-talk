@@ -1086,7 +1086,8 @@ specification |<2->| on the first slide of its frame, is drawn at opacity zero,
 so that it takes up its final space without being visible. That content
 remains in the page, however: a PDF reader's search and text selection find
 its text, text extraction returns it, and on a slide that is tagged assistive
-technology reads it. The class therefore does two things.
+technology reads it. The class option \opt{hidden-text = remove} does two
+things about that.
 \begin{itemize}
   \item A formula that starts while hidden is tagged as an artifact, so it
     has no structure, alternative text or MathML on that slide. This works
@@ -1101,8 +1102,8 @@ and so is material that is dimmed rather than hidden (a \texttt{hidden}
 template instance with a non-zero opacity), as it is visible. A formula that
 hides only part of itself, for example with an \cs{uncover} inside an
 \texttt{aligned} block, stays tagged as a whole, and its alternative text is
-the source of the whole formula. The class option \opt{hidden-text = keep}
-switches both off; the default is \opt{hidden-text = remove}.
+the source of the whole formula. The default is \opt{hidden-text = keep},
+which leaves hidden content as it is typeset.
 
 \section{Structuring a presentation: the global structure}
 
@@ -1521,11 +1522,11 @@ slide of the frame is tagged. You may use mode specifications in the
 tag the last slide in the frame in \texttt{projector} mode and the first and
 last for \texttt{handout} mode.
 
-A formula that an overlay hides is tagged as an artifact on that slide, and
-with Lua\TeX{} hidden text is also removed from the page (see the
-\opt{hidden-text} option), so a tagged slide carries only what it shows. With
-\pdfTeX{}, hidden text other than formulas stays in the page, and on a tagged
-slide it is part of the structure.
+Content that an overlay hides is part of the structure of a tagged slide. With
+\opt{hidden-text = remove}, a formula that an overlay hides is tagged as an
+artifact on that slide instead, and with Lua\TeX{} hidden text is also removed
+from the page, so that a tagged slide carries only what it shows. With
+\pdfTeX{}, hidden text other than formulas stays in the page even then.
 
 \section{Changing the way things look}
 

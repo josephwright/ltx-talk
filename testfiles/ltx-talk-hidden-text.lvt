@@ -1,7 +1,7 @@
 \input{regression-test}
 
 \DocumentMetadata{tagging = draft}
-\documentclass{ltx-talk}
+\documentclass[hidden-text = remove]{ltx-talk}
 
 \begin{document}
 
@@ -20,8 +20,8 @@
   \directlua{
     for page = 1, status.total_pages do
       texio.write_nl("term and log", "Page " .. page .. ": "
-        .. (ltxtalk.hidden_text_pages[page] or 0) .. " hidden glyphs, "
-        .. (ltxtalk.hidden_text_remove and "removed" or "kept"))
+        .. (ltxtalk.hidden_text_pages[page] or 0)
+        .. " hidden glyphs removed")
     end
   }
 \else

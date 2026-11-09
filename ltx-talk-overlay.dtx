@@ -1014,9 +1014,9 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% With |hidden-text = remove| (the default), the plugs are installed.
-% With Lua\TeX{} the Lua code is loaded either way, as it also counts
-% hidden glyphs; it only removes them for |remove|.
+% Both are opt-in: only with |hidden-text = remove| are the plugs
+% installed and, with Lua\TeX{}, the Lua code loaded. With the default,
+% |keep|, hidden content stays as it is typeset.
 %    \begin{macrocode}
 \str_if_eq:VnT \l_@@_hidden_text_str { remove }
   {
@@ -1025,12 +1025,8 @@
         \@@_formula_plugs:n { inline }
         \@@_formula_plugs:n { display }
       }
-  }
-\sys_if_engine_luatex:T
-  {
-    \lua_now:n { require("ltx-talk.lua") }
-    \str_if_eq:VnF \l_@@_hidden_text_str { remove }
-      { \lua_now:n { ltxtalk.hidden_text_remove = false } }
+    \sys_if_engine_luatex:T
+      { \lua_now:n { require("ltx-talk.lua") } }
   }
 %    \end{macrocode}
 %
@@ -1054,9 +1050,6 @@
 %<*lua>
 ltxtalk = ltxtalk or {}
 local ltxtalk = ltxtalk
-
--- Set from TeX: true removes hidden glyphs, false only counts them
-ltxtalk.hidden_text_remove = true
 
 -- Hidden glyphs met on each page, by page number
 ltxtalk.hidden_text_pages = {}
@@ -1096,10 +1089,8 @@ walk = function(head)
     elseif id == GLYPH then
       if eff == 0 then
         hidden = hidden + 1
-        if ltxtalk.hidden_text_remove then
-          doomed = doomed or {}
-          doomed[#doomed + 1] = n
-        end
+        doomed = doomed or {}
+        doomed[#doomed + 1] = n
       end
     elseif id == DISC then
       if n.pre then n.pre = walk(n.pre) end
