@@ -10,10 +10,7 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ### Added
 
-- Class option `hidden-text = remove` (opt-in): a formula hidden by an overlay
-  is tagged as an artifact, and with LuaTeX text hidden by an overlay is
-  removed from the page rather than left at opacity zero, where search, text
-  selection and screen readers reach it (see issue
+- Class option `remove-hidden-text` (see issue
   [\#294](https://github.com/josephwright/ltx-talk/issues/294))
 
 ### Fixed

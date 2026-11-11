@@ -16,14 +16,20 @@
   \only<1>{First caption}\only<2->{Later caption}
 \end{frame}
 
-% The default, hidden-text = keep: no Lua code is loaded
+% The default: the Lua code is loaded, but no glyphs are removed
 \ExplSyntaxOn
-\TYPE { hidden-text~=~\l__talk_hidden_text_str }
+\TYPE
+  {
+    remove-hidden-text~=~
+    \bool_if:NTF \l__talk_remove_hidden_text_bool { true } { false }
+  }
 \ExplSyntaxOff
 \ifdefined\directlua
   \directlua{
-    texio.write_nl("term and log", "Lua code "
-      .. (ltxtalk and "loaded" or "not loaded"))
+    texio.write_nl("term and log", "Lua module "
+      .. (talk and "loaded" or "not loaded") .. ", removal "
+      .. (luatexbase.in_callback("pre_shipout_filter",
+        "ltx-talk.hidden-text") and "on" or "off"))
   }
 \fi
 

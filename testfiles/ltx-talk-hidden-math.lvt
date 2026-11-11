@@ -1,7 +1,7 @@
 \input{regression-test}
 
 \DocumentMetadata{tagging = on}
-\documentclass[hidden-text = remove]{ltx-talk}
+\documentclass[remove-hidden-text]{ltx-talk}
 
 % A formula that starts while hidden becomes an artifact: on the slide
 % where it is hidden no structure is opened for it, so the number of

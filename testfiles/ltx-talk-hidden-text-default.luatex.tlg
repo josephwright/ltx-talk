@@ -6,8 +6,8 @@ File: tulmr-base.fd ....-..-.. v... LaTeX font definitions for Latin Modern in b
 ) [1] [2
 ] [3
 ]
-hidden-text = keep
-Lua code not loaded (ltx-talk-hidden-text-keep.aux)
+remove-hidden-text = false
+Lua module loaded, removal off (ltx-talk-hidden-text-default.aux)
 MathML statistic
 ================
 ==> 1 MathML fragments read

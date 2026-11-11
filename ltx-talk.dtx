@@ -212,8 +212,8 @@
 %     \l_@@_aspect_ratio_str ,
 %     \l_@@_fontsize_dim     ,
 %     \l_@@_frame_title_bool ,
-%     \l_@@_hidden_text_str  ,
 %     \l_@@_mode_str         ,
+%     \l_@@_remove_hidden_text_bool ,
 %     \l_@@_suppl_mode_str
 %   }
 %    \begin{macrocode}
@@ -225,20 +225,18 @@
       \l_@@_fontsize_dim ,
     frame-title-arg .bool_set:N =
       \l_@@_frame_title_bool ,
-    handout .code:n =
+    handout .code:n = 
       { \str_set:Nn \l_@@_mode_str { handout } } ,
     handout .value_forbidden:n = true ,
-    hidden-text .choices:nn =
-      { keep , remove }
-      { \str_set_eq:NN \l_@@_hidden_text_str \l_keys_choice_str } ,
     mode .choices:nn =
       { handout , projector }
       { \str_set_eq:NN \l_@@_mode_str \l_keys_choice_str } ,
+    remove-hidden-text .bool_set:N =
+      \l_@@_remove_hidden_text_bool ,
     supplementary-frames .choices:nn =
       { appendix , in-place , omit }
       { \str_set_eq:NN \l_@@_suppl_mode_str \l_keys_choice_str }
   }
-\str_new:N \l_@@_hidden_text_str
 \str_new:N \l_@@_mode_str
 \str_new:N \l_@@_suppl_mode_str
 %    \end{macrocode}
@@ -251,8 +249,8 @@
     aspect-ratio         .usage:n = load ,
     font-size            .usage:n = load ,
     frame-title-arg      .usage:n = load ,
-    hidden-text          .usage:n = load ,
     mode                 .usage:n = load ,
+    remove-hidden-text   .usage:n = load ,
     supplementary-frames .usage:n = load
   }
 %    \end{macrocode}
@@ -277,8 +275,8 @@
     aspect-ratio         = 16:9      ,
     font-size            = 11pt      ,
     frame-title-arg      = false     ,
-    hidden-text          = keep      ,
     mode                 = projector ,
+    remove-hidden-text   = false     ,
     supplementary-frames = appendix
   }
 %    \end{macrocode}

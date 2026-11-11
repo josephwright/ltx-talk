@@ -4,5 +4,5 @@ LaTeX Font Info:    Trying to load font information for TS1+lmss on input line .
 LaTeX Font Info:    Trying to load font information for OT1+cmsmf on input line ....
 ] [3
 ]
-hidden-text = keep
-(ltx-talk-hidden-text-keep.aux)
+remove-hidden-text = false
+(ltx-talk-hidden-text-default.aux)
