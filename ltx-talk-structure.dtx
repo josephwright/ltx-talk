@@ -796,15 +796,16 @@
 \cs_new_protected:Npn \@@_block_set:n #1
   {
     \tl_clear:N \l_@@_tmp_tl
-    \tl_if_head_eq_charcode:nNT {#1} { < }
+    \tl_if_head_eq_charcode:nNTF {#1} { < }
       { \@@_block_set:w #1 \q_nil > \q_nil \q_stop }
-   }
-\cs_new_protected:Npn \@@_block_set:w < #1 > \q_nil #2 \q_stop
+      { \keys_set_known:nnN { talk / block } {#1} \l_@@_tmp_tl }
+  }
+\cs_new_protected:Npn \@@_block_set:w < #1 > #2 \q_nil #3 \q_stop
   {
-    \tl_if_empty:nF {#2}
+    \tl_if_empty:nF {#3}
       {
-        \keys_set_known:nnN { talk / block } { action-spec = { < #1 > } }
-          \l_@@_tmp_tl
+        \keys_set_known:nnN { talk / block }
+          { action-spec = { < #1 > } , #2 } \l_@@_tmp_tl
       }
   }
 %    \end{macrocode}
