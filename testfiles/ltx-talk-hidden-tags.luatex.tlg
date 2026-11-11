@@ -13,11 +13,11 @@ TEST 1: Show PDF Tags
       id="ID.006"
       rolemaps-to="Sect"
      >
-    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+    <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
        id="ID.007"
        rolemaps-to="Part"
       >
-     <text xmlns="https://www.latex-project.org/ns/dflt"
+     <text-block xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.008"
         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
         Layout:TextAlign="Start"
@@ -50,18 +50,18 @@ TEST 1: Show PDF Tags
        <?MarkedContent page="1" ?>
        <?ReferencedObject type="Annot" page="1" ?>
       </Link>
-     </text>
-    </text-unit>
+     </text-block>
+    </semantic-para>
    </frame>
    <frame xmlns="https://www.latex-project.org/ns/local/ltx-talk"
       id="ID.013"
       rolemaps-to="Sect"
      >
-    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+    <semantic-para xmlns="https://www.latex-project.org/ns/dflt"
        id="ID.014"
        rolemaps-to="Part"
       >
-     <text xmlns="https://www.latex-project.org/ns/dflt"
+     <text-block xmlns="https://www.latex-project.org/ns/dflt"
         id="ID.015"
         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
         Layout:TextAlign="Start"
@@ -112,7 +112,7 @@ TEST 1: Show PDF Tags
        <?MarkedContent page="2" ?>link
        <?ReferencedObject type="Annot" page="2" ?>
       </Link>
-     </text>
+     </text-block>
      <Formula xmlns="http://iso.org/pdf2/ssn"
         id="ID.023"
         title="equation*"
@@ -130,7 +130,7 @@ TEST 1: Show PDF Tags
        </mi>
       </math>
      </Formula>
-    </text-unit>
+    </semantic-para>
    </frame>
   </Document>
  </StructTreeRoot>
