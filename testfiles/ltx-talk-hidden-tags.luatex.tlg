@@ -1,0 +1,139 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: Show PDF Tags
+============================================================
+-------- ltx-talk-hidden-tags.xml (start) ---------
+<PDF version="2.0">
+ <StructTreeRoot>
+  <Document xmlns="http://iso.org/pdf2/ssn"
+     id="ID.002"
+    >
+   <frame xmlns="https://www.latex-project.org/ns/local/ltx-talk"
+      id="ID.006"
+      rolemaps-to="Sect"
+     >
+    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.007"
+       rolemaps-to="Part"
+      >
+     <text xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.008"
+        xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+        Layout:TextAlign="Start"
+        rolemaps-to="P"
+       >
+      <?MarkedContent page="1" ?>Shown 
+      <Formula xmlns="http://iso.org/pdf2/ssn"
+         id="ID.009"
+         title="math"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:Placement="Inline"
+        >
+       <?MarkedContent page="1" ?>
+       <math xmlns="http://www.w3.org/1998/Math/MathML"
+          id="ID.010"
+         >
+        <mi xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.011"
+          >
+         <?MarkedContent page="1" ?>𝑎
+        </mi>
+       </math>
+       <?MarkedContent page="1" ?>
+      </Formula>
+      <?MarkedContent page="1" ?>  
+      <?MarkedContent page="1" ?>  
+      <Link xmlns="http://iso.org/pdf2/ssn"
+         id="ID.012"
+        >
+       <?MarkedContent page="1" ?>
+       <?ReferencedObject type="Annot" page="1" ?>
+      </Link>
+     </text>
+    </text-unit>
+   </frame>
+   <frame xmlns="https://www.latex-project.org/ns/local/ltx-talk"
+      id="ID.013"
+      rolemaps-to="Sect"
+     >
+    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.014"
+       rolemaps-to="Part"
+      >
+     <text xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.015"
+        xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+        Layout:TextAlign="Start"
+        rolemaps-to="P"
+       >
+      <?MarkedContent page="2" ?>Shown 
+      <Formula xmlns="http://iso.org/pdf2/ssn"
+         id="ID.016"
+         title="math"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:Placement="Inline"
+        >
+       <?MarkedContent page="2" ?>
+       <math xmlns="http://www.w3.org/1998/Math/MathML"
+          id="ID.017"
+         >
+        <mi xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.018"
+          >
+         <?MarkedContent page="2" ?>𝑎
+        </mi>
+       </math>
+       <?MarkedContent page="2" ?>
+      </Formula>
+      <?MarkedContent page="2" ?> hidden 
+      <Formula xmlns="http://iso.org/pdf2/ssn"
+         id="ID.019"
+         title="math"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:Placement="Inline"
+        >
+       <?MarkedContent page="2" ?>
+       <math xmlns="http://www.w3.org/1998/Math/MathML"
+          id="ID.020"
+         >
+        <mi xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.021"
+          >
+         <?MarkedContent page="2" ?>𝑏
+        </mi>
+       </math>
+       <?MarkedContent page="2" ?>
+      </Formula>
+      <?MarkedContent page="2" ?> and 
+      <Link xmlns="http://iso.org/pdf2/ssn"
+         id="ID.022"
+        >
+       <?MarkedContent page="2" ?>link
+       <?ReferencedObject type="Annot" page="2" ?>
+      </Link>
+     </text>
+     <Formula xmlns="http://iso.org/pdf2/ssn"
+        id="ID.023"
+        title="equation*"
+        xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+        Layout:Placement="Block"
+       >
+      <math xmlns="http://www.w3.org/1998/Math/MathML"
+         id="ID.024"
+         display="block"
+        >
+       <mi xmlns="http://www.w3.org/1998/Math/MathML"
+          id="ID.025"
+         >
+        <?MarkedContent page="2" ?>𝑐
+       </mi>
+      </math>
+     </Formula>
+    </text-unit>
+   </frame>
+  </Document>
+ </StructTreeRoot>
+</PDF>
+-------- ltx-talk-hidden-tags.xml (end) -----------
+============================================================

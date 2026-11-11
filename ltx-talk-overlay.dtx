@@ -992,11 +992,26 @@
 %    \end{macrocode}
 % \end{macro}
 %
+% \begin{macro}{\@@_formula_plug_restore:nn}
+%   Assigns to a formula socket the plug it had before the class's own,
+%   which \cs{@@_formula_plugs:n} saved. The arguments are the socket name
+%   after |math/| and the name of the saved plug's variable.
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_formula_plug_restore:nn #1#2
+  {
+    \exp_args:Nnv \AssignTaggingSocketPlug
+      { math / #1 } { g_@@_math_ #2 _plug_tl }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
 % \begin{macro}{\@@_formula_plugs:n}
 %   For |inline| or |display| math, installs plugs for the formula begin
 %   and end sockets that hand over to the plugs in place before. That is
 %   done at the end of the preamble, once the math tagging code has chosen
-%   its plugs.
+%   its plugs. To hand over, a plug assigns the previous plug to its socket,
+%   uses the socket, and assigns itself again: the assignments are local,
+%   and so they leave the socket as it was.
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_formula_plugs:n #1
   {
@@ -1010,12 +1025,12 @@
       {
         \@@_formula_begin:nn
           {
-            \use:c
-              {
-                __socket_tagsupport / math / #1 / formula / begin _plug_
-                \tl_use:c { g_@@_math_ #1 _begin_plug_tl } :w
-              }
+            \@@_formula_plug_restore:nn
+              { #1 / formula / begin } { #1 _begin }
+            \tag_socket_use:nnn { math / #1 / formula / begin }
               {##1} {##2}
+            \AssignTaggingSocketPlug
+              { math / #1 / formula / begin } { talk-hidden }
           }
           {##2}
       }
@@ -1023,11 +1038,11 @@
       {
         \@@_formula_end:n
           {
-            \use:c
-              {
-                __socket_tagsupport / math / #1 / formula / end _plug_
-                \tl_use:c { g_@@_math_ #1 _end_plug_tl } :w
-              }
+            \@@_formula_plug_restore:nn
+              { #1 / formula / end } { #1 _end }
+            \tag_socket_use:n { math / #1 / formula / end }
+            \AssignTaggingSocketPlug
+              { math / #1 / formula / end } { talk-hidden }
           }
       }
     \AssignTaggingSocketPlug { math / #1 / formula / begin } { talk-hidden }
