@@ -1,0 +1,25 @@
+\input{regression-test}
+
+\DocumentMetadata{tagging = draft}
+\documentclass{ltx-talk}
+
+\begin{document}
+
+\START
+
+\showoutput
+
+\begin{frame}
+  \begin{enumerate}[start = 4]
+    \item One
+    \item Two
+    \item Three
+  \end{enumerate}
+  \begin{enumerate}[<+->, start = 7]
+    \item Four
+    \item Five
+    \item Six
+  \end{enumerate}
+\end{frame}
+
+\end{document}

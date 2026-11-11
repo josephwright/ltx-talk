@@ -3,30 +3,22 @@ Don't change this file in any respect.
 ============================================================
 TEST 1: Parsing list options
 ============================================================
-Input: item-label = \Alph *.
- Keys passed on: item-label={\Alph *.}
- Action spec: 
-Input: start = 4
- Keys passed on: start={4}
- Action spec: 
-Input: item-label = \Alph *., start = 2
- Keys passed on: item-label={\Alph *.},start={2}
- Action spec: 
+Input: item-label=\Alph *.
+Keys passed on: item-label={\Alph *.}
+Action spec: 
+Input: start=4
+Keys passed on: start={4}
+Action spec: 
+Input: item-label=\Alph *.,start=2
+Keys passed on: item-label={\Alph *.},start={2}
+Action spec: 
 Input: <+->
- Keys passed on: 
- Action spec: <+->
-Input: <+->, item-label = (\roman *)
- Keys passed on: item-label={(\roman *)}
- Action spec: <+->
-Input: <2-> , start = 3
- Keys passed on: start={3}
- Action spec: <2->
+Keys passed on: 
+Action spec: <+->
+Input: <+->,item-label=(\roman *)
+Keys passed on: item-label={(\roman *)}
+Action spec: <+->
+Input: <2->,start=3
+Keys passed on: start={3}
+Action spec: <2->
 ============================================================
-============================================================
-TEST 2: Options reach the list
-============================================================
-start = 4: item 4
-<+->, start = 7: item 7
-[1]
-============================================================
-(ltx-talk-list-options.aux)

@@ -3,41 +3,29 @@
 \DocumentMetadata{tagging = draft}
 \documentclass{ltx-talk}
 
-\begin{document}
-
 \START
 
 \ExplSyntaxOn
-\cs_new_protected:Npn \testopts #1
+\cs_new_protected:Npn \test:n #1
   {
     \group_begin:
       \str_clear:N \l__talk_action_spec_str
       \__talk_block_set:n {#1}
       \TYPE { Input:~ \tl_to_str:n {#1} }
-      \TYPE { ~ Keys~ passed~ on:~ \tl_to_str:N \l__talk_tmp_tl }
-      \TYPE { ~ Action~ spec:~ \l__talk_action_spec_str }
+      \TYPE { Keys~passed~on:~ \tl_to_str:N \l__talk_tmp_tl }
+      \TYPE { Action~spec:~ \exp_not:V \l__talk_action_spec_str }
     \group_end:
   }
-\ExplSyntaxOff
 
-\TEST{Parsing list options}{%
-  \testopts{item-label = \Alph*.}%
-  \testopts{start = 4}%
-  \testopts{item-label = \Alph*., start = 2}%
-  \testopts{<+->}%
-  \testopts{<+->, item-label = (\roman*)}%
-  \testopts{<2-> , start = 3}%
-}
+\TEST { Parsing~list~options }
+  {
+    \test:n {item-label = \Alph*.}
+    \test:n { start = 4 }
+    \test:n { item-label = \Alph*. , start = 2}
+    \test:n { <+-> }
+    \test:n { <+-> , item-label = ( \roman* ) }
+    \test:n { <2-> , start = 3 }
+  }
 
-\TEST{Options reach the list}{%
-  \begin{frame}
-    \begin{enumerate}[start = 4]
-      \item \TYPE{start = 4: item \arabic{enumi}}
-    \end{enumerate}
-    \begin{enumerate}[<+->, start = 7]
-      \item \TYPE{<+->, start = 7: item \arabic{enumi}}
-    \end{enumerate}
-  \end{frame}
-}
+\END
 
-\end{document}
