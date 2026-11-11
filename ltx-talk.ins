@@ -29,6 +29,10 @@ for those people who are interested.
 \input docstrip.tex
 \askforoverwritefalse
 
+% The comment prefix is set per generated file below, so it must not be
+% fixed when the preamble and postamble are stored
+\let\MetaPrefix\relax
+
 % stop DocStrip adding rather wordy text
 \preamble
 \endpreamble
@@ -60,6 +64,7 @@ This work consists of the files ltx-talk.dtx,
                                 ltx-talk-structure.dtx and
                                 ltx-talk-title.dtx,
           and the derived files ltx-talk.cls,
+                                ltx-talk.lua,
                                 ltx-talk.pdf and
                                 ltx-talk-code.pdf.
 
@@ -67,6 +72,7 @@ This work consists of the files ltx-talk.dtx,
 
 \keepsilent
 
+\let\MetaPrefix\DoubleperCent
 \generate
   {%
     \file{ltx-talk.cls}
@@ -82,6 +88,12 @@ This work consists of the files ltx-talk.dtx,
         \from{ltx-talk-structure.dtx}      {class}
         \from{ltx-talk-title.dtx}          {class}
       }%
+  }
+
+\def\MetaPrefix{-- }
+\generate
+  {%
+    \file{ltx-talk.lua}{\from{ltx-talk-overlay.dtx}{lua}}%
   }
 
 \endbatchfile

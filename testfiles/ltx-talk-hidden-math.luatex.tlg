@@ -1,0 +1,31 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Slide 1: 6 structures
+LaTeX Font Info:    Trying to load font information for TU+lmr-base on input line ....
+(../tulmr-base.fd
+File: tulmr-base.fd ....-..-.. v... LaTeX font definitions for Latin Modern in base mode
+)
+Slide 1: 19 structures
+[1]
+Slide 2: 20 structures
+Slide 2: 35 structures
+[2
+]<<latex-list-css.html>><<latex-align-css.html>> (ltx-talk-hidden-math.aux)
+MathML statistic
+================
+==> 4 MathML fragments read
+==> 3 different MathML fragments
+==> 4 math fragments found
+==> 4 fitting MathML AF found
+==> 4 MathML AF attached
+Package tagpdf Info: Finalizing the tagging structure:
+(tagpdf)             Writing out ~35 structure objects
+(tagpdf)             with ~22 'MC' leaf nodes.
+(tagpdf)             Be patient if there are lots of objects!
+Package tagpdf Info: writing ParentTree
+Package tagpdf Info: writing IDTree
+Package tagpdf Info: writing RoleMap
+Package tagpdf Info: writing ClassMap
+Package tagpdf Info: writing NameSpaces
+Package tagpdf Info: writing StructElems
+Package tagpdf Info: writing Root

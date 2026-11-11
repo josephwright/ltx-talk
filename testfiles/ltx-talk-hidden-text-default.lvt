@@ -1,0 +1,36 @@
+\input{regression-test}
+
+\DocumentMetadata{tagging = draft}
+\documentclass{ltx-talk}
+
+\begin{document}
+
+\START
+
+\begin{frame}
+  \begin{itemize}
+    \item Always shown
+    \item<2-> Shown from slide two, with \uncover<3->{three words more}
+      and some mathematics $\frac{a}{b}$
+  \end{itemize}
+  \only<1>{First caption}\only<2->{Later caption}
+\end{frame}
+
+% The default: the Lua code is loaded, but no glyphs are removed
+\ExplSyntaxOn
+\TYPE
+  {
+    remove-hidden-text~=~
+    \bool_if:NTF \l__talk_remove_hidden_text_bool { true } { false }
+  }
+\ExplSyntaxOff
+\ifdefined\directlua
+  \directlua{
+    texio.write_nl("term and log", "Lua module "
+      .. (ltx and ltx.__talk and "loaded" or "not loaded") .. ", removal "
+      .. (luatexbase.in_callback("pre_shipout_filter",
+        "ltx-talk.hidden-text") and "on" or "off"))
+  }
+\fi
+
+\end{document}

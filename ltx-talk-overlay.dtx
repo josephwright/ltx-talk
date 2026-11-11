@@ -143,13 +143,52 @@
 % opacity. At present, this seems very \cls{ltx-talk}-specific, so
 % is handled here with a few auxiliaries.
 %
+% \begin{variable}{\g_@@_opacity_seq, \g_@@_hidden_bool}
+%   The opacities in force, innermost first, and whether the innermost is
+%   zero, which is what makes material hidden rather than dimmed (see the
+%   section on hidden text below).
+%    \begin{macrocode}
+\seq_new:N \g_@@_opacity_seq
+\bool_new:N \g_@@_hidden_bool
+%    \end{macrocode}
+% \end{variable}
+%
+% \begin{macro}{\@@_hidden_update:}
+%   Sets the flag from the innermost opacity. It is global: an opacity set
+%   by \cs{pause} lasts until the end of the slide, past the end of any
+%   group it was set in. The values are stored as decimals, so a string
+%   comparison is enough, allowing for the sign that a zero can keep.
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_hidden_update:
+  {
+    \seq_get:NNTF \g_@@_opacity_seq \l_@@_tmp_tl
+      {
+        \bool_gset:Nn \g_@@_hidden_bool
+          {
+               \str_if_eq_p:Vn \l_@@_tmp_tl { 0 }
+            || \str_if_eq_p:Vn \l_@@_tmp_tl { -0 }
+          }
+      }
+      { \bool_gset_false:N \g_@@_hidden_bool }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
 % \begin{macro}{\@@_opacity_begin:n, \@@_opacity_end:}
-%   Simply tracking wrappers.
+%   Tracking wrappers.
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_opacity_begin:n #1
-  { \@@_shuffle_skip:n { \opacity_begin:n {#1} } }
+  {
+    \seq_gpush:Ne \g_@@_opacity_seq { \fp_to_decimal:n {#1} }
+    \@@_hidden_update:
+    \@@_shuffle_skip:n { \opacity_begin:n {#1} }
+  }
 \cs_new_protected:Npn \@@_opacity_end:
-  { \@@_shuffle_skip:n { \opacity_end: } }
+  {
+    \seq_gpop:NN \g_@@_opacity_seq \l_@@_tmp_tl
+    \@@_hidden_update:
+    \@@_shuffle_skip:n { \opacity_end: }
+  }
 %    \end{macrocode}
 % \end{macro}
 %
@@ -866,8 +905,412 @@
   }
 %    \end{macrocode}
 %
+% \subsection{Hidden text}
+%
+% Content hidden by an overlay is drawn at opacity~$0$, which leaves it in
+% the page: a PDF reader's search and text selection find its text, and on
+% a tagged slide its structure is there for assistive technology to read.
+% Two things are done about that, both selected by the
+% |remove-hidden-text| option.
+%
+% A formula is wholly inside or wholly outside a hidden region, so a
+% formula that starts while hidden is made an artifact as a whole: it gets
+% no structure element, alternative text or MathML. That is done through
+% the math tagging sockets, so it works with any engine; the flag set by
+% \cs{@@_hidden_update:} says whether a formula starts hidden. Hidden plain
+% text keeps its structure, but with Lua\TeX{} its glyphs are removed from
+% the page just before shipout: the code in \file{ltx-talk.lua} replaces
+% every glyph drawn at opacity~$0$ by a kern of the same width, so the
+% layout is unchanged and the text is gone. Rules, images and drawings are
+% left alone, as they carry no text.
+%
+% For the glyphs, what counts is where they are drawn, not when they were
+% typeset, and so the walk follows the opacity operators on the page
+% rather than a flag or attribute set during typesetting. The two differ
+% for material built before the opacity changes but placed after it: the
+% label of an \cs{item} with an overlay specification is one, as it is
+% boxed before the item's action switches the opacity, and it would keep
+% its text if only nodes typeset while hidden were removed.
+%
+% \begin{variable}{\g_@@_formula_seq}
+%   One entry per formula being typeset, recording whether it was made an
+%   artifact, so that its end matches its start even if the opacity has
+%   changed in between.
+%    \begin{macrocode}
+\seq_new:N \g_@@_formula_seq
+%    \end{macrocode}
+% \end{variable}
+%
+% \begin{macro}{\@@_formula_hide:, \@@_formula_hide_set:}
+%   A hidden formula switches paragraph tagging off, as the standard plug
+%   does, and \pkg{luamml}, when loaded, is told to ignore it. Which of the
+%   two commands exist is settled once, when the plugs are installed, by
+%   expansion.
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_formula_hide: { }
+\cs_new_protected:Npn \@@_formula_hide_set:
+  {
+    \cs_gset_protected:Npe \@@_formula_hide:
+      {
+        \cs_if_exist:NT \tagpdfparaOff
+          { \exp_not:N \tagpdfparaOff }
+        \cs_if_exist:NT \luamml_ignore:
+          { \exp_not:N \luamml_ignore: }
+      }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@@_formula_begin:nn, \@@_formula_end:n}
+%   The begin auxiliary takes the code of the plug that was in place and
+%   the formula; the end auxiliary takes the code of the plug that was in
+%   place. A hidden formula is wrapped in an artifact marked-content
+%   sequence.
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_formula_begin:nn #1#2
+  {
+    \bool_if:NTF \g_@@_hidden_bool
+      {
+        \seq_gpush:Nn \g_@@_formula_seq { hidden }
+        \@@_formula_hide:
+        \tag_mc_begin:n { artifact }
+        #2
+      }
+      {
+        \seq_gpush:Nn \g_@@_formula_seq { shown }
+        #1
+      }
+  }
+\cs_new_protected:Npn \@@_formula_end:n #1
+  {
+    \seq_gpop:NNF \g_@@_formula_seq \l_@@_tmp_tl
+      { \tl_set:Nn \l_@@_tmp_tl { shown } }
+    \str_if_eq:VnTF \l_@@_tmp_tl { hidden }
+      { \tag_mc_end: }
+      {#1}
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@@_formula_plug_restore:nn}
+%   Assigns to a formula socket the plug it had before the class's own,
+%   which \cs{@@_formula_plugs:n} saved. The arguments are the socket name
+%   after |math/| and the name of the saved plug's variable.
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_formula_plug_restore:nn #1#2
+  {
+    \exp_args:Nnv \AssignTaggingSocketPlug
+      { math / #1 } { g_@@_math_ #2 _plug_tl }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@@_formula_plugs:n}
+%   For |inline| or |display| math, installs plugs for the formula begin
+%   and end sockets that hand over to the plugs in place before. That is
+%   done at the end of the preamble, once the math tagging code has chosen
+%   its plugs. To hand over, a plug assigns the previous plug to its socket,
+%   uses the socket, and assigns itself again: the assignments are local,
+%   and so they leave the socket as it was.
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_formula_plugs:n #1
+  {
+    \socket_get_plug:nN { tagsupport / math / #1 / formula / begin }
+      \l_@@_tmp_tl
+    \tl_gset_eq:cN { g_@@_math_ #1 _begin_plug_tl } \l_@@_tmp_tl
+    \socket_get_plug:nN { tagsupport / math / #1 / formula / end }
+      \l_@@_tmp_tl
+    \tl_gset_eq:cN { g_@@_math_ #1 _end_plug_tl } \l_@@_tmp_tl
+    \NewTaggingSocketPlug { math / #1 / formula / begin } { talk-hidden }
+      {
+        \@@_formula_begin:nn
+          {
+            \@@_formula_plug_restore:nn
+              { #1 / formula / begin } { #1 _begin }
+            \tag_socket_use:nnn { math / #1 / formula / begin }
+              {##1} {##2}
+            \AssignTaggingSocketPlug
+              { math / #1 / formula / begin } { talk-hidden }
+          }
+          {##2}
+      }
+    \NewTaggingSocketPlug { math / #1 / formula / end } { talk-hidden }
+      {
+        \@@_formula_end:n
+          {
+            \@@_formula_plug_restore:nn
+              { #1 / formula / end } { #1 _end }
+            \tag_socket_use:n { math / #1 / formula / end }
+            \AssignTaggingSocketPlug
+              { math / #1 / formula / end } { talk-hidden }
+          }
+      }
+    \AssignTaggingSocketPlug { math / #1 / formula / begin } { talk-hidden }
+    \AssignTaggingSocketPlug { math / #1 / formula / end } { talk-hidden }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% With Lua\TeX{} the Lua code is always loaded. Both parts are opt-in:
+% only with |remove-hidden-text| are the plugs installed and, with
+% Lua\TeX{}, the removal of hidden glyphs switched on. Otherwise hidden
+% content stays as it is typeset.
+%    \begin{macrocode}
+\sys_if_engine_luatex:T
+  { \lua_load_module:n { ltx-talk } }
+\bool_if:NT \l_@@_remove_hidden_text_bool
+  {
+    \hook_gput_code:nnn { begindocument / end } { talk }
+      {
+        \@@_formula_hide_set:
+        \@@_formula_plugs:n { inline }
+        \@@_formula_plugs:n { display }
+      }
+    \sys_if_engine_luatex:T
+      { \lua_now:n { ltx.__talk.remove_hidden_text() } }
+  }
+%    \end{macrocode}
+%
 %    \begin{macrocode}
 %</class>
+%    \end{macrocode}
+%
+% \subsection{Lua code}
+%
+% With Lua\TeX{} the code here is always loaded, but it only acts once
+% |ltx.__talk.remove_hidden_text()| has been called, which the class does for
+% |remove-hidden-text|. The walk then runs in the
+% |pre_shipout_filter| callback, on the finished page box.
+%
+%    \begin{macrocode}
+%<*lua>
+%    \end{macrocode}
+%
+% \begin{macro}{ltx.__talk}
+%   The module's table, which is internal, following \pkg{tagpdf}'s
+%   |ltx.__tag|.
+%    \begin{macrocode}
+luatexbase.provides_module({
+  name        = "ltx-talk",
+  date        = "2026-11-05",
+  version     = "0.6.11",
+  description = "Lua code for ltx-talk"
+})
+ltx = ltx or { }
+ltx.__talk = ltx.__talk or { }
+local talk = ltx.__talk
+%    \end{macrocode}
+% \end{macro}
+%
+%   Local copies of standard functions.
+%    \begin{macrocode}
+local insert_before = node.insert_before
+local max           = math.max
+local new_node      = node.new
+local node_free     = node.free
+local node_remove   = node.remove
+local traverse      = node.traverse
+%    \end{macrocode}
+%
+%   Node types, whatsit subtypes and the commands of a colour-stack
+%   whatsit, all constants.
+%    \begin{macrocode}
+local id_disc            = node.id("disc")
+local id_glue            = node.id("glue")
+local id_glyph           = node.id("glyph")
+local id_hlist           = node.id("hlist")
+local id_kern            = node.id("kern")
+local id_vlist           = node.id("vlist")
+local id_whatsit         = node.id("whatsit")
+local subtype_colorstack = node.subtype("pdf_colorstack")
+local subtype_restore    = node.subtype("pdf_restore")
+local subtype_save       = node.subtype("pdf_save")
+local stack_set          = 0
+local stack_push         = 1
+local stack_pop          = 2
+%    \end{macrocode}
+%
+% The opacity in force is tracked as a PDF reader would see it.
+% \pkg{l3opacity} sets opacity through a colour stack in
+% \enquote{page} mode, whose top value is reissued at the start of every
+% page, and the operators it pushes name the value (|/opacity0 gs|). The
+% stack is recognised by that data the first time it is pushed, and
+% |opacity_stack| mirrors its contents across pages. Within a page,
+% |opacity| is the value in force, and |saved_opacities| holds the values
+% saved by |q| from the graphics drivers, to be restored by |Q|. The
+% number of hidden glyphs met on each page is kept in
+% |ltx.__talk.hidden_text_pages|, for tests.
+%    \begin{macrocode}
+local stack_number
+local opacity_stack = { }
+local opacity
+local saved_opacities
+local hidden_glyphs
+talk.hidden_text_pages = { }
+%    \end{macrocode}
+%
+% \begin{macro}[int]{opacity_value}
+%   The opacity that the data of a colour-stack whatsit sets, or |nil|
+%   for data that is not an opacity operator. Callers take |nil| to mean
+%   fully visible.
+%    \begin{macrocode}
+local function opacity_value(data)
+  local value = data and data:match("^%s*/opacity([%d%.]+)%s+gs%s*$")
+  return value and tonumber(value)
+end
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}[int]{opacity_top}
+%   The value at the top of the opacity stack, which is fully visible
+%   when the stack is empty.
+%    \begin{macrocode}
+local function opacity_top()
+  return opacity_stack[#opacity_stack] or 1
+end
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}[int]{track_opacity}
+%   Updates the opacity in force for a whatsit: a push, pop or set on the
+%   opacity stack, or a save or restore of the graphics state.
+%    \begin{macrocode}
+local function track_opacity(n)
+  local subtype = n.subtype
+  if subtype == subtype_colorstack then
+    local value = opacity_value(n.data)
+    if value and not stack_number then
+      stack_number = n.stack
+    end
+    if n.stack == stack_number then
+      local command = n.command
+      if command == stack_push then
+        opacity_stack[#opacity_stack + 1] = value or 1
+      elseif command == stack_pop then
+        opacity_stack[#opacity_stack] = nil
+      elseif command == stack_set then
+        opacity_stack[max(#opacity_stack,1)] = value or 1
+      end
+      opacity = opacity_top()
+    end
+  elseif subtype == subtype_save then
+    saved_opacities[#saved_opacities + 1] = opacity
+  elseif subtype == subtype_restore then
+    if #saved_opacities > 0 then
+      opacity = saved_opacities[#saved_opacities]
+      saved_opacities[#saved_opacities] = nil
+    end
+  end
+end
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}[int]{replace_glyph}
+%   Replaces a glyph in a list by a kern of the same width, allowing for
+%   font expansion, and returns the new head of the list.
+%    \begin{macrocode}
+local function replace_glyph(head,glyph)
+  local kern = new_node(id_kern,1)
+  local width = glyph.width
+  local expansion = glyph.expansion_factor
+  if expansion and expansion ~= 0 then
+    width = width + width * expansion // 1000000
+  end
+  kern.kern = width
+  kern.attr = glyph.attr
+  head = insert_before(head,glyph,kern)
+  head = node_remove(head,glyph)
+  node_free(glyph)
+  return head
+end
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}[int]{remove_glyphs}
+%   Walks a list, and the lists inside it, in the order they are drawn,
+%   and replaces every glyph met at opacity~$0$. The glyphs are collected
+%   first and replaced after the walk, so that the traversal is not
+%   disturbed. After line breaking, the replace list of a discretionary is
+%   what the page shows, but all three are walked. Rules and drawings met
+%   at opacity~$0$ are left alone, as they carry no text.
+%    \begin{macrocode}
+local function remove_glyphs(head)
+  local found
+  for n in traverse(head) do
+    local id = n.id
+    if id == id_hlist or id == id_vlist then
+      if n.list then
+        n.list = remove_glyphs(n.list)
+      end
+    elseif id == id_glyph then
+      if opacity == 0 then
+        hidden_glyphs = hidden_glyphs + 1
+        found = found or { }
+        found[#found + 1] = n
+      end
+    elseif id == id_disc then
+      if n.pre then
+        n.pre = remove_glyphs(n.pre)
+      end
+      if n.post then
+        n.post = remove_glyphs(n.post)
+      end
+      if n.replace then
+        n.replace = remove_glyphs(n.replace)
+      end
+    elseif id == id_glue then
+      local leader = n.leader
+      if leader and (leader.id == id_hlist or leader.id == id_vlist)
+        and leader.list then
+        leader.list = remove_glyphs(leader.list)
+      end
+    elseif id == id_whatsit then
+      track_opacity(n)
+    end
+  end
+  if found then
+    for _,glyph in ipairs(found) do
+      head = replace_glyph(head,glyph)
+    end
+  end
+  return head
+end
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}[int]{hidden_text_filter}
+%   The callback function: starts each page at the opacity carried over
+%   from the last one.
+%    \begin{macrocode}
+local function hidden_text_filter(box)
+  opacity = opacity_top()
+  saved_opacities = { }
+  hidden_glyphs = 0
+  if box.list then
+    box.list = remove_glyphs(box.list)
+  end
+  talk.hidden_text_pages[status.total_pages + 1] = hidden_glyphs
+  return true
+end
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{ltx.__talk.remove_hidden_text}
+%   Adds the callback. \pkg{tagpdf} marks the page's content in the same
+%   callback, and the hidden glyphs must be gone first, or the marked
+%   content sequences that held them are kept, holding only kerns.
+%    \begin{macrocode}
+function talk.remove_hidden_text()
+  luatexbase.add_to_callback("pre_shipout_filter",hidden_text_filter,
+    "ltx-talk.hidden-text")
+  luatexbase.declare_callback_rule("pre_shipout_filter",
+    "ltx-talk.hidden-text","before","tagpdf")
+end
+%    \end{macrocode}
+% \end{macro}
+%
+%    \begin{macrocode}
+%</lua>
 %    \end{macrocode}
 %
 % \end{implementation}

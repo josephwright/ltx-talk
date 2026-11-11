@@ -8,6 +8,11 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Class option `remove-hidden-text` (see issue
+  [\#294](https://github.com/josephwright/ltx-talk/issues/294))
+
 ### Fixed
 
 - Key-value options for lists, such as `start` or `item-label`, alone or after
