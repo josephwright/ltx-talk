@@ -8,6 +8,12 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Key-value options for lists, such as `start` or `item-label`, alone or after
+  an overlay specification (see issue
+  [\#302](https://github.com/josephwright/ltx-talk/issues/302))
+
 ## [v0.6.11] - 2026-11-05
 
 ### Fixed
