@@ -27,7 +27,7 @@
 \ifdefined\directlua
   \directlua{
     texio.write_nl("term and log", "Lua module "
-      .. (talk and "loaded" or "not loaded") .. ", removal "
+      .. (ltx and ltx.__talk and "loaded" or "not loaded") .. ", removal "
       .. (luatexbase.in_callback("pre_shipout_filter",
         "ltx-talk.hidden-text") and "on" or "off"))
   }

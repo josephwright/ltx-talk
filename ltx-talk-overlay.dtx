@@ -1052,7 +1052,7 @@
         \@@_formula_plugs:n { display }
       }
     \sys_if_engine_luatex:T
-      { \lua_now:n { talk.remove_hidden_text() } }
+      { \lua_now:n { ltx.__talk.remove_hidden_text() } }
   }
 %    \end{macrocode}
 %
@@ -1063,7 +1063,7 @@
 % \subsection{Lua code}
 %
 % With Lua\TeX{} the code here is always loaded, but it only acts once
-% |talk.remove_hidden_text()| has been called, which the class does for
+% |ltx.__talk.remove_hidden_text()| has been called, which the class does for
 % |remove-hidden-text|. The walk then runs in the
 % |pre_shipout_filter| callback, on the finished page box.
 %
@@ -1071,8 +1071,9 @@
 %<*lua>
 %    \end{macrocode}
 %
-% \begin{macro}{talk}
-%   The module's table.
+% \begin{macro}{ltx.__talk}
+%   The module's table, which is internal, following \pkg{tagpdf}'s
+%   |ltx.__tag|.
 %    \begin{macrocode}
 luatexbase.provides_module({
   name        = "ltx-talk",
@@ -1080,8 +1081,9 @@ luatexbase.provides_module({
   version     = "0.6.11",
   description = "Lua code for ltx-talk"
 })
-talk = talk or { }
-local talk = talk
+ltx = ltx or { }
+ltx.__talk = ltx.__talk or { }
+local talk = ltx.__talk
 %    \end{macrocode}
 % \end{macro}
 %
@@ -1122,7 +1124,7 @@ local stack_pop          = 2
 % |opacity| is the value in force, and |saved_opacities| holds the values
 % saved by |q| from the graphics drivers, to be restored by |Q|. The
 % number of hidden glyphs met on each page is kept in
-% |talk.hidden_text_pages|, for tests.
+% |ltx.__talk.hidden_text_pages|, for tests.
 %    \begin{macrocode}
 local stack_number
 local opacity_stack = { }
@@ -1278,7 +1280,7 @@ end
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{talk.remove_hidden_text}
+% \begin{macro}{ltx.__talk.remove_hidden_text}
 %   Adds the callback. \pkg{tagpdf} marks the page's content in the same
 %   callback, and the hidden glyphs must be gone first, or the marked
 %   content sequences that held them are kept, holding only kerns.

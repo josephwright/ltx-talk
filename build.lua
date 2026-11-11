@@ -8,7 +8,7 @@ module = "ltx-talk"
 packtdszip = true
 
 -- The class and its Lua code
-installfiles = {"*.cls", "*.lua"}
+installfiles = {"*.cls", "ltx-talk*.lua"}
 
 -- Typeset .tex files
 typesetexe = "lualatex"
