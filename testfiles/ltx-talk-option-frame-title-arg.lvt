@@ -1,0 +1,21 @@
+\input{regression-test}
+
+\DocumentMetadata{tagging = draft}
+\documentclass[frame-title-arg]{ltx-talk}
+
+\begin{document}
+
+\showoutput
+
+\START
+
+\begin{frame}{\LaTeX }
+blub
+\end{frame}
+
+\begin{frame*}{\LaTeX }
+blub
+\end{frame*}
+
+
+\end{document}

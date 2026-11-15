@@ -8,6 +8,11 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Support for fragile commands with `frame-title-arg` and `frame*` (see issue
+  [\#305](https://github.com/josephwright/ltx-talk/issues/305))
+
 ## [v0.6.12] - 2026-11-12
 
 ### Fixed

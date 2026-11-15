@@ -1006,7 +1006,7 @@
         \bool_set_true:N \l_@@_frame_verb_bool
         \tl_gset:Nn \g_@@_frame_title_tl {#3}
         \exp_args:Nne \@@_frame_process:nn {#1}
-          { \tl_to_str:n { \frametitle } \exp_not:n { {#3} #4 } }
+          { \tl_to_str:n { \frametitle {#3} } #4 } 
       }
       { }
   }
