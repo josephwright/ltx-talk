@@ -111,7 +111,9 @@
 %   As opacity uses whatsits at present, we need to make sure that any spaces
 %   come \emph{after} them. This is done by \enquote{shuffling} the last skip
 %   past the opacity. See comments on more-or-less the same code in
-%   \file{l3color.dtx}.
+%   \file{l3color.dtx}. As this is really tied to whatsits, it's not clear that
+%   this will ever move anywhere more generic: but at some stage, removing the
+%   \texttt{:D} functions would be good.
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_shuffle_skip:n #1
   {
