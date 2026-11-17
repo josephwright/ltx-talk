@@ -110,25 +110,39 @@
 % \begin{macro}{\@@_shuffle_skip:n}
 %   As opacity uses whatsits at present, we need to make sure that any spaces
 %   come \emph{after} them. This is done by \enquote{shuffling} the last skip
-%   past the opacity.
+%   past the opacity. See comments on more-or-less the same code in
+%   \file{l3color.dtx}.
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_shuffle_skip:n #1
   {
-    \skip_set_eq:NN \l_@@_shuffle_skip \tex_lastskip:D
-    \bool_lazy_and:nnTF
-      { ! \skip_if_eq_p:nn \l_@@_shuffle_skip { 0pt } }
+    \int_compare:nNnTF \tex_lastnodetype:D = { 11 }
       {
-        \bool_lazy_or_p:nn
+        \skip_set_eq:NN \l_@@_shuffle_skip \tex_lastskip:D
+        \bool_lazy_or:nnTF
           { \mode_if_horizontal_p: }
-          { \mode_if_vertical_p: }
-      }
-      {
-        \tex_unskip:D
-        #1
-        \mode_if_horizontal:TF
-          { \skip_horizontal:n }
-          { \skip_vertical:n }
-            \l_@@_shuffle_skip
+          {
+            \bool_lazy_and_p:nn
+              { \mode_if_vertical_p: }
+              { \mode_if_inner_p: }
+          }
+          {
+            \tex_unskip:D
+            #1
+            \mode_if_horizontal:TF
+              { \skip_horizontal:n }
+              { \skip_vertical:n }
+                \l_@@_shuffle_skip
+          }
+          {
+            \mode_if_vertical:TF
+              {
+                \skip_vertical:n { -\l_@@_shuffle_skip }
+                \tex_penalty:D 10000 \scan_stop:
+                #1
+                \skip_vertical:n { \l_@@_shuffle_skip }
+              }
+              {#1}
+          }
       }
       {#1}
   }
