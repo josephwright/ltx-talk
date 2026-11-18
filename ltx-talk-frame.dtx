@@ -115,15 +115,6 @@
 %    \end{macrocode}
 % \end{variable}
 %
-% \begin{variable}{\l_@@_frame_properties_clist}
-%   Used for auto-generated properties; contrast with
-%   \cs{l_talk_frame_properties_clist}.
-%    \begin{macrocode}
-\clist_new:N \l_@@_frame_properties_clist
-\clist_put_right:Nn \l_@@_frame_properties_clist { slides }
-%    \end{macrocode}
-% \end{variable}
-%
 % Required to know which is the last slide in a frame for tagging.
 %    \begin{macrocode}
 \property_new:nnnn { slides } { now } { 1 } { \int_use:N \g_@@_slide_int }
@@ -328,10 +319,7 @@
     \bool_if:NF \g_@@_slide_continue_bool
       {
         \clist_set_eq:NN \l_@@_tmp_clist \l_talk_frame_properties_clist
-        \clist_concat:NNN
-          \l_@@_tmp_clist
-          \l_@@_frame_properties_clist
-          \l_talk_frame_properties_clist
+        \clist_put_left:Nn \l_@@_tmp_clist { slides }
         \clist_remove_duplicates:N \l_@@_tmp_clist
         \property_record:ee { frame . \int_use:N \g_@@_frame_int }
           { \l_@@_tmp_clist }
