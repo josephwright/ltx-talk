@@ -268,9 +268,8 @@
       }
   }
 %    \end{macrocode}
-% The use of \cs{@skiphyperreftrue} here is needed as we do not want targets
-% creating for \enquote{floats}. We may need a better interface for this:
-% the switch is essentially internal. The structure role shuffle is needed
+% The use of \cs{LinkTargetOff} here is needed as we do not want targets
+% creating for \enquote{floats}. The structure role shuffle is needed
 % so that the entire unit is treated as a \texttt{Float} for tagging, but
 % we do not loose other information.
 %    \begin{macrocode}
@@ -285,7 +284,7 @@
             { \UseStructureName { para / semantic } }
         }
         \cs_set_nopar:Npn \@captype {#2}
-        \@skiphyperreftrue
+        \LinkTargetOff
   }
 \DeclareInstance { floatenv } { std } { talk } { horizontal-alignment = left }
 %    \end{macrocode}
