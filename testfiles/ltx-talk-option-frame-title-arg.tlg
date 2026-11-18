@@ -1,0 +1,340 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+LaTeX Font Info:    Trying to load font information for OT1+cmsmf on input line ....
+Completed box being shipped out [1]
+\vbox(206.56702+0.0)x405.10403
+.\hbox(0.0+0.0)x0.0
+..\pdfinterwordspaceon
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\pdfrunninglinkoff
+....\glue 0.0 plus 1.0fil minus 1.0fil
+....\pdfrunninglinkon
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 78.96426fil
+..\kern 0.0
+..\kern -77.96053
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil
+...\kern 0.0
+...\kern -43.81725
+...\kern -1.00374
+...\pdfdest name{page.1} xyz
+...\pdfdest struct22 name{page.1} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(206.56702+0.0)x405.10403
+..\glue -77.96053
+..\vbox(284.52754+0.0)x448.92128, shifted -43.81725
+...\vbox(28.45274+0.0)x448.92128, glue set 18.45267fil
+....\glue 0.0 plus 1.0fil
+....\pdfrunninglinkoff
+....\pdfliteral page{/Artifact BMC}
+....\marks4{b-,2,-1,}
+....\marks4{b+,2,-1,}
+....\hbox(10.00008+15.29999)x448.92128
+.....\pdfcolorstack 0 push {0 g 0 G}
+.....\hbox(10.00008+15.29999)x448.92128
+......\glue -28.45274
+......\glue 28.45274
+......\vbox(10.00008+15.29999)x448.92128
+.......\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(10.00008+15.29999)x448.92128
+........\vbox(10.00008+15.29999)x448.92128
+.........\glue 0.0
+.........\glue 0.0
+.........\hbox(10.00008+3.29999)x448.92128
+..........\pdfliteral page{EMC}
+..........\write1{\new@label@record{mcid-3}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{3}{tagmcid}{\__property_code_tagmcid: }}}
+..........\pdfliteral shipout page{/frametitle <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..........\vbox(10.00008+3.29999)x448.92128
+...........\hbox(10.00008+3.29999)x448.92128, glue set 415.56778fil
+............\hbox(0.0+0.0)x0.0
+............\pdfliteral page{EMC}
+............\write1{\new@label@record{mcid-4}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{4}{tagmcid}{\__property_code_tagmcid: }}}
+............\pdfliteral shipout page{/text-fragment <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+............\T1/lmss/bx/n/14.4 L
+............\kern -5.70241
+............\vbox(10.00008+0.0)x7.333, glue set 3.05557fil
+.............\hbox(6.9445+0.0)x7.333
+..............\T1/lmss/bx/n/10 A
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\kern -2.3759
+............\T1/lmss/bx/n/14.4 T
+............\kern -2.64055
+............\hbox(10.00008+0.0)x9.24048, shifted 3.29999
+.............\T1/lmss/bx/n/14.4 E
+............\kern -1.98
+............\T1/lmss/bx/n/14.4 X
+............\pdfliteral page{EMC}
+............\write1{\new@label@record{mcid-5}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{5}{tagmcid}{\__property_code_tagmcid: }}}
+............\pdfliteral shipout page{/frametitle <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+............\penalty 10000
+............\glue(\parfillskip) 0.0 plus 1.0fil
+............\glue(\rightskip) 0.0
+...........\marks4{e-,3,8,}
+...........\marks4{e+,3,8,}
+...........\marks4{b-,4,9,text-fragment,,,}
+...........\marks4{b+,4,9,text-fragment,,,}
+...........\marks4{e-,4,9,}
+...........\marks4{e+,4,9,}
+...........\marks4{b-,5,8,frametitle,,,}
+...........\marks4{b+,5,8,frametitle,,,}
+..........\pdfliteral page{EMC}
+..........\pdfliteral page{/Artifact BMC}
+.........\marks4{e-,2,2,}
+.........\marks4{e+,2,2,}
+.........\marks4{b-,3,8,frametitle,,,}
+.........\marks4{b+,3,8,frametitle,,,}
+.........\marks4{e-,5,8,}
+.........\marks4{e+,5,8,}
+.........\marks4{b-,6,-1,}
+.........\marks4{b+,6,-1,}
+.........\glue 12.0 plus 4.0 minus 4.0
+.........\glue 0.0
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+......\glue 0.0
+......\glue 0.0 plus 1.0fil
+.....\pdfcolorstack 0 pop
+....\pdfliteral page{EMC}
+....\marks4{e-,6,2,}
+....\marks4{e+,6,2,}
+....\pdfrunninglinkon
+...\glue 5.69054
+...\glue(\lineskip) 0.0
+...\vbox(233.31262+0.0)x448.92128
+....\hbox(0.0+0.0)x0.0
+....\pdfcolorstack 0 push {0 g 0 G}
+....\pdfdest name{Doc-Start} xyz
+....\pdfdest struct22 name{Doc-Start} xyz
+....\glue(\topskip) 0.0
+....\vbox(233.31262+0.0)x448.92128
+.....\glue 0.0 plus 0.5fil
+.....\hbox(233.31262+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 225.7084fil
+.......\glue 0.0 plus 0.5fil
+.......\hbox(7.60422+0.0)x448.92128, glue set 214.66641fil
+........\write1{\new@label@record{mcid-1}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{1}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text-block <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 b
+........\T1/lmss/m/n/10.95 l
+........\T1/lmss/m/n/10.95 u
+........\T1/lmss/m/n/10.95 b
+........\pdfliteral page{EMC}
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\marks4{b-,1,7,text-block,,,}
+.......\marks4{b+,1,7,text-block,,,}
+.......\marks4{e-,1,7,}
+.......\marks4{e+,1,7,}
+.......\glue 0.0 plus 0.5fil
+.....\glue 0.0 plus 0.5fil
+....\write1{\new@label@record{frame.1}{{slides}{1}}}
+....\kern 0.0
+....\hbox(0.0+0.0)x0.0
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\pdfrunninglinkoff
+...\pdfliteral page{/Artifact BMC}
+...\marks4{b-,7,-1,}
+...\marks4{b+,7,-1,}
+...\glue(\baselineskip) 17.07164
+...\hbox(0.0+0.0)x448.92128
+....\pdfcolorstack 0 push {0 g 0 G}
+....\hbox(0.0+0.0)x448.92128
+.....\glue -28.45274
+.....\glue 28.45274
+.....\vbox(0.0+0.0)x448.92128
+......\hbox(0.0+0.0)x448.92128, glue set 448.92128fil
+.......\hbox(0.0+0.0)x0.0
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0
+.....\glue 0.0
+....\pdfcolorstack 0 pop
+...\pdfliteral page{EMC}
+...\marks4{e-,7,2,}
+...\marks4{e+,7,2,}
+...\pdfrunninglinkon
+.\kern 0.0
+.\kern 0.0
+Completed box being shipped out [2]
+\vbox(206.56702+0.0)x405.10403
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\pdfrunninglinkoff
+....\glue 0.0 plus 1.0fil minus 1.0fil
+....\pdfrunninglinkon
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 78.96426fil
+..\kern 0.0
+..\kern -77.96053
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil
+...\kern 0.0
+...\kern -43.81725
+...\kern -1.00374
+...\pdfdest name{page.2} xyz
+...\pdfdest struct22 name{page.2} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(206.56702+0.0)x405.10403
+..\glue -77.96053
+..\vbox(284.52754+0.0)x448.92128, shifted -43.81725
+...\vbox(28.45274+0.0)x448.92128, glue set 18.45267fil
+....\glue 0.0 plus 1.0fil
+....\pdfrunninglinkoff
+....\pdfliteral page{/Artifact BMC}
+....\marks4{b-,9,-1,}
+....\marks4{b+,9,-1,}
+....\hbox(10.00008+15.29999)x448.92128
+.....\pdfcolorstack 0 push {0 g 0 G}
+.....\hbox(10.00008+15.29999)x448.92128
+......\glue -28.45274
+......\glue 28.45274
+......\vbox(10.00008+15.29999)x448.92128
+.......\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(10.00008+15.29999)x448.92128
+........\vbox(10.00008+15.29999)x448.92128
+.........\glue 0.0
+.........\glue 0.0
+.........\hbox(10.00008+3.29999)x448.92128
+..........\pdfliteral page{EMC}
+..........\write1{\new@label@record{mcid-10}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{10}{tagmcid}{\__property_code_tagmcid: }}}
+..........\pdfliteral shipout page{/frametitle <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+..........\vbox(10.00008+3.29999)x448.92128
+...........\hbox(10.00008+3.29999)x448.92128, glue set 415.56778fil
+............\hbox(0.0+0.0)x0.0
+............\pdfliteral page{EMC}
+............\write1{\new@label@record{mcid-11}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{11}{tagmcid}{\__property_code_tagmcid: }}}
+............\pdfliteral shipout page{/text-fragment <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+............\T1/lmss/bx/n/14.4 L
+............\kern -5.70241
+............\vbox(10.00008+0.0)x7.333, glue set 3.05557fil
+.............\hbox(6.9445+0.0)x7.333
+..............\T1/lmss/bx/n/10 A
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\kern -2.3759
+............\T1/lmss/bx/n/14.4 T
+............\kern -2.64055
+............\hbox(10.00008+0.0)x9.24048, shifted 3.29999
+.............\T1/lmss/bx/n/14.4 E
+............\kern -1.98
+............\T1/lmss/bx/n/14.4 X
+............\pdfliteral page{EMC}
+............\write1{\new@label@record{mcid-12}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{12}{tagmcid}{\__property_code_tagmcid: }}}
+............\pdfliteral shipout page{/frametitle <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+............\penalty 10000
+............\glue(\parfillskip) 0.0 plus 1.0fil
+............\glue(\rightskip) 0.0
+...........\marks4{e-,10,13,}
+...........\marks4{e+,10,13,}
+...........\marks4{b-,11,14,text-fragment,,,}
+...........\marks4{b+,11,14,text-fragment,,,}
+...........\marks4{e-,11,14,}
+...........\marks4{e+,11,14,}
+...........\marks4{b-,12,13,frametitle,,,}
+...........\marks4{b+,12,13,frametitle,,,}
+..........\pdfliteral page{EMC}
+..........\pdfliteral page{/Artifact BMC}
+.........\marks4{e-,9,2,}
+.........\marks4{e+,9,2,}
+.........\marks4{b-,10,13,frametitle,,,}
+.........\marks4{b+,10,13,frametitle,,,}
+.........\marks4{e-,12,13,}
+.........\marks4{e+,12,13,}
+.........\marks4{b-,13,-1,}
+.........\marks4{b+,13,-1,}
+.........\glue 12.0 plus 4.0 minus 4.0
+.........\glue 0.0
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+......\glue 0.0
+......\glue 0.0 plus 1.0fil
+.....\pdfcolorstack 0 pop
+....\pdfliteral page{EMC}
+....\marks4{e-,13,2,}
+....\marks4{e+,13,2,}
+....\pdfrunninglinkon
+...\glue 5.69054
+...\glue(\lineskip) 0.0
+...\vbox(233.31262+0.0)x448.92128
+....\hbox(0.0+0.0)x0.0
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(233.31262+0.0)x448.92128
+.....\glue 0.0 plus 0.5fil
+.....\hbox(233.31262+0.0)x448.92128
+......\vbox(233.31262+0.0)x448.92128, glue set 225.7084fil
+.......\glue 0.0 plus 0.5fil
+.......\hbox(7.60422+0.0)x448.92128, glue set 214.66641fil
+........\write1{\new@label@record{mcid-8}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{8}{tagmcid}{\__property_code_tagmcid: }}}
+........\pdfliteral shipout page{/text-block <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
+........\hbox(0.0+0.0)x0.0
+........\T1/lmss/m/n/10.95 b
+........\T1/lmss/m/n/10.95 l
+........\T1/lmss/m/n/10.95 u
+........\T1/lmss/m/n/10.95 b
+........\pdfliteral page{EMC}
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\marks4{b-,8,12,text-block,,,}
+.......\marks4{b+,8,12,text-block,,,}
+.......\marks4{e-,8,12,}
+.......\marks4{e+,8,12,}
+.......\glue 0.0 plus 0.5fil
+.....\glue 0.0 plus 0.5fil
+....\write1{\new@label@record{frame.2}{{slides}{1}}}
+....\kern 0.0
+....\hbox(0.0+0.0)x0.0
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\pdfrunninglinkoff
+...\pdfliteral page{/Artifact BMC}
+...\marks4{b-,14,-1,}
+...\marks4{b+,14,-1,}
+...\glue(\baselineskip) 17.07164
+...\hbox(0.0+0.0)x448.92128
+....\pdfcolorstack 0 push {0 g 0 G}
+....\hbox(0.0+0.0)x448.92128
+.....\glue -28.45274
+.....\glue 28.45274
+.....\vbox(0.0+0.0)x448.92128
+......\hbox(0.0+0.0)x448.92128, glue set 448.92128fil
+.......\hbox(0.0+0.0)x0.0
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0
+.....\glue 0.0
+....\pdfcolorstack 0 pop
+...\pdfliteral page{EMC}
+...\marks4{e-,14,2,}
+...\marks4{e+,14,2,}
+...\pdfrunninglinkon
+.\kern 0.0
+.\kern -206.56702
+.\hbox(0.0+0.0)x0.0
+.\kern 206.56702
+(ltx-talk-option-frame-title-arg.aux)

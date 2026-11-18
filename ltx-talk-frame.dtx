@@ -35,8 +35,8 @@
 % \fi
 %
 % ^^A As we are dealing with a class, this has to be done manually
-% \def\filedate{2026-11-05}
-% \def\fileversion{v0.6.11}
+% \def\filedate{2026-11-16}
+% \def\fileversion{v0.6.13}
 %
 % \title{^^A
 %   \pkg{ltx-talk-frame} -- The structure of frames^^A
@@ -1006,7 +1006,7 @@
         \bool_set_true:N \l_@@_frame_verb_bool
         \tl_gset:Nn \g_@@_frame_title_tl {#3}
         \exp_args:Nne \@@_frame_process:nn {#1}
-          { \tl_to_str:n { \frametitle } \exp_not:n { {#3} #4 } }
+          { \tl_to_str:n { \frametitle {#3} } #4 } 
       }
       { }
   }
