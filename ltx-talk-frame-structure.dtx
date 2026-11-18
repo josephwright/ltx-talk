@@ -396,6 +396,25 @@
 %    \end{macrocode}
 % \end{macro}
 %
+% \begin{macro}{\stdfootnotetext}
+%    \begin{macrocode}
+\NewCommandCopy \stdfootnotetext \footnotetext
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\footnotetext}
+%   Also sort-of overlay aware!
+%    \begin{macrocode}
+\RenewDocumentCommand \footnotetext { D <> { all } o +m }
+  {
+    \seq_gpush:Nn \g_@@_footnote_overlay_seq {#1}
+    \IfNoValueTF {#2}
+      { \stdfootnotetext {#3} }
+      { \stdfootnotetext [ {#2} ] {#3} }
+ }
+%    \end{macrocode}
+% \end{macro}
+%
 % This socket receives all of the footnote content: in the standard setup it
 % would be an insert. Hence this is the best place to grab the entire content.
 % Notice that the footnote rule is only inserted when the box is used, if

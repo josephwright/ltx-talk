@@ -1326,17 +1326,26 @@ disrupt the flow of reading.
 \begin{syntax}
   \cs{footnote}\sarg{overlay spec}\oarg{mark-number}\marg{text}
 \end{syntax}
-Inserts a footnote into the current frame. Footnotes will always be shown on
-the current frame; they will never be \enquote{moved} to other frames. As
-usual, one can give a \meta{mark-number}, which will cause the footnote to use
-that number. Footnotes are placed at the bottom of the content area of the
-frame: unlike \cls{beamer}, this is true for footnotes in columns,
+Inserts a footnote into the current frame, along with a footnote mark.
+Footnotes will always be shown on the current frame; they will never
+be \enquote{moved} to other frames. As usual, one can give
+a \meta{mark-number}, which will cause the footnote to use that
+number. Footnotes are placed at the bottom of the content area of the frame:
+unlike \cls{beamer}, this is true for footnotes in columns,
 \foreign{etc.}: for \cls{beamer}, this behavior is similar to the
 \opt{framefootnotes} class option or \cs{footnote[frame]}\marg{text}.
 
 If an \meta{overlay spec} is given, this causes the footnote \meta{text} to be
 shown only on the specified slides. The footnote symbol in the text is shown on
 all slides.
+
+\DescribeMacro{\footnotetext}
+\begin{syntax}
+  \cs{footnotetext}\sarg{overlay spec}\oarg{mark-number}\marg{text}
+\end{syntax}
+
+Inserts a footnote into the current frame, without typesetting a footnote mark.
+Arguments are the same as those of \cs{footnote}.
 
 \subsection{Repeating a frame%
   \label{sec:reusing}}
