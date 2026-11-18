@@ -7,6 +7,9 @@ module = "ltx-talk"
 -- Release a TDS-style zip
 packtdszip = true
 
+-- The class and its Lua code
+installfiles = {"*.cls", "ltx-talk*.lua"}
+
 -- Typeset .tex files
 typesetexe = "lualatex"
 typesetfiles = {"*.tex", "examples/*.tex"}
@@ -41,6 +44,13 @@ function update_tag(file,content,tagname,tagdate)
     content = string.gsub(content,
       "\\fileversion%{[^}]+%}",
       "\\fileversion{v" .. tagname .. "}")
+    -- the Lua module's information
+    content = string.gsub(content,
+      '\n  date        = "[^"]+",\n',
+      '\n  date        = "' .. tagdate .. '",\n')
+    content = string.gsub(content,
+      '\n  version     = "[^"]+",\n',
+      '\n  version     = "' .. tagname .. '",\n')
     return string.gsub(content,
       "\n\\ProvidesExplClass %{ltx%-talk%} %{[^}]+%} %{[^}]+%}\n",
       "\n\\ProvidesExplClass {ltx-talk} {"

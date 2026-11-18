@@ -213,6 +213,7 @@
 %     \l_@@_fontsize_dim     ,
 %     \l_@@_frame_title_bool ,
 %     \l_@@_mode_str         ,
+%     \l_@@_remove_hidden_text_bool ,
 %     \l_@@_suppl_mode_str
 %   }
 %    \begin{macrocode}
@@ -230,6 +231,8 @@
     mode .choices:nn =
       { handout , projector }
       { \str_set_eq:NN \l_@@_mode_str \l_keys_choice_str } ,
+    remove-hidden-text .bool_set:N =
+      \l_@@_remove_hidden_text_bool ,
     supplementary-frames .choices:nn =
       { appendix , in-place , omit }
       { \str_set_eq:NN \l_@@_suppl_mode_str \l_keys_choice_str }
@@ -247,6 +250,7 @@
     font-size            .usage:n = load ,
     frame-title-arg      .usage:n = load ,
     mode                 .usage:n = load ,
+    remove-hidden-text   .usage:n = load ,
     supplementary-frames .usage:n = load
   }
 %    \end{macrocode}
@@ -272,6 +276,7 @@
     font-size            = 11pt      ,
     frame-title-arg      = false     ,
     mode                 = projector ,
+    remove-hidden-text   = false     ,
     supplementary-frames = appendix
   }
 %    \end{macrocode}
