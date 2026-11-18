@@ -8,6 +8,10 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- `\footnotetext` works and is now overlay-aware (fixes [\#309](https://github.com/josephwright/ltx-talk/issues/309))
+
 ## [v0.6.13] - 2026-11-16
 
 ### Fixed
