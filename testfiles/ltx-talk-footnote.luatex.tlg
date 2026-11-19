@@ -98,7 +98,7 @@ Completed box being shipped out [1]
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
 ........\penalty 10000
-........\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 2/Contents (artifact)} action struct name{footnote*.1} goto name{footnote*.1}
+........\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 5/Contents (artifact)} action struct name{footnote*.1} goto name{footnote*.1}
 ........\hbox(9.60513+0.0)x4.248, direction TLT
 .........\hbox(5.424+0.0)x4.248, shifted -4.18114, direction TLT
 ..........\pdfcolorstack 0 push {0 g 0 G}
@@ -119,7 +119,7 @@ Completed box being shipped out [1]
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
 ........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
 ........\penalty 10000
-........\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 3/Contents (artifact)} action struct name{footnote*.3} goto name{footnote*.3}
+........\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 6/Contents (artifact)} action struct name{footnote*.3} goto name{footnote*.3}
 ........\hbox(9.60513+0.0)x4.248, direction TLT
 .........\hbox(5.424+0.0)x4.248, shifted -4.18114, direction TLT
 ..........\pdfcolorstack 0 push {0 g 0 G}
@@ -347,7 +347,7 @@ Completed box being shipped out [2]
 ........\penalty 10000
 ........\pdfliteral page <lua data reference ...>
 ........\pdfliteral page <lua data reference ...>
-........\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 4} action struct name{footnote*.5} goto name{footnote*.5}
+........\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 7} action struct name{footnote*.5} goto name{footnote*.5}
 ........\hbox(9.60513+0.0)x4.248, direction TLT
 .........\hbox(5.424+0.0)x4.248, shifted -4.18114, direction TLT
 ..........\pdfliteral page <lua data reference ...>
@@ -376,7 +376,7 @@ Completed box being shipped out [2]
 ........\penalty 10000
 ........\pdfliteral page <lua data reference ...>
 ........\pdfliteral page <lua data reference ...>
-........\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 5} action struct name{footnote*.7} goto name{footnote*.7}
+........\pdfstartlink(*+*)x* attr{/Border [0 0 0] /H /I /C [0.701176 0.4 0.414118]  /LTEX_position /isolated/StructParent 8} action struct name{footnote*.7} goto name{footnote*.7}
 ........\hbox(9.60513+0.0)x4.248, direction TLT
 .........\hbox(5.424+0.0)x4.248, shifted -4.18114, direction TLT
 ..........\pdfliteral page <lua data reference ...>
@@ -501,6 +501,671 @@ Completed box being shipped out [2]
 .....\pdfliteral page <lua data reference ...>
 .....\pdfcolorstack 1 pop
 ....\write1{\new@label@record{frame.1}{{slides}{2}}}
+....\glue -3.30003
+...\pdflinkstate 1
+...\glue(\baselineskip) 17.07164
+...\hbox(0.0+0.0)x448.92128, direction TLT
+....\pdfliteral page <lua data reference ...>
+....\pdfliteral page <lua data reference ...>
+....\pdfcolorstack 0 push {0 g 0 G}
+....\hbox(0.0+0.0)x448.92128, direction TLT
+.....\glue -28.45274
+.....\glue 28.45274
+.....\vbox(0.0+0.0)x448.92128, direction TLT
+......\hbox(0.0+0.0)x448.92128, glue set 448.92126fil, direction TLT
+.......\localpar
+........\localinterlinepenalty=0
+........\localbrokenpenalty=0
+........\localleftbox=null
+........\localrightbox=null
+.......\hbox(0.0+0.0)x0.0, direction TLT
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0
+.....\glue 0.0
+....\pdfcolorstack 0 pop
+...\pdfliteral page <lua data reference ...>
+...\pdfliteral page <lua data reference ...>
+...\pdflinkstate 0
+.\kern0.0
+.\pdfliteral page <lua data reference ...>
+Completed box being shipped out [3]
+\vbox(206.56702+0.0)x405.10403, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\kern-72.26999
+...\pdfliteral page <lua data reference ...>
+...\pdflinkstate -3
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\latelua0{ltx.__pdf.backend_ThisPage_gpush(tex.count["g_shipout_readonly_int"])}
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 78.96426fil, direction TLT
+..\kern0.0
+..\kern-77.96053
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{page.3} xyz
+...\pdfdest name{page.3} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(206.56702+0.0)x405.10403, direction TLT
+..\glue -77.96053
+..\vbox(284.52754+0.0)x448.92128, shifted -43.81725, direction TLT
+...\vbox(28.45274+0.0)x448.92128, glue set 28.45274fil, direction TLT
+....\glue 0.0 plus 1.0fil
+....\pdflinkstate 1
+....\hbox(0.0+12.0)x448.92128, direction TLT
+.....\pdfliteral page <lua data reference ...>
+.....\pdfliteral page <lua data reference ...>
+.....\pdfcolorstack 0 push {0 g 0 G}
+.....\hbox(0.0+12.0)x448.92128, direction TLT
+......\glue -28.45274
+......\glue 28.45274
+......\vbox(0.0+12.0)x448.92128, direction TLT
+.......\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(0.0+12.0)x448.92128, glue set 448.92126fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\vbox(0.0+12.0)x0.0, direction TLT
+.........\glue 0.0
+.........\glue 0.0
+.........\glue 12.0 plus 4.0 minus 4.0
+.........\glue 0.0
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+......\glue 0.0
+......\glue 0.0 plus 1.0fil
+.....\pdfcolorstack 0 pop
+....\pdfliteral page <lua data reference ...>
+....\pdfliteral page <lua data reference ...>
+....\pdflinkstate 0
+...\glue 5.69054
+...\glue(\lineskip) 0.0
+...\vbox(233.31262+0.0)x448.92128, direction TLT
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(233.31262+3.30003)x448.92128, direction TLT
+.....\glue 0.0 plus 0.5fil
+.....\hbox(214.6126+0.0)x448.92128, direction TLT
+......\vbox(214.6126+0.0)x448.92128, glue set 206.95854fil, direction TLT
+.......\glue 0.0 plus 0.5fil
+.......\hbox(7.5336+0.12045)x448.92128, glue set 187.12115fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 T
+........\kern-0.90884 (font)
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 m
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
+........\kern-0.3066 (font)
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 r
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 .
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
+.....\glue 0.0 plus 0.5fil
+.....\kern-3.0
+.....\pdfliteral page <lua data reference ...>
+.....\pdfliteral page <lua data reference ...>
+.....\rule(0.4+0.0)x144.54
+.....\kern2.6
+.....\pdfliteral page <lua data reference ...>
+.....\pdfliteral page <lua data reference ...>
+.....\pdfcolorstack 1 push {/opacity0 gs}
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\hbox(7.7+3.30003)x448.92128, glue set 417.20526fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\penalty 10000
+......\hbox(0.0+0.0)x0.0, direction TLT
+.......\hbox(0.0+0.0)x0.0, shifted -11.0, direction TLT
+........\pdfdest name{footnote*.9} xyz
+........\pdfdest name{footnote*.9} xyz
+........\penalty 10000
+......\kern0.0
+......\hbox(7.50455+0.0)x19.71002, glue set 16.52402fil, direction TLT
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\hbox(7.50455+0.0)x3.186, direction TLT
+........\hbox(4.068+0.0)x3.186, shifted -3.43655, direction TLT
+.........\pdfcolorstack 0 push {0 g 0 G}
+.........\TU/NewCMSans10-Regular.otf(0)/m/n/6 2
+.........\pdfcolorstack 0 pop
+......\hbox(7.7+0.0)x0.0, direction TLT
+.......\rule(7.7+0.0)x0.0
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 f
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 o
+......\kern0.252 (font)
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 o
+......\penalty 10000
+......\rule(0.0+3.30003)x0.0
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0
+.....\pdfcolorstack 1 pop
+.....\pdfcolorstack 1 push {/opacity0 gs}
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\hbox(7.7+3.30003)x448.92128, glue set 417.40326fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\penalty 10000
+......\hbox(0.0+0.0)x0.0, direction TLT
+.......\hbox(0.0+0.0)x0.0, shifted -11.0, direction TLT
+........\pdfdest name{footnote*.10} xyz
+........\pdfdest name{footnote*.10} xyz
+........\penalty 10000
+......\kern0.0
+......\hbox(7.37256+0.0)x19.71002, glue set 16.52402fil, direction TLT
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\hbox(7.37256+0.0)x3.186, direction TLT
+........\hbox(3.936+0.0)x3.186, shifted -3.43655, direction TLT
+.........\pdfcolorstack 0 push {0 g 0 G}
+.........\TU/NewCMSans10-Regular.otf(0)/m/n/6 4
+.........\pdfcolorstack 0 pop
+......\hbox(7.7+0.0)x0.0, direction TLT
+.......\rule(7.7+0.0)x0.0
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 b
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 a
+......\kern-0.252 (font)
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 r
+......\penalty 10000
+......\rule(0.0+3.30003)x0.0
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0
+.....\pdfcolorstack 1 pop
+....\glue -3.30003
+...\pdfliteral page <lua data reference ...>
+...\pdfliteral page <lua data reference ...>
+...\pdflinkstate 1
+...\glue(\baselineskip) 17.07164
+...\hbox(0.0+0.0)x448.92128, direction TLT
+....\pdfliteral page <lua data reference ...>
+....\pdfliteral page <lua data reference ...>
+....\pdfcolorstack 0 push {0 g 0 G}
+....\hbox(0.0+0.0)x448.92128, direction TLT
+.....\glue -28.45274
+.....\glue 28.45274
+.....\vbox(0.0+0.0)x448.92128, direction TLT
+......\hbox(0.0+0.0)x448.92128, glue set 448.92126fil, direction TLT
+.......\localpar
+........\localinterlinepenalty=0
+........\localbrokenpenalty=0
+........\localleftbox=null
+........\localrightbox=null
+.......\hbox(0.0+0.0)x0.0, direction TLT
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0
+.....\glue 0.0
+....\pdfcolorstack 0 pop
+...\pdfliteral page <lua data reference ...>
+...\pdfliteral page <lua data reference ...>
+...\pdflinkstate 0
+.\kern0.0
+.\pdfliteral page <lua data reference ...>
+Completed box being shipped out [4]
+\vbox(206.56702+0.0)x405.10403, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\kern-72.26999
+...\pdfliteral page <lua data reference ...>
+...\pdflinkstate -3
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\latelua0{ltx.__pdf.backend_ThisPage_gpush(tex.count["g_shipout_readonly_int"])}
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 78.96426fil, direction TLT
+..\kern0.0
+..\kern-77.96053
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{page.4} xyz
+...\pdfdest name{page.4} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(206.56702+0.0)x405.10403, direction TLT
+..\glue -77.96053
+..\vbox(284.52754+0.0)x448.92128, shifted -43.81725, direction TLT
+...\vbox(28.45274+0.0)x448.92128, glue set 28.45274fil, direction TLT
+....\glue 0.0 plus 1.0fil
+....\pdflinkstate 1
+....\hbox(0.0+12.0)x448.92128, direction TLT
+.....\pdfliteral page <lua data reference ...>
+.....\pdfliteral page <lua data reference ...>
+.....\pdfcolorstack 0 push {0 g 0 G}
+.....\hbox(0.0+12.0)x448.92128, direction TLT
+......\glue -28.45274
+......\glue 28.45274
+......\vbox(0.0+12.0)x448.92128, direction TLT
+.......\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(0.0+12.0)x448.92128, glue set 448.92126fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\vbox(0.0+12.0)x0.0, direction TLT
+.........\glue 0.0
+.........\glue 0.0
+.........\glue 12.0 plus 4.0 minus 4.0
+.........\glue 0.0
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+......\glue 0.0
+......\glue 0.0 plus 1.0fil
+.....\pdfcolorstack 0 pop
+....\pdfliteral page <lua data reference ...>
+....\pdfliteral page <lua data reference ...>
+....\pdflinkstate 0
+...\glue 5.69054
+...\glue(\lineskip) 0.0
+...\vbox(233.31262+0.0)x448.92128, direction TLT
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(233.31262+3.30003)x448.92128, direction TLT
+.....\glue 0.0 plus 0.5fil
+.....\hbox(214.6126+0.0)x448.92128, direction TLT
+......\vbox(214.6126+0.0)x448.92128, glue set 206.95854fil, direction TLT
+.......\glue 0.0 plus 0.5fil
+.......\hbox(7.5336+0.12045)x448.92128, glue set 187.12115fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 T
+........\kern-0.90884 (font)
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 m
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
+........\kern-0.3066 (font)
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 r
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 .
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
+.....\glue 0.0 plus 0.5fil
+.....\kern-3.0
+.....\pdfliteral page <lua data reference ...>
+.....\pdfliteral page <lua data reference ...>
+.....\rule(0.4+0.0)x144.54
+.....\kern2.6
+.....\pdfliteral page <lua data reference ...>
+.....\pdfliteral page <lua data reference ...>
+.....\pdfcolorstack 1 push {/opacity1 gs}
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\hbox(7.7+3.30003)x448.92128, glue set 417.20526fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\penalty 10000
+......\hbox(0.0+0.0)x0.0, direction TLT
+.......\hbox(0.0+0.0)x0.0, shifted -11.0, direction TLT
+........\pdfdest name{footnote*.11} xyz
+........\pdfdest name{footnote*.11} xyz
+........\penalty 10000
+......\kern0.0
+......\hbox(7.50455+0.0)x19.71002, glue set 16.52402fil, direction TLT
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\hbox(7.50455+0.0)x3.186, direction TLT
+........\hbox(4.068+0.0)x3.186, shifted -3.43655, direction TLT
+.........\pdfcolorstack 0 push {0 g 0 G}
+.........\TU/NewCMSans10-Regular.otf(0)/m/n/6 2
+.........\pdfcolorstack 0 pop
+......\hbox(7.7+0.0)x0.0, direction TLT
+.......\rule(7.7+0.0)x0.0
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 f
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 o
+......\kern0.252 (font)
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 o
+......\penalty 10000
+......\rule(0.0+3.30003)x0.0
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0
+.....\pdfcolorstack 1 pop
+.....\pdfcolorstack 1 push {/opacity0 gs}
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\hbox(7.7+3.30003)x448.92128, glue set 417.40326fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\penalty 10000
+......\hbox(0.0+0.0)x0.0, direction TLT
+.......\hbox(0.0+0.0)x0.0, shifted -11.0, direction TLT
+........\pdfdest name{footnote*.12} xyz
+........\pdfdest name{footnote*.12} xyz
+........\penalty 10000
+......\kern0.0
+......\hbox(7.37256+0.0)x19.71002, glue set 16.52402fil, direction TLT
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\hbox(7.37256+0.0)x3.186, direction TLT
+........\hbox(3.936+0.0)x3.186, shifted -3.43655, direction TLT
+.........\pdfcolorstack 0 push {0 g 0 G}
+.........\TU/NewCMSans10-Regular.otf(0)/m/n/6 4
+.........\pdfcolorstack 0 pop
+......\hbox(7.7+0.0)x0.0, direction TLT
+.......\rule(7.7+0.0)x0.0
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 b
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 a
+......\kern-0.252 (font)
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 r
+......\penalty 10000
+......\rule(0.0+3.30003)x0.0
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0
+.....\pdfcolorstack 1 pop
+....\glue -3.30003
+...\pdfliteral page <lua data reference ...>
+...\pdfliteral page <lua data reference ...>
+...\pdflinkstate 1
+...\glue(\baselineskip) 17.07164
+...\hbox(0.0+0.0)x448.92128, direction TLT
+....\pdfliteral page <lua data reference ...>
+....\pdfliteral page <lua data reference ...>
+....\pdfcolorstack 0 push {0 g 0 G}
+....\hbox(0.0+0.0)x448.92128, direction TLT
+.....\glue -28.45274
+.....\glue 28.45274
+.....\vbox(0.0+0.0)x448.92128, direction TLT
+......\hbox(0.0+0.0)x448.92128, glue set 448.92126fil, direction TLT
+.......\localpar
+........\localinterlinepenalty=0
+........\localbrokenpenalty=0
+........\localleftbox=null
+........\localrightbox=null
+.......\hbox(0.0+0.0)x0.0, direction TLT
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0
+.....\glue 0.0
+....\pdfcolorstack 0 pop
+...\pdfliteral page <lua data reference ...>
+...\pdfliteral page <lua data reference ...>
+...\pdflinkstate 0
+.\kern0.0
+.\pdfliteral page <lua data reference ...>
+Completed box being shipped out [5]
+\vbox(206.56702+0.0)x405.10403, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\kern-72.26999
+...\pdfliteral page <lua data reference ...>
+...\pdflinkstate -3
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\latelua0{ltx.__pdf.backend_ThisPage_gpush(tex.count["g_shipout_readonly_int"])}
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 78.96426fil, direction TLT
+..\kern0.0
+..\kern-77.96053
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{page.5} xyz
+...\pdfdest name{page.5} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(206.56702+0.0)x405.10403, direction TLT
+..\glue -77.96053
+..\vbox(284.52754+0.0)x448.92128, shifted -43.81725, direction TLT
+...\vbox(28.45274+0.0)x448.92128, glue set 28.45274fil, direction TLT
+....\glue 0.0 plus 1.0fil
+....\pdflinkstate 1
+....\hbox(0.0+12.0)x448.92128, direction TLT
+.....\pdfliteral page <lua data reference ...>
+.....\pdfliteral page <lua data reference ...>
+.....\pdfcolorstack 0 push {0 g 0 G}
+.....\hbox(0.0+12.0)x448.92128, direction TLT
+......\glue -28.45274
+......\glue 28.45274
+......\vbox(0.0+12.0)x448.92128, direction TLT
+.......\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(0.0+12.0)x448.92128, glue set 448.92126fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\vbox(0.0+12.0)x0.0, direction TLT
+.........\glue 0.0
+.........\glue 0.0
+.........\glue 12.0 plus 4.0 minus 4.0
+.........\glue 0.0
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+......\glue 0.0
+......\glue 0.0 plus 1.0fil
+.....\pdfcolorstack 0 pop
+....\pdfliteral page <lua data reference ...>
+....\pdfliteral page <lua data reference ...>
+....\pdflinkstate 0
+...\glue 5.69054
+...\glue(\lineskip) 0.0
+...\vbox(233.31262+0.0)x448.92128, direction TLT
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(233.31262+3.30003)x448.92128, direction TLT
+.....\glue 0.0 plus 0.5fil
+.....\hbox(214.6126+0.0)x448.92128, direction TLT
+......\vbox(214.6126+0.0)x448.92128, glue set 206.95854fil, direction TLT
+.......\glue 0.0 plus 0.5fil
+.......\hbox(7.5336+0.12045)x448.92128, glue set 187.12115fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 T
+........\kern-0.90884 (font)
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 m
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 o
+........\kern-0.3066 (font)
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 r
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 x
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 .
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
+.....\glue 0.0 plus 0.5fil
+.....\kern-3.0
+.....\pdfliteral page <lua data reference ...>
+.....\pdfliteral page <lua data reference ...>
+.....\rule(0.4+0.0)x144.54
+.....\kern2.6
+.....\pdfcolorstack 1 push {/opacity1 gs}
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\hbox(7.7+3.30003)x448.92128, glue set 417.20526fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\penalty 10000
+......\hbox(0.0+0.0)x0.0, direction TLT
+.......\hbox(0.0+0.0)x0.0, shifted -11.0, direction TLT
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\pdfdest name{footnote*.13} xyz
+........\pdfdest name{footnote*.13} xyz
+........\penalty 10000
+......\kern0.0
+......\hbox(7.50455+0.0)x19.71002, glue set 16.52402fil, direction TLT
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\hbox(7.50455+0.0)x3.186, direction TLT
+........\hbox(4.068+0.0)x3.186, shifted -3.43655, direction TLT
+.........\pdfliteral page <lua data reference ...>
+.........\pdfliteral page <lua data reference ...>
+.........\pdfcolorstack 0 push {0 g 0 G}
+.........\TU/NewCMSans10-Regular.otf(0)/m/n/6 2
+.........\pdfcolorstack 0 pop
+......\hbox(7.7+0.0)x0.0, direction TLT
+.......\pdfliteral page <lua data reference ...>
+.......\pdfliteral page <lua data reference ...>
+.......\rule(7.7+0.0)x0.0
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 f
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 o
+......\kern0.252 (font)
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 o
+......\penalty 10000
+......\rule(0.0+3.30003)x0.0
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0
+.....\pdfliteral page <lua data reference ...>
+.....\pdfliteral page <lua data reference ...>
+.....\pdfcolorstack 1 pop
+.....\pdfcolorstack 1 push {/opacity1 gs}
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\hbox(7.7+3.30003)x448.92128, glue set 417.40326fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\penalty 10000
+......\hbox(0.0+0.0)x0.0, direction TLT
+.......\hbox(0.0+0.0)x0.0, shifted -11.0, direction TLT
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\pdfdest name{footnote*.14} xyz
+........\pdfdest name{footnote*.14} xyz
+........\penalty 10000
+......\kern0.0
+......\hbox(7.37256+0.0)x19.71002, glue set 16.52402fil, direction TLT
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\hbox(7.37256+0.0)x3.186, direction TLT
+........\hbox(3.936+0.0)x3.186, shifted -3.43655, direction TLT
+.........\pdfliteral page <lua data reference ...>
+.........\pdfliteral page <lua data reference ...>
+.........\pdfcolorstack 0 push {0 g 0 G}
+.........\TU/NewCMSans10-Regular.otf(0)/m/n/6 4
+.........\pdfcolorstack 0 pop
+......\hbox(7.7+0.0)x0.0, direction TLT
+.......\pdfliteral page <lua data reference ...>
+.......\pdfliteral page <lua data reference ...>
+.......\rule(7.7+0.0)x0.0
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 b
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 a
+......\kern-0.252 (font)
+......\TU/NewCMSans10-Regular.otf(0)/m/n/9 r
+......\penalty 10000
+......\rule(0.0+3.30003)x0.0
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0
+.....\pdfliteral page <lua data reference ...>
+.....\pdfliteral page <lua data reference ...>
+.....\pdfcolorstack 1 pop
+....\write1{\new@label@record{frame.2}{{slides}{3}}}
 ....\glue -3.30003
 ...\pdflinkstate 1
 ...\glue(\baselineskip) 17.07164
