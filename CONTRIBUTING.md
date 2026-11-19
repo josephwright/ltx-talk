@@ -1,3 +1,5 @@
+.
+
 # Contributing to `ltx-talk`
 
 ## Project goals
