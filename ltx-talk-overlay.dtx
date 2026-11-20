@@ -788,13 +788,51 @@
 % \end{macro}
 % \end{macro}
 %
+% \begin{variable}{\l_@@_auto_dest_seq}
+%   A list of auto-generated destinations.
+%    \begin{macrocode}
+\seq_new:N \l_@@_auto_dest_seq
+\seq_put_right:Nn \l_@@_auto_dest_seq { equation }
+\seq_put_right:Nn \l_@@_auto_dest_seq { figure }
+\seq_put_right:Nn \l_@@_auto_dest_seq { table }
+%    \end{macrocode}
+% \end{variable}
+% \begin{macro}[EXP]{\HyperDestNameFilter}
+% \begin{macro}[EXP]{\@@_auto_dest:nn}
+% \begin{macro}[EXP]{\@@_auto_dest:nw}
+%   To ensure that auto-generated destinations are not duplicated, we add the
+%   slide number to the destination. This means finding the type of
+%   destination: not too bad as we can trim off at the first |.|, then do
+%   a string comparison.
+%    \begin{macrocode}
+\cs_gset:Npn \HyperDestNameFilter #1
+  {
+     #1
+    \seq_map_tokens:Nn \l_@@_auto_dest_seq
+      { \exp_args:Ne \@@_auto_dest:nn {#1} }
+  }
+\cs_new:Npn \@@_auto_dest:nn #1#2
+  { \@@_auto_dest:nw {#2} #1 . \q_stop }
+\cs_new:Npn \@@_auto_dest:nw #1#2 . #3 \q_stop
+  {
+    \str_if_eq:eeT {#1} {#2}
+      {
+        . slide . \int_use:N \g_@@_slide_int
+        \seq_map_break:
+      }
+  }
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+%
 % \begin{macro}{\label}
 % \begin{macro}{\@@_label:n}
 %   Here, we can't wrap the existing command up as we need the space hack, so
 %   it has to be declared from scratch. There is also a non-standard overlay
 %   default. At present, no special tricks as seen in \pkg{beamer}.   
 %    \begin{macrocode}
-\RenewDocumentCommand \label { D <> { 1 } m }
+\RenewDocumentCommand \label { D <> { . } m }
   {
     \@bsphack
     \@@_if_overlay:nT {#1}
@@ -827,7 +865,7 @@
 %   cross our fingers on this!
 %    \begin{macrocode}
 \cs_new_eq:NN \std@label@in@display \label@in@display
-\RenewDocumentCommand \label@in@display { D <> { 1 } m }
+\RenewDocumentCommand \label@in@display { D <> { . } m }
   {
     \@@_if_overlay:nT {#1}
       { \std@label@in@display {#2} }

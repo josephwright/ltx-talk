@@ -268,10 +268,8 @@
       }
   }
 %    \end{macrocode}
-% The use of \cs{LinkTargetOff} here is needed as we do not want targets
-% creating for \enquote{floats}. The structure role shuffle is needed
-% so that the entire unit is treated as a \texttt{Float} for tagging, but
-% we do not loose other information.
+% The structure role shuffle is needed so that the entire unit is treated as a
+% \texttt{Float} for tagging, but we do not loose other information.
 %    \begin{macrocode}
   {
     \SetTemplateKeys { floatenv } { talk } {#1}
@@ -284,7 +282,6 @@
             { \UseStructureName { para / semantic } }
         }
         \cs_set_nopar:Npn \@captype {#2}
-        \LinkTargetOff
   }
 \DeclareInstance { floatenv } { std } { talk } { horizontal-alignment = left }
 %    \end{macrocode}

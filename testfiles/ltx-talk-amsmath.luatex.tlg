@@ -163,8 +163,8 @@ Completed box being shipped out [1]
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
 .............\pdfliteral page <lua data reference ...>
 .............\pdfliteral page <lua data reference ...>
-.............\pdfdest name{equation.1} xyz
-.............\pdfdest name{equation.1} xyz
+.............\pdfdest name{equation.1.slide.1} xyz
+.............\pdfdest name{equation.1.slide.1} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
@@ -240,8 +240,8 @@ Completed box being shipped out [1]
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
 .............\pdfliteral page <lua data reference ...>
 .............\pdfliteral page <lua data reference ...>
-.............\pdfdest name{equation.2} xyz
-.............\pdfdest name{equation.2} xyz
+.............\pdfdest name{equation.2.slide.1} xyz
+.............\pdfdest name{equation.2.slide.1} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
@@ -322,8 +322,8 @@ Completed box being shipped out [1]
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
 .............\pdfliteral page <lua data reference ...>
 .............\pdfliteral page <lua data reference ...>
-.............\pdfdest name{equation.3} xyz
-.............\pdfdest name{equation.3} xyz
+.............\pdfdest name{equation.3.slide.1} xyz
+.............\pdfdest name{equation.3.slide.1} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
@@ -398,8 +398,8 @@ Completed box being shipped out [1]
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
 .............\pdfliteral page <lua data reference ...>
 .............\pdfliteral page <lua data reference ...>
-.............\pdfdest name{equation.4} xyz
-.............\pdfdest name{equation.4} xyz
+.............\pdfdest name{equation.4.slide.1} xyz
+.............\pdfdest name{equation.4.slide.1} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
@@ -474,8 +474,8 @@ Completed box being shipped out [1]
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
 .............\pdfliteral page <lua data reference ...>
 .............\pdfliteral page <lua data reference ...>
-.............\pdfdest name{equation.5} xyz
-.............\pdfdest name{equation.5} xyz
+.............\pdfdest name{equation.5.slide.1} xyz
+.............\pdfdest name{equation.5.slide.1} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
@@ -597,16 +597,6 @@ Completed box being shipped out [1]
 .\kern0.0
 .\kern0.0
 .\pdfliteral page <lua data reference ...>
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.1'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.1'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.2'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.2'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.3'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.3'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.5'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.5'
 Completed box being shipped out [2]
 \vbox(206.56702+0.0)x405.10403, direction TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
@@ -761,11 +751,13 @@ Completed box being shipped out [2]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.1.slide.2} xyz
+.............\pdfdest name{equation.1.slide.2} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 1
 ............\kern0.0 (italic)
@@ -836,11 +828,13 @@ Completed box being shipped out [2]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.2.slide.2} xyz
+.............\pdfdest name{equation.2.slide.2} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 2
 ............\kern0.0 (italic)
@@ -916,11 +910,13 @@ Completed box being shipped out [2]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.3.slide.2} xyz
+.............\pdfdest name{equation.3.slide.2} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 3
 ............\kern0.0 (italic)
@@ -990,11 +986,13 @@ Completed box being shipped out [2]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.4.slide.2} xyz
+.............\pdfdest name{equation.4.slide.2} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 4
 ............\kern0.0 (italic)
@@ -1064,11 +1062,13 @@ Completed box being shipped out [2]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.5.slide.2} xyz
+.............\pdfdest name{equation.5.slide.2} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 5
 ............\kern0.0 (italic)
@@ -1186,16 +1186,6 @@ Completed box being shipped out [2]
 ...\pdflinkstate 0
 .\kern0.0
 .\pdfliteral page <lua data reference ...>
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.1'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.1'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.2'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.2'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.3'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.3'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.5'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.5'
 Completed box being shipped out [3]
 \vbox(206.56702+0.0)x405.10403, direction TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
@@ -1350,11 +1340,13 @@ Completed box being shipped out [3]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.1.slide.3} xyz
+.............\pdfdest name{equation.1.slide.3} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 1
 ............\kern0.0 (italic)
@@ -1425,11 +1417,13 @@ Completed box being shipped out [3]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.2.slide.3} xyz
+.............\pdfdest name{equation.2.slide.3} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 2
 ............\kern0.0 (italic)
@@ -1505,11 +1499,13 @@ Completed box being shipped out [3]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.3.slide.3} xyz
+.............\pdfdest name{equation.3.slide.3} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 3
 ............\kern0.0 (italic)
@@ -1579,11 +1575,13 @@ Completed box being shipped out [3]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.4.slide.3} xyz
+.............\pdfdest name{equation.4.slide.3} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 4
 ............\kern0.0 (italic)
@@ -1653,11 +1651,13 @@ Completed box being shipped out [3]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.5.slide.3} xyz
+.............\pdfdest name{equation.5.slide.3} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 5
 ............\kern0.0 (italic)
@@ -1775,16 +1775,6 @@ Completed box being shipped out [3]
 ...\pdflinkstate 0
 .\kern0.0
 .\pdfliteral page <lua data reference ...>
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.1'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.1'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.2'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.2'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.3'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.3'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.5'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.5'
 Completed box being shipped out [4]
 \vbox(206.56702+0.0)x405.10403, direction TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
@@ -1939,11 +1929,13 @@ Completed box being shipped out [4]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.1.slide.4} xyz
+.............\pdfdest name{equation.1.slide.4} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 1
 ............\kern0.0 (italic)
@@ -2014,11 +2006,13 @@ Completed box being shipped out [4]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.2.slide.4} xyz
+.............\pdfdest name{equation.2.slide.4} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 2
 ............\kern0.0 (italic)
@@ -2094,11 +2088,13 @@ Completed box being shipped out [4]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.3.slide.4} xyz
+.............\pdfdest name{equation.3.slide.4} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 3
 ............\kern0.0 (italic)
@@ -2168,11 +2164,13 @@ Completed box being shipped out [4]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.4.slide.4} xyz
+.............\pdfdest name{equation.4.slide.4} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 4
 ............\kern0.0 (italic)
@@ -2242,11 +2240,13 @@ Completed box being shipped out [4]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.5.slide.4} xyz
+.............\pdfdest name{equation.5.slide.4} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 5
 ............\kern0.0 (italic)
@@ -2364,16 +2364,6 @@ Completed box being shipped out [4]
 ...\pdflinkstate 0
 .\kern0.0
 .\pdfliteral page <lua data reference ...>
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.1'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.1'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.2'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.2'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.3'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.3'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.5'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.5'
 Completed box being shipped out [5]
 \vbox(206.56702+0.0)x405.10403, direction TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
@@ -2528,11 +2518,13 @@ Completed box being shipped out [5]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.1.slide.5} xyz
+.............\pdfdest name{equation.1.slide.5} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 1
 ............\kern0.0 (italic)
@@ -2603,11 +2595,13 @@ Completed box being shipped out [5]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.2.slide.5} xyz
+.............\pdfdest name{equation.2.slide.5} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 2
 ............\kern0.0 (italic)
@@ -2683,11 +2677,13 @@ Completed box being shipped out [5]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.3.slide.5} xyz
+.............\pdfdest name{equation.3.slide.5} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 3
 ............\kern0.0 (italic)
@@ -2757,11 +2753,13 @@ Completed box being shipped out [5]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.4.slide.5} xyz
+.............\pdfdest name{equation.4.slide.5} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 4
 ............\kern0.0 (italic)
@@ -2831,11 +2829,13 @@ Completed box being shipped out [5]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.5.slide.5} xyz
+.............\pdfdest name{equation.5.slide.5} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
-............\pdfliteral page <lua data reference ...>
-............\pdfliteral page <lua data reference ...>
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 (
 ............\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 5
 ............\kern0.0 (italic)
@@ -2953,16 +2953,6 @@ Completed box being shipped out [5]
 ...\pdflinkstate 0
 .\kern0.0
 .\pdfliteral page <lua data reference ...>
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.1'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.1'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.2'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.2'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.3'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.3'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.4'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.5'
-warning  (pdf backend): ignoring duplicate destination with the name 'equation.5'
 Completed box being shipped out [6]
 \vbox(206.56702+0.0)x405.10403, direction TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
@@ -3117,6 +3107,10 @@ Completed box being shipped out [6]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.1.slide.6} xyz
+.............\pdfdest name{equation.1.slide.6} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
@@ -3192,6 +3186,10 @@ Completed box being shipped out [6]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.2.slide.6} xyz
+.............\pdfdest name{equation.2.slide.6} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
@@ -3272,6 +3270,10 @@ Completed box being shipped out [6]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.3.slide.6} xyz
+.............\pdfdest name{equation.3.slide.6} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
@@ -3346,6 +3348,10 @@ Completed box being shipped out [6]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.4.slide.6} xyz
+.............\pdfdest name{equation.4.slide.6} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT
@@ -3420,6 +3426,10 @@ Completed box being shipped out [6]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0, direction TLT
 ............\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+.............\pdfliteral page <lua data reference ...>
+.............\pdfliteral page <lua data reference ...>
+.............\pdfdest name{equation.5.slide.6} xyz
+.............\pdfdest name{equation.5.slide.6} xyz
 .............\penalty 10000
 ...........\kern0.0
 ...........\hbox(8.2125+2.7375)x13.99411, direction TLT

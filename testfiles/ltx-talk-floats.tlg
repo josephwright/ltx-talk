@@ -82,7 +82,7 @@ Completed box being shipped out [1]
 ........\hbox(0.0+0.0)x0.0
 ........\pdfliteral page{EMC}
 ........\vbox(17.26114+11.78615)x448.92128
-.........\hbox(6.31815+0.0)x448.92128, glue set 215.9745fil
+.........\hbox(6.31815+0.0)x448.92128, glue set 214.1495fil
 ..........\write1{\new@label@record{mcid-2}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{2}{tagmcid}{\__property_code_tagmcid: }}}
 ..........\pdfliteral shipout page{/text-block <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ..........\hbox(0.0+0.0)x0.0
@@ -90,6 +90,14 @@ Completed box being shipped out [1]
 ..........\T1/lmss/m/n/10.95 e
 ..........\T1/lmss/m/n/10.95 s
 ..........\T1/lmss/m/n/10.95 t
+..........\glue 3.65 plus 1.825 minus 1.21666
+..........\penalty 10000
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0, shifted -13.6
+............\pdfdest name{figure.1.slide.1} xyz
+............\pdfdest struct30 name{figure.1.slide.1} xyz
+............\penalty 10000
+..........\kern 0.0
 ..........\pdfliteral page{EMC}
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
@@ -259,11 +267,19 @@ Completed box being shipped out [2]
 .......\hbox(17.90417+12.42918)x448.92128
 ........\hbox(0.0+0.0)x0.0
 ........\vbox(17.90417+12.42918)x448.92128
-.........\hbox(7.60422+0.0)x448.92128, glue set 213.66231fil
+.........\hbox(7.60422+0.0)x448.92128, glue set 211.83731fil
 ..........\hbox(0.0+0.0)x0.0
 ..........\T1/lmss/m/n/10.95 A
 ..........\T1/lmss/m/n/10.95 B
 ..........\T1/lmss/m/n/10.95 C
+..........\glue 3.65 plus 1.82317 minus 1.21786
+..........\penalty 10000
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0, shifted -13.6
+............\pdfdest name{figure.2.slide.1} xyz
+............\pdfdest struct22 name{figure.2.slide.1} xyz
+............\penalty 10000
+..........\kern 0.0
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
@@ -419,13 +435,21 @@ Completed box being shipped out [3]
 ........\hbox(0.0+0.0)x0.0
 ........\pdfliteral page{EMC}
 ........\vbox(17.90417+12.42918)x448.92128
-.........\hbox(7.60422+0.0)x448.92128, glue set 213.66231fil
+.........\hbox(7.60422+0.0)x448.92128, glue set 211.83731fil
 ..........\write1{\new@label@record{mcid-12}{{tagabspage}{\__property_code_tagabspage: }{tagmcabs}{12}{tagmcid}{\__property_code_tagmcid: }}}
 ..........\pdfliteral shipout page{/text-block <</MCID \flag_height:n {__tag/mcid}\flag_raise:n {__tag/mcid} >> BDC}
 ..........\hbox(0.0+0.0)x0.0
 ..........\T1/lmss/m/n/10.95 A
 ..........\T1/lmss/m/n/10.95 B
 ..........\T1/lmss/m/n/10.95 C
+..........\glue 3.65 plus 1.82317 minus 1.21786
+..........\penalty 10000
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0, shifted -13.6
+............\pdfdest name{figure.2.slide.2} xyz
+............\pdfdest struct59 name{figure.2.slide.2} xyz
+............\penalty 10000
+..........\kern 0.0
 ..........\pdfliteral page{EMC}
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil

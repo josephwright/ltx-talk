@@ -89,7 +89,7 @@ Completed box being shipped out [1]
 .........\localrightbox=null
 ........\hbox(0.0+0.0)x0.0, direction TLT
 ........\vbox(17.29158+11.81657)x448.92128, direction TLT
-.........\hbox(6.25244+0.12045)x448.92128, glue set 215.97987fil, direction TLT
+.........\hbox(6.25244+0.12045)x448.92128, glue set 214.15671fil, direction TLT
 ..........\localpar
 ...........\localinterlinepenalty=0
 ...........\localbrokenpenalty=0
@@ -102,6 +102,15 @@ Completed box being shipped out [1]
 ..........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 e
 ..........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 s
 ..........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 t
+..........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+..........\glue(\spaceskip) 0.0 plus 1.82318 minus 1.21545
+..........\penalty 10000
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+............\pdfdest name{figure.1.slide.1} xyz
+............\pdfdest name{figure.1.slide.1} xyz
+............\penalty 10000
+..........\kern0.0
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
@@ -257,7 +266,7 @@ Completed box being shipped out [2]
 .........\localrightbox=null
 ........\hbox(0.0+0.0)x0.0, direction TLT
 ........\vbox(18.03072+12.5557)x448.92128, direction TLT
-.........\hbox(7.7307+0.12045)x448.92128, glue set 213.65846fil, direction TLT
+.........\hbox(7.7307+0.12045)x448.92128, glue set 211.8353fil, direction TLT
 ..........\localpar
 ...........\localinterlinepenalty=0
 ...........\localbrokenpenalty=0
@@ -269,6 +278,15 @@ Completed box being shipped out [2]
 ..........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 A
 ..........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 B
 ..........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 C
+..........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+..........\glue(\spaceskip) 0.0 plus 1.82135 minus 1.21666
+..........\penalty 10000
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+............\pdfdest name{figure.2.slide.1} xyz
+............\pdfdest name{figure.2.slide.1} xyz
+............\penalty 10000
+..........\kern0.0
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
@@ -434,7 +452,7 @@ Completed box being shipped out [3]
 .........\localrightbox=null
 ........\hbox(0.0+0.0)x0.0, direction TLT
 ........\vbox(18.03072+12.5557)x448.92128, direction TLT
-.........\hbox(7.7307+0.12045)x448.92128, glue set 213.65846fil, direction TLT
+.........\hbox(7.7307+0.12045)x448.92128, glue set 211.8353fil, direction TLT
 ..........\localpar
 ...........\localinterlinepenalty=0
 ...........\localbrokenpenalty=0
@@ -446,6 +464,15 @@ Completed box being shipped out [3]
 ..........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 A
 ..........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 B
 ..........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 C
+..........\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+..........\glue(\spaceskip) 0.0 plus 1.82135 minus 1.21666
+..........\penalty 10000
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\hbox(0.0+0.0)x0.0, shifted -13.6, direction TLT
+............\pdfdest name{figure.2.slide.2} xyz
+............\pdfdest name{figure.2.slide.2} xyz
+............\penalty 10000
+..........\kern0.0
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
