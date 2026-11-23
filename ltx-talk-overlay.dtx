@@ -829,10 +829,10 @@
 % \begin{macro}{\label}
 % \begin{macro}{\@@_label:n}
 %   Here, we can't wrap the existing command up as we need the space hack, so
-%   it has to be declared from scratch. There is also a non-standard overlay
-%   default. At present, no special tricks as seen in \pkg{beamer}.   
+%   it has to be declared from scratch. At present, no special tricks as seen
+%   in \pkg{beamer}.   
 %    \begin{macrocode}
-\RenewDocumentCommand \label { D <> { . } m }
+\RenewDocumentCommand \label { D <> { 1 } m }
   {
     \@bsphack
     \@@_if_overlay:nT {#1}
@@ -865,7 +865,7 @@
 %   cross our fingers on this!
 %    \begin{macrocode}
 \cs_new_eq:NN \std@label@in@display \label@in@display
-\RenewDocumentCommand \label@in@display { D <> { . } m }
+\RenewDocumentCommand \label@in@display { D <> { 1 } m }
   {
     \@@_if_overlay:nT {#1}
       { \std@label@in@display {#2} }

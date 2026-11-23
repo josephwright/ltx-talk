@@ -8,6 +8,11 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Behavior of `\label` when no overlay spec is given (fixes
+  [\#311](https://github.com/josephwright/ltx-talk/issues/311))
+
 ## [v0.6.14] - 2026-11-20
 
 ### Changed
