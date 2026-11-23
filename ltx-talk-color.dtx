@@ -191,6 +191,25 @@
 %    \end{macrocode}
 % \end{macro}
 %
+% \begin{macro}{\std@declaredcolor, \std@undeclaredcolor}
+%    \begin{macrocode}
+\cs_new_eq:NN \std@declaredcolor \@declaredcolor
+\cs_new_eq:NN \std@undeclaredcolor \@undeclaredcolor
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@declaredcolor, \@undeclaredcolor}
+%   Used internally in \pkg{nicematix}, so emulation is required; as
+%   \cs{@undeclaredcolor} is not a document command, the delimited
+%   argument is created directly.
+%    \begin{macrocode}
+\cs_gset_protected:Npn \@declaredcolor #1
+  { \color_select:n {#1} }
+\cs_gset_protected:Npn \@undeclaredcolor [ #1 ] #2
+  { \color_select:nn {#1} {#2} }
+%    \end{macrocode}
+% \end{macro}
+%
 % \subsection{Color definition}
 %
 % \begin{macro}{\DeclareColor}

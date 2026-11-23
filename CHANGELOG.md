@@ -10,6 +10,8 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 ### Fixed
 
+- Interaction with color settings in `nicematrix` (fixes
+  [\#310](https://github.com/josephwright/ltx-talk/issues/310))
 - Behavior of `\label` when no overlay spec is given (fixes
   [\#311](https://github.com/josephwright/ltx-talk/issues/311))
 
