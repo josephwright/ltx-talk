@@ -1,0 +1,26 @@
+\input{regression-test}
+
+\DocumentMetadata
+  {
+    tagging       = on ,
+    tagging-setup = { math / setup = mathml-SE }
+  }
+\documentclass[remove-hidden-text]{ltx-talk}
+
+\begin{document}
+
+\START
+
+\SHOWPDFTAGS
+
+\OMIT
+
+% Slide 1 hides an inline formula, a display formula and a link; slide 2
+% shows them. Both slides are tagged.
+\begin{frame}[tag-slides = 1-]
+  Shown $a$
+  \uncover<2->{hidden $b$ and \href{https://example.com}{link}
+    \[ c \]}
+\end{frame}
+
+\end{document}

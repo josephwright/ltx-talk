@@ -1,0 +1,35 @@
+\input{regression-test}
+
+\DocumentMetadata{tagging = on}
+\documentclass[remove-hidden-text]{ltx-talk}
+
+% A formula that starts while hidden becomes an artifact: on the slide
+% where it is hidden no structure is opened for it, so the number of
+% structure elements grows by less there than on the slide where it is
+% shown
+\ExplSyntaxOn
+\cs_new_protected:Npn \showstructs
+  {
+    \TYPE
+      {
+        Slide~\int_use:N \g__talk_slide_int :~
+        \int_use:c { c@g__tag_struct_abs_int } ~ structures
+      }
+  }
+\ExplSyntaxOff
+
+\begin{document}
+
+\START
+
+\begin{frame}[tag-slides = 1-]
+  \showstructs
+  \begin{itemize}
+    \item Shown $a + b$
+    \item<2-> Hidden on slide one $c + d$
+      \[ e = f \]
+  \end{itemize}
+  \showstructs
+\end{frame}
+
+\end{document}
