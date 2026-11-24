@@ -1,0 +1,25 @@
+\input{regression-test}
+
+\DocumentMetadata{tagging = draft}
+\documentclass{ltx-talk}
+
+\START
+
+\SHOWFILE{\jobname.aux}
+
+\OMIT
+
+\begin{document}
+
+\begin{frame}
+  \begin{enumerate}
+    \item\label{itm:first} First
+    \item Second
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+A reference to~\ref{itm:first}.
+\end{frame}
+
+\end{document} 

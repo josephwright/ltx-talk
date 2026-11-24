@@ -20,7 +20,7 @@
 \date{2025-12-06}
 
 \begin{document}
-
+\addtolength\jot{12pt}
 \maketitle
 
 
@@ -31,14 +31,14 @@
 
   First, complete the square
   
-  \begin{itemize}[action-spec = <+->, item-vspace = 20pt, begin-vspace = 20pt]
-    \item $ax^{2} + bx +c=0$
-    \item $x^{2} + \frac{b}{a}x + \frac{c}{a} = 0$
-    \item $x^{2} + \frac{b}{a}x + \bigl(\frac{b}{2a}\bigr)^{2} 
-      = -\frac{c}{a} + \bigl(\frac{b}{2a}\bigr)^{2}$
-    \item $\bigl(x + \frac{b}{2a}\bigr)^{2} 
-      = -\frac{c}{a} + \bigl(\frac{b}{2a}\bigr)^{2}$
-  \end{itemize}
+  \begin{align}
+    ax^{2} + bx +c& =0 \\ \pause
+    x^{2} + \frac{b}{a}x + \frac{c}{a} & = 0 \\ \pause
+    x^{2} + \frac{b}{a}x + \bigl(\frac{b}{2a}\bigr)^{2} 
+      & = -\frac{c}{a} + \bigl(\frac{b}{2a}\bigr)^{2} \\ \pause
+    \bigl(x + \frac{b}{2a}\bigr)^{2} 
+      & = -\frac{c}{a} + \bigl(\frac{b}{2a}\bigr)^{2}
+  \end{align}
 \end{frame}
 
 \begin{frame}
@@ -47,15 +47,15 @@
 
  Now, solve for~$x$
  
-  \begin{itemize}[action-spec = <+->, item-vspace = 20pt, begin-vspace = 20pt]
-    \item $\bigl(x + \frac{b}{2a}\bigr)^{2}
-      = -\frac{c}{a} + \bigl(\frac{b}{2a}\bigr)^{2}$
-    \item $x + \bigl(\frac{b}{2a}\bigr)
-      = \pm \sqrt{-\frac{c}{a} + \bigl(\frac{b}{2a}\bigr)^{2}}$
-    \item $x = -\bigl(\frac{b}{2a}\bigr)
-      \pm \sqrt{-\frac{c}{a} + \bigl(\frac{b}{2a}\bigr)^{2}}$
-    \item $\displaystyle x = \frac{-b \pm \sqrt{b^{2} - 4ac}}{2a}$
-  \end{itemize}
+  \begin{align}
+    \bigl(x + \frac{b}{2a}\bigr)^{2}
+      &= -\frac{c}{a} + \bigl(\frac{b}{2a}\bigr)^{2} \\ \pause
+    x + \bigl(\frac{b}{2a}\bigr)
+      &= \pm \sqrt{-\frac{c}{a} + \bigl(\frac{b}{2a}\bigr)^{2}} \\ \pause
+    x &= -\bigl(\frac{b}{2a}\bigr)
+      \pm \sqrt{-\frac{c}{a} + \bigl(\frac{b}{2a}\bigr)^{2}} \\ \pause
+     x &= \frac{-b \pm \sqrt{b^{2} - 4ac}}{2a}
+  \end{align}
     
 \end{frame}
 

@@ -16,7 +16,7 @@ Package: geometry ....-..-.. v... Page Geometry
 Package: keyval ....-..-.. v... key=value parser (DPC)
 \KV@toks@=\toks...
 ) (../ifvtex.sty
-Package: ifvtex ....-..-.. v... ifvtex legacy package. Use iftex instead.
+Package: ifvtex ....-..-.. v... ifvtex compatibility package
 (../iftex.sty
 Package: iftex ....-..-.. v... TeX engine tests
 ))

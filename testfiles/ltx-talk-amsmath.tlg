@@ -146,8 +146,8 @@ Completed box being shipped out [1]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
-.............\pdfdest name{equation.1} xyz
-.............\pdfdest struct22 name{equation.1} xyz
+.............\pdfdest name{equation.1.slide.1} xyz
+.............\pdfdest struct22 name{equation.1.slide.1} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -215,8 +215,8 @@ Completed box being shipped out [1]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
-.............\pdfdest name{equation.2} xyz
-.............\pdfdest struct22 name{equation.2} xyz
+.............\pdfdest name{equation.2.slide.1} xyz
+.............\pdfdest struct22 name{equation.2.slide.1} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -289,8 +289,8 @@ Completed box being shipped out [1]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
-.............\pdfdest name{equation.3} xyz
-.............\pdfdest struct22 name{equation.3} xyz
+.............\pdfdest name{equation.3.slide.1} xyz
+.............\pdfdest struct22 name{equation.3.slide.1} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -357,8 +357,8 @@ Completed box being shipped out [1]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
-.............\pdfdest name{equation.4} xyz
-.............\pdfdest struct22 name{equation.4} xyz
+.............\pdfdest name{equation.4.slide.1} xyz
+.............\pdfdest struct22 name{equation.4.slide.1} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -425,8 +425,8 @@ Completed box being shipped out [1]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
-.............\pdfdest name{equation.5} xyz
-.............\pdfdest struct22 name{equation.5} xyz
+.............\pdfdest name{equation.5.slide.1} xyz
+.............\pdfdest struct22 name{equation.5.slide.1} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -535,56 +535,6 @@ Completed box being shipped out [1]
 ...\pdfrunninglinkon
 .\kern 0.0
 .\kern 0.0
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
 Completed box being shipped out [2]
 \vbox(206.56702+0.0)x405.10403
 .\hbox(0.0+0.0)x0.0
@@ -726,6 +676,8 @@ Completed box being shipped out [2]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.1.slide.2} xyz
+.............\pdfdest struct22 name{equation.1.slide.2} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -793,6 +745,8 @@ Completed box being shipped out [2]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.2.slide.2} xyz
+.............\pdfdest struct22 name{equation.2.slide.2} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -865,6 +819,8 @@ Completed box being shipped out [2]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.3.slide.2} xyz
+.............\pdfdest struct22 name{equation.3.slide.2} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -931,6 +887,8 @@ Completed box being shipped out [2]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.4.slide.2} xyz
+.............\pdfdest struct22 name{equation.4.slide.2} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -997,6 +955,8 @@ Completed box being shipped out [2]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.5.slide.2} xyz
+.............\pdfdest struct22 name{equation.5.slide.2} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -1104,56 +1064,6 @@ Completed box being shipped out [2]
 ...\marks4{e+,6,2,}
 ...\pdfrunninglinkon
 .\kern 0.0
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
 Completed box being shipped out [3]
 \vbox(206.56702+0.0)x405.10403
 .\hbox(0.0+0.0)x0.0
@@ -1295,6 +1205,8 @@ Completed box being shipped out [3]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.1.slide.3} xyz
+.............\pdfdest struct22 name{equation.1.slide.3} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -1362,6 +1274,8 @@ Completed box being shipped out [3]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.2.slide.3} xyz
+.............\pdfdest struct22 name{equation.2.slide.3} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -1434,6 +1348,8 @@ Completed box being shipped out [3]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.3.slide.3} xyz
+.............\pdfdest struct22 name{equation.3.slide.3} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -1500,6 +1416,8 @@ Completed box being shipped out [3]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.4.slide.3} xyz
+.............\pdfdest struct22 name{equation.4.slide.3} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -1566,6 +1484,8 @@ Completed box being shipped out [3]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.5.slide.3} xyz
+.............\pdfdest struct22 name{equation.5.slide.3} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -1673,56 +1593,6 @@ Completed box being shipped out [3]
 ...\marks4{e+,9,2,}
 ...\pdfrunninglinkon
 .\kern 0.0
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
 Completed box being shipped out [4]
 \vbox(206.56702+0.0)x405.10403
 .\hbox(0.0+0.0)x0.0
@@ -1864,6 +1734,8 @@ Completed box being shipped out [4]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.1.slide.4} xyz
+.............\pdfdest struct22 name{equation.1.slide.4} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -1931,6 +1803,8 @@ Completed box being shipped out [4]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.2.slide.4} xyz
+.............\pdfdest struct22 name{equation.2.slide.4} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -2003,6 +1877,8 @@ Completed box being shipped out [4]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.3.slide.4} xyz
+.............\pdfdest struct22 name{equation.3.slide.4} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -2069,6 +1945,8 @@ Completed box being shipped out [4]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.4.slide.4} xyz
+.............\pdfdest struct22 name{equation.4.slide.4} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -2135,6 +2013,8 @@ Completed box being shipped out [4]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.5.slide.4} xyz
+.............\pdfdest struct22 name{equation.5.slide.4} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -2242,56 +2122,6 @@ Completed box being shipped out [4]
 ...\marks4{e+,12,2,}
 ...\pdfrunninglinkon
 .\kern 0.0
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
 Completed box being shipped out [5]
 \vbox(206.56702+0.0)x405.10403
 .\hbox(0.0+0.0)x0.0
@@ -2433,6 +2263,8 @@ Completed box being shipped out [5]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.1.slide.5} xyz
+.............\pdfdest struct22 name{equation.1.slide.5} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -2500,6 +2332,8 @@ Completed box being shipped out [5]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.2.slide.5} xyz
+.............\pdfdest struct22 name{equation.2.slide.5} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -2572,6 +2406,8 @@ Completed box being shipped out [5]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.3.slide.5} xyz
+.............\pdfdest struct22 name{equation.3.slide.5} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -2638,6 +2474,8 @@ Completed box being shipped out [5]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.4.slide.5} xyz
+.............\pdfdest struct22 name{equation.4.slide.5} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -2704,6 +2542,8 @@ Completed box being shipped out [5]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.5.slide.5} xyz
+.............\pdfdest struct22 name{equation.5.slide.5} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\hbox(8.06465+2.73749)x13.9919
@@ -2811,56 +2651,6 @@ Completed box being shipped out [5]
 ...\marks4{e+,15,2,}
 ...\pdfrunninglinkon
 .\kern 0.0
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l. ...\end
-         {frame}
 Completed box being shipped out [6]
 \vbox(206.56702+0.0)x405.10403
 .\hbox(0.0+0.0)x0.0
@@ -3010,6 +2800,8 @@ Completed box being shipped out [6]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.1.slide.6} xyz
+.............\pdfdest struct111 name{equation.1.slide.6} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\pdfliteral page{EMC}
@@ -3091,6 +2883,8 @@ Completed box being shipped out [6]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.2.slide.6} xyz
+.............\pdfdest struct111 name{equation.2.slide.6} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\pdfliteral page{EMC}
@@ -3177,6 +2971,8 @@ Completed box being shipped out [6]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.3.slide.6} xyz
+.............\pdfdest struct111 name{equation.3.slide.6} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\pdfliteral page{EMC}
@@ -3257,6 +3053,8 @@ Completed box being shipped out [6]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.4.slide.6} xyz
+.............\pdfdest struct111 name{equation.4.slide.6} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\pdfliteral page{EMC}
@@ -3337,6 +3135,8 @@ Completed box being shipped out [6]
 ...........\penalty 10000
 ...........\hbox(0.0+0.0)x0.0
 ............\hbox(0.0+0.0)x0.0, shifted -13.6
+.............\pdfdest name{equation.5.slide.6} xyz
+.............\pdfdest struct111 name{equation.5.slide.6} xyz
 .............\penalty 10000
 ...........\kern 0.0
 ...........\pdfliteral page{EMC}

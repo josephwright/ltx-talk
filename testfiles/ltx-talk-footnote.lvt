@@ -13,4 +13,8 @@
   Text\footnote<2->{Foo} more text\footnote<1->{FooX}
 \end{frame}
 
+\begin{frame}
+  Text\footnotetext<2->{foo} more text \footnotetext<3->[4]{bar}.
+\end{frame}
+
 \end{document}

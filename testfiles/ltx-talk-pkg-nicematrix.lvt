@@ -1,0 +1,24 @@
+\input{regression-test}
+
+\DocumentMetadata{tagging = draft}
+\documentclass{ltx-talk}
+
+\usepackage{nicematrix}
+
+\begin{document}
+
+\START
+
+\showoutput
+
+\begin{frame}
+  \begin{NiceTabular}{cccc}
+    1 & 2 & 3 & 5 \\
+    \Block[hvlines]{1-1}{0} & 
+    \Block[hvlines, fill=red!10]{1-1}{1} & 
+    \Block[hvlines, fill=red, opacity=100]{1-1}{1} & 
+    \Block[hvlines, fill=blue]{1-1}{1} \\
+  \end{NiceTabular}
+\end{frame}
+
+\end{document}

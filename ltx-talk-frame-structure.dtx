@@ -35,8 +35,8 @@
 % \fi
 %
 % ^^A As we are dealing with a class, this has to be done manually
-% \def\filedate{2026-11-16}
-% \def\fileversion{v0.6.13}
+% \def\filedate{2026-11-23}
+% \def\fileversion{v0.6.15}
 %
 % \title{^^A
 %   \pkg{ltx-talk-frame} -- The structure of frames^^A
@@ -268,11 +268,8 @@
       }
   }
 %    \end{macrocode}
-% The use of \cs{@skiphyperreftrue} here is needed as we do not want targets
-% creating for \enquote{floats}. We may need a better interface for this:
-% the switch is essentially internal. The structure role shuffle is needed
-% so that the entire unit is treated as a \texttt{Float} for tagging, but
-% we do not loose other information.
+% The structure role shuffle is needed so that the entire unit is treated as a
+% \texttt{Float} for tagging, but we do not loose other information.
 %    \begin{macrocode}
   {
     \SetTemplateKeys { floatenv } { talk } {#1}
@@ -285,7 +282,6 @@
             { \UseStructureName { para / semantic } }
         }
         \cs_set_nopar:Npn \@captype {#2}
-        \@skiphyperreftrue
   }
 \DeclareInstance { floatenv } { std } { talk } { horizontal-alignment = left }
 %    \end{macrocode}
@@ -393,6 +389,25 @@
     \IfNoValueTF {#2}
       { \stdfootnote {#3} }
       { \stdfootnote [ {#2} ] {#3} }
+ }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\stdfootnotetext}
+%    \begin{macrocode}
+\NewCommandCopy \stdfootnotetext \footnotetext
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\footnotetext}
+%   Also sort-of overlay aware!
+%    \begin{macrocode}
+\RenewDocumentCommand \footnotetext { D <> { all } o +m }
+  {
+    \seq_gpush:Nn \g_@@_footnote_overlay_seq {#1}
+    \IfNoValueTF {#2}
+      { \stdfootnotetext {#3} }
+      { \stdfootnotetext [ {#2} ] {#3} }
  }
 %    \end{macrocode}
 % \end{macro}

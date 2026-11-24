@@ -1,0 +1,1598 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+\g__nicematrix_max_cell_width_dim=\dimen...
+\c@iRow=\count...
+\c@jCol=\count...
+LaTeX Font Info:    Trying to load font information for TU+lmr-base on input line ....
+(../tulmr-base.fd
+File: tulmr-base.fd ....-..-.. v... LaTeX font definitions for Latin Modern in base mode
+)
+\l__nicematrix_cell_box=\box...
+\l__nicematrix_left_delim_dim=\dimen...
+\l__nicematrix_right_delim_dim=\dimen...
+\g__nicematrix_block_box_1_box=\box...
+\g__nicematrix_block_box_2_box=\box...
+\g__nicematrix_block_box_3_box=\box...
+\g__nicematrix_block_box_4_box=\box...
+WARNING: mathml missing for hash 76798287406EA1CE923473793A3F2E30
+Completed box being shipped out [1]
+\vbox(206.56702+0.0)x405.10403, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\kern-72.26999
+...\pdfliteral page <lua data reference ...>
+...\pdflinkstate -3
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999, direction TLT
+.....\kern-72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\latelua0{ltx.__pdf.backend_ThisPage_gpush(tex.count["g_shipout_readonly_int"])}
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 78.96426fil, direction TLT
+..\kern0.0
+..\kern-77.96053
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{page.1} xyz
+...\pdfdest name{page.1} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(206.56702+0.0)x405.10403, direction TLT
+..\glue -77.96053
+..\vbox(284.52754+0.0)x448.92128, shifted -43.81725, direction TLT
+...\vbox(28.45274+0.0)x448.92128, glue set 28.45274fil, direction TLT
+....\glue 0.0 plus 1.0fil
+....\pdflinkstate 1
+....\hbox(0.0+12.0)x448.92128, direction TLT
+.....\pdfliteral page <lua data reference ...>
+.....\pdfliteral page <lua data reference ...>
+.....\pdfcolorstack 0 push {0 g 0 G}
+.....\hbox(0.0+12.0)x448.92128, direction TLT
+......\glue -28.45274
+......\glue 28.45274
+......\vbox(0.0+12.0)x448.92128, direction TLT
+.......\pdfcolorstack 0 push {0.2 0.2 0.7 rg 0.2 0.2 0.7 RG}
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(0.0+12.0)x448.92128, glue set 448.92126fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\vbox(0.0+12.0)x0.0, direction TLT
+.........\glue 0.0
+.........\glue 0.0
+.........\glue 12.0 plus 4.0 minus 4.0
+.........\glue 0.0
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+......\glue 0.0
+......\glue 0.0 plus 1.0fil
+.....\pdfcolorstack 0 pop
+....\pdfliteral page <lua data reference ...>
+....\pdfliteral page <lua data reference ...>
+....\pdflinkstate 0
+...\glue 5.69054
+...\glue(\lineskip) 0.0
+...\vbox(233.31262+0.0)x448.92128, direction TLT
+....\pdfcolorstack 0 push {0 g 0 G}
+....\pdfdest name{Doc-Start} xyz
+....\pdfdest name{Doc-Start} xyz
+....\glue(\topskip) 0.0
+....\vbox(233.31262+0.0)x448.92128, direction TLT
+.....\glue 0.0 plus 0.5fil
+.....\hbox(233.31262+0.0)x448.92128, direction TLT
+......\vbox(233.31262+0.0)x448.92128, glue set 206.0951fil, direction TLT
+.......\glue 0.0 plus 0.5fil
+.......\hbox(16.34627+10.87126)x448.92128, glue set 189.51059fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\mathon
+........\savepos
+........\write1{\noexpand \pgfsyspdfmark {nm-1-position}{\the \lastxpos }{\the \lastypos }}
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\glue 0.0
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\pdfliteral origin{q }
+..........\pdfliteral origin{0 G }
+..........\pdfliteral origin{0 g }
+..........\pdfliteral origin{0.39851 w }
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral origin{n }
+..........\pdfliteral origin{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\glue 0.0
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\pdfliteral origin{q }
+..........\pdfliteral origin{0 G }
+..........\pdfliteral origin{0 g }
+..........\pdfliteral origin{0.39851 w }
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfliteral origin{q }
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\glue -28.25275
+............\hbox(0.0+0.0)x0.0, shifted 120.53473, direction TLT
+.............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\begindir TLT
+...............\enddir TLT
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\glue -11.17772
+............\hbox(0.0+0.0)x0.0, shifted 134.13472, direction TLT
+.............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\begindir TLT
+...............\enddir TLT
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\glue 6.2973
+............\hbox(0.0+0.0)x0.0, shifted 147.75226, direction TLT
+.............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\begindir TLT
+...............\enddir TLT
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\glue 23.77232
+............\hbox(0.0+0.0)x0.0, shifted 147.75226, direction TLT
+.............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\begindir TLT
+...............\enddir TLT
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\savepos
+............\write1{\noexpand \pgfsyspdfmark {pgfid2}{\the \lastxpos }{\the \lastypos }}
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral origin{n }
+..........\pdfliteral origin{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\glue 0.0
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\pdfliteral origin{q }
+..........\pdfliteral origin{0 G }
+..........\pdfliteral origin{0 g }
+..........\pdfliteral origin{0.39851 w }
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\savepos
+............\write1{\noexpand \pgfsyspdfmark {pgfid3}{\the \lastxpos }{\the \lastypos }}
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral origin{n }
+..........\pdfliteral origin{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\glue 0.0
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\pdfliteral origin{q }
+..........\pdfliteral origin{0 G }
+..........\pdfliteral origin{0 g }
+..........\pdfliteral origin{0.39851 w }
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {1 0.9 0.9 rg 1 0.9 0.9 RG}
+...........\pdfliteral origin{17.40974 2.73602 17.40974 -13.56667 re }
+...........\pdfliteral origin{f }
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\pdfliteral origin{q }
+...........\pdfliteral origin{/pgf@ca100 gs }
+...........\pdfcolorstack 0 push {1.0 0.0 0.0 rg 1.0 0.0 0.0 RG}
+...........\pdfliteral origin{34.81947 2.73602 17.40974 -13.56667 re }
+...........\pdfliteral origin{f }
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\pdfliteral origin{q }
+...........\pdfcolorstack 0 push {0.0 0.0 1.0 rg 0.0 0.0 1.0 RG}
+...........\pdfliteral origin{52.22922 2.73602 17.40974 -13.56667 re }
+...........\pdfliteral origin{f }
+...........\pdfcolorstack 0 pop
+...........\pdfliteral origin{Q }
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral origin{n }
+..........\pdfliteral origin{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\mathoff
+........\vbox(16.34627+10.87126)x69.90009, direction TLT
+.........\hbox(16.34627+10.87126)x69.90009, direction TLT
+..........\hbox(16.34627+10.87126)x69.90009, direction TLT
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral page <lua data reference ...>
+...........\pdfliteral page <lua data reference ...>
+...........\mathon
+...........\vbox(16.34627+10.87126)x69.90009, direction TLT
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\vbox(0.0+0.0)x0.0, direction TLT
+..............\glue 0.2
+..............\savepos
+..............\write1{\noexpand \pgfsyspdfmark {nm-1-row-1}{\the \lastxpos }{\the \lastypos }}
+..............\glue -0.2
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue 0.0
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\pdfliteral origin{q }
+...............\pdfliteral origin{0 G }
+...............\pdfliteral origin{0 g }
+...............\pdfliteral origin{0.39851 w }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\glue(\spaceskip) 0.0
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\savepos
+.................\write1{\noexpand \pgfsyspdfmark {pgfid5}{\the \lastxpos }{\the \lastypos }}
+................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\pdfliteral origin{n }
+...............\pdfliteral origin{Q }
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue(\lineskip) 0.0
+............\hbox(9.51996+4.08003)x69.90009, direction TLT
+.............\glue(\tabskip) 0.0
+.............\hbox(9.51996+4.08003)x17.47502, direction TLT
+..............\rule(9.51996+4.08003)x0.0
+..............\glue 6.0
+..............\glue 0.0 plus 1.0fil
+..............\glue 0.00002
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\glue 0.0
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid6}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+..............\hbox(7.4241+0.0)x5.475, direction TLT
+...............\glue 2.7375
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\pdfliteral origin{q }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\glue -2.7375
+..................\hbox(0.0+0.0)x0.0, direction TLT
+...................\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...................\pdfliteral origin{q }
+...................\hbox(0.0+0.0)x0.0, direction TLT
+....................\hbox(7.4241+0.0)x5.475, direction TLT
+.....................\begindir TLT
+.....................\hbox(7.4241+0.0)x5.475, direction TLT
+......................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 1
+.....................\enddir TLT
+...................\pdfliteral origin{Q }
+...................\glue(\spaceskip) 0.0
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{Q }
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid7}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+..............\glue 0.0 plus 1.0fil
+..............\glue 6.0
+.............\glue(\tabskip) 0.0
+.............\hbox(9.51996+4.08003)x17.47502, direction TLT
+..............\glue 6.0
+..............\glue 0.0 plus 1.0fil
+..............\glue 0.00002
+..............\hbox(7.4241+0.0)x5.475, direction TLT
+...............\glue 2.7375
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\pdfliteral origin{q }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\glue -2.7375
+..................\hbox(0.0+0.0)x0.0, direction TLT
+...................\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...................\pdfliteral origin{q }
+...................\hbox(0.0+0.0)x0.0, direction TLT
+....................\hbox(7.4241+0.0)x5.475, direction TLT
+.....................\begindir TLT
+.....................\hbox(7.4241+0.0)x5.475, direction TLT
+......................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 2
+.....................\enddir TLT
+...................\pdfliteral origin{Q }
+...................\glue(\spaceskip) 0.0
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{Q }
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid8}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+..............\glue 0.0 plus 1.0fil
+..............\glue 6.0
+.............\glue(\tabskip) 0.0
+.............\hbox(9.51996+4.08003)x17.47502, direction TLT
+..............\glue 6.0
+..............\glue 0.0 plus 1.0fil
+..............\glue 0.00002
+..............\hbox(7.66501+0.0)x5.475, shifted 0.2409, direction TLT
+...............\glue 2.7375
+...............\hbox(0.0+0.0)x0.0, shifted -0.2409, direction TLT
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\pdfliteral origin{q }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\glue -2.7375
+..................\hbox(0.0+0.0)x0.0, direction TLT
+...................\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...................\pdfliteral origin{q }
+...................\hbox(0.0+0.0)x0.0, direction TLT
+....................\hbox(7.4241+0.2409)x5.475, direction TLT
+.....................\begindir TLT
+.....................\hbox(7.4241+0.2409)x5.475, direction TLT
+......................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 3
+.....................\enddir TLT
+...................\pdfliteral origin{Q }
+...................\glue(\spaceskip) 0.0
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{Q }
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid9}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+..............\glue 0.0 plus 1.0fil
+..............\glue 6.0
+.............\glue(\tabskip) 0.0
+.............\hbox(9.51996+4.08003)x17.47502, direction TLT
+..............\glue 6.0
+..............\glue 0.0 plus 1.0fil
+..............\glue 0.00002
+..............\hbox(7.4241+0.0)x5.475, shifted 0.2409, direction TLT
+...............\glue 2.7375
+...............\hbox(0.0+0.0)x0.0, shifted -0.2409, direction TLT
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\pdfliteral origin{q }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\glue -2.7375
+..................\hbox(0.0+0.0)x0.0, direction TLT
+...................\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...................\pdfliteral origin{q }
+...................\hbox(0.0+0.0)x0.0, direction TLT
+....................\hbox(7.1832+0.2409)x5.475, direction TLT
+.....................\begindir TLT
+.....................\hbox(7.1832+0.2409)x5.475, direction TLT
+......................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 5
+.....................\enddir TLT
+...................\pdfliteral origin{Q }
+...................\glue(\spaceskip) 0.0
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{Q }
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid10}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+..............\glue 0.0 plus 1.0fil
+..............\glue 6.0
+.............\glue(\tabskip) 0.0
+............\glue(\lineskip) 0.0
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\vbox(0.0+0.0)x0.0, direction TLT
+..............\glue 0.2
+..............\pdfliteral page <lua data reference ...>
+..............\pdfliteral page <lua data reference ...>
+..............\savepos
+..............\write1{\noexpand \pgfsyspdfmark {nm-1-row-2}{\the \lastxpos }{\the \lastypos }}
+..............\glue -0.2
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue 0.0
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\pdfliteral origin{q }
+...............\pdfliteral origin{0 G }
+...............\pdfliteral origin{0 g }
+...............\pdfliteral origin{0.39851 w }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\glue(\spaceskip) 0.0
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\savepos
+.................\write1{\noexpand \pgfsyspdfmark {pgfid11}{\the \lastxpos }{\the \lastypos }}
+................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\pdfliteral origin{n }
+...............\pdfliteral origin{Q }
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue(\lineskip) 0.0
+............\hbox(9.5375+4.08003)x69.90009, direction TLT
+.............\glue(\tabskip) 0.0
+.............\hbox(9.5375+4.08003)x17.47502, direction TLT
+..............\rule(9.51996+4.08003)x0.0
+..............\glue 6.0
+..............\glue 0.0 plus 1.0fil
+..............\glue 0.00002
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\glue 0.0
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid12}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+..............\hbox(13.59998+0.0)x5.475, shifted 4.06247, direction TLT
+...............\glue 2.7375
+...............\hbox(0.0+0.0)x0.0, shifted -4.06247, direction TLT
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\pdfliteral origin{q }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\glue -2.7375
+..................\hbox(0.0+0.0)x0.0, direction TLT
+...................\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...................\pdfliteral origin{q }
+...................\hbox(0.0+0.0)x0.0, direction TLT
+....................\hbox(9.5375+4.06248)x5.47502, direction TLT
+.....................\begindir TLT
+.....................\hbox(9.5375+4.06248)x5.47502, direction TLT
+.....................\enddir TLT
+...................\pdfliteral origin{Q }
+...................\glue(\spaceskip) 0.0
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{Q }
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid13}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+..............\glue 0.0 plus 1.0fil
+..............\glue 6.0
+.............\glue(\tabskip) 0.0
+.............\hbox(9.5375+4.08003)x17.47502, direction TLT
+..............\glue 6.0
+..............\glue 0.0 plus 1.0fil
+..............\glue 0.00002
+..............\hbox(13.59998+0.0)x5.475, shifted 4.06247, direction TLT
+...............\glue 2.7375
+...............\hbox(0.0+0.0)x0.0, shifted -4.06247, direction TLT
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\pdfliteral origin{q }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\glue -2.7375
+..................\hbox(0.0+0.0)x0.0, direction TLT
+...................\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...................\pdfliteral origin{q }
+...................\hbox(0.0+0.0)x0.0, direction TLT
+....................\hbox(9.5375+4.06248)x5.47502, direction TLT
+.....................\begindir TLT
+.....................\hbox(9.5375+4.06248)x5.47502, direction TLT
+.....................\enddir TLT
+...................\pdfliteral origin{Q }
+...................\glue(\spaceskip) 0.0
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{Q }
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid14}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+..............\glue 0.0 plus 1.0fil
+..............\glue 6.0
+.............\glue(\tabskip) 0.0
+.............\hbox(9.5375+4.08003)x17.47502, direction TLT
+..............\glue 6.0
+..............\glue 0.0 plus 1.0fil
+..............\glue 0.00002
+..............\hbox(13.59998+0.0)x5.475, shifted 4.06247, direction TLT
+...............\glue 2.7375
+...............\hbox(0.0+0.0)x0.0, shifted -4.06247, direction TLT
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\pdfliteral origin{q }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\glue -2.7375
+..................\hbox(0.0+0.0)x0.0, direction TLT
+...................\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...................\pdfliteral origin{q }
+...................\hbox(0.0+0.0)x0.0, direction TLT
+....................\hbox(9.5375+4.06248)x5.47502, direction TLT
+.....................\begindir TLT
+.....................\hbox(9.5375+4.06248)x5.47502, direction TLT
+.....................\enddir TLT
+...................\pdfliteral origin{Q }
+...................\glue(\spaceskip) 0.0
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{Q }
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid15}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+..............\glue 0.0 plus 1.0fil
+..............\glue 6.0
+.............\glue(\tabskip) 0.0
+.............\hbox(9.5375+4.08003)x17.47502, direction TLT
+..............\glue 6.0
+..............\glue 0.0 plus 1.0fil
+..............\glue 0.00002
+..............\hbox(13.59998+0.0)x5.475, shifted 4.06247, direction TLT
+...............\glue 2.7375
+...............\hbox(0.0+0.0)x0.0, shifted -4.06247, direction TLT
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral page <lua data reference ...>
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\glue(\spaceskip) 0.0
+.................\pdfliteral origin{q }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\glue -2.7375
+..................\hbox(0.0+0.0)x0.0, direction TLT
+...................\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...................\pdfliteral origin{q }
+...................\hbox(0.0+0.0)x0.0, direction TLT
+....................\hbox(9.5375+4.06248)x5.47502, direction TLT
+.....................\begindir TLT
+.....................\hbox(9.5375+4.06248)x5.47502, direction TLT
+.....................\enddir TLT
+...................\pdfliteral origin{Q }
+...................\glue(\spaceskip) 0.0
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{Q }
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid16}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+..............\glue 0.0 plus 1.0fil
+..............\glue 6.0
+.............\glue(\tabskip) 0.0
+............\glue(\lineskip) 0.0
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\vbox(0.0+0.0)x0.0, direction TLT
+..............\glue 0.2
+..............\pdfliteral page <lua data reference ...>
+..............\pdfliteral page <lua data reference ...>
+..............\savepos
+..............\write1{\noexpand \pgfsyspdfmark {nm-1-row-3}{\the \lastxpos }{\the \lastypos }}
+..............\glue -0.2
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue 0.0
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\pdfliteral origin{q }
+...............\pdfliteral origin{0 G }
+...............\pdfliteral origin{0 g }
+...............\pdfliteral origin{0.39851 w }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\glue(\spaceskip) 0.0
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\savepos
+.................\write1{\noexpand \pgfsyspdfmark {pgfid17}{\the \lastxpos }{\the \lastypos }}
+................\glue 0.0 plus 1.0fil minus 1.0fil
+...............\pdfliteral origin{n }
+...............\pdfliteral origin{Q }
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue(\baselineskip) 0.0
+............\hbox(0.0+0.0)x69.90009, direction TLT
+.............\glue(\tabskip) 0.0
+.............\hbox(0.0+0.0)x17.47502, glue set 17.47502fill, direction TLT
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\glue 0.2
+...............\savepos
+...............\write1{\noexpand \pgfsyspdfmark {nm-1-col-1}{\the \lastxpos }{\the \lastypos }}
+...............\glue -0.2
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\glue 0.0
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid18}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+..............\glue 0.0 plus 1.0fill
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\glue -0.2
+................\savepos
+................\write1{\noexpand \pgfsyspdfmark {nm-1-col-2}{\the \lastxpos }{\the \lastypos }}
+................\glue 0.2
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\glue 0.0
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\pdfliteral origin{q }
+.................\pdfliteral origin{0 G }
+.................\pdfliteral origin{0 g }
+.................\pdfliteral origin{0.39851 w }
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\glue(\spaceskip) 0.0
+..................\hbox(0.0+0.0)x0.0, direction TLT
+...................\savepos
+...................\write1{\noexpand \pgfsyspdfmark {pgfid19}{\the \lastxpos }{\the \lastypos }}
+..................\glue 0.0 plus 1.0fil minus 1.0fil
+.................\pdfliteral origin{n }
+.................\pdfliteral origin{Q }
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+.............\glue(\tabskip) 0.0
+.............\hbox(0.0+0.0)x17.47502, glue set 17.47502fill, direction TLT
+..............\glue 0.0 plus 1.0fill
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\glue -0.2
+...............\savepos
+...............\write1{\noexpand \pgfsyspdfmark {nm-1-col-3}{\the \lastxpos }{\the \lastypos }}
+...............\glue 0.2
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\glue 0.0
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid20}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+.............\glue(\tabskip) 0.0
+.............\hbox(0.0+0.0)x17.47502, glue set 17.47502fill, direction TLT
+..............\glue 0.0 plus 1.0fill
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\glue -0.2
+...............\savepos
+...............\write1{\noexpand \pgfsyspdfmark {nm-1-col-4}{\the \lastxpos }{\the \lastypos }}
+...............\glue 0.2
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\glue 0.0
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid21}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+.............\glue(\tabskip) 0.0
+.............\hbox(0.0+0.0)x17.47502, glue set 17.47502fill, direction TLT
+..............\glue 0.0 plus 1.0fill
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\glue -0.2
+...............\savepos
+...............\write1{\noexpand \pgfsyspdfmark {nm-1-col-5}{\the \lastxpos }{\the \lastypos }}
+...............\glue 0.2
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\glue 0.0
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\pdfliteral origin{q }
+................\pdfliteral origin{0 G }
+................\pdfliteral origin{0 g }
+................\pdfliteral origin{0.39851 w }
+................\hbox(0.0+0.0)x0.0, direction TLT
+.................\glue(\spaceskip) 0.0
+.................\hbox(0.0+0.0)x0.0, direction TLT
+..................\savepos
+..................\write1{\noexpand \pgfsyspdfmark {pgfid22}{\the \lastxpos }{\the \lastypos }}
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\pdfliteral origin{n }
+................\pdfliteral origin{Q }
+................\glue 0.0 plus 1.0fil minus 1.0fil
+.............\glue(\tabskip) 0.0
+...........\mathoff
+...........\glue 0.0
+...........\glue 0.0
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\pdfliteral origin{q }
+............\pdfliteral origin{0 G }
+............\pdfliteral origin{0 g }
+............\pdfliteral origin{0.39851 w }
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue -69.70007
+..............\hbox(0.0+0.0)x0.0, shifted 11.07124, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(13.61754+0.0)x17.07503, direction TLT
+.................\begindir TLT
+.................\vbox(13.61754+0.0)x17.07503, glue set 13.61754fill, direction TLT
+..................\glue 0.0 plus 1.0fill
+..................\hbox(0.0+0.0)x17.07503, direction TLT
+.................\enddir TLT
+...............\pdfliteral origin{Q }
+...............\glue(\spaceskip) 0.0
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue -64.10007
+..............\hbox(0.0+0.0)x0.0, shifted 11.07124, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(13.61754+0.0)x5.875, direction TLT
+.................\begindir TLT
+.................\vbox(13.61754+0.0)x5.875, glue set 13.61754fill, direction TLT
+..................\glue 0.0 plus 1.0fill
+..................\hbox(0.0+0.0)x5.875, direction TLT
+.................\enddir TLT
+...............\pdfliteral origin{Q }
+...............\glue(\spaceskip) 0.0
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\savepos
+..............\write1{\noexpand \pgfsyspdfmark {pgfid23}{\the \lastxpos }{\the \lastypos }}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfliteral origin{n }
+............\pdfliteral origin{Q }
+............\glue 0.0 plus 1.0fil minus 1.0fil
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\pdfliteral origin{q }
+............\pdfliteral origin{0 G }
+............\pdfliteral origin{0 g }
+............\pdfliteral origin{0.39851 w }
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue -63.90007
+..............\hbox(0.0+0.0)x0.0, shifted 6.79123, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(9.5375+4.06248)x5.47502, direction TLT
+.................\begindir TLT
+.................\hbox(9.5375+4.06248)x5.47502, direction TLT
+..................\pdfcolorstack 0 push {0 g 0 G}
+..................\hbox(9.5375+4.06248)x5.47502, direction TLT
+...................\pdfliteral page <lua data reference ...>
+...................\pdfliteral page <lua data reference ...>
+...................\pdfcolorstack 0 push {0 g 0 G}
+...................\hbox(9.5375+4.06248)x5.47502, direction TLT
+....................\vbox(9.5375+4.06248)x5.47502, direction TLT
+.....................\hbox(9.51996+4.08003)x5.47502, direction TLT
+......................\glue(\tabskip) 0.0
+......................\hbox(9.51996+4.08003)x5.47502, direction TLT
+.......................\pdfliteral page <lua data reference ...>
+.......................\pdfliteral page <lua data reference ...>
+.......................\rule(9.51996+4.08003)x0.0
+.......................\glue 0.0 plus 1.0fil
+.......................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+.......................\glue -3.64633
+.......................\pdfliteral page <lua data reference ...>
+.......................\pdfliteral page <lua data reference ...>
+.......................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 0
+.......................\glue 0.0 plus 1.0fil
+......................\glue(\tabskip) 0.0
+...................\pdfliteral page <lua data reference ...>
+...................\pdfliteral page <lua data reference ...>
+...................\pdfcolorstack 0 pop
+..................\pdfliteral page <lua data reference ...>
+..................\pdfliteral page <lua data reference ...>
+..................\pdfcolorstack 0 pop
+.................\enddir TLT
+...............\pdfliteral origin{Q }
+...............\glue(\spaceskip) 0.0
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\savepos
+..............\write1{\noexpand \pgfsyspdfmark {pgfid24}{\the \lastxpos }{\the \lastypos }}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfliteral origin{n }
+............\pdfliteral origin{Q }
+............\glue 0.0 plus 1.0fil minus 1.0fil
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\pdfliteral origin{q }
+............\pdfliteral origin{0 G }
+............\pdfliteral origin{0 g }
+............\pdfliteral origin{0.39851 w }
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue -52.62505
+..............\hbox(0.0+0.0)x0.0, shifted 11.07124, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(13.61754+0.0)x17.47502, direction TLT
+.................\begindir TLT
+.................\vbox(13.61754+0.0)x17.47502, glue set 13.61754fill, direction TLT
+..................\glue 0.0 plus 1.0fill
+..................\hbox(0.0+0.0)x17.47502, direction TLT
+.................\enddir TLT
+...............\pdfliteral origin{Q }
+...............\glue(\spaceskip) 0.0
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue -46.62505
+..............\hbox(0.0+0.0)x0.0, shifted 11.07124, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(13.61754+0.0)x5.875, direction TLT
+.................\begindir TLT
+.................\vbox(13.61754+0.0)x5.875, glue set 13.61754fill, direction TLT
+..................\glue 0.0 plus 1.0fill
+..................\hbox(0.0+0.0)x5.875, direction TLT
+.................\enddir TLT
+...............\pdfliteral origin{Q }
+...............\glue(\spaceskip) 0.0
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\savepos
+..............\write1{\noexpand \pgfsyspdfmark {pgfid25}{\the \lastxpos }{\the \lastypos }}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfliteral origin{n }
+............\pdfliteral origin{Q }
+............\glue 0.0 plus 1.0fil minus 1.0fil
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\pdfliteral origin{q }
+............\pdfliteral origin{0 G }
+............\pdfliteral origin{0 g }
+............\pdfliteral origin{0.39851 w }
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue -46.42505
+..............\hbox(0.0+0.0)x0.0, shifted 6.79123, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(9.5375+4.06248)x5.47502, direction TLT
+.................\begindir TLT
+.................\hbox(9.5375+4.06248)x5.47502, direction TLT
+..................\pdfcolorstack 0 push {0 g 0 G}
+..................\hbox(9.5375+4.06248)x5.47502, direction TLT
+...................\pdfliteral page <lua data reference ...>
+...................\pdfliteral page <lua data reference ...>
+...................\pdfcolorstack 0 push {0 g 0 G}
+...................\hbox(9.5375+4.06248)x5.47502, direction TLT
+....................\vbox(9.5375+4.06248)x5.47502, direction TLT
+.....................\hbox(9.51996+4.08003)x5.47502, direction TLT
+......................\glue(\tabskip) 0.0
+......................\hbox(9.51996+4.08003)x5.47502, direction TLT
+.......................\pdfliteral page <lua data reference ...>
+.......................\pdfliteral page <lua data reference ...>
+.......................\rule(9.51996+4.08003)x0.0
+.......................\glue 0.0 plus 1.0fil
+.......................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+.......................\glue -3.64633
+.......................\pdfliteral page <lua data reference ...>
+.......................\pdfliteral page <lua data reference ...>
+.......................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 1
+.......................\glue 0.0 plus 1.0fil
+......................\glue(\tabskip) 0.0
+...................\pdfliteral page <lua data reference ...>
+...................\pdfliteral page <lua data reference ...>
+...................\pdfcolorstack 0 pop
+..................\pdfliteral page <lua data reference ...>
+..................\pdfliteral page <lua data reference ...>
+..................\pdfcolorstack 0 pop
+.................\enddir TLT
+...............\pdfliteral origin{Q }
+...............\glue(\spaceskip) 0.0
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\savepos
+..............\write1{\noexpand \pgfsyspdfmark {pgfid26}{\the \lastxpos }{\the \lastypos }}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfliteral origin{n }
+............\pdfliteral origin{Q }
+............\glue 0.0 plus 1.0fil minus 1.0fil
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\pdfliteral origin{q }
+............\pdfliteral origin{0 G }
+............\pdfliteral origin{0 g }
+............\pdfliteral origin{0.39851 w }
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue -35.15002
+..............\hbox(0.0+0.0)x0.0, shifted 11.07124, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(13.61754+0.0)x17.47502, direction TLT
+.................\begindir TLT
+.................\vbox(13.61754+0.0)x17.47502, glue set 13.61754fill, direction TLT
+..................\glue 0.0 plus 1.0fill
+..................\hbox(0.0+0.0)x17.47502, direction TLT
+.................\enddir TLT
+...............\pdfliteral origin{Q }
+...............\glue(\spaceskip) 0.0
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue -29.15002
+..............\hbox(0.0+0.0)x0.0, shifted 11.07124, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(13.61754+0.0)x5.875, direction TLT
+.................\begindir TLT
+.................\vbox(13.61754+0.0)x5.875, glue set 13.61754fill, direction TLT
+..................\glue 0.0 plus 1.0fill
+..................\hbox(0.0+0.0)x5.875, direction TLT
+.................\enddir TLT
+...............\pdfliteral origin{Q }
+...............\glue(\spaceskip) 0.0
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\savepos
+..............\write1{\noexpand \pgfsyspdfmark {pgfid27}{\the \lastxpos }{\the \lastypos }}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfliteral origin{n }
+............\pdfliteral origin{Q }
+............\glue 0.0 plus 1.0fil minus 1.0fil
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\pdfliteral origin{q }
+............\pdfliteral origin{0 G }
+............\pdfliteral origin{0 g }
+............\pdfliteral origin{0.39851 w }
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue -28.95003
+..............\hbox(0.0+0.0)x0.0, shifted 6.79123, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(9.5375+4.06248)x5.47502, direction TLT
+.................\begindir TLT
+.................\hbox(9.5375+4.06248)x5.47502, direction TLT
+..................\pdfcolorstack 0 push {0 g 0 G}
+..................\hbox(9.5375+4.06248)x5.47502, direction TLT
+...................\pdfliteral page <lua data reference ...>
+...................\pdfliteral page <lua data reference ...>
+...................\pdfcolorstack 0 push {0 g 0 G}
+...................\hbox(9.5375+4.06248)x5.47502, direction TLT
+....................\vbox(9.5375+4.06248)x5.47502, direction TLT
+.....................\hbox(9.51996+4.08003)x5.47502, direction TLT
+......................\glue(\tabskip) 0.0
+......................\hbox(9.51996+4.08003)x5.47502, direction TLT
+.......................\pdfliteral page <lua data reference ...>
+.......................\pdfliteral page <lua data reference ...>
+.......................\rule(9.51996+4.08003)x0.0
+.......................\glue 0.0 plus 1.0fil
+.......................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+.......................\glue -3.64633
+.......................\pdfliteral page <lua data reference ...>
+.......................\pdfliteral page <lua data reference ...>
+.......................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 1
+.......................\glue 0.0 plus 1.0fil
+......................\glue(\tabskip) 0.0
+...................\pdfliteral page <lua data reference ...>
+...................\pdfliteral page <lua data reference ...>
+...................\pdfcolorstack 0 pop
+..................\pdfliteral page <lua data reference ...>
+..................\pdfliteral page <lua data reference ...>
+..................\pdfcolorstack 0 pop
+.................\enddir TLT
+...............\pdfliteral origin{Q }
+...............\glue(\spaceskip) 0.0
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\savepos
+..............\write1{\noexpand \pgfsyspdfmark {pgfid28}{\the \lastxpos }{\the \lastypos }}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfliteral origin{n }
+............\pdfliteral origin{Q }
+............\glue 0.0 plus 1.0fil minus 1.0fil
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\pdfliteral origin{q }
+............\pdfliteral origin{0 G }
+............\pdfliteral origin{0 g }
+............\pdfliteral origin{0.39851 w }
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue -17.67502
+..............\hbox(0.0+0.0)x0.0, shifted 11.07124, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(13.61754+0.0)x17.67502, direction TLT
+.................\begindir TLT
+.................\vbox(13.61754+0.0)x17.67502, glue set 13.61754fill, direction TLT
+..................\glue 0.0 plus 1.0fill
+..................\hbox(0.0+0.0)x17.67502, direction TLT
+.................\enddir TLT
+...............\pdfliteral origin{Q }
+...............\glue(\spaceskip) 0.0
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue -11.675
+..............\hbox(0.0+0.0)x0.0, shifted 11.07124, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(13.61754+0.0)x5.875, direction TLT
+.................\begindir TLT
+.................\vbox(13.61754+0.0)x5.875, glue set 13.61754fill, direction TLT
+..................\glue 0.0 plus 1.0fill
+..................\hbox(0.0+0.0)x5.875, direction TLT
+.................\enddir TLT
+...............\pdfliteral origin{Q }
+...............\glue(\spaceskip) 0.0
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\savepos
+..............\write1{\noexpand \pgfsyspdfmark {pgfid29}{\the \lastxpos }{\the \lastypos }}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfliteral origin{n }
+............\pdfliteral origin{Q }
+............\glue 0.0 plus 1.0fil minus 1.0fil
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\glue 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\pdfliteral origin{q }
+............\pdfliteral origin{0 G }
+............\pdfliteral origin{0 g }
+............\pdfliteral origin{0.39851 w }
+............\hbox(0.0+0.0)x0.0, direction TLT
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\glue -11.475
+..............\hbox(0.0+0.0)x0.0, shifted 6.79123, direction TLT
+...............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+...............\pdfliteral origin{q }
+...............\hbox(0.0+0.0)x0.0, direction TLT
+................\hbox(9.5375+4.06248)x5.47502, direction TLT
+.................\begindir TLT
+.................\hbox(9.5375+4.06248)x5.47502, direction TLT
+..................\pdfcolorstack 0 push {0 g 0 G}
+..................\hbox(9.5375+4.06248)x5.47502, direction TLT
+...................\pdfliteral page <lua data reference ...>
+...................\pdfliteral page <lua data reference ...>
+...................\pdfcolorstack 0 push {0 g 0 G}
+...................\hbox(9.5375+4.06248)x5.47502, direction TLT
+....................\vbox(9.5375+4.06248)x5.47502, direction TLT
+.....................\hbox(9.51996+4.08003)x5.47502, direction TLT
+......................\glue(\tabskip) 0.0
+......................\hbox(9.51996+4.08003)x5.47502, direction TLT
+.......................\pdfliteral page <lua data reference ...>
+.......................\pdfliteral page <lua data reference ...>
+.......................\rule(9.51996+4.08003)x0.0
+.......................\glue 0.0 plus 1.0fil
+.......................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95  
+.......................\glue -3.64633
+.......................\pdfliteral page <lua data reference ...>
+.......................\pdfliteral page <lua data reference ...>
+.......................\TU/NewCMSans10-Regular.otf(0)/m/n/10.95 1
+.......................\glue 0.0 plus 1.0fil
+......................\glue(\tabskip) 0.0
+...................\pdfliteral page <lua data reference ...>
+...................\pdfliteral page <lua data reference ...>
+...................\pdfcolorstack 0 pop
+..................\pdfliteral page <lua data reference ...>
+..................\pdfliteral page <lua data reference ...>
+..................\pdfcolorstack 0 pop
+.................\enddir TLT
+...............\pdfliteral origin{Q }
+...............\glue(\spaceskip) 0.0
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\savepos
+..............\write1{\noexpand \pgfsyspdfmark {pgfid30}{\the \lastxpos }{\the \lastypos }}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfliteral origin{n }
+............\pdfliteral origin{Q }
+............\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\glue 0.0
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\pdfliteral page <lua data reference ...>
+..........\pdfliteral page <lua data reference ...>
+..........\pdfliteral origin{q }
+..........\pdfliteral origin{0 G }
+..........\pdfliteral origin{0 g }
+..........\pdfliteral origin{0.39851 w }
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfliteral origin{q }
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\glue -69.70009
+............\hbox(0.0+0.0)x0.0, shifted -16.14627, direction TLT
+.............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\begindir TLT
+...............\enddir TLT
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\glue -52.62506
+............\hbox(0.0+0.0)x0.0, shifted -2.54628, direction TLT
+.............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\begindir TLT
+...............\enddir TLT
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\glue -35.15004
+............\hbox(0.0+0.0)x0.0, shifted 11.07126, direction TLT
+.............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\begindir TLT
+...............\enddir TLT
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\glue -17.67502
+............\hbox(0.0+0.0)x0.0, shifted 11.07126, direction TLT
+.............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\hbox(0.0+0.0)x0.0, direction TLT
+...............\begindir TLT
+...............\enddir TLT
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\savepos
+............\write1{\noexpand \pgfsyspdfmark {pgfid31}{\the \lastxpos }{\the \lastypos }}
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral origin{n }
+..........\pdfliteral origin{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\glue 0.0
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\pdfliteral origin{q }
+..........\pdfliteral origin{0 G }
+..........\pdfliteral origin{0 g }
+..........\pdfliteral origin{0.39851 w }
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral origin{n }
+..........\pdfliteral origin{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\glue 0.0
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\pdfliteral origin{q }
+..........\pdfliteral origin{0 G }
+..........\pdfliteral origin{0 g }
+..........\pdfliteral origin{0.39851 w }
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\savepos
+............\write1{\noexpand \pgfsyspdfmark {pgfid33}{\the \lastxpos }{\the \lastypos }}
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral origin{n }
+..........\pdfliteral origin{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\glue 0.0
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\pdfliteral origin{q }
+..........\pdfliteral origin{0 G }
+..........\pdfliteral origin{0 g }
+..........\pdfliteral origin{0.39851 w }
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfliteral origin{2 J }
+...........\pdfliteral origin{0.43835 w }
+...........\pdfliteral origin{0.39851 w }
+...........\pdfliteral origin{-69.4397 2.53677 m }
+...........\pdfliteral origin{-69.4397 -11.0299 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{-52.42847 2.53677 m }
+...........\pdfliteral origin{-52.42847 -11.0299 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{0.39851 w }
+...........\pdfliteral origin{-69.4397 2.53677 m }
+...........\pdfliteral origin{-52.42847 2.53677 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{-69.4397 -11.0299 m }
+...........\pdfliteral origin{-52.42847 -11.0299 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{0.39851 w }
+...........\pdfliteral origin{-52.42847 2.53677 m }
+...........\pdfliteral origin{-52.42847 -11.0299 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{-35.01872 2.53677 m }
+...........\pdfliteral origin{-35.01872 -11.0299 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{0.39851 w }
+...........\pdfliteral origin{-52.42847 2.53677 m }
+...........\pdfliteral origin{-35.01872 2.53677 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{-52.42847 -11.0299 m }
+...........\pdfliteral origin{-35.01872 -11.0299 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{0.39851 w }
+...........\pdfliteral origin{-35.01872 2.53677 m }
+...........\pdfliteral origin{-35.01872 -11.0299 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{-17.609 2.53677 m }
+...........\pdfliteral origin{-17.609 -11.0299 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{0.39851 w }
+...........\pdfliteral origin{-35.01872 2.53677 m }
+...........\pdfliteral origin{-17.609 2.53677 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{-35.01872 -11.0299 m }
+...........\pdfliteral origin{-17.609 -11.0299 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{0.39851 w }
+...........\pdfliteral origin{-17.609 2.53677 m }
+...........\pdfliteral origin{-17.609 -11.0299 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{0.0 2.53677 m }
+...........\pdfliteral origin{0.0 -11.0299 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{0.39851 w }
+...........\pdfliteral origin{-17.609 2.53677 m }
+...........\pdfliteral origin{0.0 2.53677 l }
+...........\pdfliteral origin{S }
+...........\pdfliteral origin{-17.609 -11.0299 m }
+...........\pdfliteral origin{0.0 -11.0299 l }
+...........\pdfliteral origin{S }
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\savepos
+............\write1{\noexpand \pgfsyspdfmark {pgfid34}{\the \lastxpos }{\the \lastypos }}
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\pdfliteral origin{n }
+..........\pdfliteral origin{Q }
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+........\pdfliteral page <lua data reference ...>
+........\pdfliteral page <lua data reference ...>
+........\mathon
+........\mathoff
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 0.5fil
+.....\glue 0.0 plus 0.5fil
+....\pdfliteral page <lua data reference ...>
+....\pdfliteral page <lua data reference ...>
+....\write1{\new@label@record{frame.1}{{slides}{1}}}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\pdflinkstate 1
+...\glue(\baselineskip) 17.07164
+...\hbox(0.0+0.0)x448.92128, direction TLT
+....\pdfliteral page <lua data reference ...>
+....\pdfliteral page <lua data reference ...>
+....\pdfcolorstack 0 push {0 g 0 G}
+....\hbox(0.0+0.0)x448.92128, direction TLT
+.....\glue -28.45274
+.....\glue 28.45274
+.....\vbox(0.0+0.0)x448.92128, direction TLT
+......\hbox(0.0+0.0)x448.92128, glue set 448.92126fil, direction TLT
+.......\localpar
+........\localinterlinepenalty=0
+........\localbrokenpenalty=0
+........\localleftbox=null
+........\localrightbox=null
+.......\hbox(0.0+0.0)x0.0, direction TLT
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0
+.....\glue 0.0
+....\pdfcolorstack 0 pop
+...\pdfliteral page <lua data reference ...>
+...\pdfliteral page <lua data reference ...>
+...\pdflinkstate 0
+.\kern0.0
+.\kern0.0
+.\kern-206.56702
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\kern206.56702
+.\pdfliteral page <lua data reference ...>
+(ltx-talk-pkg-nicematrix.aux)
+MathML statistic
+================
+==> 1 MathML fragments read
+==> 1 different MathML fragments
+==> 2 math fragments found
+==> 1 fitting MathML AF found
+==> 1 MathML AF attached

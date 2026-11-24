@@ -35,8 +35,8 @@
 % \fi
 %
 % ^^A As we are dealing with a class, this has to be done manually
-% \def\filedate{2026-11-16}
-% \def\fileversion{v0.6.13}
+% \def\filedate{2026-11-23}
+% \def\fileversion{v0.6.15}
 %
 % \title{^^A
 %   \pkg{ltx-talk-color} -- Color definitions^^A
@@ -177,8 +177,8 @@
 %
 % \begin{macro}{\stdset@color, \stdreset@color}
 %    \begin{macrocode}
-\cs_set_eq:NN \stdset@color \set@color
-\cs_set_eq:NN \stdreset@color \reset@color
+\cs_new_eq:NN \stdset@color \set@color
+\cs_new_eq:NN \stdreset@color \reset@color
 %    \end{macrocode}
 % \end{macro}
 %
@@ -186,8 +186,27 @@
 %   Part of code-level interface for color: simply use the \pkg{expl3} version
 %   of the same idea.
 %    \begin{macrocode}
-\cs_set_eq:NN \set@color \color_ensure_current:
-\cs_set_eq:NN \reset@color \__color_backend_reset:
+\cs_gset_eq:NN \set@color \color_ensure_current:
+\cs_gset_eq:NN \reset@color \__color_backend_reset:
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\std@declaredcolor, \std@undeclaredcolor}
+%    \begin{macrocode}
+\cs_new_eq:NN \std@declaredcolor \@declaredcolor
+\cs_new_eq:NN \std@undeclaredcolor \@undeclaredcolor
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@declaredcolor, \@undeclaredcolor}
+%   Used internally in \pkg{nicematix}, so emulation is required; as
+%   \cs{@undeclaredcolor} is not a document command, the delimited
+%   argument is created directly.
+%    \begin{macrocode}
+\cs_gset_protected:Npn \@declaredcolor #1
+  { \color_select:n {#1} }
+\cs_gset_protected:Npn \@undeclaredcolor [ #1 ] #2
+  { \color_select:nn {#1} {#2} }
 %    \end{macrocode}
 % \end{macro}
 %

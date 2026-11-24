@@ -13,6 +13,28 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 - Class option `remove-hidden-text` (see issue
   [\#294](https://github.com/josephwright/ltx-talk/issues/294))
 
+## [v0.6.15] - 2026-11-23
+
+### Fixed
+
+- Interaction with color settings in `nicematrix` (fixes
+  [\#310](https://github.com/josephwright/ltx-talk/issues/310))
+- Behavior of `\label` when no overlay spec is given (fixes
+  [\#311](https://github.com/josephwright/ltx-talk/issues/311))
+
+## [v0.6.14] - 2026-11-20
+
+### Changed
+
+- Tweak standard overlay setting for `\label`
+
+### Fixed
+
+- Suppress multiple destinations for equations (fixes
+  [\#307](https://github.com/josephwright/ltx-talk/issues/307))
+- Overlays when applied to `\footnotetext` (fixes
+  [\#309](https://github.com/josephwright/ltx-talk/issues/309))
+
 ## [v0.6.13] - 2026-11-16
 
 ### Fixed
@@ -544,7 +566,9 @@ Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 
 - Initial release
 
-[Unreleased]: https://github.com/josephwright/ltx-talk/compare/v0.6.13...HEAD
+[Unreleased]: https://github.com/josephwright/ltx-talk/compare/v0.6.15...HEAD
+[v0.6.15]: https://github.com/josephwright/ltx-talk/compare/v0.6.14...v0.6.15
+[v0.6.14]: https://github.com/josephwright/ltx-talk/compare/v0.6.13...v0.6.14
 [v0.6.13]: https://github.com/josephwright/ltx-talk/compare/v0.6.12...v0.6.13
 [v0.6.12]: https://github.com/josephwright/ltx-talk/compare/v0.6.11...v0.6.12
 [v0.6.11]: https://github.com/josephwright/ltx-talk/compare/v0.6.10...v0.6.11
